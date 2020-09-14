@@ -1,72 +1,61 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-Test Git
-    ## Take list of string file paths and convert to useable paths.
+## Import and parse XML Files containing meccg dream cards ##
 
-    ## Great Wyrms Files
-FilesList = [
-            r'C:\Users\Me3\Desktop\MECCG\XML\XML\gw_char.xml',
-            r'C:\Users\Me3\Desktop\MECCG\XML\XML\gw_char2.xml',
-            r'C:\Users\Me3\Desktop\MECCG\XML\XML\gw_haz.xml',
-            r'C:\Users\Me3\Desktop\MECCG\XML\XML\gw_rec.xml',
-            r'C:\Users\Me3\Desktop\MECCG\XML\XML\gw_rec2.xml',
-            r'C:\Users\Me3\Desktop\MECCG\XML\XML\gw_sites.xml'
-           ]
-        
+import os
 from pathlib import Path
+import re
 
-FilesDict = {'gw':[Path(i) for i in FilesList]}
+    ## Get XML Files for processing
+XMLFiles = [file for file in os.listdir('XML Files')]
 
-    ## Necromancer Files
-FilesList = [r'C:\Users\Me3\Desktop\MECCG\XML\XML\nec_char.xml',
-            r'C:\Users\Me3\Desktop\MECCG\XML\XML\nec_haz.xml',
-            r'C:\Users\Me3\Desktop\MECCG\XML\XML\nec_rec.xml',
-            r'C:\Users\Me3\Desktop\MECCG\XML\XML\nec_sites.xml'
-            ]
+assert len(XMLFiles) > 0, "No Files in Listed Directory" 
 
-FilesDict['nec']=[Path(i) for i in FilesList]
+    ## Dictionary of prefixes:[filepaths]
+# Setup
+from itertools import groupby
+
+# Key function
+def prefix(string:str):
+    return string[0:string.index('_')]
+
+# Dictionary
+FilesDict={key: list(value) for key, value in groupby(XMLFiles, prefix)}
 
 
     ## Parse xml
-
-## 'rb' opens file as reading + binary, meaning that the bytes in the file are not automatically decoded.  
-## This is necessary, because we can't pass a decoded file using etree.fromstring
-
-#from lxml import etree
-
-#root = etree.fromstring(open(xmlFile,'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
-
-# ### pull column names
+# 'rb' opens file as reading + binary, meaning that the bytes in the file are not automatically decoded.  
+# This is necessary, because we can't pass a decoded file using etree.fromstring
 
 from lxml import etree
 
+# root = etree.fromstring(open(xmlFile,'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
+
+#     ## pull column names
+
+# column_names = []
+# parser = etree.XMLParser()
+# tree=etree.parse(pathstr,parser)
+
+# pathx = Path(r'C:\Users\Me3\Desktop\MECCG\XML\XML\nec_char.xml')
+# pathstr=pathx.__str__()
+
+# //node[not(@*)]
+# xpstr = '//cards/card//@*
+
+# tree.xpath(xpstr)
+
+# etree.tostring(tree,pretty_print=True)
+
+# //*[contains(text(),'')]
+
+# pathx.
+
 column_names = []
-
-
-pathx = Path(r'C:\Users\Me3\Desktop\MECCG\XML\XML\nec_char.xml')
-pathstr=pathx.__str__()
-
-parser = etree.XMLParser()
-tree=etree.parse(pathstr,parser)
-
-
-
-//node[not(@*)]
-xpstr = '//cards/card//@*
-
-tree.xpath(xpstr)
-
-etree.tostring(tree,pretty_print=True)
-
-#//*[contains(text(),'')]
-
-pathx.
-
+FilesDict
 for file in FilesDict['nec']:
-    #root = etree.fromstring(open(file,'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
+    root = etree.fromstring(open(file,'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
     root = etree.fromstring(open(file,'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
 
-    ## Grab keys 
+    # Grab keys 
     for i in root.iterchildren():
         for j in i:
             for key in j.keys():
@@ -80,11 +69,11 @@ for file in FilesDict['nec']:
 
             
 print(column_names)          
-            #print(len(i))
-    #for j in i.iterchildren:
-     #   print(j.values)
+            print(len(i))
+    for j in i.iterchildren:
+       print(j.values)
 
-# ### return values for multiple keys at once.
+# return values for multiple keys at once.
 
 # %%
 def dict_return(dict,*keys):
