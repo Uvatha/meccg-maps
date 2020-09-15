@@ -1,118 +1,125 @@
-## Import and parse XML Files containing meccg dream cards ##
+######################################################################
+######################################################################
+######                                                           #####
+######  Import and parse XML Files containing meccg dream cards  #####
+######                                                           #####
+######################################################################
+######################################################################
 
 import os
 from pathlib import Path
 import re
+from lxml import etree
+from itertools import groupby
 
-    ## Get XML Files for processing
-XMLFiles = [file for file in os.listdir('XML Files')]
+################################
+# Get XML Files for processing #
+################################
+
+XMLFiles = [file for file in os.listdir('XML Files') if re.findall('_',file) != []]
 
 assert len(XMLFiles) > 0, "No Files in Listed Directory" 
 
-    ## Dictionary of prefixes:[filepaths]
+######################################
+# Dictionary of prefixes:[filepaths] #
+######################################
+
 # Setup
-from itertools import groupby
 
 # Key function
-def prefix(string:str):
-    return string[0:string.index('_')]
+def prefix(string: str):
+    return string[0: string.index('_')]
+
 
 # Dictionary
-FilesDict={key: list(value) for key, value in groupby(XMLFiles, prefix)}
+FilesDict = {key: list(value) for key, value in groupby(XMLFiles, prefix)}
 
 
-    ## Parse xml
-# 'rb' opens file as reading + binary, meaning that the bytes in the file are not automatically decoded.  
+#################
+#################
+### Parse XML ###
+#################
+#################
+
+# 'rb' opens file as reading + binary, meaning that the bytes in the file 
+# are not automatically decoded.  
 # This is necessary, because we can't pass a decoded file using etree.fromstring
 
-from lxml import etree
 
-# root = etree.fromstring(open(xmlFile,'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
+# del FilesDict['gw'][5]
+# FilesDict
 
-#     ## pull column names
+# FilesDict={'gw':['gw_char.xml'],'nec':['nec_char.xml']}
 
-# column_names = []
-# parser = etree.XMLParser()
-# tree=etree.parse(pathstr,parser)
+# FilesDict
 
-# pathx = Path(r'C:\Users\Me3\Desktop\MECCG\XML\XML\nec_char.xml')
-# pathstr=pathx.__str__()
-
-# //node[not(@*)]
-# xpstr = '//cards/card//@*
-
-# tree.xpath(xpstr)
-
-# etree.tostring(tree,pretty_print=True)
-
-# //*[contains(text(),'')]
-
-# pathx.
-
+# Get column names from XML
 column_names = []
-FilesDict
-for file in FilesDict['nec']:
-    root = etree.fromstring(open(file,'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
-    root = etree.fromstring(open(file,'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
 
-    # Grab keys 
-    for i in root.iterchildren():
-        for j in i:
-            for key in j.keys():
-                if key not in column_names:
-                    column_names.append(key)
+# for filelist in FilesDict.values():
+#     for file in filelist:
+#         root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
+#         print(file,'a',root)
+#         root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
+#         print(file,'b',root)
 
-    for i in root[0].iterchildren():
-        for j in i:
-            if j.get("key") not in column_names:
-                column_names.append(j.get("key"))
+for filelist in FilesDict.values():
+    for file in filelist:
+        # root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
+        root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
+
+        # Grab keys 
+        for i in root.iterchildren():
+            for j in i:
+                for key in j.keys():
+                    if key not in column_names:
+                        column_names.append(key)
+
+        for i in root[0].iterchildren():
+            for j in i:
+                if j.get("key") not in column_names:
+                    column_names.append(j.get("key"))
 
             
-print(column_names)          
-            print(len(i))
-    for j in i.iterchildren:
-       print(j.values)
-
 # return values for multiple keys at once.
-
-# %%
 def dict_return(dict,*keys):
     values = []
     for i in keys:
         values.append(dict.get(i))
     return values
 
-# %% [markdown]
+
 # ### Loop through xml generating list of lists where each sub-list is a card.  Values for unused attributes marked as none.
 
-# %%
-item = []
-items = []
+dict_sets = {prfx:[] for prfx in {prefix(i) for i in XMLFiles}}
 
-for file in xmlFiles:
-    #root = etree.fromstring(open(file,'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
-    root = etree.fromstring(open(file,'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
+for file in XMLFiles:
+    # root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
+    root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
+    for setkey in dict_sets:
+        for i in root[0].iterchildren():
+            item = []
+            for key,value in zip(i.keys(),i.values()): 
+                #for value in i.values():
+                item.append(key)
+                item.append(value)
+            item = [item[i:i+2] for i in range(0, len(item), 2)] 
+            for j in i.iterchildren():
+                item.append((j.values()))
+            #print(item)    
+            dct = dict(item)
+            # print(dict_return(dct,*column_names))
+            # print(key)
+            dict_sets[setkey].append(dict_return(dct,*column_names))
 
-    for i in root[0].iterchildren():
-        for key,value in zip(i.keys(),i.values()): 
-            #for value in i.values():
-            item.append(key)
-            item.append(value)
-        item = [item[i:i+2] for i in range(0, len(item), 2)] 
-        for j in i.iterchildren():
-            item.append((j.values()))
-        #print(item)    
-        dct = dict(item)
-        items.append(dict_return(dct,*column_names))
-        item=[]
-    
-#print(items)
- 
+print(dict_sets)
 
-# %% [markdown]
-# ### put list of lists into dataframe
 
-# %%
+
+####################################
+# put list of lists into dataframe #
+####################################
+
 import pandas as pd
 
 df_xml = pd.DataFrame(items,columns = column_names)
