@@ -11,14 +11,30 @@ from pathlib import Path
 import re
 from lxml import etree
 from itertools import groupby
+import pandas as pd
+import numpy as np
+from unidecode import unidecode
 
 ################################
 # Get XML Files for processing #
 ################################
 
-XMLFiles = [file for file in os.listdir('XML Files') if re.findall('_',file) != []]
+# XMLFiles = [file for file in os.listdir('XML Files') if re.findall('_',file) != []]
+XMLFiles = [file for file in os.listdir('XML Files') if file.endswith('.xml')]
 
 assert len(XMLFiles) > 0, "No Files in Listed Directory" 
+
+######################################################
+# Change & to &amp; in order to make xml files valid #
+######################################################
+
+for file in XMLFiles:    
+    with open(Path('XML Files',file), 'r+',encoding = 'UTF-8') as f:
+        text = f.read()
+        text = re.sub('& ', '&amp; ', text)
+        f.seek(0)
+        f.write(text)
+        f.truncate()
 
 ######################################
 # Dictionary of prefixes:[filepaths] #
@@ -29,7 +45,6 @@ assert len(XMLFiles) > 0, "No Files in Listed Directory"
 # Key function
 def prefix(string: str):
     return string[0: string.index('_')]
-
 
 # Dictionary
 FilesDict = {key: list(value) for key, value in groupby(XMLFiles, prefix)}
@@ -45,23 +60,8 @@ FilesDict = {key: list(value) for key, value in groupby(XMLFiles, prefix)}
 # are not automatically decoded.  
 # This is necessary, because we can't pass a decoded file using etree.fromstring
 
-
-# del FilesDict['gw'][5]
-# FilesDict
-
-# FilesDict={'gw':['gw_char.xml'],'nec':['nec_char.xml']}
-
-# FilesDict
-
-# Get column names from XML
-column_names = []
-
-# for filelist in FilesDict.values():
-#     for file in filelist:
-#         root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
-#         print(file,'a',root)
-#         root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
-#         print(file,'b',root)
+# Get column names from XML, with the first column name manually inputted as the card set
+column_names = ['Set']
 
 for filelist in FilesDict.values():
     for file in filelist:
@@ -79,7 +79,6 @@ for filelist in FilesDict.values():
             for j in i:
                 if j.get("key") not in column_names:
                     column_names.append(j.get("key"))
-
             
 # return values for multiple keys at once.
 def dict_return(dict,*keys):
@@ -89,30 +88,35 @@ def dict_return(dict,*keys):
     return values
 
 
-# ### Loop through xml generating list of lists where each sub-list is a card.  Values for unused attributes marked as none.
+############################################################################
+# Loop through xml generating list of lists where each sub-list is a card. #
+#               Values for unused attributes marked as none.               #
+############################################################################
 
 dict_sets = {prfx:[] for prfx in {prefix(i) for i in XMLFiles}}
 
-for file in XMLFiles:
-    # root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
-    root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
-    for setkey in dict_sets:
-        for i in root[0].iterchildren():
-            item = []
-            for key,value in zip(i.keys(),i.values()): 
-                #for value in i.values():
-                item.append(key)
-                item.append(value)
-            item = [item[i:i+2] for i in range(0, len(item), 2)] 
-            for j in i.iterchildren():
-                item.append((j.values()))
-            #print(item)    
-            dct = dict(item)
-            # print(dict_return(dct,*column_names))
-            # print(key)
-            dict_sets[setkey].append(dict_return(dct,*column_names))
+cards=[]
 
-print(dict_sets)
+for setkey in FilesDict:
+    for file in FilesDict[setkey]:
+        root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='UTF-8'))
+        # root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
+        for i in root[0].iterchildren():
+                # We want the first field to be the set
+                card = ['Set',setkey]
+                for key,value in zip(i.keys(),i.values()): 
+                    #for value in i.values():
+                    card.append(key)
+                    card.append(value)
+                card = [card[i:i+2] for i in range(0, len(card), 2)] 
+                for j in i.iterchildren():
+                    card.append((j.values()))
+                #print(card)    
+                dct = dict(card)
+                # print(dict_return(dct,*column_names))
+                # print(key) 
+                # dict_sets[setkey].append(dict_return(dct,*column_names))
+                cards.append(dict_return(dct,*column_names))
 
 
 
@@ -120,435 +124,241 @@ print(dict_sets)
 # put list of lists into dataframe #
 ####################################
 
-import pandas as pd
+# Capitalize column names
+column_names = [i.capitalize() for i in column_names]
 
-df_xml = pd.DataFrame(items,columns = column_names)
+# Create df
+df_xml = pd.DataFrame(cards,columns=column_names)
 
-df_xml['Set']='Necromancer'
-df_xml['GI']=None
-df_xml['magic']=None
-df_xml['specific']=None
+# Change text of graphics to conform with actual file names.
+df_xml['Graphics'] = df_xml.apply(\
+    lambda x:
+    unidecode(x['Graphics']),
+    axis=1)
 
+df_xml['Graphics'] = df_xml.apply(\
+    lambda x:
+    re.sub('[^a-zA-Z0-9.]','',x['Graphics']),
+    axis = 1)
 
-# %%
-df_xml['graphics']=df_xml['graphics'].str.replace('-','')
-df_xml['graphics']=df_xml['graphics'].str.replace('''''','')
-df_xml['graphics']=df_xml['graphics'].str.replace('\'','')
+# df_xml['Graphics']=df_xml['Graphics'].str.replace('-','')
+# df_xml['Graphics']=df_xml['Graphics'].str.replace('''''','')
+# df_xml['Graphics']=df_xml['Graphics'].str.replace('\'','')
 
-df_xml['name']=df_xml['name'].str.replace('Ã»','A')
 
+#######################
+# Import Lackey Files #
+#######################
 
-# %%
-df_xml=df_xml.fillna('')
+df_lackey = pd.DataFrame()
 
+for file in os.listdir('Lackey Files'):
+    df_lackey=df_lackey.append(pd.read_csv(Path('Lackey Files',file),sep='\t',encoding = 'ISO-8859-1'))
 
-# %%
-print(df_xml[df_xml['name'].str[:1]=='B'])
 
+###########################################
+# Rename df_xml fields to match df_lackey #
+###########################################
+df_xml.rename(inplace=True,
+            columns={
+                    'Home_site': 'HomeSite'
+                    , 'Sp': 'SP'
+                    , 'Graphics': 'Imagefile'
+                    , 'Mp': 'MP'
+                    , 'Site_path': 'SitePath'
+                    , 'Draw_opp': 'OpponentDraw'
+                    , 'Cp': 'Corruption'
+                    }
+)                     
 
-# %%
-df_xml[df_xml.name=='Breeder\'s Stock']
+#################################
+# Add missing columns to df_xml #
+#################################
 
+df_xml['GI'] = np.NaN
+df_xml['Magic'] = np.NaN
 
-# %%
+####################################
+# Remove extraneous df_xml columns #
+####################################
 
+for i in set(df_xml.columns.values) - set(df_lackey.columns.values):
+    del df_xml[i]
 
+#############################################
+# Check that both dfs have the same columns #
+#############################################
 
-# %%
-df_xml.head(5)
+assert sorted(df_xml.columns.values) == sorted(df_lackey.columns.values), 'DataFrames contain different columns'
 
+###############################################
+# Rearrange df_xml columns to match df_lackey #
+###############################################
 
-# %%
-#for i in column_names:
-#    print(i,'|',column_names.index(i))    
+df_xml = df_xml[df_lackey.columns.values]
 
+###############
+# Combine dfs #
+###############
 
-# %%
-pd.set_option("display.max_colwidth", 10000)
+df_allsets = pd.concat([df_xml,df_lackey])
 
+##############################
+# Replace null Text with '-' #
+##############################
+############################
+# Convert unicode to ansii #
+############################
 
-# %%
-print(df_xml['text'][df_xml['name']=='Mordor Rebuilt'])
+for column in ['Name','Imagefile','Text','HomeSite','Race']:
+    df_allsets[column].fillna(value = '-',inplace = True)
+    df_allsets[column] = df_allsets[column].astype('string')
+    df_allsets[column] = df_allsets.apply(\
+        lambda x:
+        unidecode(x[column]),
+        axis = 1)
 
 
-# %%
-print(df_xml['text'])
+############################################################################
+# For duplicate names within df append number to name to ensure uniqueness #
+############################################################################
 
+# Assign arbitrary rank within each group of identical names
+df_allsets['NameRank'] = df_xml.groupby(by='Name').cumcount() + 1
 
-# %%
-#df_xml_exp = df_xml[['name','Set','graphics','type','class','race']]
-#For Nec
-#df_xml_exp = df_xml.iloc[:,[0,29,1,3,6,14,13,12,9,10,30,7,8,16,19,11,18,31,32,15,25,22,23,24,4,2]]
+# df_allsets.Type.unique()
 
-#For GW
-df_xml_exp = df_xml.iloc[:,[0,30,1,3,6,14,13,12,9,10,31,7,8,16,19,11,18,32,32,15,25,22,23,24,4,2]]
+# df_allsets.loc[df_allsets.Name == 'Dwarven Axe']
 
+# Append rank to Name where rank > 1
+df_allsets['Name'] = \
+    df_allsets.apply(lambda x:
+    x['Name'] + str(x['NameRank']) if x['NameRank'] > 1 
+    else x['Name'],
+    axis = 1)
 
-# %%
-df_xml_exp.to_clipboard(sep='\t',index=False)
+del df_allsets['NameRank']
 
+####################
+# Export df to csv #
+####################
 
-# %%
-for i in list(df_xml.columns):
-    print(i,'|',list(df_xml.columns).index(i))
+df_allsets.to_csv('Complete_Spoiler.csv', index = False)
 
 
-# %%
-df_xml_exp.head(1)
+# from scipy.stats import rank
 
+# NameGroup = df_xml.loc[~df_xml.Type.str.contains('Site')].groupby(by='Name').Name.count()
 
-# %%
-print(df_xml.head(10))
+# df_xml.head(5)
 
+# NameGroup = df_xml.loc[df_xml.Set != 'gw'].groupby(by='Name').Name.count()
 
-# %%
-#import unicodedata
-#for i in df_xml:
-    #print(unicodedata.normalize('NFKD', i).encode('ASCII', 'ignore'))
+# NameGroup = df_xml.groupby(by='Name').Name
 
 
-# %%
-all_char=[]
+# if df_allsets['NameRank'] > 1 df_allsets['NameRank']: 
+#     df_allsets['NameRank']
+# else: 
+#     df_allsets['Name']  
 
-for i in df_xml['text']:
-    for j in i:
-        all_char.append(j)
 
-print(set(all_char))    
-    
 
+# df_allsets[['Name','NameRank','Name+Rank']].loc[df_allsets.Name == 'Durlog']
 
-# %%
+# df_allsets[['Name','NameRank']].loc[df_allsets['NameRank'] > 1].sort_values('Name')
 
+# df_allsets[['Name','NameRank']].loc[df_allsets.Name == 'Durlog']
 
+# df_allsets
 
-# %%
+# .rank('dense')
 
+# df_xml
 
+# NameGroup
 
-# %%
+# NameGroup.loc[NameGroup > 1]
 
 
+# df_xml.loc[df_xml.Name == 'Bain']
 
-# %%
+# df_xml.loc[~df_xml.Type.str.contains('Site')]
 
+# NameGroup.loc[NameGroup > 1]
 
+# [i[0:2] for i in dups]
 
-# %%
+# df_xml.loc[df_xml.Name == 'Severed Tokens']
 
+# scards = sorted(cards)
 
+# dups = [i[1] for i in enumerate(scards) if scards[i[0]] == scards[i[0]-1]]
 
-# %%
+# [i[1] for i in dups]
 
+# df_xml.groupby('Name').Name.count().loc[df_xml.groupby(by='Name').Name.count() > 1]
 
+# g=df_xml.groupby('Name').Name.count()
 
-# %%
-item = []
-items = []
+# df_xml.head(5)
 
-for i in root[0].iterchildren():
-    
-    for j in i.iter():    
-        item.extend(j.values())
-    items.append(item)
-    item = []
-    
-#print(item)
-print(len(items))
-#print(items)
+# FilesDict
 
+# g
 
-# %%
-item = []
-items = []
+# g.loc[g.Name==2]
 
-for i in root[0].iterchildren():
-    for key,value in zip(i.keys(),i.values()): 
-        #for value in i.values():
-        item.append(key)
-        item.append(value)
-    item = [item[i:i+2] for i in range(0, len(item), 2)]    
-    dct = dict(item)
-    items.append(dict_return(dct,*column_names))
-    item=[]
-    
-print(items)
 
 
-# %%
-help(root)
+# help(g)
 
+# type(g)
 
-# %%
 
+# df_xml.loc[df_xml.Name=='Against the Eye']
 
+# df_xml.loc[df_xml.Set == 'gw']
 
-# %%
-print(column_names)
+# len(df_xml.Name)
 
+# df_xml.Name.head(500)
 
-# %%
-print(dict_return(dct,*column_names))
+# [i.Upper column_names
 
+# 'lower'.capitalize()
 
-# %%
-print(dct)
+# set(column_names)
 
+# df_lackey.head(5)
 
-# %%
-print(column_names)
+# pd.read_csv('Lackey Files/Balrog.txt',sep='\t',encoding = 'ISO-8859-1')
 
+# os.listdir('lackey files')
 
-# %%
-help(zip)
 
+# # # %%
+# # df_xml=df_xml.fillna('')
 
-# %%
-items = [j.replace('body', 'gone') for w in items for j in w]
 
 
-# %%
-help(items.remove)
+# # # %%
+# # pd.set_option("display.max_colwidth", 10000)
 
 
-# %%
+# # #df_xml_exp = df_xml[['name','Set','graphics','type','class','race']]
+# # #For Nec
+# # #df_xml_exp = df_xml.iloc[:,[0,29,1,3,6,14,13,12,9,10,30,7,8,16,19,11,18,31,32,15,25,22,23,24,4,2]]
 
+# # #For GW
+# # df_xml_exp = df_xml.iloc[:,[0,30,1,3,6,14,13,12,9,10,31,7,8,16,19,11,18,32,32,15,25,22,23,24,4,2]]
 
 
-# %%
+# # # %%
+# # df_xml_exp.to_clipboard(sep='\t',index=False)
 
 
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-etree.tostring(tree.getroot())
-
-
-# %%
-help(root.attrib)
-
-
-# %%
-from lxml import etree
-
-def parseBookXML(xmlFile):
-
-    with open(xmlFile,'rb') as fobj:
-        xml = fobj.read()
-
-    root = etree.fromstring(xml)
-
-    book_dict = {}
-    books = []
-    for book in root.getchildren():
-        for elem in book.getchildren():
-            if not elem.text:
-                text = "None"
-            else:
-                text = elem.text
-            print(elem.tag + " => " + text)
-            book_dict[elem.tag] = text
-        if book.tag == "cards":
-            books.append(book_dict)
-            book_dict = {}
-    return books
-
-if __name__ == "__main__":
-    parseBookXML(xmlFile)
-    #parseBookXML("books.xml")
-
-
-# %%
-for i in root[0]:
-    print(i.values())
-
-
-# %%
-help(root.tag)
-
-
-# %%
-help(etree)
-
-
-# %%
-root[0][0].items()
-
-
-# %%
-for i in root[0]:
-    print(i.get(i.keys))
-
-
-# %%
-help(root)
-
-
-# %%
-len(items[1])
-
-
-# %%
-items[1]
-
-
-# %%
-items = []
-
-for i in root[0].iter():
-    #print(i.values())
-    items.append(i.values())
-
-print(items)
-    
-
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-
-
-
-# %%
-from urllib.request import urlopen
-from xml.etree.ElementTree import parse
-# Download the RSS feed and parse it
-#u = urlopen('http://planet.python.org/rss20.xml')
-doc = parse(FilePath)
-# Extract and output tags of interest
-
-
-# %%
-
-
-
-# %%
-for item in doc.iterfind('channel/item'):
-    rarity = item.findtext('rarity')
-    #date = item.findtext('pubDate')
-    #link = item.findtext('link')
-print(book)
-#print(date)
-#print(link)
-#print()
-#6.3
-
-
-# %%
-from lxml import etree
-item = doc.getroot()[0]
-print(item.get("game"))
-
-
-# %%
-from xml.etree.ElementTree import ElementTree as etree
-
-
-# %%
-import lxml.etree as etree
-
-
-# %%
-#print(etree.tostring(doc, pretty_print=True))
-
-
-# %%
-#test_write = etree.write(FilePath)
-
-
-# %%
-
-
-
-# %%
-import os
-os.getcwd()
-
-
-# %%
-
-
-
-# %%
-items = []
-
-for i in root[0].iter():
-    items.extend(i.values())
-        
-print(items)
-print(len(items))
-
-
-# %%
-xmlFile = r'C:\Users\Me3\Desktop\dc-master\development\nec_char.xml'.replace('\\','/')
-print(xmlFile)
-
-
-# %%
-from lxml import etree
-
-def parseBookXML(xmlFile):
-
-    with open(xmlFile) as fobj:
-        xml = fobj.read()
-
-    root = etree.fromstring(xml)
-
-    book_dict = {}
-    books = []
-    for book in root.getchildren():
-        for elem in book.getchildren():
-            if not elem.text:
-                text = "None"
-            else:
-                text = elem.text
-            print(elem.tag + " => " + text)
-            book_dict[elem.tag] = text
-        if book.tag == "book":
-            books.append(book_dict)
-            book_dict = {}
-    return books
-
-if __name__ == "__main__":
-    parseBookXML("nec_char.xml")
-
-
-# %%
-import lxml.etree as etree
-
-doc = etree.parse(FilePath)
-print(etree.tostring(doc))#, pretty_print=True))
+# # # %%
+# # for i in list(df_xml.columns):
+# #     print(i,'|',list(df_xml.columns).index(i))
 
