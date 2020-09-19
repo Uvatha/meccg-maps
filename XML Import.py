@@ -203,14 +203,16 @@ df_xml = df_xml[df_lackey.columns.values]
 
 df_allsets = pd.concat([df_xml,df_lackey])
 
-##############################
-# Replace null Text with '-' #
-##############################
+###############################
+# Replace blank Text with '-' #
+###############################
 ############################
 # Convert unicode to ansii #
 ############################
 
-for column in ['Name','Imagefile','Text','HomeSite','Race']:
+for column in ['Name','Imagefile','Text','HomeSite','Race','Region']:
+    df_allsets[column].where(df_allsets[column] != '', other = '-', inplace = True)
+    # df_allsets[column].where(df_allsets[column] != '' ,other = '-', inplace = True)
     df_allsets[column].fillna(value = '-',inplace = True)
     df_allsets[column] = df_allsets[column].astype('string')
     df_allsets[column] = df_allsets.apply(\
@@ -218,147 +220,38 @@ for column in ['Name','Imagefile','Text','HomeSite','Race']:
         unidecode(x[column]),
         axis = 1)
 
+# print('after', chr(10),df_allsets[['Name','Text']].loc[df_allsets.Text != ''].head(3))
 
 ############################################################################
 # For duplicate names within df append number to name to ensure uniqueness #
 ############################################################################
 
 # Assign arbitrary rank within each group of identical names
-df_allsets['NameRank'] = df_xml.groupby(by='Name').cumcount() + 1
+df_allsets['NameRank'] = df_allsets.groupby('Name').cumcount() + 1
 
-# df_allsets.Type.unique()
-
-# df_allsets.loc[df_allsets.Name == 'Dwarven Axe']
 
 # Append rank to Name where rank > 1
 df_allsets['Name'] = \
     df_allsets.apply(lambda x:
-    x['Name'] + str(x['NameRank']) if x['NameRank'] > 1 
+    x['Name'] + str(x['NameRank']) if x['NameRank'] > 1
     else x['Name'],
     axis = 1)
 
 del df_allsets['NameRank']
+
+
+#########################
+# Miscellaneous cleanup #
+#########################
+
+df_allsets.Name.loc[df_allsets.Name == 'Caves of ulund'] = 'Caves of Ulund'
+df_allsets.Region.loc[df_allsets.Name.isin(
+    ['Old Forest','Old Forest1','Old Forest2','Old Forest (M)']
+    )] = 'Cardolan'
 
 ####################
 # Export df to csv #
 ####################
 
 df_allsets.to_csv('Complete_Spoiler.csv', index = False)
-
-
-# from scipy.stats import rank
-
-# NameGroup = df_xml.loc[~df_xml.Type.str.contains('Site')].groupby(by='Name').Name.count()
-
-# df_xml.head(5)
-
-# NameGroup = df_xml.loc[df_xml.Set != 'gw'].groupby(by='Name').Name.count()
-
-# NameGroup = df_xml.groupby(by='Name').Name
-
-
-# if df_allsets['NameRank'] > 1 df_allsets['NameRank']: 
-#     df_allsets['NameRank']
-# else: 
-#     df_allsets['Name']  
-
-
-
-# df_allsets[['Name','NameRank','Name+Rank']].loc[df_allsets.Name == 'Durlog']
-
-# df_allsets[['Name','NameRank']].loc[df_allsets['NameRank'] > 1].sort_values('Name')
-
-# df_allsets[['Name','NameRank']].loc[df_allsets.Name == 'Durlog']
-
-# df_allsets
-
-# .rank('dense')
-
-# df_xml
-
-# NameGroup
-
-# NameGroup.loc[NameGroup > 1]
-
-
-# df_xml.loc[df_xml.Name == 'Bain']
-
-# df_xml.loc[~df_xml.Type.str.contains('Site')]
-
-# NameGroup.loc[NameGroup > 1]
-
-# [i[0:2] for i in dups]
-
-# df_xml.loc[df_xml.Name == 'Severed Tokens']
-
-# scards = sorted(cards)
-
-# dups = [i[1] for i in enumerate(scards) if scards[i[0]] == scards[i[0]-1]]
-
-# [i[1] for i in dups]
-
-# df_xml.groupby('Name').Name.count().loc[df_xml.groupby(by='Name').Name.count() > 1]
-
-# g=df_xml.groupby('Name').Name.count()
-
-# df_xml.head(5)
-
-# FilesDict
-
-# g
-
-# g.loc[g.Name==2]
-
-
-
-# help(g)
-
-# type(g)
-
-
-# df_xml.loc[df_xml.Name=='Against the Eye']
-
-# df_xml.loc[df_xml.Set == 'gw']
-
-# len(df_xml.Name)
-
-# df_xml.Name.head(500)
-
-# [i.Upper column_names
-
-# 'lower'.capitalize()
-
-# set(column_names)
-
-# df_lackey.head(5)
-
-# pd.read_csv('Lackey Files/Balrog.txt',sep='\t',encoding = 'ISO-8859-1')
-
-# os.listdir('lackey files')
-
-
-# # # %%
-# # df_xml=df_xml.fillna('')
-
-
-
-# # # %%
-# # pd.set_option("display.max_colwidth", 10000)
-
-
-# # #df_xml_exp = df_xml[['name','Set','graphics','type','class','race']]
-# # #For Nec
-# # #df_xml_exp = df_xml.iloc[:,[0,29,1,3,6,14,13,12,9,10,30,7,8,16,19,11,18,31,32,15,25,22,23,24,4,2]]
-
-# # #For GW
-# # df_xml_exp = df_xml.iloc[:,[0,30,1,3,6,14,13,12,9,10,31,7,8,16,19,11,18,32,32,15,25,22,23,24,4,2]]
-
-
-# # # %%
-# # df_xml_exp.to_clipboard(sep='\t',index=False)
-
-
-# # # %%
-# # for i in list(df_xml.columns):
-# #     print(i,'|',list(df_xml.columns).index(i))
 
