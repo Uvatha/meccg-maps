@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Aamumeren Isä" graphics="Aamumeren Isä.jpg" text="Unique. Maia. Animal. Whale. One strike. May be played keyed to any Coastal Sea region [c] in The Northern Waste. Before strikes are assigned, make a roll (modified by -2 if the company is overt). If the result is: 8-12 attack is detainment, 5-7 attack proceeds normally, 4 or less attack proceeds normally and if all strikes are successful the company must return to its site of origin. As a long-event, each company moving through a region in The Northern Waste and with a Coastal Sea [c] in their site path must return to its site of origin.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Long-event"/>
+			 <attr key="prowess" value="17/9"/>
+			 <attr key="mp" value="4*"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Maia, Animal, Whale"/>
+		</card>
+		<card name="Bonds of Winter" graphics="Bonds of Winter.jpg" text="Environment. At the end of their movement/ hazard phase, each company must discard a food item (if available). Additionally, if Fell Winter is in play, against each company 1 non-unique creature keyable to single Wilderness [w] may be played keyed to Border-hold [B], Ruins &amp; Lairs [R] or Shadow-hold [S]. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Canadras" graphics="Canadras.jpg" text="Unique. Cold-dragon. May be played at Canadras. Two strikes. +2 prowess against Dwarves. If Doors of Night is in play, may also be keyed to Lindalf, Narthalf, Rast Losnaeth, Talach Uichel, and Thorenaer; and at sites in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="4"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Cold-dragon"/>
+		</card>
+		<card name="Canadras Ahunt" graphics="Canadras Ahunt.jpg" text="Unique. Any company moving in Lindalf, Narthalf, Rast Losnaeth, Talath Uichel, and/or Thorenaer immediately faces a Cold-dragon attack (considered a hazard creature attack) — 3 strikes at 13/6; +2 prowess against Dwarves. If Doors of Night is in play, this attack also affects: Dor Bendor, Ekkaia, and Hûb Uichel.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="prowess" value="13"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="Canadras at Home" graphics="Canadras at Home.jpg" text="Unique. Unless Canadras Ahunt is in play, Canadras has an additional automatic-attack: Cold-dragon — 2 strikes at 16/7; +2 prowess against Dwarves. In addition, Ice-drake and True Cold-drake may be played keyed to any region in The Northern Waste.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="16"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="Cardolanian Whalers" graphics="Cardolanian Whalers.jpg" text="Men. May be played keyed to East Bay of Forochel, Elven Shores, Eriadoran Coast, Everdalf, Forochel, Gondalf, Minheldolath, Rast Losnaeth, and West Bay of Forochel. Each character faces a strike with 10 prowess. Detainment against hero and covert companies: if two characters fail a strike, any subsequent strikes attack normally, not as detainment.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="strikes" value="men. may be played keyed to east bay of forochel, elven shores, eriadoran coast, everdalf, forochel, gondalf, minheldolath, rast losnaeth, and west bay of forochel. each character faces a strike with 10 prowess. detainment against hero and covert companies: if two characters fail a strike, any subsequent strikes attack normally, not as detainment."/>
+			 <attr key="subclass" value="Men"/>
+		</card>
+		<card name="Cursed Spell-bead" graphics="Cursed Spell-bead.jpg" text="Corruption. Playable on a rune item. +1 to bearer’s corruption points. Each time bearer uses target item, rotate this card 90° (or place a token) and make a CP modified by -1 for each time rotated. If the bearer fails this CPC, one non-unique Undead hazard creature may be played immediately on the company from hand or discard pile (ignore all other effects).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Deathwind" graphics="Deathwind.jpg" text="Environment. Playable on a company moving in The Northern Waste if Gates of Morning is not in play. A ranger in the company with a home site in The Northern Waste may tap to cancel this card. Otherwise, all characters in the company must make a body check for each Northern Waste region they move through. Failing a body check wounds the character, or eliminates him if already wounded. These body checks are modified by -2 if the character is an Elf, Dwarf, or Umit, by -2 if he has a home site in The Northern Waste, and by +1 if he has a home site in Gondor, Mordor, The Sunlands, or The Uttersouth.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Demon-whale" graphics="Demon-whale.jpg" text="Animal. Demon. One strike. Attacker chooses defending characters. +2 prowess if the company’s size is 5 or more. May be played keyed to any Coastal Sea [c] region in The Northern Waste. If Doors of Night is in play, may also be played keyed to Dor Bendor and Elven Shores.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Animal, Demon"/>
+		</card>
+		<card name="Demons of the North Winds" graphics="Demons of the North Winds.jpg" text="Unique. Manifestation of Wind-horde. Any company moving through Dor Bendor or Ekkaia faces one attack: Demons — 3 strikes with 12 prowess (detainment against a company containing Eloeklo, Demon of the North Wind). If this attack is defeated, place this card in the hazard player’s sideboard. This attack also affects any company moving through Eloeklo, Demon of the North Wind’s current region. If Fell Winter is in play, this attack also affects Gondalf, Hûb Uichel, Narthalf, and Thorenaer.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Durlach, Bane of the North" graphics="Durlach, Bane of the North.jpg" text="Unique. Manifestation of Durlach. Balrog. Spawn.Two strikes. May be played at Eithel Morgoth and The Under-forges. If The Black Enemy’s Wrath is in play, may also be played at any Under-deeps site with a surface site in The Northern Waste, and keyed to Narthalf and sites in this region. Cannot be affected by spells or magic cards. As a permanent-event, any spell or magic card used by a character at or moving to a site in The Northern Waste allows for his opponent to bring one hazard from his sideboard to his play deck (reshuffle).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Permanent-event"/>
+			 <attr key="prowess" value="16"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="5"/>
+			 <attr key="strikes" value="spawn.two"/>
+			 <attr key="subclass" value="Balrog"/>
+		</card>
+		<card name="Eloeklo, Lindor's Bane" graphics="Eloeklo, Lindor's Bane.jpg" text="Unique. Demon. Spirit of Ice and Cold. Two strikes. As a creature, playable on a company moving in The Northern Waste if Bonds of Winter or Fell Winter is in play. The prowess and body of the attack are modified by -3 if target company (or an entity thereof) uses a Fire effect (e.g. The Fiery Blade, Wizard’s Fire, etc.) against the attack/strike. If played as a short-event, take one environment hazard from your sideboard to your hand.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Short-event"/>
+			 <attr key="prowess" value="16"/>
+			 <attr key="body" value="10"/>
+			 <attr key="mp" value="4"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Demon"/>
+		</card>
+		<card name="Fell-bear" graphics="Fell-bear.jpg" text="Animal. Bear. One strike. Playable on a company moving in The Northern Waste with at least three Wilderness[www] in their site path. Also playable at any non-Dragon’s lair Ruins &amp; Lairs [R] in The Northern Waste. If the company contains at least one Dwarf or Elf and Fell-bear’s attack (or strike thereof) is cancelled, at the beginning of their next movement/ hazard phase you may play it again fWrom your discard pile against the same company (regardless of the company’s site path).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Animal, Bear"/>
+		</card>
+		<card name="Gondring" graphics="Gondring.jpg" text="Unique. Female. Ice-dragon. May be played at Gondring’s Lair. Two strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be keyed to East Bay of Forochel, Elven Shores, Forochel, Rast Losnaeth, and West Bay of Forochel; and at sites in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="14"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="4"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Female, Ice-dragon"/>
+		</card>
+		<card name="Gondring Ahunt" graphics="Gondring Ahunt.jpg" text="Unique. Any company moving in East Bay of Forochel, Elven Shores, Forochel, Rast Losnaeth, and/or West Bay of Forochel immediately faces an Ice-dragon attack (female; considered a hazard creature attack) — 3 strikes at 12/7. If Doors of Night is in play, this attack also affects: Everdalf, Minheldolath, and Númeriador.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="Gondring at Home" graphics="Gondring at Home.jpg" text="Unique. Unless Gondring Ahunt is in play, Gondring’s Lair has an additional automatic- attack: Ice-dragon — 2 strikes at 15/8. In addition, each company moving in The Northern Waste has its hazard limit increased by one for every Coastal Sea [c] in its site path.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="Hibernating Troll" graphics="Hibernating Troll.jpg" text="Troll. May only be played as an on-guard creature at a Ruins &amp; Lairs [LR] in The Northern Waste. One strike. Before resolving the attack, make a roll: if the result minus the company’s size is greater than 4, the attack is cancelled. If Hibernating Troll attacks not at a site in The Northern Waste, its prowess and body are modified by -3. Each warrior in the company lowers the prowess and body of Hibernating Troll by 1. If its attack is defeated, the first item played at the site does not tap the site; otherwise the site is tapped.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Troll"/>
+		</card>
+		<card name="Ice-giant" graphics="Ice-giant.jpg" text="Giant. One strike. May be played keyed to Gondalf, Lindalf, Minheldolath, Narthalf, Rast Losnaeth, or Thorenaer; and at any Ruins &amp; Lairs [R] in these regions. If Doors of Night is in play, may also be played keyed to any non-Coastal Sea region in The Northern Waste.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="14"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Giant"/>
+		</card>
+		<card name="Jäänainen" graphics="Jäänainen.jpg" text="Unique. Any company moving in The Northern Waste and containing a male non-Elf character faces one attack:Spirit of Ice and Cold — 1 strike (attacker chooses defending characters). If Bonds of Winter or Fell Winter is in play, this attack also affects companies at a Border-hold [B] or Ruins &amp; Lair [R] in The Northern Waste. If this attack wounds any male non-Elf character, Jäänainen becomes a permanent-event: each male non-Elf character wounded by Jäänainen must make a CP modified by -2 during his untap phase, until he is healed. If no such character is in play, discard this card.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event/Permanent-event"/>
+			 <attr key="prowess" value="14"/>
+			 <attr key="body" value="10"/>
+			 <attr key="mp" value="5"/>
+		</card>
+		<card name="Legacy of Carcharoth" graphics="Legacy of Carcharoth.jpg" text="Each player may discard one Wolf hazard creature from his hand during the end-of-turn phase to take one Wolf hazard creature from his discard pile to his hand. Discard when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Lossadan Hunters" graphics="Lossadan Hunters.jpg" text="Men. Four strikes (detainment and -2 prowess against covert and hero companies). May be played keyed to East Bay of Forochel, Everdalf, Forochel,Lindalf, Minheldolath, Rast Losnaeth, or West Bay of Forochel; and also at Border-holds [B] and non-Dragon’s lair Ruins &amp; Lairs [R] in these regions. Lossadan Hunters receives +2 prowess and +1 strike if played at a Border-hold [B] against an overt company.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="8"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="strikes" value="men. four strikes (detainment and -2 prowess against covert and hero companies). may be played keyed to east bay of forochel, everdalf, forochel,lindalf, minheldolath, rast losnaeth, or west bay of forochel; and also at border-holds [b] and non-dragon’s lair ruins &amp; lairs [r] in these regions. lossadan hunters receives +2 prowess and +1 strike if played at a border-hold [b] against an overt company."/>
+			 <attr key="subclass" value="Men"/>
+		</card>
+		<card name="Lossandamundar" graphics="Lossandamundar.jpg" text="Animal. Trophy. Treasure. Four strikes. Detainment if the company contains any Elf, Dúnadan, or non-overt ranger with a home site in The Northern Waste. May be played keyed to any non-Coastal Sea region in The Northern Waste. Opponent may choose for Lossandamundar’s attack to be non-detainment. If its attack is defeated Lossandamundar may be taken as a trophy with a character in the company (regardless of his race or alignment); it may be stored for 2 mp as though it were a (treasure) item.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="4"/>
+			 <attr key="mp" value="(2)"/>
+			 <attr key="strikes" value="4"/>
+			 <attr key="subclass" value="Animal, Trophy, Treasure"/>
+		</card>
+		<card name="Mordó" graphics="Mordó.jpg" text="Unique. Environment. Creature attacks without an asterisk (*) which are keyed to a region or site in The Northern Waste receive +1 prowess. Additionally, every hero or covert company moving in The Northern Waste has its hazard limit increased by 1. Every hero character moving in The Northern Waste and with at least three Wildernesses [www] or a Shadow-land [s] in his site path must make a CP at the end of his movement/hazard phase. Hero factions playable at sites in The Northern Waste give one less mp (to a minimum of 1).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Ningarach" graphics="Ningarach.jpg" text="Unique. Drake. Marsh-drake. Two strikes. May be played at Amon Anlug. If Doors of Night, Gates of Morning, or Grinding Ice is in play, may also be played keyed to Everdalf, Lindalf, Thorenaer, or East Bay of Forochel; and at non-Haven sites in these regions. + 2 prowess if keyed to Amon Anlug or a swamp in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="13"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Drake, Marsh-drake"/>
+		</card>
+		<card name="Rabies" graphics="Rabies.jpg" text="Disease. Playable on a character if a strike from a Wolf attack against him has been successful this turn. MMay be revealed as an on-guard card. During his end-of-turn phase, the character makes a roll; if the result is greater than his mind, he attacks another character in his company with a random number closest to the roll’s result (as if in CvCC; defending player’s choice if tied). Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Snow in the Mountains" graphics="Snow in the Mountains.jpg" text="Environment. Playable on a company moving through Angmar, Gundabad, High Pass, Withered Heath, or any mountain region. If Bonds of Winter or Fell Winter is in play, may also be played on a company moving through Redhorn Gate, Grey Mountain Narrows, or Iron Hills. Each non-Elf character in the company makes a roll and adds his base prowess. If the result is less than 8, the character taps. If he was already tapped, the company must immediately return to its site of origin. Cannot be duplicated on given company unless Bonds of Winter and Fell Winter are both in play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Snow-blindness" graphics="Snow-blindness.jpg" text="Disease. Playable on a character moving in The Northern Waste. Make a roll for the character, modified by +2 if he does not have a home site in The Northern Waste, and by +1 for every Wilderness [w] in The Northern Waste in his site path. If the result is greater than target character’s body, place this card on him; otherwise discard this card. Character receives -2 prowess and looses any scout and ranger skills. aTap a ranger in his company and discard from hand or play (for nor effect) a card with a healing effect to discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="-2"/>
+			 <attr key="body" value="-"/>
+		</card>
+		<card name="Snow-elves" graphics="Snow-elves.jpg" text="Elves. Four strikes. Detainment and -2 prowess againsthero companies. May be played keyed to Dor Bendor, Everdalf, Lindalf, Talath Oiohelka, Talath Uichel, or Thorenaer; and at non-Haven sites in these regions. If Helecthil, Light of the North is in play, may be keyed to any region in The Northern Waste. If all characters in the company face a strike from Snow-elves and if all are strikes are successful, the company must immediately return to their site of origin.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="4"/>
+			 <attr key="subclass" value="Elves"/>
+		</card>
+		<card name="Snow-lion" graphics="Snow-lion.jpg" text="Animal. One strike. Attacker chooses defending characters. May be played keyed to any Wilderness [w] region in The Northern Waste, and to its adjacent regions if Bonds of Winter or Fell Winter is in play. May only be played against a company with three characters or less. +2 prowess if the company contains only one character or a Hobbit. +1 to any resulting body checks. Scout only resources do not affect Snow-lion and this card cancels any ongoing effect of such resources.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Animal"/>
+		</card>
+		<card name="Snow-troll" graphics="Snow-troll.jpg" text="Troll. Two strikes. May be played keyed to any non-Coastal Sea region in The Northern Waste; and also at Ruins &amp; Lairs [R] in these regions. Attacker chooses defending characters, unless the defending company contains a ranger. If Bonds of Winter or Fell Winter is in play, Snow-troll may be played keyed to any region in The Northern Waste and its adjacent regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Troll"/>
+		</card>
+		<card name="Spirit Crime" graphics="Spirit Crime.jpg" text="Corruption. Playable on a character at or moving to a site in The Northern Waste, if he has played a spirit magic resource this turn, or after the successful play of an item at a site with an Undead or Spirit automatic-attack. -1 to all his rolls. Additionally, +1 to his company’s hazard limit, and all characters in the company have their CP for transferring items, as well as their rolls for offering attempts, influence attempts, and riddling rolls, modified by -2. Discard this card if bearer discards (for no effect) a rune item he controls, or if opponent has Friends of Winter in play. During the site phase at a Ruins &amp; Lairs [R] in The Northern Waste, a sage in the company may tap and make a roll to attempt to remove this card; if the result is greater than 6, discard this card.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="The Pack at the Door" graphics="The Pack at the Door.jpg" text="Playable if Doors of Night is in play. Non-unique Animal, Spider, and Wolf hazard creatures may be played keyed to Border-lands [b], Border-holds [[B], or Ruins &amp; Lairs [R]. Such creatures must normally be playable keyed to a non-Coastal Sea region. If such a creature is only keyable to regions by name, it may only be played if the company is moving through a region in the same territory as one of the listed regions, or is at a site in such a territory.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="True Spirits of the North Winds" graphics="True Spirits of the North Winds.jpg" text="Unique. Maia. 3 strikes. Attacker chooses defending characters. Detainment against hero and covert companies. May be played keyed to any non-Shadow-land region (and non-Wilderness region if Mordó is in play) in The Northern Waste. May always be played against a company that contains Eloeklo, Demon of the North Wind and is at or moving to a site in The Northern Waste. This card may also be played (at any time) as a resource, to cancel an attack by Eloeklo, Lindor’s Bane, or to cancel CvCC if Eloeklo, Demon of the North Wind is in the attacking company.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="13"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="3*"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Maia"/>
+		</card>
+		<card name="Uldor the Accursed" graphics="Uldor the Accursed.jpg" text="Unique. Undead. May be played at Himring.One strike. If Doors of Night is in play, may be played at any non-Haven, non-Free-hold site in East Bay of Forochel, Elven Shores, Gondalf, Lindon, Minheldolath, Narthalf, or West Bay of Forochel. Weapons do not modify a defender’s prowess against the attack (unless Elven Blade is played on the weapon).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="strikes" value="himring.one"/>
+			 <attr key="subclass" value="Undead"/>
+		</card>
+		<card name="War-wargs" graphics="War-wargs.jpg" text="Wolves. Two strikes. As a creature, may be played at any Ruins &amp; Lairs [R] with a Wolf automatic-attack. As a long-event, all Wolf attacks with body have their body modified by +1; and all Wolf attacks with no body have 4 body.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature/Long-event"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="4"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Wolves"/>
+		</card>
+		<card name="War-wolves" graphics="War-wolves.jpg" text="Wolves. Two strikes. As a creature, may be played at any Ruins &amp; Lairs [R] with a Wolf automatic- attack or any Shadow-hold [S] with an Orc automatic-attack. As a short-event, modify the prowess of an Orc creature attack keyed to a region by +2.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature/Short-event"/>
+			 <attr key="prowess" value="8"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Wolves"/>
+		</card>
+		<card name="Where the Wargs Howl" graphics="Where the Wargs Howl.jpg" text="Playable on a company that has faced a Wolf attack this turn; does not count against the hazard limit. Any Orc hazard creature may be played against the company this turn, regardless of the company’s site path or site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="White Vision" graphics="White Vision.jpg" text="Disease. Playable on a character moving in The Northern Waste if Doors of Night is not in play (a non-overt character with a home site in The Northern Waste may tap to cancel this card before it resolves). Target character loses one of his skills (defender’s choice; choose the skill when this card resolves). Additionally, for every Snow-blindness played on target character he looses another skill and his company may move one less region (to a minimum of two) Discard this card during any organization phase while target character is at a Haven [H] or at a site not in The Northern Waste. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="White Wolves" graphics="White Wolves.jpg" text="Wolves. Four strikes. May be played keyed to any non- Coastal Sea region in The Northern Waste. May also be played keyed to any region that is a number of regions away from The Northern Waste equal to the number of copies of Bonds of Winter, Fell Winter, Long Winter, and/or Snowstorm in play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="4"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="4"/>
+			 <attr key="subclass" value="Wolves"/>
+		</card>
+	</cards>
+</ccg-setinfo>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Bar-en-Ibûn" graphics="Bar-en-Ibûn.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Dwarves — 3 strikes with 8 prowess (detainment against covert companies that do not contain an Elf)"/>
+			 <attr key="special" value="Hidden Site. Tap a sage in the company to reveal this site. The Petty-dwarves faction may be played at this site. If a Dwarf at this site discards a Lost Knowledge card he controls, the site contains a hoard until the end of the turn."/>
+		</card>
+		<card name="Bar-en-Ibûn" graphics="Bar-en-Ibûn.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Dwarves — 3 strikes with 8 prowess (detainment against companies that do not contain an Elf)"/>
+			 <attr key="special" value="Hidden Site. Tap a sage in the company to reveal this site. The Petty-dwarves faction may be played at this site. If a Dwarf at this site discards a Lost Knowledge card he controls, the site contains a hoard until the end of the turn."/>
+		</card>
+		<card name="Barak-shathûr" graphics="Barak-shathûr.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{b}{b}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Iron Hills"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Dwarves — 2 strikes with 8 prowess (detainment)"/>
+			 <attr key="special" value="Durang is playable at this site (as if at an Under-deeps site). Reforging may be played at this site by a Dwarf sage (as if Information were playable). Both these resources may be stored here (as if at a Haven [H])."/>
+		</card>
+		<card name="Barak-shathûr" graphics="Barak-shathûr.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{d}{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Iron Hills"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Items (minor, major*, gold ring) * —battle-gear items only—"/>
+			 <attr key="auto_attack" value="Dwarves — 3 strikes with 9 prowess"/>
+			 <attr key="special" value="Once per turn, a Dwarf or sage in a covert company at this site may tap to shuffle one item with the word 'Dwarf' or 'Dwarven' in its card text or title from your discard pile or sideboard into your play deck (tap the site if untapped)."/>
+		</card>
+		<card name="Blue Mountain Dwarf-hold" graphics="Blue Mountain Dwarf-hold.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{H}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Númeriador"/>
+			 <attr key="special" value="Dwarf-lord only. This site is a protected Lordhaven [H]. If one of your companies is at this site, all attacks against it are cancelled and you receive the P. Characters with Blue Mountain Dwarf-hold as a home site may be brought into play at this site regardless of the presence of any other character."/>
+		</card>
+		<card name="Durin's Tower " graphics="Durin's Tower.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Dungeon"/>
+			 <attr key="haven" value="Moria (5), The Under-gates (6)"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Traps — 2 strikes with 7 prowess"/>
+			 <attr key="special" value="Hidden Site. Unless the company contains a Dwarf, it must discard a Lost Knowledge card it controls to reveal this site. Tap a character at this site to take one Ancient Stair, Legendary Stair, or The Iron-pit from your sideboard to your hand."/>
+		</card>
+		<card name="Eorstan" graphics="Eorstan.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Gaurblog Lug" graphics="Gaurblog Lug.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{w}{b}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Eorstan"/>
+			 <attr key="haven" value="Rhûbar"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Orcs — 3 strikes with 8 prowess"/>
+			 <attr key="special" value="Ancient Dwarf-ruin. After you have successfully played Tower Raided on this site, you may take one Fortress Reclaimed or Rebuild the Town from your sideboard to your hand."/>
+		</card>
+		<card name="Gaurblog Lug" graphics="Gaurblog Lug.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{d}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Eorstan"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Orcs — 3 strikes with 8 prowess (detainment against overt companies)"/>
+			 <attr key="special" value="Ancient Dwarf-ruin. Non-Nazgûl creatures attack normally at this site, not as detainment. During the site phase, an Orc leader at the site may tap to discard one Profitable Trade in play with factions in Wilderland (factions remain in play)."/>
+		</card>
+		<card name="Iron Hill Dwarf-hold" graphics="Iron Hill Dwarf-hold.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{H}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Iron Hills"/>
+			 <attr key="special" value="Dwarf-lord only. This site is a protected Lordhaven [H]. If one of your companies is at this site, all attacks against it are cancelled and you receive the P. Characters with Iron Hill Dwarf-hold or Barak-shathûr as a home site may be brought into play at this site, regardless of the presence of any other character."/>
+		</card>
+		<card name="Long Marshes" graphics="Long Marshes.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{b}{b}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Northern Rhovanion"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Items (minor, major*)"/>
+			 <attr key="auto_attack" value="Undead — 2 strikes with 7 prowess"/>
+			 <attr key="special" value="Swamp. *Major items are only playable at the site if the company has defeated an Undead attack the same turn."/>
+		</card>
+		<card name="Long Marshes" graphics="Long Marshes.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{d}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Northern Rhovanion"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Items* (minor)"/>
+			 <attr key="auto_attack" value="Undead — 2 strikes with 7 prowess"/>
+			 <attr key="special" value="Swamp. *Major items are playable at the site if the company has defeated an Undead hazard creature the same turn."/>
+		</card>
+		<card name="Mines of Angûrath" graphics="Mines of Angûrath.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Wondrous Maps* (0), Ostigurth (5) The Under-courts (6), The Limestone-caverns (8)"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Dwarves — 4 strikes with 10 prowess (detainment if the company contains a Dwarf majority)"/>
+			 <attr key="special" value="Hidden Site. Tap a sage or avatar in the company, or discard a Lost Knowledge card, to reveal this site. Contains a hoard. *Any Wondrous Maps you have in play in Nurn or Horse Plains is considered a surface site of this site. Creatures played at this site attack normally, not as detainment."/>
+		</card>
+		<card name="Mines of Falek-dim" graphics="Mines of Falek-dim.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Gaurblog Lug (0), Nurunkhizdín (7), The Rusted-deeps (8), The Sulfur-deeps (7), The Under-courts (8)"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="(1st) Undead. Dwarves — 3 strikes with 9 prowess; (2nd) Opponent may play as an automatic-attack one non-unique hazard creature from his hand normally keyed to Shadow-holds [S]"/>
+			 <attr key="special" value="Ancient Dwarf-ruin."/>
+		</card>
+		<card name="Misty Mountains" graphics="Misty Mountains.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value=""/>
+		</card>
+		<card name="Nurunkhizdín" graphics="Nurunkhizdín.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{d}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Eorstan"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Dwarves — 4 strikes with 10 prowess (detainment if the company contains a Dwarf)"/>
+			 <attr key="special" value="*You may discard a treasure item from a covert company at this site to cancel the automatic-attack."/>
+		</card>
+		<card name="Nurunkhizdín" graphics="Nurunkhizdín.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{b}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Eorstan"/>
+			 <attr key="haven" value="Rhûbar"/>
+			 <attr key="auto_attack" value="Dwarves — each character faces a strike with 7 prowess (detainment; cancelled if the company contains only Dwarves)"/>
+			 <attr key="special" value="During the organization phase you may discard a treasure item from the company to bring into play a Dwarf with this site as a home site (regardless of his mind); the character may be played from hand, discard pile or play deck, but enough influence must be available to control him."/>
+		</card>
+		<card name="Ruins of Belegost" graphics="Ruins of Belegost.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Blue Mountain Dwarf-hold (11)*, The Drowning-deeps (11)*"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Ancient Dwarf-ruin. *Discard a Lost Knowledge card from a company moving to/from this site to give +7 to its Under-deeps movement roll."/>
+		</card>
+		<card name="Ruins of Nogrod" graphics="Ruins of Nogrod.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Blue Mountain Dwarf-hold (11)*, The Drowning-deeps (11)*, The Under-caves (11)*"/>
+			 <attr key="playable" value="Items (minor, major, greater, gold ring)"/>
+			 <attr key="auto_attack" value="Ancient Dwarf-ruin. *Discard a Lost Knowledge card from a company moving to/from this site to give +7 to its Under-deeps movement roll."/>
+		</card>
+		<card name="The Carrock" graphics="The Carrock.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Anduin Vales"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Port-on-Anduin. You may play Eagle-mounts here as if at Eagles' Eyrie."/>
+		</card>
+		<card name="The Carrock" graphics="The Carrock.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{d}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Anduin Vales"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Animals. Bears — 2 strikes with 9 prowess"/>
+			 <attr key="special" value="Port-on-Anduin. Lord of the Carrock may always be played at this site against an overt company, regardless of any other cards played or the hazard limit."/>
+		</card>
+		<card name="The Drowning-deeps" graphics="The Drowning-deeps.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Blue Mountain Dwarf-hold (9), Remains of Thangorodrim (9), Ruins of Belegost (11), Ruins of Nogrod (11), The Under-vaults (9)"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Any creature playable keyed to Coastal Seas may be played keyed to this site."/>
+		</card>
+		<card name="The Rusted-deeps" graphics="The Rusted-deeps.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Iron Hill Dwarf-hold (8), Barak-shathûr (8), Mines of Falek-dim (8), Ruins of Kheledkhizdín (8), The Cobalt-deeps (8), The Wind-deeps (9)"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Any Dragon creature playable keyed to a site in Wilderland may be played at this site."/>
+		</card>
+		<card name="The Wind-deeps" graphics="The Wind-deeps.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="The Wind Throne (0), The Cobalt- deeps (5), The Rusted-deeps (9), The Under-leas (6)"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 3 strikes with 7 prowess; (2nd) Opponent may play as an automatic- attack one non-unique hazard creature from his hand normally keyed to Shadow-holds [S]"/>
+			 <attr key="special" value="Any Drake creature not playable keyed to a Desert [e] region may be keyed to this site."/>
+		</card>
+	</cards>
+</ccg-setinfo>

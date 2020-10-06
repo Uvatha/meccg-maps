@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Ancient Burial Site" graphics="Ancient Burial Site.jpg" text="Playable during the site phase at a Ruins &amp; Lairs [R]. Hoard minor items may be played at the site. If the site has an Undead automatic-attack, you may also play gold ring items. If Banishment is played on the site, you may play hoard major items.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Annayulma" graphics="Annayulma.jpg" text="Unique. Treasure. Playable at Goblin-gate.tap allow bearer’s company to be affected by Healing of Nimrodel if either starting or site of destination is a Haven [H] as long as the company is attempting to move through a Wilderness [w]. Annayulma does not untapped normally, but only if a sage bearer taps at a Haven [H] or if Enchanted Stream or River is played against bearer’s company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Annayulma" graphics="Annayulma.jpg" text="Unique. Treasure. Playable at Goblin-gate. t tap: if bearer is an Elf or sage with a mind of 6 or more, to play and interpret Healing of Nimrodel this turn as though his company’s current or new site in a Wilderness [w] were a Haven [H]. This item does not untap normally. Untap Annayulma if its bearer is at a Haven [H] and taps, or if Enchanted Stream or River is played against the company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Annayulma" graphics="Annayulma.jpg" text="Unique. Treasure. Playable at Goblin-gate. tThe bearer of this item need not tap to play Miruvor (and may play Miruvor even if he is tapped). If he is an Elf or sage with a mind of 6 or more, his current site in a Wilderness [w] is considered a Haven [H] for the purpose of playing and interpreting Healing of Nimrodel. This item gives 2 mp if stored at Lórien.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1(2)"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Beffraen" graphics="Beffraen.jpg" text="Unique. Playable at any Ruins &amp; Lairs [R] in Eriador that is a hidden site if the influence check is greater than 7.Standard Modifications: none.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Wose Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Blood Money" graphics="Blood Money.jpg" text="Diplomat only. Playble on a diplomat in a covert company facing a non-automatic-, non-detainment attack by Elves, Dwarves, Dúnedain, Men or Wose (before strikes are assigned). Discard if none of your characters are wounded by the attack. Discard when any of your companies ever defeats an attack by Elves, Dwarves, Dúnedain or Men.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Burgling Miserably" graphics="Burgling Miserably.jpg" text="Scout only. Playable on a non-overt scout at a Free- hold [F], Border-hold [B], or Ruins &amp; Lairs [R]. Tap scout if untapped. One Swag may be placed with this card. Any Swag placed with this card may be played on the company as if from hand and may be discarded from the company as if a treasure item.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Causeways and Canals" graphics="Causeways and Canals.jpg" text="Playable on a port or swamp (not “sieged”) if you have a faction in play at the site under Profitable Trade. The site’s type moves one step closer to a Free-hold [F]. If already a Free-hold, it becomes a Battleground and you receive this card’s mp. During your end-of turn phase, if target site is “sieged”, place a token on this card. Discard this card when there are 3 tokens are on it.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(1)"/>
+		</card>
+		<card name="Cave-goblins" graphics="Cave-goblins.jpg" text="Playable at any Under-deeps site with aRuins &amp; Lairs [R] surface site if the influence check is greater than 8.Standard Modifications: Orcs (+2), Leader (+2), Uruk-hai (-3), Trolls (-5). tap: take one Fungi from your discard pile to your hand. Cannot be duplicated at a given site.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Orc Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Cave-trolls" graphics="Cave-trolls.jpg" text="Unique. Playable at Creb Durga or The Under-caves if the influence check is greater than 9.Standard Modifications: Stone Trolls (-2). tap: allow a Grond played on this faction to affect any Free-hold [F], Border-hold [B] or Dark-hold [D] site where this faction is present. Place such a site with this card (or place a token) instead of discarding it from play. This faction is worth an additional mp for each site placed with it (to a maximum of 5 mp).">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Troll Faction"/>
+			 <attr key="mp" value="2(*)"/>
+		</card>
+		<card name="Clan-bound" graphics="Clan-bound.jpg" text="Grey or white player only. Playable on a starting company in lieu of a minor item. If the starting company contains two or more unique characters with the same home site, at which a unique faction is playable that has at least two manifestations (or is a dual resource), you may play as a normal character any character with the same home site (mind restrictions still apply).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Concealed Entrance" graphics="Concealed Entrance.jpg" text="Playable during the site phase on a hidden site. Unless they tap a scout, your opponent’s companies cannot enter the site. Discard when any play deck is exhausted or when the site leaves active play. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Crebain from Dunland" graphics="Crebain from Dunland.jpg" text="Unique. Playable at any non-Haven site in Dunland if the influence check is greater than 11.Standard Modifications: Saruman is your Wizard (+3), you have Sharkú in play (+5). tap: look at 3 random cards from your opponent’s hand, if opponent has a company at a site in Eriador or Wilderland (or at any site, if you discard a Crebain or Spying out the Land from hand).">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Animal Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Dagnirdraug" graphics="Dagnirdraug.jpg" text="Unique. Weapon. Playable at Osteledan. Also playable at any site in Hollin if you discard (for no effect) a Lost Knowledge card from the company. +2 prowess to a maximum of 9. Warrior only: +4 to prowess against Wolves (to a maximum of 10). tap: if Wake of War is in play to take a strike from a Wolf attack assigned to another character in the company. Bearer makes a CP.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="+2"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Ghost-warriors of Dunfearan" graphics="Ghost-warriors of Dunfearan.jpg" text="Unique. Playable at the Ghost-caves by a sage bearing Ghostbane, or by Aragorn II if Return of the King is in play. tap: any Gold Chains in the Wind you have in play is not discarded until the end-of-turn phase. tap: and discard an Undead creature from hand to cancel an attack against one of your companies.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Undead Faction"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Ghostbane" graphics="Ghostbane.jpg" text="Unique. Staff. Playable at The Riddle-caves.+2 prowess against Undead. This item affects a Ringwraith. If bearer defeats a strike from an Undead attack, he may immediately take control of a non-food minor item (which may be played from sideboard or hand). Shadow-magic user only: tap: assign a strike from an Undead attack his company faces to any character at a site in the same or an adjacent region. Bearer makes a CP modified by -2.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="(+2)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Ghostbane" graphics="Ghostbane.jpg" text="Unique. Staff. Playable at The Riddle-caves.+2 prowess against Undead. This item affects a Ringwraith. If bearer defeats a strike from an Undead attack, he may immediately take control of a non-food minor item (which may be played from sideboard or hand). Shadow-magic user only: tap: assign a strike from an Undead attack his company faces to any character at a site in the same or an adjacent region. Bearer makes a CP modified by -2.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="(+2)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Gift of Deceit" graphics="Gift of Deceit.jpg" text="Command. Playable on a Elf, Dwarf, Dúnadan, or Man Warlord. tap: bring a skill card your Warlord can use from your discard pile to your play deck and shuffle. Warlord makes a CPC. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Glory of Arnor Restored" graphics="Glory of Arnor Restored.jpg" text="Playable on a company containing a Dúnadan with a a home site in Eriador. Tap this card when the company successfully plays a unique hero faction at a site in Arthedain, Rhudaur, Cardolan, or Angmar. This card never untaps. If tapped, invert it if the company successfully plays a Stolen Knowledge card at a site in Angmar. If inverted, this card may be stored at a Dúnadan-hold in Eriador. It then gives 3 mp and you may play Tower Raided at Carn Dûm as if it were a Shadow-hold [S]. This card gives 2 additional mp if you also receive any mp from Reunited Kingdom; it is worth full mp to an Atani-lord or Elrond player. Once inverted, no other copy of this card can be inverted.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3*)"/>
+		</card>
+		<card name="Gold Reward" graphics="Gold Reward.jpg" text="Offering Attempt. Playable on a non-overt minion character in lieu of declaring CvCC. Choose an opponent’s character and make a roll (+4 if a Ringwraith, +3 if a diplomat). If the result is higher than topponent character’s mind minus his corruption point total and CP-modifiers, place this card on him (tap the character if untapped). Discard this card to cancel any effect that would cancel CvCC with this character’s company.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Gold Reward" graphics="Gold Reward.jpg" text="Playable on a non-overt minion character in lieu of declaring CvCC. Make an influence check against one of opponent’s characters (+4 if a Ringwraith, +3 if a diplomat). If the result is higher than the character’s mind minus his corruption point total and CP-modifiers, place this card on him (tap the character if untapped). Discard this card to cancel any effect that would cancel CvCC with this character’s company.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Grishmoigh" graphics="Grishmoigh.jpg" text="Unique. Ent. Giant. Playable at any Ruins &amp; Lairs [R] in Enedhwaith or its adjacent regions, if you discard a Man, Dwarf, or Dúnadan trophy or prisoner from the company. All body checks for defeated Dúnadan and Man attacks of which Grishmoigh has faced a strike are modified by +1. Discard Grishmoigh if you have Fuel for Furnaces or a Dúnadan faction in play, or if Treebeard is in his company. tap: cancel a non-unique Giant, Troll, or Awakend Plant attack keyed to a Wilderness [w] region (by type or name) against his company.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Warrior Ally"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Helm of Illusions" graphics="Helm of Illusions.jpg" text="Unique. Helmet. Place this card on Ardagor if he is in play. May be played with your starting company in lieu of a minor item. If on Ardagor, he gains the diplomat skill and cannot be discarded by a body check result.+3 EI against characters at whose home site you have a faction in play. Ardagor may play Counterfeit on himself as though he were an Orc.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+3"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Iron-home" graphics="Iron-home.jpg" text="Playable during the organization phase on a minion company. Discard this card to cancel a hazard creature attack against the company keyed to Angmar by name. Black player only: this card may be played with your starting company in lieu of a minor item. If played as such, the company may start the game at Carn Dûm. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Linyuilë" graphics="Linyuilë.jpg" text="Unique. Maia. Playable at Annúminas. Discard if her company is overt or moves to a site not in Eriador. May not be attacked. Characters in her company are considered a sage for the purpose of playing and interpreting light enchantments. They may play light enchantments at any non-Haven site (even if tapped), if they have moved there the same turn. tap: cancel a River or Enchanted Stream played against her company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ally"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Of Which They Were Made" graphics="Of Which They Were Made.jpg" text="Playable on wounded troll. A wild troll may heal (from wounded to tapped) at a site within a Deep Wilderness [ww], if at an under-deep or under-deep surface site; half-trolls and Olog-hai must remove one trophy (two for an Olog-hai) they carry to heal, from wounded to tapped. Shuffle this card into your deck instead of discarding it, if another troll is wounded in the company.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Olga-wama" graphics="Olga-wama.jpg" text="Unique. Playable at Barrow-downs or Cameth Brin. Armor. Jewel. +1 body to a maximum of 8. Bearer may attach or detach any non-armor minor item he controls with Olga Wama during the organization phase (invert it or place a token); if placed with Olga Wama it gives no corruption points and cannot be used (none of its abilities apply). For each minor item attached, bearer gains +1 EI against unique Man characters and factions playable at sites in Rhudaur, Cardolan, and Dunland.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="-"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="influence" value="+*"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Olga-wama" graphics="Olga-wama.jpg" text="Unique. Playable at Barrow-downs or Cameth Brin. Armor. Jewel. +1 body to a maximum of 8. Bearer may attach or detach any non-armor minor item he controls with Olga Wama during the organization phase (invert it or place a token); if placed with Olga Wama it gives no corruption points and cannot be used (none of its abilities apply). For each minor item attached, bearer gains +1 EI against unique Man characters and factions playable at sites in Rhudaur, Cardolan, and Dunland.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="-"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="influence" value="+*"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Olga-wama" graphics="Olga-wama.jpg" text="Unique. Playable at Barrow-downs or Cameth Brin. Armor. Jewel. +1 body to a maximum of 8. Bearer may attach or detach any non-armor minor item he controls with Olga Wama during the organization phase (invert it or place a token); if placed with Olga Wama it gives no corruption points and cannot be used (none of its abilities apply). For each minor item attached, bearer gains +1 EI against unique Man characters and factions playable at sites in Rhudaur, Cardolan, and Dunland.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="-"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="influence" value="+*"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Olog-power" graphics="Olog-power.jpg" text="Playable on a Troll. Target Troll may use two-handed battle-gear items as if they were not two-handed. Additionally, when bearer taps to face a strike, he may reduce his prowess by any factor of 3 to give -1 to the body of the strike (for each factor of 3). Cannot be duplicated on a given character.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Pretender" graphics="Pretender.jpg" text="Diplomat only. Playable during the site phase on a diplomat in a covert company. Tap the diplomat and name a unique resource permanent-event played on an opponent’s hero character of the same race at his current site: opponent must discard this resource. If target character is a Half-orc diplomat, the resource need not be unique and opponent’s character may be a Man.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Rast Vorn" graphics="Rast Vorn.jpg" text="Playable on The Worthy Hills if Beffraen or Woses of Eryn Vorn is in play. tYou may play Drughu as a minion resource on a covert company containing a Wose character. Additionally, you may play Drughu on a company at The Worthy Hills without discarding a ranger character; if you do discard a ranger character (for no other effect), you may untap The Worthy Hills. Discard if the site leaves active play. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Sceptre of Annúminas" graphics="Sceptre of Annúminas.jpg" text="Unique. Staff. Treasure. Playable at Rivendell by Elrond or Aragorn II if Return of the King is in play. +2 EI against Dúnedain. This item is worth 3 mp if The White Tree is in play at Annúminas. Cannot be stored.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="mp" value="1(3)"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Symbol of Malice" graphics="Symbol of Malice.jpg" text="Magic. Shadow-magic. Playable on a site during the site phase by a shadow-magic using character. Tap the site (if not already tapped). This site is never discarded and never untaps for you.When a company enters any version of this site, each character in the company must make a CPC modified by -2 and this card is discarded. Unless he is a Ringwraith, the shadow-magic using character makes a CP modified by -4.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Terror of Cardolan" graphics="Terror of Cardolan.jpg" text="Ardagor specific. Place this card on Ardagorif he is in play. Your companies with a company size of two or less (or containing Ardagor) may play allies at tapped sites. Followers of Ardagor gain +1 to their CP. Additionally, any non-unique Troll hazard creature may be played at Creb Durga (or keyed to Cardolan if Ardagor is at a site in this region). Cannot be duplicated.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="(+1)"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Ardagor"/>
+		</card>
+		<card name="The Dunmen's Dogs" graphics="The Dunmen's Dogs.jpg" text="Playable at any tapped or untapped non-Haven site in Dunland, if the influence check is greater than 11.Standard Modifications: character with a home site in Dunland (+2), Dunlendings (+2), Wild Hounds (+3). While not with a creature, one non-unique wolf ally is playable at Dunnish Clan-hold each turn. You may tap a character to cancel an attack from a non- unique Wolf creature against his company: place this faction with the creature under his control. The creature becomes an ally with a mind of 1, body of 7, and a prowess equal to its normal prowess minus 7; it gives no mp.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Animal Faction"/>
+			 <attr key="prowess" value="(-7)"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="1"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Thieves of Tharbad" graphics="Thieves of Tharbad.jpg" text="Unique. Playable at Tharbad if the influence check is greater than 13.Standard Modifications: Dunlendings (-3), if you discard an item from the company: minor item (+3), major item (+6), ring or treasure (+9). Once in play, the number to influence this faction is zero. This faction cannot be tapped if Tharbad is not a Ruins &amp; Lairs [R]. tap: take one An Article Missing or Brigands from your discard pile to your hand.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Man Faction"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Troll-woods" graphics="Troll-woods.jpg" text="Unique. Playable during the site phase on Ettenmoors. Replace the site’s automatic-attacks with: Trolls — 1 strike with 10 prowess (detainment against an overt company). Other players cannot play any cards that would make Ettenmoors a Haven [H/K]. Additionally, any non-unique Troll character may be brought into play at this site. Rhudaur becomes a Deep Wilderness [ww] region. Discard when the site leaves active play.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Under His Fist" graphics="Under His Fist.jpg" text="Command. Playable on a Warlord at a Darkhaven or his home site [K]. The Warlord may control any number of (different) command cards (these are not returned to your hand automatically). At the end of your turn, if he controls more than two command cards, discard one of these or shuffle it back into your play deck. Cannot be duplicated on a given Warlord.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Valglin" graphics="Valglin.jpg" text="Unique. Elf. Noldo. Elf-lord or Pallando only. Playable at Amon Lind. Whenever you play Stars or The Evenstar during his company’s current phase, you may name a hazard: if opponent has this hazard in his hand, he must reveal it, and choose to either discard it or lower the hazard limit against the company by one. Otherwise he must reveal his whole hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Sage Ally"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Valglin" graphics="Valglin.jpg" text="Unique. Elf. Noldo. Elf-lord or Pallando only. Playable at Amon Lind. Whenever you play Stars or The Evenstar during his company’s current phase, you may name a hazard: if opponent has this hazard in his hand, he must reveal it, and choose to either discard it or lower the hazard limit against the company by one. Otherwise he must reveal his whole hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Sage Ally"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Valglin" graphics="Valglin.jpg" text="Unique. Elf. Noldo. Elf-lord or Pallando only. Playable at Amon Lind. Whenever you play Stars or The Evenstar during his company’s current phase, you may name a hazard: if opponent has this hazard in his hand, he must reveal it, and choose to either discard it or lower the hazard limit against the company by one. Otherwise he must reveal his whole hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Sage Ally"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Walls Behind Walls" graphics="Walls Behind Walls.jpg" text="Stolen Knowledge. Playable during the site phase on a hidden site. Unless Concealed Entrance is played on the site, tap a scout at the site. Discard this card to untap the site or to discard a Concealed Entrance played on any version of the site. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Warlord" graphics="Warlord.jpg" text="Black player only. Playable on a warrior leader with a mind of 7 or more, bearing trophies worth at least 2 mp. Target character becomes a Warlord. +3 to his EI. He may only be controlled by your avatar or GI. You may only have a second copy of Warlord in play if you have 6 or more P, or a third if you have 10 or more P.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+3"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Warlord's Lair" graphics="Warlord's Lair.jpg" text="Warlord only. Playable during the site phase on your Warlord’s home site (not a Darkhaven [K] or Dark-hold [D]). Target site loses all automatic- attacks; nothing is considered playable here as written on the site card. All versions of the site become a hidden site; an opponent’t company must tap a ranger to reveal this site. Your characters may heal at this site. Discard when the site leaves active play. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Wolves' Feed" graphics="Wolves' Feed.jpg" text="Play to untap a wolf ally, a Wolf faction, or a non-unique Scara-hai Orc. Alternatively, playable on a wolf ally facing a strike: if the strike is defeated, the ally receives +2 body this turn.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+	</cards>
+</ccg-setinfo>

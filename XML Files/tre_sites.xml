@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Amon Lhaw" graphics="Amon Lhaw.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{s}{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Dagorlad"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Opponent may play as automatic-attack one non-unique hazard creature normally keyed to Shadow-hold [S]."/>
+			 <attr key="special" value="When leaving this site, a company may move as if Dagorlad and Rohan were adjacent."/>
+		</card>
+		<card name="Amon Lhaw" graphics="Amon Lhaw.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{d}{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Dagorlad"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Opponent may play as automatic-attack one non-unique hazard creature with an asterix (*) from his hand, normally keyed to Border-hold [B] or Rohan."/>
+			 <attr key="special" value="When leaving this site, a company may move as if Dagorlad and Rohan where adjacent."/>
+		</card>
+		<card name="Barad Tathren" graphics="Barad Tathren.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Rohan"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Spiders — 2 strikes with 7 prowess"/>
+			 <attr key="special" value="Swamp. Hidden site. A company must discard a Lost Knowledge to move to this site. Only non-unique creatures may be keyed to this site."/>
+		</card>
+		<card name="Barad Tathren" graphics="Barad Tathren.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{f}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Rohan"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Spiders — 2 strikes with 7 prowess"/>
+			 <attr key="special" value="Swamp. Hidden site. A company must discard a Lost Knowledge to move to this site. Only non-unique creatures may be keyed to this site."/>
+		</card>
+		<card name="Helm's Deep" graphics="Helm's Deep.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{b}{b}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Gap of Isen"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Items (minor*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="Men — 4 strikes with 7 prowess (detainment; cancelled if the company contains a character with home site Helm's Deep or Edoras)"/>
+			 <attr key="special" value="Battleground. Erkenbrand is playable at this site."/>
+		</card>
+		<card name="Helm's Deep" graphics="Helm's Deep.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Gap of Isen"/>
+			 <attr key="haven" value="Geann a-Lisch"/>
+			 <attr key="playable" value="Items (minor, major*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="Men — 4 strikes with 8 prowess"/>
+			 <attr key="special" value="Battleground."/>
+		</card>
+		<card name="Isildur's Tomb" graphics="Isildur's Tomb.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Enedhwaith"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major*) *—Sapling of the White Tree only—"/>
+			 <attr key="auto_attack" value="Animals. Eagles — 1 strikes with 11 prowess (detainment)"/>
+		</card>
+		<card name="Isildur's Tomb" graphics="Isildur's Tomb.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Enedhwaith"/>
+			 <attr key="haven" value="Geann a-Lisch"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Animals. Eagles — 1 strikes with 11 prowess"/>
+		</card>
+		<card name="Lind-or-Burúm" graphics="Lind-or-Burúm.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Fangorn"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Awakened Plant — 1 strike with 10 prowess (attacker chooses defending characters; an Ent in the company may tap to cancel this attack)"/>
+			 <attr key="special" value="Treebeard may be played at this site.&quot;I can see and hear, and smell and feel, a great deal from this, from this, a-lalla-lalla- rumba-kamanda-lind-or-burúm.&quot; —LotRIII"/>
+		</card>
+		<card name="Lind-or-Burúm" graphics="Lind-or-Burúm.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{d}{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Fangorn"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Awakened Plant — 1 strike with 10 prowess (attacker chooses defending characters)"/>
+			 <attr key="special" value=""/>
+		</card>
+		<card name="Misty Mountains" graphics="Misty Mountains.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value=""/>
+		</card>
+		<card name="Turukulon's Lair" graphics="Turukulon's Lair.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Misty Mountains - Southern Spur"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Dragon — 2 strikes with 9 prowess"/>
+			 <attr key="special" value="Dunland; Fangorn. Valour in Battle may be played at this site regardless of the requirement to have a faction in play."/>
+		</card>
+		<card name="Turukulon's Lair" graphics="Turukulon's Lair.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Misty Mountains - Southern Spur"/>
+			 <attr key="haven" value="Geann a-Lisch"/>
+			 <attr key="playable" value="Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Dragon — 2 strikes with 9 prowess"/>
+			 <attr key="special" value="Dunland; Fangorn. Share of the Treasure is playable from the sideboard as if in your hand at this site."/>
+		</card>
+	</cards>
+</ccg-setinfo>

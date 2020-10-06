@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Beacons Alight" graphics="Beacons Alight.jpg" text="All sites in Gondor receive an additional automatic-attack: Men — 3 strikes with 8 prowess (detainment against hero and covert companies). Additionally, each player may bring a Dúnadan hazard creature from his discard pile to his play deck (reshuffle) during the end-of-turn phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Bitter Heirlooms" graphics="Bitter Heirlooms.jpg" text="Corruption. Playable on a Lord avatar. +1 to his P.A Dwarf-lord also receives 2 corruption points. Target Lord must make a roll during the organization phase if not at a Haven [H], modified by -4 if his P total exceeds 5, -6 if it exceeds 10, -8 if it exceeds 15, or -10 if it exceeds 20. If the result is 0 or less, he must move to a different site that turn. Cannot be duplicated on a given character. Discard during the organization phase if bearer is at a Haven.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="(2)"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Cult of the Eye" graphics="Cult of the Eye.jpg" text="Cult. Playble on a minion Man or Dúnadan faction if Doors of Night is in play. Any influence attempt by a hero player against the faction is modified by -2. Additionally, all Border-holds [B] and Free-holds [F] in the region containing the site where the faction was played gain an (additional) automatic- attack: Men — 2 strikes with 10 prowess (detainment against black players’ companies and/or if the resource player has a faction in play at a site in the region). Cannot be duplicated on a given faction.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Death of a Kinsman" graphics="Death of a Kinsman.jpg" text="Unique. Playable immediately after an attack if a character has been eliminated as a result of the attack. Tap all other characters in the company of the same race or with the same home site as the eliminated character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Dúnadan Explorers" graphics="Dúnadan Explorers.jpg" text="Dúnedain. 3 strikes. Detainment against hero and covert companies. May also be played keyed to Bay of Belfalas, Coast of Harad, and Mouths of the Anduin. If Gates of Morning or Sun is in play, may also be played keyed to any port and to any Free-domain [f] or Border-land [b] adjacent to a Coastal Sea [c] region.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="playable" value="{c}{c}"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Dúnedain"/>
+		</card>
+		<card name="Errand-riders of Gondor" graphics="Errand-riders of Gondor.jpg" text="Dúnedain. 2 strikes. Detainment against hero and covert companies. May also be played at any Dúnadan-hold. Unless this attack is cancelled or defeated, any Dúnadan creature may be played on a company that has faced Errand-riders of Gondor; if such a creature is only keyable to regions by name, it may only be played if the company is moving through a region in the same territory as one of the listed regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="playable" value="{w}{b}{f}"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Dúnedain"/>
+		</card>
+		<card name="Extravagant Tombs" graphics="Extravagant Tombs.jpg" text="Playable on an Atani-lord. +2 to his P. His companies must use minion version for all Elf-hold sites and may attack any company that contains an Elf. Additionally, he cannot play Elf characters and all his Elf characters require +1 mind to control. His Elf factions are worth 0 mp in all cases. Cannot be duplicated on a given Lord. Discard when any play deck is exhausted.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Fear of Death" graphics="Fear of Death.jpg" text="Corruption. Playable on an Atani-lord. +1 to his P, and he receives 1 corruption point (2 if a Dúnadan-lord). He must make a CP during the site phase if an Elf is at the same site. During his organization phase, a character with this card may tap to attempt to remove it. Make a roll: if the result is greater than 5, discard this card. Cannot be duplicated on a given Lord.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1(2)"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Heritage Forsaken" graphics="Heritage Forsaken.jpg" text="Playable on a Dúnadan character not moving through a Coastal Sea [c] region. The character gives 2 fewer character mp (to a minimum of 0). During his movement/hazard phase, a character with this card may try to remove it. Make a roll, adding 3 to the roll if the character taps and 3 for each Coastal Sea [c] in his company’s site path; if the result is grater than 12, discard this card. Cannot be duplicated on a given turn or character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="-2"/>
+		</card>
+		<card name="His Fury Has Betrayed Him" graphics="His Fury Has Betrayed Him.jpg" text="Playable during strike assignement on a non-avatar warrior, if he is chosen to face a strike from a non-detainment creature attack with more than one strike. No strike may be cancelled. The warrior faces the attack as though he were a single character company. Each excess strike gives -1 body to the warrior. Cannot be duplicated on a given attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Kin-strife" graphics="Kin-strife.jpg" text="Playable on a company containing only Dúnedain and Men. If the company contains any Dúnedain, no Dúnadan characters may join the company. If the company contains any Men, no Man characters may join the company.a The hazard player may discard this card (counting as one against the hazard limit) to tap a Dúnadan or a Man in the company. Discard this card if the company contains no Dúnedain or Men outside the organization phase, or if a character in the company successfully influences a Man or Dúnadan faction.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Last Army of the West" graphics="Last Army of the West.jpg" text="Unique. Playable if Doors of Night is not in play. Each minion company moving through Anórien, Ithilien, or Dagorlad faces 3 attacks: Men — 5 strikes with 8 prowess; Dúnedain — 3 strikes with 10 prowess; Eagles — 2 strikes with 12 prowess. If these attacks are defeated, place this card in opponent’s mp. Additionally, any minion company moving through the above mentioned regions may only move 3 regions in all cases (even if with starter movement).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="3*"/>
+		</card>
+		<card name="Left on the Field" graphics="Left on the Field.jpg" text="Playable on an item (except a unique ring item) that is discarded when a character leaves active play (or is taken prisoner); does not count against the hazard limit. Place this card with the item at a site in the same or adjacent region as the site the former bearer was at or moving to (hazard player’s choice); it may be played by any player at this site. If this card is discarded place it in opponent’s mp instead: it is worth -1 mp. Discard this card if the item is played by any player other than opponent.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(-1)"/>
+		</card>
+		<card name="Lord of the Nazgûl" graphics="Lord of the Nazgûl.jpg" text="Playable if Witch-king of Angmar is in play. Any player may discard (at any time) an event with ‘unleashed’ in its title from hand to target and cancel any effect that would cancel an attack or strike by a Nazgûl or Ringwraith. Discard this card if no Nazgûl (or manifestation thereof) is in play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No More Would Come" graphics="No More Would Come.jpg" text="Each player must make a roll during his untap phase for each of his tapped factions: if the result is lower than 8, the faction does not untap. Cannot be duplicated. Discard when any play deck is exhausted.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Pride Increased with Despair" graphics="Pride Increased with Despair.jpg" text="Playable on a non-avatar character with a combined mind and unused EI greater than 5. Target character’s CP are modified by -1 for each ally he controls and for each resource permanent-event with a mp played on him. Cannot be duplicated on a given character. Discard this card if target character successfully transfers a greater or special item to another character in his company.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Quick as a Snake" graphics="Quick as a Snake.jpg" text="Playable on an attack that chooses defending characters, after strikes are assigned; does not count against the hazard limit. Strikes from this attack cannot be cancelled or made ineffectual.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Quick as a Snake" graphics="Quick as a Snake.jpg" text="Playable on an attack that chooses defending characters, after strikes are assigned; does not count against the hazard limit. Strikes from this attack cannot be cancelled or made ineffectual.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Reaching Wings of Darkness" graphics="Reaching Wings of Darkness.jpg" text="Environment. If Doors of Night is in play, the first hazard creature played during each movement/ hazard phase which attack is cancelled, does not count against the hazard limit. If The Will of Sauron is in play, untapping Power Built by Waiting counts as only one against the hazard limit. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Ruffians" graphics="Ruffians.jpg" text="Men. 4 strikes. May also be played keyed to The Shire and to Bree. May also be revealed as an on-guard creature at any Border-hold [B] if you tap an agent at the site. Any Pick-pocket played on a company that has faced Ruffians receives +3 prowess this turn (unless Ruffians was cancelled).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{w}{b}{R}"/>
+			 <attr key="strikes" value="4"/>
+			 <attr key="subclass" value="Men"/>
+		</card>
+		<card name="Siege of Gondor" graphics="Siege of Gondor.jpg" text="Unique. Playable if Doors of Night is in play. Any hero company moving through Anórien, Ithilien, Imlad Morgul,and/or Gorgoroth must face the following attacks: Men — 4 strikes with 7 prowess; Orcs — 4 strikes with 9 prowess; Trolls — 2 strikes with 10 prowess; Animal — 1 strike with 11 prowess. The company may attempt to cancel each attack by making a roll, adding 1 for each scout in the company.If the result is greater than 8, the attack is cancelled. If all attacks are defeated by your opponent, he receives 3 kill mp. Additionally, Anórien is considered a Shadow-land [s] for the purposes of playing hazards other than Undead.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3)"/>
+		</card>
+		<card name="Spirit of Mordor" graphics="Spirit of Mordor.jpg" text="Playable on a non-unique detainment attack by Men, Orcs, Trolls, or Undead without an asterisk (*). May also be played on a detainment agent attack (not from a grey agent). The attack becomes a normal attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Spirit of Mordor" graphics="Spirit of Mordor.jpg" text="Playable on a non-unique detainment attack by Men, Orcs, Trolls, or Undead without an asterisk (*). May also be played on a detainment agent attack (not from a grey agent). The attack becomes a normal attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Taint of Ambition" graphics="Taint of Ambition.jpg" text="Corruption. Playable on a non-avatar diplomat. Target character receives 1 corruption point and makes a CP when a resource card requiring the diplomat skill is played on a character in the company or at the site. During the organization phase at his home site or a Haven [H] (or site that acts as a Haven for healing purposes) the character may tap to attempt to remove this card and make a roll: if the result is greater than 6, discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Taint of Deep Lore" graphics="Taint of Deep Lore.jpg" text="Corruption. Playable on a non-avatar sage. Target character receives 1 corruption point and makes a CP when a resource card requiring the sage skill is played on a character in the company or at the site. During the organization phase at his home site or a Haven [H] (or site that acts as a Haven for healing purposes) the character may tap to attempt to remove this card and make a roll: if the result is greater than 6, discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Taint of Glory" graphics="Taint of Glory.jpg" text="Corruption. Playable on a non-avatar warrior. Target character receives 1 corruption point and makes a CP when a resource card requiring the warrior skill is played on a character in the company or at the site. During the organization phase at his home site or a Haven [H] (or site that acts as a Haven for healing purposes) the character may tap to attempt to remove this card and make a roll: if the result is greater than 6, discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="The Black Captain" graphics="The Black Captain.jpg" text="Unique. Playable if Witch-king of Angmar and Doors of Night are in play. Nazgûl creatures may be played keyedto Imlad Morgul, Ithilien, and Anórien, and at non-hidden sites in these regions. Witch-king of Angmar may attack from his permanent-event state (counting as one against the hazard limit). If he is not defeated after such an attack, he is returned to his controlling player’s hand. Discard this card at the end of any turn if Doors of Night and the Witch-king of Angmar are not in active play, or if The Witch-king is in play but not at a site in the above named regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Muster of Gondor" graphics="The Muster of Gondor.jpg" text="All detainment attacks keyed by name or type to Rohan, Anórien, Lebennin or Belfalas, or to sites in these regions, receive +2 prowess and cannot be cancelled. Additionally, Lost in Free-domains cannot be played against hero companies moving through these regions. Discard when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Shirriffs" graphics="The Shirriffs.jpg" text="Hobbits. 6 strikes. Detainment against hero and covert companies. May be played keyed to The Shire and to Brandy Hall. May also be played on-guard and revealed as an (additional) automatic-attack at any site in the Shire.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="2*"/>
+		</card>
+		<card name="Too Much to Ask" graphics="Too Much to Ask.jpg" text="Playable on a non-unique ally.Wound the ally (no body check is required), or discard the ally if he is already wounded.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Venomous Sting" graphics="Venomous Sting.jpg" text="Playable on a character after a successful strike against him from a Spider or Vermin attack; does not count against the hazard limit. Disease. Target character receives -1 to his prowess and body. Additionally, the number of regions his company may move with is reduced by one (to a minimum of two). Discard this card when target character is healed or is at a Haven [H]. If played on an Elf, you may discard this card during the organization phase. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="-1"/>
+			 <attr key="body" value="-1"/>
+		</card>
+		<card name="Watchers at the Gate" graphics="Watchers at the Gate.jpg" text="Playable on a Shadow-hold [S] or Dark-hold [D]. The site gains an additional automatic-attack: Pûkel-men — 2 strikes with 9 prowess, detainment against minion companies. Cannot be duplicated on a given site. Discard if the attack is defeated or when the site leaves active play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Weary and Asleep" graphics="Weary and Asleep.jpg" text="Playable on a moving hero company. Place 1 counter on this card if the company moves to a non-Haven site; delete 1 counter from it if the company moves to a Haven [H] or Shadow-hold [S]; delete 2 counters if the company moves Dark-hold [D]; delete an additional counter if the company moves to an Under-deep site.At the end of each movement/hazard phase, tap 1 character for each counter on this card. For each food item in the company (to a maximum of 3) you may ignore the effect of 1 counter. Discard this card if there are no counters on it.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Weary of War" graphics="Weary of War.jpg" text="Every non-Ringwraith character in a company that has initiated CvCC must make a CP modified by -2 during the end-of-turn phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Wose Ambush" graphics="Wose Ambush.jpg" text="Woses. Each character in the company faces a strike. +3 prowess against Orcs. May be played keyed to any Wose-hold. May also be played keyed to Andrast, Lamedon, Old Pûkel Gap or any region containing a Wose-hold, and to Border-holds [B], Ruins &amp; Lairs [R] and Shadow-holds [S] in these regions. Any body check resulting from the attack is modified by +2. May not be played if opponent has a Wose faction in play or a Wose character in the company. Cannot be duplicated on a given movement/ hazard phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="strikes" value="a"/>
+			 <attr key="subclass" value="Woses"/>
+		</card>
+	</cards>
+</ccg-setinfo>

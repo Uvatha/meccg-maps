@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Big Bats" graphics="Big Bats.jpg" text="Animals. Six strikes. As a creature, playable at any Shadow-hold [S]. As a short-event, playable on an Orc or Wolf attack not keyed to a site; does not count against the hazard limit. Attacker chooses defending characters for this attack, and also for the next hazard creature attack against the same company this turn.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature/Short-event"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{S}"/>
+			 <attr key="strikes" value="6"/>
+			 <attr key="subclass" value="Animals"/>
+		</card>
+		<card name="Black Crows" graphics="Black Crows.jpg" text="Animals. Six strikes. As a creature, playable keyedto any non-Under-deeps Ruins &amp; Lairs [R]. As a short-event, you may bring from your discard pile to your hand any one hazard you have played as a creature this movement/hazard phase. Cannot be duplicated during a given movement/hazard phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature/Short-event"/>
+			 <attr key="prowess" value="2/-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="6"/>
+			 <attr key="subclass" value="Animals"/>
+		</card>
+		<card name="Boars" graphics="Boars.jpg" text="Animals. Boars. Two strikes. Boars receives +1 strike if Spring of Arda is in play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{b}{w}"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Animals, Boars"/>
+		</card>
+		<card name="Bregalad" graphics="Bregalad.jpg" text="Unique. Awakened Plant. Manifestation of Quickbeam.One strike. Attacker chooses defending characters. Detainment and -2 prowess against hero and covert companies. May also be played keyed to Fangorn; and at sites in that region.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="playable" value="{w}{w}"/>
+			 <attr key="strikes" value="quickbeam.one"/>
+			 <attr key="subclass" value=""/>
+		</card>
+		<card name="Choked with Vanity" graphics="Choked with Vanity.jpg" text="Playable on an Elf-lord. All his resources that can be stored and that are not stored at an Elf-hold or are not in the Elf-lord’s company are never worth more than 1 mp (overriding any other card effect). Cannot be duplicated on an Elf-lord. Discard this card if his P total is less than 6.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Curse Him, Root and Branch!" graphics="Curse Him, Root and Branch!.jpg" text="All Awakened Plant attacks against companies of minion and Fallen-wizard players (except companies of a Gandalf, Radagast or Elf-lord player) attack normally, not as detainment. Ent allies may tap to cancel an Awakened Plant attack against their company. Invert this card when such an attack is defeated. If inverted, all Awakened Plant attacks receive +1 prowess and +1 strike; place this card in opponent’s mp when one of his companies defeats an Awakened Plant attack. Otherwise, discard this card when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Dark Heart" graphics="Dark Heart.jpg" text="Playable on a site with an Awakened Plant automatic- attack (does not count against the hazard limit). Automatic-attack(s) at the site cannot be cancelled this turn. Additionally, if this card is revealed as an on-guard card, attacker chooses defending characters for Awakened Plant automatic-attacks.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Decisions of the White Council" graphics="Decisions of the White Council.jpg" text="Playable if there are at least 4 manifestations of Wizards and/or Elf-lords in play (3 if none of these are characters). Discard when these conditions are not met. Up to 3 hazard long-events (cannot be environments or manifestations of a unique creature) may be placed with this card. These long-events stay in play until this card is discarded. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Doom of the Noldor" graphics="Doom of the Noldor.jpg" text="Unique. Elf creatures playable keyed to Wilderness [w] may be played at any Elf-hold. Any effect of Hair of Uinen and Ulmo’s Watch played by an Elf-lord is cancelled. Additionally, if there is a ring or treasure item in play, any CP made by a Noldo for playing a spell or ritual, for transferring an item, or for playing Nenya or Vilya is modified by -1 (by -2 if there are 3 or more such items in play).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Elven Archer" graphics="Elven Archer.jpg" text="Elf. One strike. Playable only against overt companies. May also be played keyed to any Elf-hold or region containing an Elf-hold. Attacker chooses defending characters. Against companies moving with flying movement: +4 prowess and any resulting body checks are modified by +1. Each ranger in the attacked company lowers Elven Archer’s body by 1. Unless the attack is cancelled or defeated, any resource that requires a scout or ranger in target company cannot be played for the rest of the turn.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="playable" value="{w}{w}"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Elf"/>
+		</card>
+		<card name="Elven Custody" graphics="Elven Custody.jpg" text="Playable on a non-avatar character facing a non-detainment strike from an Elf attack. The strike receives +2 prowess; if successful, target character is not harmed but taken prisoner at the Elf-hold closest to the company’s current or new site (nearest Haven [H] as listed on the site’s hero version if tied). Rescue-attack: Elves — 3 strikes with 9 prowess. During his untap phase, the resource player makes a roll for target character, modified by +1 for every character at a site in the same or an adjacent region (or at an adjacent site) that taps; if the result is greater than 10, target character regains normal status at the site of rescue (discard this card).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Elven Wards" graphics="Elven Wards.jpg" text="For each company moving through Hollin or Woodland Realm, or moving to an Elf-hold or any version of an Elf-lord’s protected Lordhaven [H], the hazard player makes a roll, modified by +2 for an overt company and by -2 for a hero company. If the result is: 0 to 8, tap all characters in the company with mind 4 or less; 9 to 11, the company must return to its site of origin; 12+ make a body check for all characters in the company; failing this check wounds the character, or eliminates him if he was already wounded.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Evenstar of Her People" graphics="Evenstar of Her People.jpg" text="Unique. Elf. Manifestation of Arwen. One strike. Detainment against hero companies. As a creature, may be played keyed to Rhudaur and Wold &amp; Foothills; or at sites in these regions. As a permanent-event, each time a minion player would draw cards during his turn (except when resolving hand size), he may not draw more than two cards. For this purpose, all cards drawn for movement during multiple movement/hazard phases of a company are considered a single draw.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Permanent-event"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Elf"/>
+		</card>
+		<card name="Falathrim" graphics="Falathrim.jpg" text="Elves. Five strikes. Detainment against hero companies. May be played keyed to any region that contains a hero Haven [H] and is adjacent to a Coastal Sea [c]; and also to its adjacent Coastal Sea region(s). If Gates of Morning is in play, may be played keyed to any Coastal Sea region. If The Watchful Peace is in play, may be played at any Free-hold [F] port. If all strikes are successful against an overt company, the company must return to its site of origin. As a short-event, may be played as a hero resource to cancel an attack by Pirates or Corsairs of Umbar against a hero company keyed to a Coastal Sea region or site therein.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Creature/Short-event"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="5"/>
+			 <attr key="subclass" value="Elves"/>
+		</card>
+		<card name="Fangorn" graphics="Fangorn.jpg" text="Unique. Awakened Plant. Manifestation of Treebeard. Two strikes. Detainment and -2 prowess against hero and covert companies. As a creature, playable keyed to Fangorn, Rohan, Gap of Isen, Wold &amp; Foothills, Enedhwaith, Old Pûkel-land, Brown Lands, Anduin Vales, or Redhorn Gate, and also at Border-holds [B] and Ruins &amp; Lairs [R] in these regions and at any site in Fangorn. As a short-event, bring one Awakened Plant hazard creature from your discard pile to your hand.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Short-event"/>
+			 <attr key="prowess" value="14"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="3*"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value=""/>
+		</card>
+		<card name="Finglas" graphics="Finglas.jpg" text="Unique. Awakened Plant. Manifestation of Leaflock.One strike. Detainment and -2 prowess against hero andcovert companies. As a creature, may be played keyed to Fangorn, Rohan, Gap of Isen, Wold &amp; Foothills, Enedhwaith, Old Pûkel-land, Brown Lands, Anduin Vales, or Redhorn Gate; and also at Border-holds [B] and Ruins &amp; Lairs [R] in these regions and at any site in Fangorn. As a short-event, play to cancel a resource event declared earlier in the same chain of effects, during the movement/hazard phase of a company that has faced an Awakened Plant attack this turn.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Short-event"/>
+			 <attr key="prowess" value="11"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="leaflock.one"/>
+			 <attr key="subclass" value=""/>
+		</card>
+		<card name="Fladrif" graphics="Fladrif.jpg" text="Unique. Awakened Plant. Manifestation of Skinbark. One strike. Detainment and -4 prowess against hero and covert companies. Playable keyed to Fangorn, Rohan, Gap of Isen, Wold &amp; Foothills, Anduin Vales, Redhorn Gate, or Misty Mountains - Southern Spur; and also at Border-Holds [B] and Ruins &amp; Lairs [R] in these regions and at any site in Fangorn.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="16"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value=""/>
+		</card>
+		<card name="Goldberry, the River-daughter" graphics="Goldberry, the River-daughter.jpg" text="Unique. Manifestation of Goldberry. The hazard limit for overt companies at or moving to a site in Arthedain, Cardolan, Hollin, Old Forest, Rhudaur or The Shire is increased by one. The Oldest may be played on such a company. Additionally, every minion company moving through one of the above named regions must tap two rangers (instead of one) to cancel the effects of River or Enchanted Stream.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="He Is Lost to Us" graphics="He Is Lost to Us.jpg" text="Playable on a Lord or Fallen-wizard if he has 6 P or more. While this card is in active play, all creatures with an asterisk (*) that are not of the same race as the avatar (Maia for Fallen-wizard) attack normally against the company, not as detainment. When this card would normally be discarded, place it in opponent’s mp instead; opponent’s defeated creatures with an asterisk (*) are worth full kill mp.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Lord of the Woods" graphics="Lord of the Woods.jpg" text="Unique. Elf. Manifestation of Thranduil. One strike. Detainment and -3 prowess against hero companies. May be played keyed toWoodland Realm, Western Mirkwood, Heart of Mirkwood, Northern Rhovanion or Grey Mountain Narrows; and also at sites in these regions. As a permanent-event, no attack keyed to the above named regions or at sites therein is considered detainment against overt or minion companies. Additionally, any company moving in these regions faces an attack: Elves — 2 strikes with 10 prowess (detainment against hero companies). You may return Lord of the Woods to your hand, which counts as 1 against the hazard limit.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Permanent-event"/>
+			 <attr key="prowess" value="14/9"/>
+			 <attr key="mp" value="3*"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Elf"/>
+		</card>
+		<card name="Pride" graphics="Pride.jpg" text="Any character playing or using a card requiring a skill or race must make a CP modified by -1 (-2 if a Noldo). Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Protecting Their Domain" graphics="Protecting Their Domain.jpg" text="All creature attacks keyed to Jungle [j] or Wilderness [w] receive -1 prowess. All Animal, Spider, and Awakened Plant attacks receive +1 prowess (+2 prowess if not keyed to a site). Discard this card when an Animal, Spider, or Awakened Plant attack is defeated. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Sentinel of the Grove" graphics="Sentinel of the Grove.jpg" text="Playable on a non-Dragon’s lair Ruins &amp; Lairs [R] in a Wilderness [w]. May also be played on an oasis. The site gains an additional automatic-attack: Awakened Plant — 1 strike with 10 prowess. Discard this card when the site leaves active play. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Shifting Paths" graphics="Shifting Paths.jpg" text="Environment. Playable on a moving company with more Wilderness [w] and/or Jungle [j] regions in its site path than there are avatars, rangers and/or Maia and Ent allies in the company. The defending player must replace the company’s new site with a site from his location deck located in the same or an adjacent region. If none is available and both players are of the same alignment, the hazard player may take a site from his location deck instead.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Sons of Elrond" graphics="Sons of Elrond.jpg" text="Unique. Elves. Manifestation of Elladan and of Elrohir. Two strikes. Detainment against hero companies. As a creature, playable keyed to Rhudaur and its adjacent regions; and also at sites in these regions if the company contains a leader or a Ringwraith. May also be played against a company that has faced Elves upon Errantry this turn. If any strike of Sons of Elrond is successful the company must discard one item it controls (defender’s choice). As a short-event, target and cancel an effect that would cancel an attack or strike from an Elf hazard creature.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Short-event"/>
+			 <attr key="prowess" value="12/8"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Elves"/>
+		</card>
+		<card name="The Dark Days" graphics="The Dark Days.jpg" text="Discards and prevents the play of Alliance of Free Peoples and of any Elf-friend played on a Dwarf or Dwarf-friend played onan Elf. Additionally, Elf-lords must use minion versions for Dwarf- holds; Dwarf-lords must use minion versions for Elf-holds. Companies containing an Elf-lord may attack any company that contains a Dwarf and no Elf or Wizard; companies containing a Dwarf-lord may attack any company that contains an Elf and no Dwarf or Wizard. Any player may tap an Elf and a Dwarf he has in play and make a roll; if the result is greater than 8 this card is discarded. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Oldest" graphics="The Oldest.jpg" text="Unique. Maia. Manifestation of Tom Bombadil. Two strikes. Detainment and -3 prowess against hero and non- Ringwraith covert companies. As a creature, may be played keyed to Old Forest; or at sites in this region; may also be played at Barrow-downs. Ring abilities cannot cancel a strike or attack from The Oldest. As a permanent-event, no minion or overt company may move to a site in Old Forest. You may return The Oldest as a permanent-event to your hand, which counts as one against the hazard limit.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Permanent-event"/>
+			 <attr key="prowess" value="19"/>
+			 <attr key="body" value="11"/>
+			 <attr key="mp" value="6*"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Maia"/>
+		</card>
+		<card name="The Watchful Peace" graphics="The Watchful Peace.jpg" text="Each player may bring one Maia hazard permanent- event from his discard pile to his play deck (reshuffle) during the end-of-turn phase. Additionally, if Doors of Night is not in play, hazard creatures which are manifestations of a Wizard or Elf-lord may be played keyed to Border-land [b], Border-hold [B] or Wilderness [w] against minion and overt companies; and also at Ruins &amp; Lairs [R] if such company contains a ring. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Tree-herder" graphics="Tree-herder.jpg" text="Awakened Plant. One strike. Detainment if the company contains an Elf, Hobbit, or Wizard (not a Fallen- wizard). May also be played following an attack from a unique Awakened Plant creature against the company this turn, or at a site with Nature’s Revenge. Unless Tree-herder’s attack is defeated, the hazard player may reveal the top ten cards of his play deck: one revealed Awakened Plant creature of attacker’s choice immediately attacks the company (shuffle the remaining cards back into the play deck).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="11"/>
+			 <attr key="body" value="4"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="playable" value="{w}{w}{w}"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value=""/>
+		</card>
+		<card name="Wrath of the Olvar" graphics="Wrath of the Olvar.jpg" text="All Awakened Plant attacks receive +1 strike and attacker chooses defending characters. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Yavanna's Plea" graphics="Yavanna's Plea.jpg" text="All Awakened Plant attacks with body have their body modified by +1. All Awakened Plant attacks without body have 4 body. Discard when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+	</cards>
+</ccg-setinfo>

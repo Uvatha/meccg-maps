@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Angbor" graphics="Angbor.jpg" text="Unique. +1 EI against Men and Dúnedainplayable at sites in Gondor.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Calembel"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Argirion" graphics="Argirion.jpg" text="Unique. +1 prowess against Men. If Argirion becomes a leader: +1 to his prowess, body, mind and EI.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Linhir"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Derufin" graphics="Derufin.jpg" text="Unique. If in the same company as Duilin, he requires only 2 points of influence to control.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Vale of Erech"/>
+			 <attr key="skills" value="Ranger"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Dervorin" graphics="Dervorin.jpg" text="Unique. +1 EI against Dúnedain.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Calembel"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Duilin" graphics="Duilin.jpg" text="Unique. If in the same company as Derufin, he requires only 2 points of influence to control.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Vale of Erech"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Duinhir" graphics="Duinhir.jpg" text="Unique. +2 EI against Men of Lamedon faction. +2 EI against characters with Vale of Erech as their home site.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Vale of Erech"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Dúnadan Mariner" graphics="Dúnadan Mariner.jpg" text="+1 prowess when at or moving to a Port or sitein a Coastal Sea [c] region. tap: allow his company to use Port-movement. Discard a Great Ship or Black Sails (for no effect) during the organization phase to allow his company to move 3 extra regions, if moving with Port-movement or to a site in a Coastal Sea region.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any Dúnadan-hold Port"/>
+			 <attr key="skills" value="Ranger"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Dúnadan Mariner" graphics="Dúnadan Mariner.jpg" text="+1 prowess when at or moving to a Port or sitein a Coastal Sea [c] region. tap: allow his company to use Port-movement. Discard a Great Ship or Black Sails (for no effect) during the organization phase to allow his company to move 3 extra regions, if moving with Port-movement or to a site in a Coastal Sea region.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any Dúnadan-hold Port"/>
+			 <attr key="skills" value="Ranger"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Elessar" graphics="Elessar.jpg" text="Unique. Leader. Manifestation of Aragorn II. +4 EI against Dúnedain and Elves. May play Return of the King and Army of the Dead (as if Aragorn II). May tap to use a Palantír he bears. When Elessar enters play, you may take either Kingsfoil, Return of the King, or Army of the Dead from your sideboard to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="11"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="home_site" value="Annúminas, Minas Tirith"/>
+		</card>
+		<card name="Golasgil" graphics="Golasgil.jpg" text="Unique. +2 EI against the Men of Anfalas faction.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Lond Galen"/>
+			 <attr key="skills" value="Scout/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Halbarad of the North" graphics="Halbarad of the North.jpg" text="Unique. Manifestation of Halbarad. +2EI against Dúnedain. +2EI against factions playable at his home sites.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="any Border-hold in Eriador"/>
+			 <attr key="skills" value="Ranger/Sage/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Hirgon" graphics="Hirgon.jpg" text="Unique. +2 EI against Man and Dúnadan factions. If Hirgon is the only character in the company, add +2 to any of his influence attempts.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Minas Tirith"/>
+			 <attr key="skills" value="Scout/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Hirluin the Fair" graphics="Hirluin the Fair.jpg" text="Unique. May use Black Arrow as though he were a Man.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Lond Galen"/>
+			 <attr key="skills" value="Warropr/Scout"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Húrin the Tall" graphics="Húrin the Tall.jpg" text="Unique. +1 EI against characters and factions playableat Minas Tirith. Atani-lord only: if Captains of the West is in play and Fallen-Saruman is not, you may play Keys of Orthanc and The Fortress of Isen (as though you were Saruman).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Minas Tirith"/>
+			 <attr key="skills" value="Warrior/Sage"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Ingold" graphics="Ingold.jpg" text="Unique. -1 to his CP. -1 to his influence attempts against factions.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Cair Andros, Minas Tirith"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Lord Denethor" graphics="Lord Denethor.jpg" text="Unique. Leader. Manifestation of Denethor II. +2 EI against Dúnedain. +3 EI against characters with a home site in Gondor. +2 EI against the Tower Guard of Minas Tirith faction. May tap to use a Palantír he bears. When Lord Denethor is at Minas Tirith, you may keep one more card than normal in your hand. tap: take Sworn to the Lord or Tower of Guard from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="home_site" value="Minas Tirith"/>
+		</card>
+		<card name="Lothíriel" graphics="Lothíriel.jpg" text="Unique. +2 EI against Éomer and Imrahil II. tap: give +2 to a CP made by a Man or Dúnadan character in her company.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="1"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="Dol Amroth"/>
+			 <attr key="skills" value="Sage"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Prince Imrahil" graphics="Prince Imrahil.jpg" text="Unique. Leader. Manifestation of Imrahil. +2 against Dúnedain. +3 EI against characters with a home site in Anfalas, Belfalas, or Lamedon. +2 EI against the Knights of Dol Amroth faction. When Prince Imrahil is at Dol Amroth, you may keep one more card than normal in your hand. tap: take Legacy of the Faithful or Tower of Amroth from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="home_site" value="Dol Amroth"/>
+		</card>
+		<card name="Thorongil" graphics="Thorongil.jpg" text="Unique. Grey agent. Manifestation of Aragorn II.+2 prowess against Nazgûl and Ringwraiths. Agent only: May move to a Darkhaven [K]. May take another agent action (not counting against the hazard limit) each time he takes an agent action. tap: add an extra strike to his attack. tap: attack a company moving to his site during the movement/hazard phase.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Warrior/Scout/Ranger Dúnadan "/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Edoras, Minas Tirith"/>
+		</card>
+		<card name="Will Whitfoot" graphics="Will Whitfoot.jpg" text="Unique. +2 EI against Hobbits. Unless he is among the starting characters he may only be brought into play at his home site. He is considered a sage for the purpose of playing rituals. If Mathom Lore is played on him, he may use any item as though he were a sage.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="0"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="home_site" value="Michel Delving"/>
+			 <attr key="skills" value="Diplomat"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+		<card name="Will Whitfoot" graphics="Will Whitfoot.jpg" text="Unique. +2 EI against Hobbits. Unless he is among the starting characters he may only be brought into play at his home site. He is considered a sage for the purpose of playing rituals. If Mathom Lore is played on him, he may use any item as though he were a sage.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="0"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="home_site" value="Michel Delving"/>
+			 <attr key="skills" value="Diplomat"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+		<card name="Wose Elite Hunter" graphics="Wose Elite Hunter.jpg" text="+3 prowess against Orcs. May only be revealed as a starting character if the company already includes a Wose character with a higher mind. tap: allow his company to move with region movement as if two non-Dark-domain, non- Shadow-land regions separated by a mountain range were adjacent (at least 1 region must contain a Wose-hold).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any Wose-hold"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Wose"/>
+		</card>
+	</cards>
+</ccg-setinfo>

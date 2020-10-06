@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="A Flush of Air" graphics="A Flush of Air.jpg" text="Unique. Elrond Half-elven specific. Place this card on Elrond if he is in play. tap: during your end-of-turn phase to take one Far-sight, Moon-runes, Test of Lore, or Wisdom to Wield from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Half-elven"/>
+		</card>
+		<card name="A Lady Rules upon Arda" graphics="A Lady Rules upon Arda.jpg" text="Lady Galadriel specific. Playable on Galadriel ifshe is at Lórien and bears The One Ring. Only one A Lady Rules upon Arda may be played in a given turn. Make a roll during each of your end- of-turn phases if Galadriel bears The One Ring and is untapped and at Lórien. Add 1 for each A Lady Rules upon Arda you have in play. If the result is less than 6, Galadriel is eliminated. If the result is greater than 9, you win the game.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="3"/>
+			 <attr key="specific" value="Galadriel"/>
+		</card>
+		<card name="A Long-hoarded Treasure" graphics="A Long-hoarded Treasure.jpg" text="Unique. Playable on Círdan if he is at Grey Havens. If Reconstructed Towers is in play, Palantír of Elostirion is not discarded as per its card text when its bearer moves from The White Towers to Grey Havens (or vice versa). Additionally, if you are Círdan you may play A New Ringlord; The White Towers must be used (regardless of its site type) to fulfill the site requirement for the roll of A New Ringlord.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Accept the Offering" graphics="Accept the Offering.jpg" text="Unique. Lady Galadriel specific. Playable on an untapped Galadriel at Lórien if The One Ring is also at Lórien. Tap Galadriel and the bearer of The One Ring (if untapped). Both characters must make a CP modified by -4. If both are still in play afterwards, Galadriel may bear The One Ring and she immediately takes control of it. +1 to her CP.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Galadriel"/>
+		</card>
+		<card name="Against All Counsel" graphics="Against All Counsel.jpg" text="Playable only on Elrond Half-elven or Thranduil of Mirkwood, if he is at his home site and bears The One Ring. May also be played during the site phase. If your avatar bears The One Ring, he must make a CP during your end-of-turn phase for each hero character with a mind of 8 or more (10 for a wizard) at his current site. If still in play afterwards, make a roll and add 1 for each hero character with a mind of 8 or more (10 for a Wizard) at his site: if the result is less than 6, your avatar is eliminated. If the result is greater than 10, you win the game.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="3"/>
+		</card>
+		<card name="Arsenal of Lindon" graphics="Arsenal of Lindon.jpg" text="Unique. Círdan the Shipwright specific. Whenever a battle-gear item is stored at Grey Havens, it must be placed with this card instead and you may take one non-unique battle-gear item from your sideboard and place it with this card. Any item placed with Arsenal of Lindon is considered “off to the side”; it yields no mp and you may play it as if from hand. You receive this card’s mp if there is an opponent’s item placed with it.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(2)"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Shipwright"/>
+		</card>
+		<card name="Captain of the House" graphics="Captain of the House.jpg" text="Unique. Playable on Glorfindel. Glorfindel becomesa leader. He receives +1 prowess against Dragons, Nazgûl and Spawn, and the body of such strikes against him is modified by -1. Discard this card if Glorfindel is in a company without an avatar and moves to a site without automatic-attack that is not in Eriador. tap: during your end-of-turn phase to take one Power Against the Shadow from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="(+1)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Chief-guardian" graphics="Chief-guardian.jpg" text="Unique. Lady Galadriel specific. Playable on Fanar. +1 EI against Elves. Fanar requires only 2 points of influence to control and may only be controlled by Galadriel or GI. Discard this card if Fanar is in a company without an avatar and moves to a site not in Wold &amp; Foothills or its adjacent regions. Additionally, if he is the highest mind Elf in the company Fanar becomes a leader; you choose defending unwounded characters for any attack against his company that does not choose defending characters (and also during CvCC at a site in a Wilderness [w]).">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Galadriel"/>
+		</card>
+		<card name="Companions since the Eldar Days" graphics="Companions since the Eldar Days.jpg" text="Elf-lord and Dúnadan-lord only. You may play Elf and Dúnadan characters with up to a 7 mind. Such characters may also be in your starting company. Your Elf and Dúnadan characters and factions are each worth full mp. Additionally, when one of your Dúnadan characters taps to support an Elf in his company (or vice versa), he gives +2 to the prowess or CP (instead of +1). You may discard this card during the organization phase to bring an Elf or Dúnadan character into play at one of your Lordhavens [H]; the character must have a home site located in the same territory as the Lordhaven (or in an adjacent region). Discard this card if you have 12 P or more.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Drive back the Shadow" graphics="Drive back the Shadow.jpg" text="Unique. Lady Galadriel specific. Each time you play Nenya while Galadriel is at or moving to a Ruins &amp; Lairs [R], Shadow-hold [S]or Dark-hold [D] in Wilderland or its adjacent regions, place a token on that site; you may place the site with this card instead of discarding it from play. If placed with this card, all versions of the site become a Ruins &amp; Lairs [R] and the region containing it becomes a Wilderness [w]. This card is worth 1 mp for each site placed with it (to a maximum of 4). A minion player may discard a site placed with this card during the site phase at the corresponding minion version of that site, if his company there: taps an avatar, plays a magic resource, or discards a technology item.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Galadriel"/>
+		</card>
+		<card name="Fosterhome of Royal Heirs" graphics="Fosterhome of Royal Heirs.jpg" text="Unique. Elrond Half-elven specific. You may bring Dúnadan characters normally playable by Elrond into play at Rivendell (or at any of your Lordhavens [H] if he is a ranger). If this is a starting stage card, such characters may be in your starting company and you must start the game at Rivendell. Place this card on Elrond if he is in play. +3 EI against Dúnedain. Your Dúnadan characters and factions are each worth full mp.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+3"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Half-elven"/>
+		</card>
+		<card name="In Accord with Nature" graphics="In Accord with Nature.jpg" text="Playable if you are Alatar, Gandalf, Radagast, or an Elf-lord. You may only bring Elf, Hobbit, Wizard and Wose characters into play. Discard any characters you have in play of other races when you play this card. As long as you have more Wose characters and/or more Animal, Ent, Wolf and Wose allies and factions in play than your opponents, these are worth full mp to you. Additionally, your Animal, Ent, Wolf and Wose characters and allies may tap to cancel an attack of their corresponding type against their company (Awakened Plant for Ents). Discard this card if you defeat an attack of these types.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Keeper of the Passage" graphics="Keeper of the Passage.jpg" text="Unique. Círdan the Shipwright specific. Place this card in your mp. Whenever Círdan’s company defeats an attack from a hazard creature keyed to a Coastal Sea [c] region or site therein (by type or name), or from a manifestation of Eärcaraxë or Gondring, place the defeated creature (or event) with this card. If there are at least 3 hazards placed with this card (or any one unique hazard), it gives mp equal to the combined normal mp of the cards placed with it (to a maximum of 5).">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Shipwright"/>
+		</card>
+		<card name="Kinsman and Ambassador" graphics="Kinsman and Ambassador.jpg" text="Unique. Círdan the Shipwright specific. Playable on Círdor, Galdor, or Tharúdan. +1 to his EI. Target character requires only 2 points of influence to control and may only be controlled by Círdan or GII. He may tap to cancel a detainment attack against his company. Additionally, if he is the highest mind Elf in the company he becomes a leader.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Shipwright"/>
+		</card>
+		<card name="Lady of Many Gifts" graphics="Lady of Many Gifts.jpg" text="Unique. Lady Galadriel specific. Place this card on Galadriel if she is in play. tap: during the organization phase to take Phial of Galadriel, Three Golden Hairs, or an item only playable at Lórien from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Galadriel"/>
+		</card>
+		<card name="Lady of Many Songs" graphics="Lady of Many Songs.jpg" text="Unique. Lady Galadriel specific. Place this card on Galadriel if she is in play. tap: during your end-of-turn phase to take one Elf-song, Healing Song, or Song of the Lady from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Galadriel"/>
+		</card>
+		<card name="Lady of Many Visions" graphics="Lady of Many Visions.jpg" text="Unique. Lady Galadriel specific. Place this card onGaladriel if she is in play. This card does not untap normally during the untap phase; instead, Galadriel may tap during the untap phase to untap this card. tap: during your end-of-turn phase to take one Mirror of Galadriel, Soul-piercing, or Show Things Unbidden from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Galadriel"/>
+		</card>
+		<card name="Legendary Hunt" graphics="Legendary Hunt.jpg" text="Unique. Thranduil of Mirkwood specific. Playable on Thranduil if you have in play at least 7 P, The King’s Hunting, and three other warriors in his company. Discard this card if these requirements are not met. Thranduil is considered Alatar for the purpose of playing and interpreting Join the Hunt and The Hunt. tap: during your end-of-turn-phase to take one The Hunt from your discard pile to your hand. If Thranduil defeats a creature using The Hunt, you may invert this card. If inverted, Thranduil is considered Alatar for the purpose of playing and interpreting The Great Hunt.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="3"/>
+			 <attr key="specific" value="Mirkwood"/>
+		</card>
+		<card name="Libraries of Imladris" graphics="Libraries of Imladris.jpg" text="Playable on a sage at Rivendell (or in your starting company if you are Gandalf or Elrond Half- elven). Target sage may use spirit-magic. He may tap to discard one Memories Grown Dim or No Memory of This Place. Additionally, when you play Praise to Elbereth you may attempt to remove one corruption card from a character in the company (as if during the organization phase; +2 to the roll).">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Long-time Visitor" graphics="Long-time Visitor.jpg" text="Unique. Elrond Half-elven specific. Playableif Fosterhome of Royal Heirs is in play. Strider and Aragorn gain Rivendell as a home site. You may bring Strider into play under Elrond’s EI. Place this card on Strider when he enters play. Additionally, you may bring Aragorn II into play with Strider’s company. Strider and Aragorn may only be controlled by Arwen, Elrond, or GI.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Half-elven"/>
+		</card>
+		<card name="Lord of Wood and Beast" graphics="Lord of Wood and Beast.jpg" text="Unique. Thranduil of Mirkwood specific. Playable if you have 4 P or more. Place this card in your mp. +2 to your GI. Each of your Animal factions played at sites in Woodland Realm or its adjacent regions may be placed with this card (only one such faction per given site). Each faction placed with this card is worth 2 mp. You receive this card’s mp if you have at least 3 different factions placed with it.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(2)"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Mirkwood"/>
+		</card>
+		<card name="Master-healer" graphics="Master-healer.jpg" text="Playable on Elrond, Erestor, or Nestador. Target character may tap to discard a dark enchantment from another character in his company. Additionally, he is considered Radagast for the purpose of playing and interpreting Herb-lore. tap: during your end-of-turn phase to take one Healing Song, Herb-lore, or Warm Now Be Heart and Limb from your discard pile to your hand. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Moon-runes" graphics="Moon-runes.jpg" text="Unique. Elrond Half-elven specific. Place this card on Elrond if he is in play. Your Dwarf characters and factions are worth full mp. Unhappy Blows and The Dark Days do not affect Elrond’s company (or characters therein). You may discard this card during the organization phase to bring into play under Elrond’s EI at Rivendell a Dwarf with up to a 6 mind; the character may be taken from your discard pile or hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Half-elven"/>
+		</card>
+		<card name="Order of Jewel and Ring-smiths" graphics="Order of Jewel and Ring-smiths.jpg" text="Elf-lord only. You may play and use miniontreasure items as hero items. Your ring and treasure items borne by Elves are worth full mp. Additionally, you may tap an Elf at a site in Hollin to take Gwaith- i-Mirdain from your discard pile to your hand. Cannot be duplicated by a given player. tap: and tap an Elf sage to store a Reforging in his company or to replace an ore resource in his company with a Reforging from hand (discard the ore resource).">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Possessions of the Green-elves" graphics="Possessions of the Green-elves.jpg" text="Elf-lord and Elessar only. Playable on a Lordhaven [H].If Círdan, Bladorthin, or Thranduil bears Emerald of Doriath, your GI is increased by two. tap: and tap an Elf with a mind of 5 or more (or any Nando or Silvan Elf) at the site to let him take control of one of the following items: Arrows Shorn of Ebony, Bow of Yew, Elven Cloak, Elven Rope. If Galadriel or Thranduil taps, he may take control of Emerald of Doriath instead. The item may be taken from your hand, discard pile, or sideboard. Afterwards, the Elf makes a CP.Cannot be duplicated on a given site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Possessions of the High-elves" graphics="Possessions of the High-elves.jpg" text="Elf-lord and Elessar only. Playable on a Lordhaven [H]. Your Palantíri are each worth full mp. tap: and tap an Elf with a mind of 5 or more (or any Noldo or Sinda) at the site to let him take control of one of the following items: Adamant Helmet, Elf-stone, Miruvor or Scabbard of Chalcedony. If Círdan or Elrond taps, he may take control of Jewel of Beleriand instead. The item may be taken from your hand, discard pile, or sideboard. Afterwards, the Elf makes a CP. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Prince of Mirkwood" graphics="Prince of Mirkwood.jpg" text="Unique. Thranduil of Mirkwood specific. Playable on Legolas. Legolas requires only 2 points of influence tocontrol and can only be controlled by Thranduil or GI. Additionally, he gains the ranger skill and receives +1 prowess against Orcs and Spiders. If he is the highest mind Elf in the company, he becomes a leader. Discard this card if Legolas is in a company without an avatar and moves to a site not in Woodland Realm or its adjacent regions. tap: during your end-turn-phase to bring one Many Turns and Doublings from your discard pile to your play deck and shuffle.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="(+1)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Mirkwood"/>
+		</card>
+		<card name="Realm of Narya" graphics="Realm of Narya.jpg" text="Unique. Place this card on Círdan if he is in play. Discard this card if Ring of Fire or a non- hazard, non-Fallen-wizard manifestation of Gandalf is in play. Ring of Fire cannot be played and Fallen Gandalf may not use Narya. Círdan is considered Gandalf for the purpose of playing and interpreting Narya. tap: during your organization phase to take one Narya from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Ring of Air" graphics="Ring of Air.jpg" text="Unique. Elrond Half-elven specific. Place this card on Elrond if he is in play. This card gives two corruption points if Elrond is at Rivendell. tap: during your end-of-turn phase to take one Vilya from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1(2)"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Half-elven"/>
+		</card>
+		<card name="Ring of Water" graphics="Ring of Water.jpg" text="Unique. Lady Galadriel specific. Place this card on Galadriel if she is in play. tap: during your end-of-turn phase to take one Nenya from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Galadriel"/>
+		</card>
+		<card name="Sworn to the Lord" graphics="Sworn to the Lord.jpg" text="Lord-player only. Place this card on your Lord whenhe is in play. Followers of your Lord cannot be the target of hazards that would return them to your hand (e.g. Call of Home). Additionally, +2 to your rolls for influence attempts against any of your characters that have the same home site as your Lord, and for rolls required by hazards that would return such a character to your hand or split him off from the company.Cannot be duplicated by a given player.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="The Elf-king" graphics="The Elf-king.jpg" text="Unique. Elf-lord only. Playable on your Elf-lord, if he controls an avatar specific stage card and an item giving 7 or more mp and corruption points combined, and if you have in play at least: 12 P, 1 Elf faction, and 4 unique Elf characters. Discard this card if these conditions are not met. +3 EI. If he is at one of your protected Lordhavens [H], your Elf-lord may make influence attempts as if at a site in the same or an adjacent region.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+3"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="sp" value="4"/>
+		</card>
+		<card name="The King's Hunting" graphics="The King's Hunting.jpg" text="Unique. Thranduil of Mirkwood specific. Place this card on Thranduil if he is in play. Your Clean the Greenwood are worth full mp. tap: during your end-of-turn phase to take one warrior only resource or a non-unique Elf character from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Mirkwood"/>
+		</card>
+		<card name="The Sea's Prowess" graphics="The Sea's Prowess.jpg" text="Unique. Círdan the Shipwright specific. Place this card on Círdan if he is in play. Lindon becomes a Coastal Sea [c]. Círdan may use Kindling of the Spirit as if he were a Wizard. tap: during your end-of-turn phase to take one Belegaer, Kindling of the Spirit, The Reach of Ulmo, or a non-unique Elf character from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Shipwright"/>
+		</card>
+		<card name="The Trees Have Ears" graphics="The Trees Have Ears.jpg" text="Playable if you are Alatar, Galadriel, Gandalf, Radagast or Thranduil. Your Ent allies and factions are worth full mp. When an opponent’s company moves through a region containing a site where your avatar or one of your Ent allies or Ent factions is located (or region adjacent to this), you may look at 2 random cards from his hand for each Wilderness [w] in that company’s site path.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Trusted Counsellor" graphics="Trusted Counsellor.jpg" text="Lord-player only. Playable on a non-avatar character of the same race as your Lord in your Lord’s company (or in your starting company). +1 EI for each of his skills against characters and factions of his race. Target character may only be controlled by your Lord or GI. If he has the same home site as your Lord he requires 3 fewer points of influence to control (to a minimum of 3). Cannot be duplicated by a given player.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="*"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Wardens of the Woodland Realm" graphics="Wardens of the Woodland Realm.jpg" text="Unique. Thranduil of Mirkwood specific. Woodland Realm becomes a Wilderness [w]. tap: and discard from hand an asterisk (*) creature playable keyed to Heart of Mirkwood, Western Mirkwood or Woodland Realm (not by region type), to cancel an attack against one of your companies moving to a site in Woodland Realm (or with only these regions in their site path). tap: during your end-turn-phase to take one Elf-path or Refuge from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Mirkwood"/>
+		</card>
+	</cards>
+</ccg-setinfo>

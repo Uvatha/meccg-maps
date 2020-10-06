@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Arathorn II" graphics="Arathorn II.jpg" text="Unique. +1 EI against Elves and Dúnedain. +1 prowess against Orcs and Wolves. +2 EI against the Rangers of the North faction. -2 mp if eliminated. If Arathorn II is the highest mind Dúnadan in the company and bears a unique weapon, he becomes a leader and receives +1 to his CP..">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="(+1)"/>
+			 <attr key="home_site" value="Annúminas, Rivendell"/>
+			 <attr key="skills" value="Warrior/Ranger/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Ardagor" graphics="Ardagor.jpg" text="Unique. Half-troll. Leader. Can use spirit- magic. +2 prowess against Orcs. +2 EI against Trolls. Discard on a body check result of 9. Unless he is at a Darkhaven [K], discard any Orc characters in his company.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Carn Dûm, Creb Durga"/>
+			 <attr key="skills" value="Warrior/Sage"/>
+			 <attr key="race" value="Troll"/>
+		</card>
+		<card name="Ardagor" graphics="Ardagor.jpg" text="Unique. Half-troll. Warlord. Leader. Can use spirit-magic. +2 prowess against Orcs. +5 EI against Trolls. When he is at his home site, you may keep one more card than normal in your hand. Discard any Orc characters in his company. tap: take Warlord’s Lair from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="9"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="home_site" value="Creb Durga, The Under-caves"/>
+		</card>
+		<card name="Brandir" graphics="Brandir.jpg" text="Unique. +1 prowess against Orcs and Wolves.You may take Brandir to your hand from your discard pile or play deck after a successful influence attempt against the Rangers of the North faction.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="The Last Bridge, Tol Lamfirith"/>
+			 <attr key="skills" value="Scout/Ranger"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Brutal Retinue" graphics="Brutal Retinue.jpg" text="Warlord only. Half-troll. May not be among your starting characters. Discard on a body check result of 9. Must be controlled by a Warlord EI (ignore any race restrictions in company composition). Discard if not controlled by a Warlord, or to cancel a strike against his controlling Warlord.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="any Warlord's home site"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Troll"/>
+		</card>
+		<card name="Brutal Retinue" graphics="Brutal Retinue.jpg" text="Half-troll. May not be among your starting characters unless you start your avatar. Must be controlled by a Warlord’s EI (ignore any race restrictions in company composition). Discard on a body check result of 9. Discard if not controlled by a Warlord, or to cancel a strike against his controlling Warlord.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="any Warlord's home site"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Troll"/>
+		</card>
+		<card name="Brutal Retinue" graphics="Brutal Retinue.jpg" text="Half-troll. May not be among the starting characters (unless you start the game with your avatar). Discard to cancel a strike against his controlling War-lord, or if he is not controlled by a War-lord (outside the organization phase). Must always be assigned a strike from an attack before any strike can be assigned to his controlling War-lord.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="any of your War-lords' home sites"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Troll"/>
+		</card>
+		<card name="Forest-troll" graphics="Forest-troll.jpg" text="Forest-troll. Discard on a body check result of 7. +1 prowess against Ents and Awakened Plants.-1 to his CPC.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="any non-Dragon's lair Ruins &amp; Lairsin a Wilderness"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Troll"/>
+		</card>
+		<card name="Gilraen" graphics="Gilraen.jpg" text="Unique. +4 EI against Aragorn II and Arathorn II. Against Nazgûl, + 5 to her prowess and his body is halved (round up). If Gilraen is at the same site as Arathorn II, you may take Estel from your sideboard to your hand.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Rivendell, Tol Lamfirith"/>
+			 <attr key="skills" value="Scout/Sage"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Ognor" graphics="Ognor.jpg" text="Unique. Hill-troll. +2 prowess against Giants, Ents and Awakened Plants. Discard on a body check result of 8.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Creb Durga, Ettenmoors"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Troll"/>
+		</card>
+		<card name="Ranger of Arnor" graphics="Ranger of Arnor.jpg" text="May not be among the starting characters. May also be played at any non-Shadow-hold site in Cardolan or Rhudaur. Discard him if you have Bad Company in play.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="any site in Arthedain"/>
+			 <attr key="skills" value="Ranger"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Troll Henchman" graphics="Troll Henchman.jpg" text="Mountain-troll. Only one Troll Henchman may be in the company for each Troll leader and/ or avatar in the company. +1 to his company’s size for the purpose of playing and interpreting resources. If Troll Henchman is at a Free-hold [F] in a region adjacent to the regions affected by Grond, then Grond also affects that site.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="any site with a Troll automatic-attack"/>
+			 <attr key="skills" value=""/>
+			 <attr key="race" value=""/>
+		</card>
+		<card name="Ufkral" graphics="Ufkral.jpg" text="Unique. Uruk-hai. Discard on a body check result of 7. +1 EI against Orcs. +2 EI against Snaga-hai and Wolf factions. If Ufrkal controls a wolf ally, he becomes a leader. wolf allies he controls may take trophies. A wolf ally controlling one trophy gains the scout skill; controlling three trophies it gains the ranger skill.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Morkai"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+	</cards>
+</ccg-setinfo>

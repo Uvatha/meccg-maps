@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Aerfaroth" graphics="Aerfaroth.jpg" text="Unique. Playable at Pieni Satama if the influence check is greater than 8. Standard Modifications: Men (+1), Elves with a home site in the Northern Waste (+1), Dwarves (-1). tap: cancel an attack keyed to East Bay of Forochel or West Bay of Forochel by type or name.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Man Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Aiwendil" graphics="Aiwendil.jpg" text="Unique. Manifestation of Radagast. Playable on a hero company moving through a region in Wilderland or The Northern Waste, if you have not yet revealed an avatar. Characters in the company may play factions and allies as though you were Radagast. You may play spells on the company as if on Radagast (except Sacrifice of Form and True Fána); ignore any required CP. During the movement/hazard phase, if the company moves with at least two Wilderness [w ,w] in their site path, you may bring one resource from your sideboard to your play deck (or three to your discard pile). Discard this card when Radagast enters play, when you bring an avatar into play, you have 10 P or more, or during the movement/ hazard phase if the company does not attempt to move through a Wilderness region.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Anglachel" graphics="Anglachel.jpg" text="Unique. Weapon. Playable at Tol Morwen. Elf or warrior only: +1 prowess to a maximum of 10. After every strike bearer faces he must make a CP. Anglachel is considered Anglachel gives 4 corruption points if used as a minion resource. A stored Dark Forges or Reforging may be placed with this item to “restore” it. Once restored, Anglachel gives 5 mp and +5 prowess (to a maximum of 12) and -3 to target’s body.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="+1(5)/-"/>
+			 <attr key="mp" value="3(5)"/>
+			 <attr key="cp" value="2(4)"/>
+		</card>
+		<card name="Anguirel" graphics="Anguirel.jpg" text="Unique. Weapon. Playable at any Under-deeps Ruins &amp; Lairs [R] with an automatic-attack. Elf or warrior only: +4 prowess and -3 to target’s body. For every strike bearer faces he must make a CP (after the attack). Anguirel gives 4 corruption points if used as a minion resource.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="+4"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="4"/>
+			 <attr key="cp" value="3(4)"/>
+		</card>
+		<card name="Beadmaker's Healing Runeknife" graphics="Beadmaker's Healing Runeknife.jpg" text="Weapon. Playable only at a Ruins &amp; Lairs [R] in the Northern Waste. Rune item. May only be included with a starting company if it contains a character with a home site in The Northern Waste. tap: give +1 prowess to the bearer against a strike. Sage only: discard this item to give +1 body to the bearer or another character in his company for the rest of the turn or ttap bearer and discard this item to heal another character in his company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="prowess" value="(+1)/-"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Beadmaker's Hunting Runeknife" graphics="Beadmaker's Hunting Runeknife.jpg" text="Weapon. Playable only at a Ruins &amp; Lairs [R] inThe Northern Waste. Rune item. + 1 prowess to a maximum of 9. Ranger only: tap: force opponent to search his discard pile for a non-unique Animal hazard creature. This creature immediately attacks bearer as though he were a one-character company. tA tap: and discard this item to modify the prowess, body and strikes from a non-unique Animal or Wolf attack by -1 (to a minimum of 1).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Major Item"/>
+			 <attr key="prowess" value="+1/-"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Berninga" graphics="Berninga.jpg" text="Unique. Playable at Ligr Wodaize Berne if the influence check is greater than 9. Standard Modifications: Men (+1), Lossoth (-3), Angmarim (-3), any Orc faction (-2). tap: cancel a Bear attack keyed to a region in The Northern Waste against one of your companies, or cancel the effects of Beorning Skin-changers moving through a region in The Northern Waste.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Man Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Bone-harpoon" graphics="Bone-harpoon.jpg" text="Weapon. Playable only at sites in The Northern Waste. Two- handed. May only be included with a starting company if the company contains a character with a home site in The Northern Waste. Warrior only: +1 prowess to a maximum of 6. -1 body to strikes bearer faces from Wolf and Animal attacks. If bearer is assigned a strike from a Wolf or Animal attack, discard this item to make a roll and add bearer’s prowess: if greater than the attack’s prowess, the attack is defeated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="prowess" value="+1"/>
+			 <attr key="body" value="-"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Canadras Roused" graphics="Canadras Roused.jpg" text="Unique. Manifestation of Canadras. Playable at Canadras if the influence check is greater than 12. Modifications: influencer discards a major item (+3) or a greater item (+6). All attacks by manifestations of Canadras against any of your companies are cancelled. Any company moving in Lindalf, Narthalf, Rast Losnaeth, and/or Thorenaer faces an attack: Cold-Dragon — 2 strikes at 15/7 prowess/body (+2 prowess against Dwarves).">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Dragon Faction"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="Cembereth" graphics="Cembereth.jpg" text="Playable at an information site in the Northern Waste. This card can be stored at any site where you played Banishment. The sites becomes a hidden site and never leaves play. You may store hazard creatures/ trophies at this site, and receive 1 mp per such creature/trophy to a maximum of 3 mp. If you receive any mp for this card you may bring a Sentinel of the Grove from your sideboard and place it with this site, regardless of its playability. Sentinel affects all versions of the site, but it’s attacks are canceled against your companies. A copy must tap an avatar or ranger to move to any version of this site. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+		</card>
+		<card name="Conjure the Tempest" graphics="Conjure the Tempest.jpg" text="Sage only. Playable during the site phase at a non-Under-deeps Ruins &amp; Lairs [R] )]. taTap the sage and make a roll, modified by+2 or -3 (before the roll) if you discard (for no effect) a magic card from your hand. According to the result, you may immediately play from hand or discard pile a faction normally playable at the site (even if tapped) of the following type: 1-5 Demon or Undead, 6-10 Animal or Wolf, 11+ Dragon or Drake. On an unmodified roll of 2, 3 or 4 opponent may immediately play a creature of these types from his hand, play deck or discard pile; the creature must normally be keyable to the site or to generic site/region type, except [{]] (c)}]. Cannot be duplicated on a given turn.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Dreams of Beleriand" graphics="Dreams of Beleriand.jpg" text="Lore. Ritual. Playable on a Noldo or Sinda Elf. Each of your Dreams of Lore is considered Lost Knowledge and does not give any mp (not even to a Lord or Fallen-wizard player). Place this card in your mp when target Elf leaves active play. He may play Dreams of Lore at tapped sites, and also at any site in Lindon, Elven Shores, or region adjacent to these (as if a sage). While he moves to such a site, invert this card and discard a Dreams of Lore he controls to take an item playable at his new site from your discard pile to your hand. If inverted, this card gives 1 mp.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(1)"/>
+		</card>
+		<card name="Eloeklo, Demon of the North Wind" graphics="Eloeklo, Demon of the North Wind.jpg" text="Unique. Demon. Spirit of Ice and Cold. Manifestation of Eloekklo, Lindor’s Bane. Playable at any Ruins &amp; Lairs[R] in The Northern Waste, if the company plays Conjure the Tempest with a result for Demon. Discard if the company moves through a region not in The Northern Waste while Long Winter or Fell Winter is not in play. tap: cancel the effects of one environment card for his company. If his controlling character is not an avatar, opponent makes a roll during your organization phase and subtracts 3: controlling character is eliminated if the result is greater than his mind.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ranger Ally"/>
+			 <attr key="prowess" value="9/10"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Elves of Evermist" graphics="Elves of Evermist.jpg" text="Unique. Playable at Evermist if the influence check is greater than 12. Standard Modifications: Elves (+1), Elves with a home site in The Northern Waste (+3).Each of your each stored Tear of Yavanna gives +1 mp (even to a Fallen-Alatar or Fallen-Radagast player). tap: untap the Keeper of the Lodge Elf if he is at Evermist.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Elf Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Elves of Evermist" graphics="Elves of Evermist.jpg" text="Unique. Playable at Evermist if the influence check is greater than 12. Standard Modifications: Elves (+1), Elves with a home site in The Northern Waste (+3).Each of your each stored Tear of Yavanna gives +1 mp (even to a Fallen-Alatar or Fallen-Radagast player). tap: untap the Keeper of the Lodge Elf if he is at Evermist.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Elf Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Exploring Ever Eastwards" graphics="Exploring Ever Eastwards.jpg" text="Playable at the end of the organization phase on a moving company. Company may move from a site of origin in one of the following regions to a new site in one of the following regions: East Bay of Forochel, Ekkaia, Elven Shores, Gondalf, Helkeär, Hûb Uichel, Lindon, Thorenaer, or West Bay of Forochel. The site path is [ccc] and the hazard limit is increased by 2.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Forodwaith" graphics="Forodwaith.jpg" text="Playable during the organization phase on a company at a site in The Northern Waste containing a character with a home site in The Northern Waste. If the company moves with region movement to another site in The Northern Waste, the site path is [www] and the hazard limit is increased by one.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Friend of the Kelvar " graphics="Friend of the Kelvar.jpg" text="Place this card in your mp . You may place any Animal factions you have in play with this card. If there is a faction with this card, any additional factions must have been played at sites in the same territory. This card gives 2 mp (even to a Thranduil or Fallen-Radagast player) when there are at least four different Animal factions placed with it. Cannot be duplicated by a given player for a given territory.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(2)"/>
+		</card>
+		<card name="Friends of Winter" graphics="Friends of Winter.jpg" text="Unique. This card gives 3 mp when you have the Aerfaroth, Helechoth, and Lossoth factions in play. If you receive this card’s mp, these factions can only be influenced by an avatar or character with a home site in The Northern Waste, and your characters may play Information resources at any Border-hold [B] in The Northern Waste (as though Information were playable there).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3)"/>
+		</card>
+		<card name="Frozen" graphics="Frozen.jpg" text="Magic. Sorcery. Dragon-magic. Playable by sorcery user or Cold-Dragon, instead of making a body check a strike (from an ally, character or creature) he faced. Target is taken prisoner at the current site. Sorcery user makes a CP modified by -4. This card serves as the prisoner host. All rolls by enteties in opponent’s companies at this site are at -1.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Gaerennon" graphics="Gaerennon.jpg" text="Unique. Armor. Only playable at a Ruins &amp; Lairs [R] in a Coastal Sea [c] region. +2 body to a maximum of 9. Bearer may use Lordly Presence as if he were a diplomat. If bearer is a Sinda, values in parentheses and brackets apply. tap: prevent the discarding of an item by effect of Drowning Seas.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Major Item"/>
+			 <attr key="prowess" value="-"/>
+			 <attr key="body" value="+2"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2(1)"/>
+		</card>
+		<card name="Galgrin's Hammer" graphics="Galgrin's Hammer.jpg" text="Unique. Weapon. Playable at Canadras. Values in parentheses apply to an Umit bearer. +1 prowess. +2 EI against Umli and Men with a home site in The Northern Waste. tap: if bearer is a male sage, Dwarf, or Umit to place a Reforging in the company with an item that can be restored (as if stored).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="+1(3)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="mp" value="2(3)"/>
+			 <attr key="cp" value="1(2)"/>
+		</card>
+		<card name="Ghash!" graphics="Ghash!.jpg" text="Balrog specific. Playable on a company during the organization phase if you have Master of Dread and Fear in play. You may bring this card from sideboard into your play deck (reshuffle) during your organization phase. For one of your companies all CP are modified by +2 while this card is in play. Discard if Master of Dread and Fear leaves play. Cannot be duplicated.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="specific" value="Balrog"/>
+		</card>
+		<card name="Gondring Roused" graphics="Gondring Roused.jpg" text="Unique. Manifestation of Gondring. Female. Playable at Gondring’s Lair if the influence check is greater than 12. Modifications: influencer discards a major item (+4) or a greater item (+7). All attacks by manifestations of Gondring against any of your companies are cancelled. Any company moving in East Bay of Forochel, Forochel, Rast Losnaeth, and/or West Bay of Forochel faces anattack: Ice-Dragon — 2 strikes at 12/8 prowess/body (attacker chooses defending characters).">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Dragon Faction"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="Great Seagull" graphics="Great Seagull.jpg" text="Unique. Animal. Flying. Playable by a Dúnadan, Elf, or Wizard at any tapped or untapped non-Haven, non-Dragon’s lair site in a Coastal Sea [c] region in The Northern Waste (or region adjacent). tap: cancel a strike against itself (not from an automatic-attack); tap: force opponent to reveal all hazards from his hand. For either use, the next time Great Seagull would become untapped, make him tapped instead.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Scout Ally"/>
+			 <attr key="prowess" value="1/9"/>
+			 <attr key="mind" value="1"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Great Song of Awakening" graphics="Great Song of Awakening.jpg" text="Unique. Playable at Evermist on the Keeper of the Lodge Elf, if Land Reborn has been rotated 360°. Tap an Elf during the site phase atEvermist and make a roll (+1 for each other Elf tapping in support); if greater than 7 rotate this card 90°. For each time rotated this card is worth 1 mp and has the following effects (cumulative; maximum of 4) for companies in The Northern Waste: One: Mordó and Morgoth’s Ring cannot be played (discard if in play). Two: all creatures keyable to Wilderness [w] or Shadow-land [s]need an extra Wilderness [w] or Shadow-land [s] in the site path to beplayed. Three: all corruption checks from magic cards are modified by extra -2.Four: if your opponent is Durlach, Hoarmûrath, Lomaw or The Witch-king you win the game.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+		</card>
+		<card name="Greater Spell-bead" graphics="Greater Spell-bead.jpg" text="Playable at any non-Dragon’s lair Ruins &amp; Lairs [R] in The Northern Waste, if the company discards (for no effect) a Lost Knowledge card it controls. Rune item. +2 EI against characters with a lower mind than bearer. Warrior only: +1 to prowess and body (to a maximum of 10) when facing an Animal, Wolf or Awakened Plant attack. Scout only: tap: bring a scout skill card from your discard pile to your play deck. Diplomat only: tap: give +3 to an influence attempt against an animal, Ent or Man faction playable in the Northern Waste. Bearer makes a CP when this item becomes tapped">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="(+1)"/>
+			 <attr key="body" value="(+1)"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="3"/>
+		</card>
+		<card name="Grinding Ice" graphics="Grinding Ice.jpg" text="Environment. For each company moving through Elven Shores or a Coastal Sea [c] region in The Northern Waste, one Coastal Sea [c] in the company’s site path becomes a Wilderness [w]. May also be played as a hazard, if a company moves through the above mentioned regions.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Guardian of the Fire-gates" graphics="Guardian of the Fire-gates.jpg" text="Unique. Manifestation of Durlach. Spawn. Playable at The Under-forges. Unless you discard (for no other effect) a magic card from hand during the organization phase, its controlling character may not move that turn. Discard a magic card from hand to untap Guardian of the Fire-gates or give it +2 prowess and body this turn. Discard if its company moves to a non-Under-deeps site. During your organization phase, opponent makes a roll and subtracts 2: if the result is greater than its controlling character’s mind, the character is eliminated.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Warrior/Sage Ally"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Guardian Spirit" graphics="Guardian Spirit.jpg" text="Magic. Spirit-magic. Playable on a character or ally controlled by a spirit-magic-using character. Spirit- magic user makes a CP modified by -3. Discard if target is not controlled by a spirit-magic user. Target receives +2 prowess and +1 body. He must always be assigned a strike before any strike can be assigned to his controlling character. Any time a strike is assigned to target, rotate this card 90°. If rotated 360°, discard target or make a body check modified by +1; afterwards discard this card. Cannot be duplicated on a given target.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+2"/>
+			 <attr key="body" value="+1"/>
+		</card>
+		<card name="Helechoth" graphics="Helechoth.jpg" text="Unique. Playable at Hyvät Kalat if the influence check is greater than 7. Standard Modifications: Men (+1). tap: cancel an Animal, Wolf, or Giant attack keyed to Lindalf or Thorenaer (by type or name) against one of your companies. This faction gives 2 mp if the Wind-horde faction is not in play.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Man Faction"/>
+			 <attr key="mp" value="1(2)"/>
+		</card>
+		<card name="Helecthil, Light of the North" graphics="Helecthil, Light of the North.jpg" text="Environment. When Helecthil, Light of the North is played, all environment long-events in play are immediately discarded. This card is not discarded when Doors of Night is played, but when either Skies of Fire, The Sun Shone Fiercely, or Sun is played. The hazard limit for each hero or covert company at or moving to a site in The Northern Waste is reduced by 1 (to a minimum of 2). All environment effects which cause a company moving through a region of The Northern Waste to return to their site of origin are cancelled. Cannot be duplicated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Hithailin" graphics="Hithailin.jpg" text="Ritual. Playable on an Elf at Evermist. +2 to his CP for using spells. Rotate this card 90° (or place a token) whenever target Elf stores an Information or Lost Knowledge resource at Orod Certhas: you may take one spell from your sideboard or discard pile to your hand. This card may be stored at any Elf-hold (not Evermist or Helloth). If stored, it gives 1 mp for each time rotated (to a maximum of 4). Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+			 <attr key="cp" value="(+2)"/>
+		</card>
+		<card name="Ice-drakes of the Ered Úmarth" graphics="Ice-drakes of the Ered Úmarth.jpg" text="Unique. Playable at Pendrath na-Udûn if the influence check is greater than 12.Modifications: discard a magic card from hand (+3), for each major or greater item in your hoard (+2). Each of opponent’s companies moving through Gondalf, Narthalf, or Minheldolath must make a roll and subtract its company size; if the result is lower than 5, it faces an attack: Ice-drakes — 3 strikes at 15/5 prowess/body.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Drake Faction"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="Iron Mountains" graphics="Iron Mountains.jpg" text="Playable at the end of the organization phase on a company containing a ranger. If the company moves with regionmovement, tapap a ranger to move as if the following pairs of regions were adjacent: Angmar and Everdalf, Angmar and Dragon Gap, Angmar and Talath Uichel, Grey Mountain Narrows and Forovirkain, Gundabad and Talath Uichel, Gundabad and Everdalf. The company faces an attack at the beginning of its movement/hazard phase: Orcs — 2 strikes with 7 prowess. Alternatively, if the site moved to is in any of the regions listed above, the hazard limit is reduced by 1 (to a minimum of 2). Cannot be duplicated on a given company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Keeper of the Lodge" graphics="Keeper of the Lodge.jpg" text="Playable at Evermist on an Elf with a mind of 7 or more. Tap the Elf if untapped. +1 to his CP. All influence attempts against target Elf (or attempts to return him to your hand) are cancelled. While he is at Evermist, he requires only 3 points of influence to control and cannot be controlled by EI. Target Elf may tap during the end-of-turn phase to bring one ritual from your discard pile or sideboard to your play deck (reshuffle). Discard if he is at a site more than 3 regions away from Evermist or not in The Northern Waste, or if an Elf with a higher mind is at his site. Cannot be duplicated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="+1"/>
+		</card>
+		<card name="Land Reborn" graphics="Land Reborn.jpg" text="Unique. You may bring this card into play from your sideboard, if you have a company at the same site in The Northern Waste as Radagast and you discard (for no effect) a Lost Knowledge card it controls. For each stored Tear of Yavanna in play, rotate this card 90°; for each time rotated it gives 2 mp and the following effects apply (cumulative): One: +1 to your hand size. Neither so Ancient nor so Potent cannot target a stored Tear of Yavanna. Two: Spirits of Ice and Cold attacks receive -2 strikes and -4 prowess (to a minumum of 1). Make a roll for each Deathwind, Snowstorm, Fell Winter or Long Winter in play; if the result is greater than 6, it is discarded. Three: overt characters at or moving to a site in The Northern Waste receive -1 prowess; their controlling player’s hand size is reduced by 1.Four: all non-Coastal Sea regions in The Northern Waste become a single Wilderness [w].">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+		</card>
+		<card name="Losrandir" graphics="Losrandir.jpg" text="Playable at any tapped or untapped Ruins &amp; Lairs [R] in The Northern Waste, if the influence check is greater than 10.Standard Modifications: non-overt characters with a home site in The Northern Waste (+2), if Radagast is your Wizard (+3). Cannot be duplicated at a given site. Place this faction in your sideboard to take a food item from your sideboard to your hand.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Animal Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Lossidil" graphics="Lossidil.jpg" text="Unique. Playable at Helloth if the influence check is greater than 10. Standard Modifications: Elves (+1), Elves with a home site in The Northern Waste (+3), Elves with home site Thranduil’s Halls (-2), Dwarves (-2), Men (-2). tap: at any time to allow Snow-elves to be keyed to any region in The Northern Waste against an overt company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Elf Faction"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Major Spell-bead" graphics="Major Spell-bead.jpg" text="Playable at any non-Dragon’s lair Ruins &amp; Lairs [R] in The Northern Waste. Rune item. Bearer cannot be the target of disease hazards. Ranger only: tap: cancel an attack (not an automatic-attack) by Orc, Trolls, Dwarves, Giants or Men keyed to a site or region in The Northern Waste. tatap: give bearer +4 prowess against a strike he is facing; discard this item after the strike. Bearer makes a CP when this item becomes tapped.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="(+4)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Master of Dread and Fear" graphics="Master of Dread and Fear.jpg" text="Balrog specific. Demon fána. Playable during your organization phase on your Balrog avatar. Return this card to your hand: when you play another Demon fána card, or, if you so choose, during your organization phase. Target Balrog may not move. +5 to your GI. Balrog gains the diplomat and sage skill and may have followers. You may keep one more card than normal in your hand. Tap your avatar to force a character at a site in the same region as his current site to make a CP modified by -1. Once during each of your organization phases, discard a card from hand to look at up to 3 random cards at once from your opponent’s hand.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="-2"/>
+			 <attr key="body" value="-2"/>
+			 <attr key="specific" value="Balrog"/>
+		</card>
+		<card name="Merikoirat" graphics="Merikoirat.jpg" text="Unique. Playable at any site in a Coastal Sea [c] region in The Northern Waste if the influence attempt is greater than 9.Standard Modifications: Elves (+1).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Animal Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Minor Spell-bead" graphics="Minor Spell-bead.jpg" text="Playable only at a non-Dragon’s lair Ruins &amp; Lairs [R] in The Northern Waste. Rune item. May only be included with a starting company if the company contains a character with a home site in The Northern Waste. +1 EI against characters with a mind lower than bearer’s. Sage only: when bearer is required to tap for the use of a skill card, he may tap this item instead. Bearer makes a CP.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Orcs of the Bleak Mountains" graphics="Orcs of the Bleak Mountains.jpg" text="Unique. Playable at Mornost if the influence check is greater than 10. Standard Modifications: Ice-orcs (+2), Orcs of Angmar (-2). Once in play, the number required to influence this faction is 0. tap: at any time to allow a non-unique Orc hazard creature to be played keyed to Narthalf or its adjacent regions.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Orc Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Peaceful Coexistence" graphics="Peaceful Coexistence.jpg" text="Playable on Radagast or a character with home site Beorn’s House, Ligr Wodaize Berne, or Woodmen-town; if played on Radagast and at one of the above named sites, you may immediately bring one such a character into play under his EI. Target character may tap to cancel all attacks from a Wolf or Animal hazard creature with one strike for each of its attacks. If keyable to regions other than Coastal Sea [c], the creature becomes an ally under his control, with 1 mind, a prowess of normal -7, and a body of 8. Place this card with the creature, it now gives 1 ally mp.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="(-7"/>
+			 <attr key="body" value="8)"/>
+			 <attr key="mind" value="1"/>
+			 <attr key="mp" value="(1)"/>
+		</card>
+		<card name="Press on towards Shelter" graphics="Press on towards Shelter.jpg" text="Any non-overt company may move with one extra region in their site path if moving to a Haven [H]. If Doors of Night or Mordó is in play, this also applies to companies moving to a Free-hold [F]. Cannot be duplicated. Discard when your play deck is exhausted.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Pursuit through Barren Lands" graphics="Pursuit through Barren Lands.jpg" text="Playable on a company containing Celedhring or a leader with a home site in Angmar or The Northern Waste. You may start the game with this card in lieu of a minor item. Rotate this card 90° (or place a token) when the company is in The Northern Waste and either: - successfully plays Ice-drakes of the Ered Úmarth, an Information resource that taps the site, or Eloeklo, Demon of the North Wind; - engages in CvCC with a company containing an Elf; - defeats an Elf hazard creature. If rotated 360°, invert this card if the company is at a tapped Evermist. Only one copy of this card may be inverted. If inverted, this card may be stored during the site phase at a Darkhaven [K] for 5 mp: all Elf attacks receive -1 to strikes and prowess (to a minimum of 1).">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(5)"/>
+		</card>
+		<card name="Rays of Helecthil" graphics="Rays of Helecthil.jpg" text="Environment. Playable on a company in The Northern Wasteif Doors of Night is in play. Target and discard a corruption card played on a character in the company or environment card affecting the company’s movement or site path. Alternatively, any non-Elf in the company may tap to untap an Elf in the company this turn. This card may also be played as a hazard: untap all Elves and characters with a home site in The Northern Waste in the company and tap all other characters and allies with a mind. Cannot be duplicated in a given turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Rays of Helecthil" graphics="Rays of Helecthil.jpg" text="Environment. Playable on a company in The Northern Wasteif Doors of Night is in play. Discard a corruption card a character in the company controls or an environment card that affects the company’s movement or site path. Alternatively, for every region in the company’s site path you may tap a non-Elf to untap an Elf in the company this turn. This card may also be played as a hazard: untap all Elves and characters with a home site in The Northern Waste in the company and tap all other characters and allies with a mind. Cannot be duplicated in a given turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Ring of Detection" graphics="Ring of Detection.jpg" text="Unique. Ring. Playable at any Ruins &amp; Lairs [R] in The Northern Waste. tap: if bearer is a sage or Elf to reveal an on-guard card played on his company new or current site. If the card could never be legally revealed at the site as an on-guard card, it must be discarded. Bearer makes a CP modified by -1.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Ring of Detection" graphics="Ring of Detection.jpg" text="Unique. Ring. Playable at any Ruins &amp; Lairs [R] in The Northern Waste. tap: if bearer is a sage or Elf to reveal an on-guard card played on his company new or current site. If the card could never be legally revealed at the site as an on-guard card, it must be discarded. Bearer makes a CP modified by -1.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Ring of Healing" graphics="Ring of Healing.jpg" text="Unique. Ring. Playable at Evermist. tap: during your organization phase if bearer is an Elf sage with a mind of 6 or more, to heal a wounded character in his company and make a roll: if the result is greater than 9, character may heal from wounded to untapped, otherwise he heals from wounded to tapped. Bearer makes a CP modified by - 1.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Ring of Healing" graphics="Ring of Healing.jpg" text="Unique. Ring. Playable at Evermist. tap: during your organization phase if bearer is an Elf sage with a mind of 6 or more, to heal a wounded character in his company and make a roll: if the result is greater than 9, character may heal from wounded to untapped, otherwise he heals from wounded to tapped. Bearer makes a CP modified by - 1.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Ring of the Protector" graphics="Ring of the Protector.jpg" text="Unique. Ring. Playable at Malgolodh’s Cave. May also be played as a free minor item after a successful influence attempt against a Man faction in at a site in The Northern Waste. A non-overt bearer may choose to have a strike he faces (except from this item) be ineffectual: bearer must immediately face a strike (cannot be cancelled, type is bearer’s race) with a prowess equal to the original strike -3; if the strike is successful, bearer is taken prisoner at his current or new site (rescue-attack: 1 strike with a prowess equal to bearer’s base prowess +7).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Runeknife of Risinth" graphics="Runeknife of Risinth.jpg" text="Unique. Rune item. Weapon. Playable at any site in The Northern Waste if the company has faced an attack by Spirits of Cold and Ice this turn. You may discard (for no effect) a magic card from hand during the site phase to untap the bearer and tap any character or ally with a body at the site. Bearer must make a CP as if he had used the magic card. tap: immediately after a successful strike from bearer in CvCC to remove a Tear of Yavanna borne by the defeated character from play.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="+1"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Senses More Keen Than Most" graphics="Senses More Keen Than Most.jpg" text="Any Animal or Wolf faction may tap during their controlling player’s turn and force opponent to choose: reveal any one environment card from his hand, or not play environment cards this turn. For each faction tapping in this fashion in a given turn opponent must reveal a different environment card, but any environment card so revealed may be played. Discard when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Skis and Fur-coats" graphics="Skis and Fur-coats.jpg" text="Playable on a company at a Border-hold [B]. taYou may tap a ranger to cancel the effects of one Fell-winter, Long-winter, Snowstorm, or Snow in the Mountains for the company: make make a roll for each character in the company, modified by adding the number of Wilderness [w] in the company’s site path, -2 if the character is a ranger and/or has a home site in The Northern Waste, and +2 if a Hobbit or Troll. If the result is greater than the character’s body, he becomes wounded.Discard this card if the company moves to a site not in The Northern Waste or its adjacent regions.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Snow-trolls" graphics="Snow-trolls.jpg" text="Unique. Playable at any non-Dragon’s lair Ruins &amp; Lairs [R] or Shadow-hold [S] in The Northern Waste if the influence check is greater than 8. Standard Modifications: Stone Trolls (+2), Ice-orcs (-2), Wargs of Forochel (-2). tap: cancel a Troll attack against one of your companies keyed to a region or Ruins &amp; Lairs [R] in The Northern Waste.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Troll Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Song of Appeasement" graphics="Song of Appeasement.jpg" text="Song. Playable on a spirit-namer if his company has faced an Animal, Dragon, Spider, Wolf, Awakened Plant, Maia, or Spirit attack this turn. Tap the spirit-namer to discard a hazard permanent or long-event in play, or make a roll with 1 die and add the number of spirit- namers in the company; the hazard limit for his company is lowered by half the result (round down). On an unmodified roll of 1 or 2, opponent may immediately play The Balance of Things or Spirit Crime on the character from his discard pile or sideboard. Spirit-namer makes a CPC.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Spirit-abuse" graphics="Spirit-abuse.jpg" text="Spirit-magic. Playable on a spirit-magic user or a Man or sage character with a home site in The Northern Waste. Unless heis a Ringwraith, he makes a CP modified by -3. Target character may use hero rune items as if they were minion items. tIf bearing a rune item, one non-unique Animal or Wolf creature defeated by the company may be placed with this card. Before CvCC at a site in The Northern Waste, opponent’s company must face an attack from this creature; afterwards remove the creature from the game. When this card is discarded remove the creature from the game. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Spirit-namer" graphics="Spirit-namer.jpg" text="Playable on a sage with a home site in The Northern Waste bearing a rune item. Target character becomes a spirit-namer and may tap to discard a disease played on the company or an entity therein. +1 to his CP. tap: while at a Border-hold [B] in The Northern Waste to take Song of Appeasement from your discard pile to your hand.Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="+1"/>
+		</card>
+		<card name="Tear of Yavanna" graphics="Tear of Yavanna.jpg" text="Playable at a Ruins &amp; Lairs [R] in The Northern Waste, if Land Reborn is in play and you discard an inverted Vision Path froma character in the company. Make a roll: add 1 for each Elf and each sage in the company, and 1 for each Tear of Yavanna in play. If the result is greater than 9, this card is successfully played; otherwise take it back to hand. +1 to body. Bearer may not untap, but he may heal (from wounded to tapped) during the untap phase. This card may only be stored during the site phase at Evermist. You may include up to 4 copies of this card in your deck and sideboard combined.tap: cancel an Awakened Plant attack against the company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="-/+1"/>
+			 <attr key="influence" value="+3"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="3"/>
+		</card>
+		<card name="The Crist-i-Sûlhoth" graphics="The Crist-i-Sûlhoth.jpg" text="Unique. Weapon. Rune item. Playable at any Ruins and Lairs [R] in The Northern Waste if the company has faced an attack by Spirits of Cold and Ice this turn. +1 to prowess (against a Demon or Spawn strike: +3 to prowess, +2 to body to a maximum of 10, and -2 to target’s body). Sage only: tap: during opponents turn to take True Spirits of the North Wind to hand from your discard pile or play deck (reshuffle), if opponent’s company contains Eloeklo, Demon of the North Wind and reveals bearer’s site as its new site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="+1/-"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="The Prison's Spell is Fading" graphics="The Prison's Spell is Fading.jpg" text="Durlach specific. Playable on Durlach if he controls Flame of Udûn. Any magic-using non-avatar characters at his current site are discarded. Discard a magic card from hand to rotate this card 90° (or place a token; maximum of 4 times). Rotate this card 90° backwards (or remove a token) to allow Durlach to move to a non-Darkhaven Under-deeps site, or move 1 extra region if moving with region movement. Cannot be duplicated.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="specific" value="Durlach"/>
+		</card>
+		<card name="The Wargs Wield the Goblins" graphics="The Wargs Wield the Goblins.jpg" text="Playable on a company during CvCC (before strikes are assigned), if all characters control a wolf ally and no other non-flying allies are in the company Targets and cancels any effect that would cancel CvCC this turn. If the company is the defending company, you may assign all strikes (regardless of your character’s status). Alternatively, playable during the movement hazard phase if all characters in the company control a wolf ally: cancel a non-unique creature attack (without flying) against the company.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="The Well" graphics="The Well.jpg" text="Unique. Durlach specific. The following applies when Durlach is at a site in Narthalf or at any of its adjacent sites. For every magic, spell and ritual event played by your opponents’ characters at a site in Narthalf, at the Under-Forges or moving to the Under-Forges, you can take a magic card from your discard pile to your hand. If Durlach is at any site in Narthalf, then you can take a magic card to your hand if your opponent plays the event in or moving to a site in Narthalf or its adjacent regions. If Master of Dread and Fear is played by Durlach, then you can take a magic card if your opponent plays such an event at a site or moving to a site in The Northern Waste.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="specific" value="Durlach"/>
+		</card>
+		<card name="The Wind-horde" graphics="The Wind-horde.jpg" text="Unique. Playable at an untapped site in The Northern Waste, if the company plays Conjure the Tempest and attempts a result for Demon Standard Modifications: Eloekklo, Demon of the North Wind is in the company (-3 to the roll for Conjure the Tempest). Any influence attempt against this faction must be done as if playing the faction from hand. tap: at any time to cancel an effect that would discard Fell Winter or Bonds of Winter from play. Wind-horde does not untap normally during the untap phase: discard a Conjure the Tempest from hand to untap this faction.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Demon Faction"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Umli Traders" graphics="Umli Traders.jpg" text="Unique. Playable at Vasaran Ahjo if the influence check is greater than 8. Standard Modifications: Dwarves (+1), Elves (-1), Men (+1), Umli (+3). May only be played as a minion resource by a character in a covert company. This faction gives 2 mp if placed under Profitable Trade.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Umit Faction"/>
+			 <attr key="mp" value="1(2)"/>
+		</card>
+		<card name="Vision Path" graphics="Vision Path.jpg" text="Ritual. Playable on an Elf at Evermist if the Keeper of the Lodge Elf is there. taTapp the Elf if untapped. All influence attempts against target Elf (or attempts to return him to your hand) are cancelled. Any dark enchantments on him are discarded. +1 to his CP. While this card is not inverted, the Elf cannot make any influence, riddling, offering, or flattery attempts. taInvert this card during the site phase at a Ruins &amp; Lairs [R] or site where Information is playable in The Northern Waste. Cannot be duplicated on a given Elf.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="+1"/>
+		</card>
+		<card name="Warg-riders" graphics="Warg-riders.jpg" text="Playable during the site phase at the site, where you successfully played or influenced a Wolf faction this turn. Shuffle all your Orc-mounts from your discard pile or sideboard into your play deck. Till the end of turn any wolf ally is playable at this site by any orc character not controlling a wolf ally already; these wolf allies may come from your hand or discard pile only.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Warrior-priests of Angmar" graphics="Warrior-priests of Angmar.jpg" text="Unique. Playable at Litash by The Angulion,The Witch-king, or a Warlord if the influence check is greater than 9.Standard Modifications: none. tap: cancel a non-unique Man, Orc, or Troll creature attack without an asterisk (*) keyed by name or type to Angmar or its adjacent regions against one of your companies.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Man Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Wolf-steed" graphics="Wolf-steed.jpg" text="Wolf. Playable by an Orc at a Shadow-hold [S] or protected Wizardhaven [H]. May be played at a tapped site if a wolf ally is at the site. If its company consists of only Orcs and wolf allies and each character controls a wolf ally, all characters receive +1 prowess and the company may move two additional regions (to a maximum of 6). tap: cancel a strike from a non-automatic-attack against its bearer or itself.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Ally"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="1"/>
+		</card>
+	</cards>
+</ccg-setinfo>

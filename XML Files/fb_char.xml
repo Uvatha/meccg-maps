@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Aegnor" graphics="Aegnor.jpg" text="Unique. Noldo. tap: if at a site where Information is playable to test a gold ring in his company.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Amon Lind, Lórien"/>
+			 <attr key="skills" value="Sage/Diplomat"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Andovon Pathdal" graphics="Andovon Pathdal.jpg" text="Unique. Sinda. May use any bow as if he werea warrior. Discard Andovon if he is in a company without an avatar and at a site that is not in Eriador or its adjacent regions.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Grey Havens, any Refuge in Eriador"/>
+			 <attr key="skills" value="Scout/Ranger"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Aramacar" graphics="Aramacar.jpg" text="Unique. Sinda. Unless he is among the starting characters, he may only be brought into play at his home site. +1 prowess against Orcs and Undead. +3 EI against the Elves of Taur Rómen faction. Discard Aramacar if a Dwarf or Man character without Elf-friend is in his company during the movement/hazard phase, or if you have Bad Company in play.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Rhûbar"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Arhendhiril" graphics="Arhendhiril.jpg" text="Unique. Sinda. +1 EI against Elves. +4 EI against Legolas and Thranduil. +2 EI against the Wood-elves faction. tap: once per turn to give +1 to any CP made by Legolas and/or Thranduil (if in her company) that turn.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Thranduil's Halls"/>
+			 <attr key="skills" value="Ranger/Sage"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Ascarnil" graphics="Ascarnil.jpg" text="Unique. Silvan. Unless he is among the starting characters, he may only be brought into play at his home site. +1 prowess against Trolls. tap: during the organization phase when at a site in Rhudaur or its adjacent regions to force an opponent to reveal two random cards from his hand.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Rivendell, any Refuge in Eriador"/>
+			 <attr key="skills" value="Scout/Ranger"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Bladorthin" graphics="Bladorthin.jpg" text="Unique. Sinda. Unless he is among the starting characters, he may only be brought into play at his home site. +1EI against Elves. +1 prowess against Orcs and Undead. Values in brackets and parenthesis apply if Thranduil has been eliminated. If you are Thranduil: -3 to your GI. Bladorthin is considered Thranduil for the purpose of playing and interpreting stage cards. When Thranduil is eliminated, Thranduil specific resources need not be discarded and any stage cards played on him may be transferred to Bladorthin; Bladorthin now costs no influence to control.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="7/7(8/8)"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Edhellond, Thranduil's Halls"/>
+			 <attr key="skills" value="Warrior/scout/Ranger"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Celeborn, Lord of Lórien" graphics="Celeborn, Lord of Lórien.jpg" text="Unique. Sinda. Galadriel specific. Manifestation of Celeborn. Leader. +2 EI against Elves. +1 prowess against Orcs. If he is at Lórien and Galadriel is not, your hand size is increased by one. May only be controlled by Galadriel or GI. -2 mp if eliminated.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Lórien"/>
+			 <attr key="specific" value="Galadriel"/>
+			 <attr key="skills" value="Warrior/Ranger/Sage"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Celebrían" graphics="Celebrían.jpg" text="Unique. Noldo. +2 EI against Elves. +2 EI against Arwen, Elladan, Elrohir and Elrond. While moving to a non-Haven site, all other Elves in her company receive +1 prowess. -2 mp if eliminated.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Lórien, Rivendell"/>
+			 <attr key="skills" value="Scout/Sage/Diplomat"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Celedhring" graphics="Celedhring.jpg" text="Unique. Noldo. +2 to his CP when bearing a ring (except The One Ring). Discard Celedhring at the end of the organization phase if he is in play as a hero character and does not bear a ring. tap: during your organization phase to test a gold ring item in his company. Afterwards, Celedhring makes a CP modified by subtracting the normal mp of the ring that is played as a result.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="(+2)"/>
+			 <attr key="home_site" value="Barad-dûr"/>
+			 <attr key="skills" value="Scout/Sage"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Círdan the Shipwright" graphics="Círdan the Shipwright.jpg" text="Unique. Sinda. Manifestation of Círdan. Leader. +3 EI against Elves. +2 EI against the Elves of Lindon faction. When Círdan is at Grey Havens, you may keep one more card than normal in your hand. tap: cancel an attack against his company keyed to a Coastal Sea [c] region or to Lindon (by name or type).">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="9"/>
+			 <attr key="influence" value="5"/>
+			 <attr key="home_site" value="Grey Havens"/>
+		</card>
+		<card name="Círdor" graphics="Círdor.jpg" text="Unique. Sinda. +1 EI against Elves. +2 prowess against manifestations of Eärcaraxë and Gondring, and against hazard creatures normally playable keyed to Coastal Seas [c] or keyed to a Coastal Sea region or site therein (by type or name). Tap Círdor after the movement/ hazard phase if he is not at a port or site with a Coastal Sea in its site path.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Edhellond, Grey Havens"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Elrond Half-elven" graphics="Elrond Half-elven.jpg" text="Unique. Noldo. Sinda. Half-elf. Manifestation of Elrond. Leader. +2 EI against Elves. When Elrond is at Rivendell, you may keep one more card than normal in your hand. Can use spells as if a Wizard (except Sacrifice of Form). You may win the game by successfully playing Cracks of Doom or Gollum’s Fate.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="10"/>
+			 <attr key="influence" value="6"/>
+			 <attr key="home_site" value="Rivendell"/>
+		</card>
+		<card name="Elven Handmaid" graphics="Elven Handmaid.jpg" text="Silvan. Costs no influence to control if controlled by an Elf with a mind of 8 or more. Only one Elven Handmaid can be a follower of a given character. tap: at any time to give +1 to any CP made by Elves in her company this turn. The maximum bonus of any Elven Handmaid(s) tapping in this fashion is +2.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="1"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="any Elf-hold"/>
+			 <attr key="skills" value="Sage"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Emissary of the House" graphics="Emissary of the House.jpg" text="Noldo. +2 EI against any hero faction. A given company may contain only one Emissary of the House.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Rivendell"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Erestor" graphics="Erestor.jpg" text="Unique. Noldo. +3 EI against Elves. tap: discard one corruption or disease hazard event played on his company (or an entity thereof).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Rivendell"/>
+			 <attr key="skills" value="Sage/Diplomat"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Fanar" graphics="Fanar.jpg" text="Unique. Nando. +1 EI against Elves.+1 prowess against Orcs and Wolves. tap: untap a bow he bears.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Cerin Amroth, Lórien"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Huinen" graphics="Huinen.jpg" text="Unique. Noldo. Unless he is among the starting characters, he may only be brought into play at his home site. +2 EI against Elves. If Huinen is in the same company as Bladorthin, your GI is increased by two. You may shuffle any Secret News into your play deck instead of discarding it from play.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Ceber Fanuin"/>
+			 <attr key="skills" value="Sage/Diplomat"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Lady Galadriel" graphics="Lady Galadriel.jpg" text="Unique. Noldo. Manifestation of Galadriel.+2 EI against Elves. When Galadriel is at Lórien, you may keep one more card than normal in your hand. May not bear any manifestation of The One Ring. tap: take one Cup of Farewell from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="10"/>
+			 <attr key="mind" value="9"/>
+			 <attr key="influence" value="6"/>
+			 <attr key="home_site" value="Lórien"/>
+		</card>
+		<card name="Legolas of Greenwood" graphics="Legolas of Greenwood.jpg" text="Unique. Sinda. Silvan. Manifestation of Legolas. +2 EI against the Wood-elves faction. +1 prowess and +1 to his CP for each song played on the company (or an entity thereof) this turn.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Thranduil's Halls"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Mallorn-dweller" graphics="Mallorn-dweller.jpg" text="Nando. tap: cancel an attack against his companykeyed to single Wilderness [w]. Only one Mallorn-dweller may tap in this fashion per turn per company.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Rhûbar, any Elf-hold in Wilderland"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Othar" graphics="Othar.jpg" text="Unique. Sinda. +3 EI against the Raft-elves faction. tap: and discard (for no effect) a Lock nor Bar May Hinder from hand to take control of a minor item; the item must be taken from your play deck and must normally be playable at Celebannon.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Celebannon, Thranduil's Halls"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Prisoner from Ost-in-Edhil" graphics="Prisoner from Ost-in-Edhil.jpg" text="Unique. Noldo. Sauron specific. May not be among the starting characters. May only be brought into play with a company containing a ring. +2 to his CP when bearing a ring (except The One Ring). When testing a gold ring in his company, you may make two rolls and choose one result to use. May not assign a strike in CvCC. If stored as a prisoner at an Elf-hold, Prisoner from Ost-in-Edhil may be brought into play as a hero character; he costs only 5 points of influence to control if controlled by an Elf.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="(+2)"/>
+			 <attr key="home_site" value="Barad-dûr"/>
+			 <attr key="specific" value="Sauron"/>
+			 <attr key="skills" value="Warrior/Sage"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Rúmil" graphics="Rúmil.jpg" text="Unique. Nando. -1 to his CP. If in a company with Haldir or Orophin, their company’s hazard limit is reduced by 1 (to a minimum of 1).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Lórien"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Shipwright" graphics="Shipwright.jpg" text="Sinda. Discard a Great Ship from during the organization phase to allow his company to move with port-movement this turn. tap: at the end of the organization phase to allow his company to move an additional Coastal Sea [c] region.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Grey Havens, any Elf-hold port"/>
+			 <attr key="skills" value="Warrior/Sage"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Tharúdan" graphics="Tharúdan.jpg" text="Unique. Sinda. +1 EI against Elves. +2 EI against the Elves of Edhellond faction. If Moon is in play, any resource requiring Information to be playable may be played by/on Tharúdan at his current non-Haven site in a Coastal Sea [c] region (as if Information were playable at the site).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Edhellond"/>
+			 <attr key="skills" value="Warrior/Sage"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Thranduil of Mirkwood" graphics="Thranduil of Mirkwood.jpg" text="Unique. Sinda. Manifestation of Thranduil. Leader. +3 EI against Elves. +2 EI against the Wood-elves faction. When Thranduil is at Thranduil’s Halls, you may keep one more card than normal in your hand. tap: cancel an attack against his company keyed to a region of Mirkwood or a site therein, or untap Wardens of the Woodland Realm.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="9"/>
+			 <attr key="influence" value="5"/>
+			 <attr key="home_site" value="Thranduil's Halls"/>
+		</card>
+		<card name="Wood-elf" graphics="Wood-elf.jpg" text="Silvan. tap: cancel an Animal or Awakened Plantattack against his company. Only one Wood-elf may tap in this fashion per turn per company.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Rhûbar, any Elf-hold in Wilderland"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+	</cards>
+</ccg-setinfo>

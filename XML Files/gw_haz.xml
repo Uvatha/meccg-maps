@@ -1,1 +1,361 @@
-<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd"><ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">	<cards>		<card name="Ando-anca" graphics="Ando-anca.jpg" text="Unique. Cold-dragon. May be played at Norr-dûm. 3 strikes. If Doors of Night is in play, may also be played keyed to Dragon Gap, Forovirkain, Grey Mountains, Grey Mountain Narrows, and Withered Heath; and at sites in these regions.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="16"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="5"/>			 <attr key="strikes" value="3"/>			 <attr key="subclass" value="Cold-dragon"/>		</card>		<card name="Ando-anca Ahunt" graphics="Ando-anca Ahunt.jpg" text="Unique. Any company moving in Dragon Gap, Forovirkain, Grey Mountains, Grey Mountain Narrows, and/or Withered Heath immediately faces a Cold-dragon attack (considered a hazard creature attack) — 4 strikes at 14/7. If Doors of Night is in play, this attack also affects: Anduin Vales, Northern Rhovanion, and Talath Uichel.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Long-event"/>			 <attr key="prowess" value="14"/>			 <attr key="body" value="7"/>			 <attr key="mp" value="5"/>		</card>		<card name="Ando-anca at Home" graphics="Ando-anca at Home.jpg" text="Unique. Unless Ando-anca Ahunt is in play, Norr-dûm has an additional automatic-attack: Cold-dragon — 3 strikes at 17/8. In addition, all body checks for Dúnedain, Dwarves, Elves, Hobbits, Men, Orcs, Trolls, and Umli resulting from unique Dragon attacks are modified by +1.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Permanent-event"/>			 <attr key="prowess" value="17"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="5"/>		</card>		<card name="Angurth" graphics="Angurth.jpg" text="Unique. Fire-dragon. May be played at Long Peak. 2 strikes. Attacker chooses defending characters, but strikes must first be assigned to any Dwarves in the defending company. If Doors of Night is in play, may also be played keyed to Dragon Gap, Forovirkain, Grey Mountains, Grey Mountain Narrows, and Withered Heath; and at sites in these regions.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="16"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="5"/>			 <attr key="strikes" value="2"/>			 <attr key="subclass" value="Fire-dragon"/>		</card>		<card name="Angurth Ahunt" graphics="Angurth Ahunt.jpg" text="Unique. Any company moving in Dragon Gap, Forovirkain, Grey Mountains, Grey Mountain Narrows, and/or Withered Heath immediately faces a Fire-dragon attack (considered a hazard creature attack) — 3 strikes at 14/7 (attacker chooses defending characters, but strikes must first be assigned to any Dwarves in the defending company). If Doors of Night is in play, this attack also affects: Iron Hills, Northern Rhovanion, and Talath Oiohelka.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Long-event"/>			 <attr key="prowess" value="14"/>			 <attr key="body" value="7"/>			 <attr key="mp" value="5"/>		</card>		<card name="Angurth at Home" graphics="Angurth at Home.jpg" text="Unique. Unless Angurth Ahunt is in play, Long Peak has an additional automatic-attack: Fire-dragon — 2 strikes at 17/8. In addition, each company at a non-Haven site in Wilderland that did not attempt to move this turn has its hazard limit increased by 1.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Permanent-event"/>			 <attr key="prowess" value="17"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="5"/>		</card>		<card name="At Their Throats" graphics="At Their Throats.jpg" text="Playable on a Dragon faction. Choose another Dragon faction in active play that shares at least 1 region for its attack with target faction. Make a roll adding the number regions that both factions share for their attack, plus any influence modification against each other (ignoring the negative); if the result is greater than opponent’s free GI, the two factions attack eachother. Each faction’s prowess and body are equal to the attack on their card and the controlling player makes the roll. No resources may be played. If a Dragon faction is thus eliminated remove this card from the game. Otherwise the loosing faction is wounded (invert it); it is worth half its normal mp (round down) and can be healed by making a successful influence attempt against the faction. Cannot be duplicated on a given turn.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Short-event"/>		</card>		<card name="Attrition" graphics="Attrition.jpg" text="Any defeated non-unique Gathered Bones inany players mp does not give any mp (overriding any resource effect). Additionally, all Dragon-lords and War- lords receive +2 P. Any defeated creature or Gathered Bones does not give any mp for a Lord, Dragon-lord, or War-lord with less than 6 P.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>		</card>		<card name="Attrition" graphics="Attrition.jpg" text="Fallen-wizard and minion players cannot receive more mp from killed creatures and trophies than they have P (half their P total for Fallen-wizards). Additionally, Dragon-lords do not receive any mp for their non-unique Gathered Bones.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>		</card>		<card name="Bardings" graphics="Bardings.jpg" text="Men. Each character in the company faces a strike (detainment against covert and hero companies). May be played keyed to Dorwinion, Grey Mountain Narrows, Iron Hills, Northern Rhovanion, or Southern Rhovanion; and at non-Haven sites in these regions. May also be played on Dale or Lake- town, creating an additional automatic-attack (discard Bardings at the end of the site phase). May not be played against a covert or hero company containing a character with a home site in Dorwinion, Northern Rhovanion, or Southern Rhovanion.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="10/6"/>			 <attr key="mp" value="2*"/>			 <attr key="strikes" value="men. each character in the company faces a strike (detainment against covert and hero companies). may be played keyed to dorwinion, grey mountain narrows, iron hills, northern rhovanion, or southern rhovanion; and at non-haven sites in these regions. may also be played on dale or lake- town, creating an additional automatic-attack (discard bardings at the end of the site phase). may not be played against a covert or hero company containing a character with a home site in dorwinion, northern rhovanion, or southern rhovanion."/>			 <attr key="subclass" value="Men"/>		</card>		<card name="Bardings" graphics="Bardings.jpg" text="Men. Each character in the company faces a strike (detainment against hero and covert companies). May be played keyed to Dorwinion, Grey Mountain Narrows, Iron Hills, Northern Rhovanion, or Southern Rhovanion; and at non-Haven sites in these regions. A character in a non- overt company and with a home site in these regions may tap to cancel this attack. As a permanent-event, may be played on Dale or Lake- town. Target site gains an additional automatic-attack: same as this card’s creature attack. Discard after the attack has been faced. Cannot be duplicated on a given site.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Creature/Permanent-event"/>			 <attr key="prowess" value="10/6"/>			 <attr key="mp" value="2*"/>			 <attr key="strikes" value="men. each character in the company faces a strike (detainment against hero and covert companies). may be played keyed to dorwinion, grey mountain narrows, iron hills, northern rhovanion, or southern rhovanion; and at non-haven sites in these regions. a character in a non- overt company and with a home site in these regions may tap to cancel this attack. as a permanent-event, may be played on dale or lake- town. target site gains an additional automatic-attack: same as this card’s creature attack. discard after the attack has been faced. cannot be duplicated on a given site."/>			 <attr key="subclass" value="Men"/>		</card>		<card name="Birth-spot" graphics="Birth-spot.jpg" text="Playable on a Dragon character. He receives -3 body. When the Dragon does not tap to face a strike of an attack, he receives an additional -3 prowess penalty. If at his home site (or any Dragon’s Den [K]) during his organization phase, target Dragon may tap to discard this card. Cannot be duplicated.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>			 <attr key="prowess" value="(-3)"/>			 <attr key="body" value="-3"/>		</card>		<card name="Corlagon" graphics="Corlagon.jpg" text="Unique. May be played at Cirith Helkaloke. Fire-dragon. 2 strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Angmar, Dragon Gap, Forochel, Gundabad, and Misty Mountains - Northern Spur; and at sites in these regions.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="12"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="3"/>			 <attr key="strikes" value="2"/>			 <attr key="subclass" value="Fire-dragon"/>		</card>		<card name="Corlagon Ahunt" graphics="Corlagon Ahunt.jpg" text="Unique. Any company moving in Angmar, Dragon Gap, Forochel, Gundabad, or Misty Mountains - Northern Spur immediately faces a Fire-dragon attack (considered a hazard creature attack) — 3 strikes at 10/7 (attacker chooses defending characters). If Doors of Night is in play, this attack also affects: Anduin Vales, Everdalf, and Talath Uichel.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Long-event"/>			 <attr key="prowess" value="10"/>			 <attr key="body" value="7"/>			 <attr key="mp" value="3"/>		</card>		<card name="Corlagon at Home" graphics="Corlagon at Home.jpg" text="Unique. Unless Corlagon Ahunt is in play, Cirith Helkaloke has an additional automatic- attack: Fire-dragon — 2 strikes at 13/8. In addition, each rune item and each hoard minor item gives an additional corruption point.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Permanent-event"/>			 <attr key="prowess" value="13"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="3"/>		</card>		<card name="Cursed Treasure" graphics="Cursed Treasure.jpg" text="Corruption. May only be played and revealed as an on-guard card at a Dragon’s Lair whose normal automatic-attack (as given on the site card) is non-existent. After a character has played a treasure item or item that was stored at (any version of) the site, reveal this card and place it with that character: he receives 4 corruption points and immediately makes a CP.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>			 <attr key="cp" value="4"/>		</card>		<card name="Dragon Hunters" graphics="Dragon Hunters.jpg" text="Dwarves. 4 strikes. +4 prowess and -1 to target’s body against companies containing a Dragon or Drake. May only be played against an overt company. Dragon Hunters receives an additional +1 prowess for each Gathered Bones of Dwarf characters or Dwarf factions in opponent’s mp. May be played keyed to any region containing a Dragon’s lair or Dwarf-hold, and keyed on any non-Haven site in those regions.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="8"/>			 <attr key="body" value="-"/>			 <attr key="mp" value="1*"/>			 <attr key="strikes" value="4"/>			 <attr key="subclass" value="Dwarves"/>		</card>		<card name="Dragon's Breath" graphics="Dragon's Breath.jpg" text="Playable on an attack by True Fire-drake, Winged Fire-drake, or on any Fire-dragon attack (before strikes are assigned). Each character in the company being attacked must immediately face a strike equal to the attack’s prowess. Instead or using prowess against the strike, each character uses his body modified by +1 if he has a shield, by +1 if he has a helmet, and by +3 if he taps. The target attack which follows receives +1 body and -2 prowess. Cannot be duplicated on a given attack.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Short-event"/>		</card>		<card name="Dragon's Sleep" graphics="Dragon's Sleep.jpg" text="Playable on a Dragon character moving awayfrom his home site or any Dragon’s Den [K]. Unless opponent discards Hunger or a manifestation of target Dragon from his hand, the Dragon must return to his site of origin.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Short-event"/>		</card>		<card name="Dragon's Vengeance" graphics="Dragon's Vengeance.jpg" text="Playable on a company that has faced an attack froma unique Dragon manifestation this turn. You may play Foes Shall Fall or Bring Our Curses Home on the company as if played (normally) on the attack; it may also be played from the discard pile.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Short-event"/>		</card>		<card name="Frightful Guardian" graphics="Frightful Guardian.jpg" text="Playable on a site. Until the end of the turn, the company must face all of the site’s automatic- attacks each time an item is played at the site; these attacks receive +1 prowess per item played at the site this turn. Cannot be duplicated on a given site.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="U"/>			 <attr key="class" value="Short-event"/>		</card>		<card name="Frightful Guardian" graphics="Frightful Guardian.jpg" text="Playable on a site. Until the end of the turn, each time after a company at the site has played an item, it immediately faces all of the site’s automatic-attacks again, with the attack’s prowess modified by +1 for each item played at the site this turn. This card may be revealed as an on-guard card in response to an item being played at the site. Cannot be duplicated on a given site.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="U"/>			 <attr key="class" value="Short-event"/>		</card>		<card name="Great Northern Bear" graphics="Great Northern Bear.jpg" text="Animal. Bear. 1 strike. +4 prowess against Dragons. May be played keyed to Anduin Vales, Dragon Gap, Grey Mountains, Grey Mountain Narrows, Gundabad, Heart of Mirkwood, High Pass, Northern Rhovanion, Western Mirkwood, Withered Heath, and Woodland Realm; and may also be played non-Haven sites in these regions. May not be played against a company containing a character with Beorn’s House as a home site. Cannot be duplicated on a given movement/hazard phase.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="U"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="12"/>			 <attr key="body" value="7"/>			 <attr key="mp" value="2*"/>			 <attr key="strikes" value="1"/>			 <attr key="subclass" value="Animal, Bear"/>		</card>		<card name="Greater Storms" graphics="Greater Storms.jpg" text="Environment. Playable on a company using flying movement. Make a roll. If the result is less than 7, tap all characters and allies in the company. Otherwise, the company is not considered flying for the rest of the turn (change the site path accordingly; if the company cannot reach the new site, defender must choose a new site within 2 regions of the original site of destination).">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Short-event"/>		</card>		<card name="Imagination Run Away" graphics="Imagination Run Away.jpg" text="All burglary and flattery attempts are modified by -2. Additionally, any card effect that forces a player to show opponent his hand also forces opponent to show his hand. Any Will Shaken revealed from the play deck as result of an opponent’s action or card effect, affects opponent as if revealed from hand. Cannot be duplicated.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>		</card>		<card name="Insatiable Hunger" graphics="Insatiable Hunger.jpg" text="Playable on a Dragon. If during his untap phase target Dragon bears items with a combined normal mp greater than his prowess (use the maximum mp as given on the card), he must remove one such item of his choice and place it in his out of play pile. Discard this card after a hazard creature played against the Dragon’s company was defeated.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>		</card>		<card name="Kelvar Enraged" graphics="Kelvar Enraged.jpg" text="All attacks by Apes, Bears, Boars, Eagles, andWhales receive +1 strike and -2 body. Each character wounded by a strike from such an attack must make an additional body check. Discard this card if such an attack is defeated.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Long-event"/>		</card>		<card name="Khuzadrepa" graphics="Khuzadrepa.jpg" text="Unique. Cold-dragon. May be played at Thunder Cleft. Two strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Forrhûn, Iron Hills, Grey Mountains, Northern Rhovanion, and Withered Heath; and at sites in these regions. Unless the attack is cancelled, you may take one Memories Stolen from your play deck to your hand (before resolving any strikes).">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="15"/>			 <attr key="body" value="9"/>			 <attr key="mp" value="5"/>			 <attr key="strikes" value="2"/>			 <attr key="subclass" value="Cold-dragon"/>		</card>		<card name="Khuzadrepa" graphics="Khuzadrepa.jpg" text="Unique. Cold-dragon. May be played at Thunder Cleft. 2 strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Forrhûn, Grey Mountains, Iron Hills, Northern Rhovanion, and Withered Heath; may also be played at sites in these regions. +2 prowess against Dwarves.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="15"/>			 <attr key="body" value="9"/>			 <attr key="mp" value="5"/>			 <attr key="strikes" value="2"/>			 <attr key="subclass" value="Cold-dragon"/>		</card>		<card name="Khuzadrepa Ahunt" graphics="Khuzadrepa Ahunt.jpg" text="Unique. Any company moving in Forrhûn, Grey Mountains, Iron Hills, Northern Rhovanion, and/or Withered Heath immediately faces a Cold-dragon attack (considered a hazard creature attack) — 3 strikes at 13/8 (attacker chooses defending characters); +2 prowess against Dwarves. If Doors of Night is in play, this attack also affects: Dorwinion, Eorstan, and Grey Mountain Narrows.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Long-event"/>			 <attr key="prowess" value="13"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="5"/>		</card>		<card name="Khuzadrepa at Home" graphics="Khuzadrepa at Home.jpg" text="Unique. Unless Khuzadrepa Ahunt is in play, Thunder Cleft has an additional automatic- attack: Cold-dragon — 2 strikes at 16/9. In addition, each Dwarf wounded by a strike from a Balrog, Dragon, or Spawn attack must make a CP modified by -1 (after any body checks).">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Permanent-event"/>			 <attr key="prowess" value="16"/>			 <attr key="body" value="9"/>			 <attr key="mp" value="5"/>		</card>		<card name="Kine of Araw" graphics="Kine of Araw.jpg" text="Animals. Each character in the company faces a strike. May be played keyed to Dorwinion, Forrhûn, Harrhûn, Horse Plains, and Southern Rhovanion; and also at Ruins &amp; Lairs [R] in these regions. +2 prowess if the company has already faced Kine of Araw this turn. A character with a home site in one of these regions may tap to cancel an attack by Kine of Araw against his company.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="7"/>			 <attr key="body" value="-"/>			 <attr key="mp" value="1"/>			 <attr key="strikes" value="a"/>			 <attr key="subclass" value="Animals"/>		</card>		<card name="Last Threads Loosed" graphics="Last Threads Loosed.jpg" text="Playable on a character in the company of a Dragon. Make a roll and add opponent’s P; if the result is lower than target character’s mind, discard this card. Otherwise, discard any Dragon Mindbend, Enchanted Stare, or Oath to the Dragon from the character. Unless target character is controlled by a Dragon, any influence check against him by a Dragon automatically fails. Cannot be duplicated in a given turn.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>		</card>		<card name="Lomaw" graphics="Lomaw.jpg" text="Unique. Ice-dragon. May be played at Collarmount. 3 strikes. Attacker chooses defending characters if Lomaw is keyed to Collarmount. If Doors of Night is in play, may also be played keyed to Barl Syrnac, Forovirkain, Lhûgdalf, Talath Oiohelka, and Talath Uichel; and at sites in these regions.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="14"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="4"/>			 <attr key="strikes" value="3"/>			 <attr key="subclass" value="Ice-dragon"/>		</card>		<card name="Lomaw Ahunt" graphics="Lomaw Ahunt.jpg" text="Unique. Any company moving in Barl Syrnac, Forovirkain, Lhûgdalf, Talath Oiohelka, and/or Talath Uichel immediately faces an Ice-dragon attack (considered a hazard creature attack) — 4 strikes at 12/7. If Doors of Night is in play, this attack also affects: Azjan, Forrhûn, Grey Mountains, and Withered Heath.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Long-event"/>			 <attr key="prowess" value="12"/>			 <attr key="body" value="7"/>			 <attr key="mp" value="4"/>		</card>		<card name="Lomaw at Home" graphics="Lomaw at Home.jpg" text="Unique. Unless Lomaw Ahunt is in play, Collarmount has an additional automatic- attack: Ice-dragon — 3 strikes at 15/8. In addition, all flattery, offering, and riddling attempts made by/for characters at or moving to a site in Wilderland or The Northern Waste are modified by -2.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="class" value="Permanent-event"/>			 <attr key="prowess" value="15"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="4"/>		</card>		<card name="My Breath Death" graphics="My Breath Death.jpg" text="Only playable on a character facing a strike from Dragon´s Breath. -2 to target character’s prowess against the strike. If he becomes wounded but is not eliminated, he must place one item he bears in the out of play pile (defender’s choice); if he is eliminated, two items must be removed instead (if available, defender’s choice).">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Short-event"/>		</card>		<card name="Riches Gathered" graphics="Riches Gathered.jpg" text="Playable on a Dragon-lord. At the end of his organisation phase the Dragon-lord must attack a number of characters in his company bearing an item, based on his P total. If less than 3 P: no characters; 3-5 P: 1 character; 6-8 P: 2 characters; more than 8 P: 3 characters. These attacks cannot be cancelled. Discard this card when any opponent plays an item stored at the Dragon-lord’s home site.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>		</card>		<card name="Throkmaw" graphics="Throkmaw.jpg" text="Unique. Fire-dragon. May be played at Shab Arch. 3 strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Dragon Gap, Forovirkain, Grey Mountains, Talath Oiohelka, and Talath Uichel; and at sites in these regions.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="15"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="5"/>			 <attr key="strikes" value="3"/>			 <attr key="subclass" value="Fire-dragon"/>		</card>		<card name="Throkmaw Ahunt" graphics="Throkmaw Ahunt.jpg" text="Unique. Any company moving in Dragon Gap, Forovirkain, Grey Mountains, Talath Oiohelka, and/or Talath Uichel immediately faces a Fire-dragon attack (considered a hazard creature attack) — 4 strikes at 13/7 (attacker chooses defending characters). If Doors of Night is in play, this attack also affects: Lhûgdalf, Everdalf, Lindalf, and Withered Heath.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Long-event"/>			 <attr key="prowess" value="13"/>			 <attr key="body" value="7"/>			 <attr key="mp" value="5"/>		</card>		<card name="Throkmaw at Home" graphics="Throkmaw at Home.jpg" text="Unique. Unless Throkmaw Ahunt is in play, Shab Arch has an additional automatic- attack: Fire-dragon — 2 strikes at 16/8. In addition, each Orc hazard creature played keyed to a region or site in The Northern Waste receives +1 to prowess and strikes.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Permanent-event"/>			 <attr key="prowess" value="16"/>			 <attr key="body" value="8"/>			 <attr key="mp" value="5"/>		</card>		<card name="Too Narrow a Hole" graphics="Too Narrow a Hole.jpg" text="Playable on an or character (not a Dwarf, Hobbit, Orc or Wose). -1 to all his rolls (-2 if an Ent, Giant, Olog-hai or Dragon) while at or moving to an Under-deeps site or Dungeon. If target is a Dragon, his company’s Under-deeps movement rolls are modified by -3. Cannot be duplicated on a given character.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>		</card>		<card name="Too Narrow a Hole" graphics="Too Narrow a Hole.jpg" text="Playable on an or character (not a Dwarf, Hobbit, Orc or Wose). -1 to all his rolls (-2 if an Ent, Giant, Olog-hai or Dragon) while at or moving to an Under-deeps site or Dungeon. If target is a Dragon, his company’s Under-deeps movement rolls are modified by -3. Cannot be duplicated on a given character.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>		</card>		<card name="Uruial" graphics="Uruial.jpg" text="Unique. Dragon. Undead. Playable at SteelFall. 2 strikes. May also be played at any Dragon’s Lair if its associated Dragon has been eliminated. If Doors of Night is in play, may also be played at any Dragon’s Lair whose Dragon is in active play but not at the site. After the attack, each character wounded by Uruial makes a CP modified by -2.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Creature"/>			 <attr key="prowess" value="15"/>			 <attr key="body" value="6"/>			 <attr key="mp" value="4"/>			 <attr key="strikes" value="2"/>			 <attr key="subclass" value="Dragon, Undead"/>		</card>		<card name="Western Winds" graphics="Western Winds.jpg" text="Any overt minion company moving to a Free-hold [F] in Rohan, Fangorn, Wold &amp; Foothills, or a region of Gondor or Eriador must immediately return to its site of origin.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Short-event"/>		</card>		<card name="Wielder's Curse" graphics="Wielder's Curse.jpg" text="Dark enchantment. Playable on a weapon. After facing a strike, bearer must make a CPC, modified by -1 if a Man orDwarf and by -2 if the weapon gives a bonus or ability to a race other than bearer’s race. Any normal result of a failed CP is cancelled, but defender must choose to wound either the bearer or a character in his company of the hazard player’s choice. Cannot be duplicated on a given weapon.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Permanent-event"/>		</card>		<card name="Wings under Trees" graphics="Wings under Trees.jpg" text="Playable on a company moving with flying movement, to a site in Mirkwood or with only Wildernesses [w] in their site path. The prowess of each character and ally is modified by -3 (to a minimum of 6) this turn. If the company contains only Dragons, it is not considered flying this turn, but can still move up to 6 regions if winged.">			 <attr key="type" value="Hazard"/>			 <attr key="rarity" value="C"/>			 <attr key="class" value="Short-event"/>		</card>	</cards></ccg-setinfo>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Ando-anca" graphics="Ando-anca.jpg" text="Unique. Cold-dragon. May be played at Norr-dûm. 3 strikes. If Doors of Night is in play, may also be played keyed to Dragon Gap, Forovirkain, Grey Mountains, Grey Mountain Narrows, and Withered Heath; and at sites in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="16"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="5"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Cold-dragon"/>
+		</card>
+		<card name="Ando-anca Ahunt" graphics="Ando-anca Ahunt.jpg" text="Unique. Any company moving in Dragon Gap, Forovirkain, Grey Mountains, Grey Mountain Narrows, and/or Withered Heath immediately faces a Cold-dragon attack (considered a hazard creature attack) — 4 strikes at 14/7. If Doors of Night is in play, this attack also affects: Anduin Vales, Northern Rhovanion, and Talath Uichel.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="prowess" value="14"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="5"/>
+		</card>
+		<card name="Ando-anca at Home" graphics="Ando-anca at Home.jpg" text="Unique. Unless Ando-anca Ahunt is in play, Norr-dûm has an additional automatic-attack: Cold-dragon — 3 strikes at 17/8. In addition, all body checks for Dúnedain, Dwarves, Elves, Hobbits, Men, Orcs, Trolls, and Umli resulting from unique Dragon attacks are modified by +1.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="17"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="5"/>
+		</card>
+		<card name="Angurth" graphics="Angurth.jpg" text="Unique. Fire-dragon. May be played at Long Peak. 2 strikes. Attacker chooses defending characters, but strikes must first be assigned to any Dwarves in the defending company. If Doors of Night is in play, may also be played keyed to Dragon Gap, Forovirkain, Grey Mountains, Grey Mountain Narrows, and Withered Heath; and at sites in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="16"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="5"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Fire-dragon"/>
+		</card>
+		<card name="Angurth Ahunt" graphics="Angurth Ahunt.jpg" text="Unique. Any company moving in Dragon Gap, Forovirkain, Grey Mountains, Grey Mountain Narrows, and/or Withered Heath immediately faces a Fire-dragon attack (considered a hazard creature attack) — 3 strikes at 14/7 (attacker chooses defending characters, but strikes must first be assigned to any Dwarves in the defending company). If Doors of Night is in play, this attack also affects: Iron Hills, Northern Rhovanion, and Talath Oiohelka.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="prowess" value="14"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="5"/>
+		</card>
+		<card name="Angurth at Home" graphics="Angurth at Home.jpg" text="Unique. Unless Angurth Ahunt is in play, Long Peak has an additional automatic-attack: Fire-dragon — 2 strikes at 17/8. In addition, each company at a non-Haven site in Wilderland that did not attempt to move this turn has its hazard limit increased by 1.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="17"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="5"/>
+		</card>
+		<card name="At Their Throats" graphics="At Their Throats.jpg" text="Playable on a Dragon faction. Choose another Dragon faction in active play that shares at least 1 region for its attack with target faction. Make a roll adding the number regions that both factions share for their attack, plus any influence modification against each other (ignoring the negative); if the result is greater than opponent’s free GI, the two factions attack eachother. Each faction’s prowess and body are equal to the attack on their card and the controlling player makes the roll. No resources may be played. If a Dragon faction is thus eliminated remove this card from the game. Otherwise the loosing faction is wounded (invert it); it is worth half its normal mp (round down) and can be healed by making a successful influence attempt against the faction. Cannot be duplicated on a given turn.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Attrition" graphics="Attrition.jpg" text="Any defeated non-unique Gathered Bones inany players mp does not give any mp (overriding any resource effect). Additionally, all Dragon-lords and War- lords receive +2 P. Any defeated creature or Gathered Bones does not give any mp for a Lord, Dragon-lord, or War-lord with less than 6 P.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Attrition" graphics="Attrition.jpg" text="Fallen-wizard and minion players cannot receive more mp from killed creatures and trophies than they have P (half their P total for Fallen-wizards). Additionally, Dragon-lords do not receive any mp for their non-unique Gathered Bones.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Bardings" graphics="Bardings.jpg" text="Men. Each character in the company faces a strike (detainment against covert and hero companies). May be played keyed to Dorwinion, Grey Mountain Narrows, Iron Hills, Northern Rhovanion, or Southern Rhovanion; and at non-Haven sites in these regions. May also be played on Dale or Lake- town, creating an additional automatic-attack (discard Bardings at the end of the site phase). May not be played against a covert or hero company containing a character with a home site in Dorwinion, Northern Rhovanion, or Southern Rhovanion.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="10/6"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="men. each character in the company faces a strike (detainment against covert and hero companies). may be played keyed to dorwinion, grey mountain narrows, iron hills, northern rhovanion, or southern rhovanion; and at non-haven sites in these regions. may also be played on dale or lake- town, creating an additional automatic-attack (discard bardings at the end of the site phase). may not be played against a covert or hero company containing a character with a home site in dorwinion, northern rhovanion, or southern rhovanion."/>
+			 <attr key="subclass" value="Men"/>
+		</card>
+		<card name="Bardings" graphics="Bardings.jpg" text="Men. Each character in the company faces a strike (detainment against hero and covert companies). May be played keyed to Dorwinion, Grey Mountain Narrows, Iron Hills, Northern Rhovanion, or Southern Rhovanion; and at non-Haven sites in these regions. A character in a non- overt company and with a home site in these regions may tap to cancel this attack. As a permanent-event, may be played on Dale or Lake- town. Target site gains an additional automatic-attack: same as this card’s creature attack. Discard after the attack has been faced. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature/Permanent-event"/>
+			 <attr key="prowess" value="10/6"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="men. each character in the company faces a strike (detainment against hero and covert companies). may be played keyed to dorwinion, grey mountain narrows, iron hills, northern rhovanion, or southern rhovanion; and at non-haven sites in these regions. a character in a non- overt company and with a home site in these regions may tap to cancel this attack. as a permanent-event, may be played on dale or lake- town. target site gains an additional automatic-attack: same as this card’s creature attack. discard after the attack has been faced. cannot be duplicated on a given site."/>
+			 <attr key="subclass" value="Men"/>
+		</card>
+		<card name="Birth-spot" graphics="Birth-spot.jpg" text="Playable on a Dragon character. He receives -3 body. When the Dragon does not tap to face a strike of an attack, he receives an additional -3 prowess penalty. If at his home site (or any Dragon’s Den [K]) during his organization phase, target Dragon may tap to discard this card. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="(-3)"/>
+			 <attr key="body" value="-3"/>
+		</card>
+		<card name="Corlagon" graphics="Corlagon.jpg" text="Unique. May be played at Cirith Helkaloke. Fire-dragon. 2 strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Angmar, Dragon Gap, Forochel, Gundabad, and Misty Mountains - Northern Spur; and at sites in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Fire-dragon"/>
+		</card>
+		<card name="Corlagon Ahunt" graphics="Corlagon Ahunt.jpg" text="Unique. Any company moving in Angmar, Dragon Gap, Forochel, Gundabad, or Misty Mountains - Northern Spur immediately faces a Fire-dragon attack (considered a hazard creature attack) — 3 strikes at 10/7 (attacker chooses defending characters). If Doors of Night is in play, this attack also affects: Anduin Vales, Everdalf, and Talath Uichel.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Corlagon at Home" graphics="Corlagon at Home.jpg" text="Unique. Unless Corlagon Ahunt is in play, Cirith Helkaloke has an additional automatic- attack: Fire-dragon — 2 strikes at 13/8. In addition, each rune item and each hoard minor item gives an additional corruption point.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="13"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Cursed Treasure" graphics="Cursed Treasure.jpg" text="Corruption. May only be played and revealed as an on-guard card at a Dragon’s Lair whose normal automatic-attack (as given on the site card) is non-existent. After a character has played a treasure item or item that was stored at (any version of) the site, reveal this card and place it with that character: he receives 4 corruption points and immediately makes a CP.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="4"/>
+		</card>
+		<card name="Dragon Hunters" graphics="Dragon Hunters.jpg" text="Dwarves. 4 strikes. +4 prowess and -1 to target’s body against companies containing a Dragon or Drake. May only be played against an overt company. Dragon Hunters receives an additional +1 prowess for each Gathered Bones of Dwarf characters or Dwarf factions in opponent’s mp. May be played keyed to any region containing a Dragon’s lair or Dwarf-hold, and keyed on any non-Haven site in those regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="8"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1*"/>
+			 <attr key="strikes" value="4"/>
+			 <attr key="subclass" value="Dwarves"/>
+		</card>
+		<card name="Dragon's Breath" graphics="Dragon's Breath.jpg" text="Playable on an attack by True Fire-drake, Winged Fire-drake, or on any Fire-dragon attack (before strikes are assigned). Each character in the company being attacked must immediately face a strike equal to the attack’s prowess. Instead or using prowess against the strike, each character uses his body modified by +1 if he has a shield, by +1 if he has a helmet, and by +3 if he taps. The target attack which follows receives +1 body and -2 prowess. Cannot be duplicated on a given attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Dragon's Sleep" graphics="Dragon's Sleep.jpg" text="Playable on a Dragon character moving awayfrom his home site or any Dragon’s Den [K]. Unless opponent discards Hunger or a manifestation of target Dragon from his hand, the Dragon must return to his site of origin.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Dragon's Vengeance" graphics="Dragon's Vengeance.jpg" text="Playable on a company that has faced an attack froma unique Dragon manifestation this turn. You may play Foes Shall Fall or Bring Our Curses Home on the company as if played (normally) on the attack; it may also be played from the discard pile.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Frightful Guardian" graphics="Frightful Guardian.jpg" text="Playable on a site. Until the end of the turn, the company must face all of the site’s automatic- attacks each time an item is played at the site; these attacks receive +1 prowess per item played at the site this turn. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Frightful Guardian" graphics="Frightful Guardian.jpg" text="Playable on a site. Until the end of the turn, each time after a company at the site has played an item, it immediately faces all of the site’s automatic-attacks again, with the attack’s prowess modified by +1 for each item played at the site this turn. This card may be revealed as an on-guard card in response to an item being played at the site. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Great Northern Bear" graphics="Great Northern Bear.jpg" text="Animal. Bear. 1 strike. +4 prowess against Dragons. May be played keyed to Anduin Vales, Dragon Gap, Grey Mountains, Grey Mountain Narrows, Gundabad, Heart of Mirkwood, High Pass, Northern Rhovanion, Western Mirkwood, Withered Heath, and Woodland Realm; and may also be played non-Haven sites in these regions. May not be played against a company containing a character with Beorn’s House as a home site. Cannot be duplicated on a given movement/hazard phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Animal, Bear"/>
+		</card>
+		<card name="Greater Storms" graphics="Greater Storms.jpg" text="Environment. Playable on a company using flying movement. Make a roll. If the result is less than 7, tap all characters and allies in the company. Otherwise, the company is not considered flying for the rest of the turn (change the site path accordingly; if the company cannot reach the new site, defender must choose a new site within 2 regions of the original site of destination).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Imagination Run Away" graphics="Imagination Run Away.jpg" text="All burglary and flattery attempts are modified by -2. Additionally, any card effect that forces a player to show opponent his hand also forces opponent to show his hand. Any Will Shaken revealed from the play deck as result of an opponent’s action or card effect, affects opponent as if revealed from hand. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Insatiable Hunger" graphics="Insatiable Hunger.jpg" text="Playable on a Dragon. If during his untap phase target Dragon bears items with a combined normal mp greater than his prowess (use the maximum mp as given on the card), he must remove one such item of his choice and place it in his out of play pile. Discard this card after a hazard creature played against the Dragon’s company was defeated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Kelvar Enraged" graphics="Kelvar Enraged.jpg" text="All attacks by Apes, Bears, Boars, Eagles, andWhales receive +1 strike and -2 body. Each character wounded by a strike from such an attack must make an additional body check. Discard this card if such an attack is defeated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Khuzadrepa" graphics="Khuzadrepa.jpg" text="Unique. Cold-dragon. May be played at Thunder Cleft. Two strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Forrhûn, Iron Hills, Grey Mountains, Northern Rhovanion, and Withered Heath; and at sites in these regions. Unless the attack is cancelled, you may take one Memories Stolen from your play deck to your hand (before resolving any strikes).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="5"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Cold-dragon"/>
+		</card>
+		<card name="Khuzadrepa" graphics="Khuzadrepa.jpg" text="Unique. Cold-dragon. May be played at Thunder Cleft. 2 strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Forrhûn, Grey Mountains, Iron Hills, Northern Rhovanion, and Withered Heath; may also be played at sites in these regions. +2 prowess against Dwarves.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="5"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Cold-dragon"/>
+		</card>
+		<card name="Khuzadrepa Ahunt" graphics="Khuzadrepa Ahunt.jpg" text="Unique. Any company moving in Forrhûn, Grey Mountains, Iron Hills, Northern Rhovanion, and/or Withered Heath immediately faces a Cold-dragon attack (considered a hazard creature attack) — 3 strikes at 13/8 (attacker chooses defending characters); +2 prowess against Dwarves. If Doors of Night is in play, this attack also affects: Dorwinion, Eorstan, and Grey Mountain Narrows.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="prowess" value="13"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="5"/>
+		</card>
+		<card name="Khuzadrepa at Home" graphics="Khuzadrepa at Home.jpg" text="Unique. Unless Khuzadrepa Ahunt is in play, Thunder Cleft has an additional automatic- attack: Cold-dragon — 2 strikes at 16/9. In addition, each Dwarf wounded by a strike from a Balrog, Dragon, or Spawn attack must make a CP modified by -1 (after any body checks).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="16"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mp" value="5"/>
+		</card>
+		<card name="Kine of Araw" graphics="Kine of Araw.jpg" text="Animals. Each character in the company faces a strike. May be played keyed to Dorwinion, Forrhûn, Harrhûn, Horse Plains, and Southern Rhovanion; and also at Ruins &amp; Lairs [R] in these regions. +2 prowess if the company has already faced Kine of Araw this turn. A character with a home site in one of these regions may tap to cancel an attack by Kine of Araw against his company.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="a"/>
+			 <attr key="subclass" value="Animals"/>
+		</card>
+		<card name="Last Threads Loosed" graphics="Last Threads Loosed.jpg" text="Playable on a character in the company of a Dragon. Make a roll and add opponent’s P; if the result is lower than target character’s mind, discard this card. Otherwise, discard any Dragon Mindbend, Enchanted Stare, or Oath to the Dragon from the character. Unless target character is controlled by a Dragon, any influence check against him by a Dragon automatically fails. Cannot be duplicated in a given turn.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Lomaw" graphics="Lomaw.jpg" text="Unique. Ice-dragon. May be played at Collarmount. 3 strikes. Attacker chooses defending characters if Lomaw is keyed to Collarmount. If Doors of Night is in play, may also be played keyed to Barl Syrnac, Forovirkain, Lhûgdalf, Talath Oiohelka, and Talath Uichel; and at sites in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="14"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="4"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Ice-dragon"/>
+		</card>
+		<card name="Lomaw Ahunt" graphics="Lomaw Ahunt.jpg" text="Unique. Any company moving in Barl Syrnac, Forovirkain, Lhûgdalf, Talath Oiohelka, and/or Talath Uichel immediately faces an Ice-dragon attack (considered a hazard creature attack) — 4 strikes at 12/7. If Doors of Night is in play, this attack also affects: Azjan, Forrhûn, Grey Mountains, and Withered Heath.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="Lomaw at Home" graphics="Lomaw at Home.jpg" text="Unique. Unless Lomaw Ahunt is in play, Collarmount has an additional automatic- attack: Ice-dragon — 3 strikes at 15/8. In addition, all flattery, offering, and riddling attempts made by/for characters at or moving to a site in Wilderland or The Northern Waste are modified by -2.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="My Breath Death" graphics="My Breath Death.jpg" text="Only playable on a character facing a strike from Dragon´s Breath. -2 to target character’s prowess against the strike. If he becomes wounded but is not eliminated, he must place one item he bears in the out of play pile (defender’s choice); if he is eliminated, two items must be removed instead (if available, defender’s choice).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Riches Gathered" graphics="Riches Gathered.jpg" text="Playable on a Dragon-lord. At the end of his organisation phase the Dragon-lord must attack a number of characters in his company bearing an item, based on his P total. If less than 3 P: no characters; 3-5 P: 1 character; 6-8 P: 2 characters; more than 8 P: 3 characters. These attacks cannot be cancelled. Discard this card when any opponent plays an item stored at the Dragon-lord’s home site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Throkmaw" graphics="Throkmaw.jpg" text="Unique. Fire-dragon. May be played at Shab Arch. 3 strikes. Attacker chooses defending characters. If Doors of Night is in play, may also be played keyed to Dragon Gap, Forovirkain, Grey Mountains, Talath Oiohelka, and Talath Uichel; and at sites in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="5"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Fire-dragon"/>
+		</card>
+		<card name="Throkmaw Ahunt" graphics="Throkmaw Ahunt.jpg" text="Unique. Any company moving in Dragon Gap, Forovirkain, Grey Mountains, Talath Oiohelka, and/or Talath Uichel immediately faces a Fire-dragon attack (considered a hazard creature attack) — 4 strikes at 13/7 (attacker chooses defending characters). If Doors of Night is in play, this attack also affects: Lhûgdalf, Everdalf, Lindalf, and Withered Heath.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="prowess" value="13"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="5"/>
+		</card>
+		<card name="Throkmaw at Home" graphics="Throkmaw at Home.jpg" text="Unique. Unless Throkmaw Ahunt is in play, Shab Arch has an additional automatic- attack: Fire-dragon — 2 strikes at 16/8. In addition, each Orc hazard creature played keyed to a region or site in The Northern Waste receives +1 to prowess and strikes.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="16"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="5"/>
+		</card>
+		<card name="Too Narrow a Hole" graphics="Too Narrow a Hole.jpg" text="Playable on an or character (not a Dwarf, Hobbit, Orc or Wose). -1 to all his rolls (-2 if an Ent, Giant, Olog-hai or Dragon) while at or moving to an Under-deeps site or Dungeon. If target is a Dragon, his company’s Under-deeps movement rolls are modified by -3. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Too Narrow a Hole" graphics="Too Narrow a Hole.jpg" text="Playable on an or character (not a Dwarf, Hobbit, Orc or Wose). -1 to all his rolls (-2 if an Ent, Giant, Olog-hai or Dragon) while at or moving to an Under-deeps site or Dungeon. If target is a Dragon, his company’s Under-deeps movement rolls are modified by -3. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Uruial" graphics="Uruial.jpg" text="Unique. Dragon. Undead. Playable at SteelFall. 2 strikes. May also be played at any Dragon’s Lair if its associated Dragon has been eliminated. If Doors of Night is in play, may also be played at any Dragon’s Lair whose Dragon is in active play but not at the site. After the attack, each character wounded by Uruial makes a CP modified by -2.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="15"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mp" value="4"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Dragon, Undead"/>
+		</card>
+		<card name="Western Winds" graphics="Western Winds.jpg" text="Any overt minion company moving to a Free-hold [F] in Rohan, Fangorn, Wold &amp; Foothills, or a region of Gondor or Eriador must immediately return to its site of origin.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Wielder's Curse" graphics="Wielder's Curse.jpg" text="Dark enchantment. Playable on a weapon. After facing a strike, bearer must make a CPC, modified by -1 if a Man orDwarf and by -2 if the weapon gives a bonus or ability to a race other than bearer’s race. Any normal result of a failed CP is cancelled, but defender must choose to wound either the bearer or a character in his company of the hazard player’s choice. Cannot be duplicated on a given weapon.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Wings under Trees" graphics="Wings under Trees.jpg" text="Playable on a company moving with flying movement, to a site in Mirkwood or with only Wildernesses [w] in their site path. The prowess of each character and ally is modified by -3 (to a minimum of 6) this turn. If the company contains only Dragons, it is not considered flying this turn, but can still move up to 6 regions if winged.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+	</cards>
+</ccg-setinfo>

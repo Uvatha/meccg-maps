@@ -56,9 +56,11 @@ FilesDict = {key: list(value) for key, value in groupby(XMLFiles, prefix)}
 #################
 #################
 
-# 'rb' opens file as reading + binary, meaning that the bytes in the file 
-# are not automatically decoded.  
-# This is necessary, because we can't pass a decoded file using etree.fromstring
+'''
+'rb' opens file as reading + binary, meaning that the bytes in the file 
+are not automatically decoded.  
+This is necessary, because we can't pass a decoded file using etree.fromstring
+'''
 
 # Get column names from XML, with the first column name manually inputted as the card set
 column_names = ['Set']
@@ -239,6 +241,22 @@ df_allsets['Name'] = \
 
 del df_allsets['NameRank']
 
+######################################################
+# Fix regions types for mislabeled regions using csv #
+######################################################
+
+# Import fixes into df
+df_region_fix = pd.read_csv('Fixed_Regions.csv')
+
+# Merge fixes with df
+df_allsets = pd.merge(df_allsets,df_region_fix,on = 'Name', how = 'left',suffixes=('','_fix'))
+
+# Update class field
+df_allsets.Class.where(df_allsets.Class_fix.isnull(),other = df_allsets.Class_fix, inplace = True)
+
+# Remove Class_fix field
+del df_allsets['Class_fix']
+
 
 #########################
 # Miscellaneous cleanup #
@@ -248,6 +266,7 @@ df_allsets.Name.loc[df_allsets.Name == 'Caves of ulund'] = 'Caves of Ulund'
 df_allsets.Region.loc[df_allsets.Name.isin(
     ['Old Forest','Old Forest1','Old Forest2','Old Forest (M)']
     )] = 'Cardolan'
+
 
 ####################
 # Export df to csv #

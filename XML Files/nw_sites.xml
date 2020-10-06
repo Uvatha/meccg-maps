@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Achrond" graphics="Achrond.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Gondalf"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Wolves — 3 strikes with 7 prowess"/>
+			 <attr key="special" value="Port. If Rebuild the Town is in play on Achrond, Ivory Hoard is playable here. Cardolanian Whalers may be played at this site."/>
+		</card>
+		<card name="Achrond" graphics="Achrond.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Gondalf"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Wolves — 3 strikes with 7 prowess"/>
+			 <attr key="special" value="Port. Cardolanian Whalers may be played at this site."/>
+		</card>
+		<card name="Amon Anlug" graphics="Amon Anlug.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{c}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lindalf"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Drake — 2 strikes with 10 prowess"/>
+			 <attr key="special" value="Swamp. Contains a hoard."/>
+		</card>
+		<card name="Amon Anlug" graphics="Amon Anlug.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lindalf"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Drake — 2 strikes with 10 prowess"/>
+			 <attr key="special" value="Swamp. Contains a hoard."/>
+		</card>
+		<card name="Andoloki" graphics="Andoloki.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{f}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Númeriador"/>
+			 <attr key="haven" value="Grey Havens"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Drake — 1 strike with 10 prowess"/>
+			 <attr key="special" value="Drake — 2 strikes with 11 prowess (cannot be cancelled; attacker chooses defending characters)."/>
+		</card>
+		<card name="Andoloki" graphics="Andoloki.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{f}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Númeriador"/>
+			 <attr key="haven" value="Grey Havens"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Drake — 1 strike with 10 prowess"/>
+			 <attr key="special" value="Hidden site. Tap a ranger to reveal this site for his company. Tap a scout here during the site phase to make the site contain a hoard that turn."/>
+		</card>
+		<card name="Andoloki" graphics="Andoloki.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Númeriador"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Drake — 1 strike with 10 prowess"/>
+			 <attr key="special" value="Hidden site. Tap a ranger to reveal this site for his company. Tap a scout here during the site phase to make the site contain a hoard that turn."/>
+		</card>
+		<card name="Andoloki" graphics="Andoloki.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Númeriador"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Drake — 1 strike with 10 prowess"/>
+			 <attr key="special" value="Drake — 2 strikes with 11 prowess (cannot be cancelled; attacker chooses defending characters)."/>
+		</card>
+		<card name="Barad Lughilsarik" graphics="Barad Lughilsarik.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{D}"/>
+			 <attr key="site_path" value="{w}{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Gundabad"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="auto_attack" value="(1st) Dark Enchantment (Spell of Cold) — each character faces a strikes with 12 prowess; instead of using prowess against the strike, each character uses his body, modified by +3 if he taps;(2nd) Opponent may play as an automatic-attack a hazard creature from his hand normally keyed to Angmar."/>
+			 <attr key="special" value="A sage may discard a Stolen Knowledge card he controls to force the discard of any one environment card in play."/>
+		</card>
+		<card name="Barad Lughilsarik" graphics="Barad Lughilsarik.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{D}"/>
+			 <attr key="site_path" value="{s}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Gundabad"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="auto_attack" value="Dark Enchantment (Spell of Cold) — each character faces a strikes with 12 prowess; instead of using prowess against the strike, each character uses his body, modified by +3 if he taps"/>
+			 <attr key="special" value="A sage at this site may tap to bring an environment card from your discard pile to your play deck (reshuffle); if he is a Ringwraith you may take the card to your hand instead."/>
+		</card>
+		<card name="Bernastath" graphics="Bernastath.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Everdalf"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Men — 4 strikes with 6 prowess"/>
+			 <attr key="special" value="Brigands and Thief may always be played at this site."/>
+		</card>
+		<card name="Bernastath" graphics="Bernastath.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Everdalf"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Men — 4 strikes with 6 prowess"/>
+			 <attr key="special" value="Brigands and Thief may always be played at this site."/>
+		</card>
+		<card name="Canadras" graphics="Canadras.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Thorenaer"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Dragon — 1 strike with 13 prowess"/>
+			 <attr key="special" value="Place a token with this site after a successful flattery, offering, or riddling attempt for your company here. If there is a token placed with the site, when it is discarded you may take a rune item from your sideboard to your hand."/>
+		</card>
+		<card name="Canadras" graphics="Canadras.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Thorenaer"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Dragon — 1 strike with 13 prowess"/>
+			 <attr key="special" value="Place a token with this site after a successful flattery, offering, or riddling attempt has cancelled the automatic-attack for your company here. If there is a token placed with the site, when it is discarded you may take a rune item from your sideboard to your hand."/>
+		</card>
+		<card name="Celeb-ost" graphics="Celeb-ost.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Talath Oiohelka"/>
+			 <attr key="haven" value="Rhûbar"/>
+			 <attr key="playable" value="Information, Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="(1st) Traps — 2 strikes with 7 prowess; (2nd) Undead. Dwarf — 1 strike with 10 prowess (attacker chooses defending characters)"/>
+			 <attr key="special" value="Ancient Dwarf-ruin. A Dwarf at this site may tap to search your play deck or discard pile and take one Map to Mithril to hand."/>
+		</card>
+		<card name="Celeb-ost" graphics="Celeb-ost.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Talath Oiohelka"/>
+			 <attr key="haven" value="Shapôl Udûn"/>
+			 <attr key="playable" value="Information, Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Ancient Dwarf-ruin."/>
+		</card>
+		<card name="Ei Missä" graphics="Ei Missä.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Gondalf"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Wolves — 2 strikes with 7 prowess"/>
+			 <attr key="special" value="If Gates of Morning is in play, the Merikoirat faction is playable at this site."/>
+		</card>
+		<card name="Ei Missä" graphics="Ei Missä.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Gondalf"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Wolves — 2 strikes with 7 prowess"/>
+			 <attr key="special" value="When this site would be discarded, you may place it with a wolf ally in the moving compay instead. Target wolf receives +1 to his prowess and body and is considered a unique ally for the purpose of interpreting hazards."/>
+		</card>
+		<card name="Eithel Morgoth" graphics="Eithel Morgoth.jpg" back="1" text="">
+			 <attr key="type" value="Balrog Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="site_type" value="{K}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="special" value="Volcano. Any gold ring stored at this site is automatically tested (modify the roll by -2). If any of your companies is at this site, all attacks against it are cancelled."/>
+		</card>
+		<card name="Eithel Morgoth" graphics="Eithel Morgoth.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Trolls — 3 strikes with 9 prowess"/>
+			 <attr key="special" value="Volcano. Any creature playable at any Under-deeps site may be played at this site. Non-Nazgûl creatures played at this site attack normally, not as detainment."/>
+		</card>
+		<card name="Eithel Morgoth" graphics="Eithel Morgoth.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{w}{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Items (minor, major, greater)"/>
+			 <attr key="auto_attack" value="Trolls — 3 strikes with 9 prowess"/>
+			 <attr key="special" value="Volcano. Any creature normally playable at any Under-deeps site may be played at this site."/>
+		</card>
+		<card name="Evermist" graphics="Evermist.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="site_type" value="{H}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Minheldolath"/>
+			 <attr key="haven" value="w w w w c w"/>
+			 <attr key="playable" value="f c c w"/>
+			 <attr key="auto_attack" value="w c cc ww c s w"/>
+		</card>
+		<card name="Evermist" graphics="Evermist.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="Minheldolath"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Information, Items (minor, major, gold ring*)"/>
+			 <attr key="auto_attack" value="(1st) Traps (Elven Wards) — each character faces a strike with 9 prowess; (2nd) Elves — 3 strikes with 8 prowess (detainment against a covert company)."/>
+			 <attr key="special" value="*Any gold ring may be played at this site. Any company moving to this site has its hazard limit increased by 2. Opponent may take Elven Wards from his play deck or discard pile when this site is revealed as a new site. A Ringwraith may not move to this site."/>
+		</card>
+		<card name="Gondring's Lair" graphics="Gondring's Lair.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Forochel"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Dragon — 1 strike with 13 prowess"/>
+			 <attr key="special" value="Discard a treasure item from a company at this site to search your discard pile or play deck (reshuffle) and take one prisoner card into your hand."/>
+		</card>
+		<card name="Gondring's Lair" graphics="Gondring's Lair.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Forochel"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Dragon — 1 strike with 13 prowess"/>
+			 <attr key="special" value="When you play Token of Goodwill at this site, any treasure item may be discarded as if a greater item."/>
+		</card>
+		<card name="Helloth" graphics="Helloth.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{c}{w}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="5"/>
+			 <attr key="region" value="Dor Bendor"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Information, Items (minor, major, greater)"/>
+			 <attr key="auto_attack" value="(1st) Elves — each character faces a strike with 9 prowess (detainment against covert companies); (2nd) Elves — 3 strikes with 8 prowess (detainment against covert companies)."/>
+			 <attr key="special" value="An overt company must tap an untapped character (if available) if this site is revealed as its new site. Any company moving to this site has its hazard limit increased by 1. Snow-elves may always be played against an overt company at this site."/>
+		</card>
+		<card name="Helloth" graphics="Helloth.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{s}{c}{w}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Dor Bendor"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="special" value="This site is considered a Haven [H] for the purposes of healing and playing hazards."/>
+		</card>
+		<card name="Hyvät Kalat" graphics="Hyvät Kalat.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{c}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lindalf"/>
+			 <attr key="haven" value="the site never leaves active play and if your opponent is The Witch-king, he must discard his cards face-up."/>
+		</card>
+		<card name="Hyvät Kalat" graphics="Hyvät Kalat.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lindalf"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Items (gold ring)"/>
+			 <attr key="auto_attack" value="If Gates of Morning is in play, the automatic-attack receives +2 prowess and this site is considered a Port."/>
+		</card>
+		<card name="Jääkylät" graphics="Jääkylät.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{c}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="East Bay of Forochel"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="auto_attack" value="Men — each character faces a strike with 6 prowess (detainment)"/>
+			 <attr key="special" value="If Doors of Night is in play, this site is in West Bay of Forochel. Dwarf, Man, and Umit characters may heal at this site. Aerfaroth faction may be played at this site. After the successful play of a faction at this site you may play from the discard pile one minor item only playable in The Northern Waste."/>
+		</card>
+		<card name="Jääkylät" graphics="Jääkylät.jpg" back="1" text="If Doors of Night is in play this site is in West Bay of Forochel. Dwarf/Man/Umit characters may heal at this site. After successful play of a faction at this site you may play Bone harpoon, Beadmakers Healing Runeknife or Minor Spellbead from discard pile as minor item. Aerfaroth may be played at this site.">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{c}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="East Bay of Forochel"/>
+			 <attr key="haven" value="Information*, Items (minor)"/>
+			 <attr key="auto_attack" value="Men — each character faces a strike with 7 prowess (detainment against a covert company)"/>
+			 <attr key="special" value="If Doors of Night is in play, this site is in West Bay of Forochel. Burning Rick, Cot and Tree, Long Grevious Siege, and Tempest of Fire may not be played on/at this site. *Information resources can only be played by characters with a home site in The Northern Waste in a covert company. Such characters may heal at this site. Tap such a character to place this site with him, instead of removing it from active play. Discard this card from the company to cancel an attack keyed to a Coastal Sea [c] region."/>
+		</card>
+		<card name="Kala Dulakurth" graphics="Kala Dulakurth.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{w}{b}{s}{s}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="Forovirkain"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Items (minor, major, greater*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="(1st) Wolves — 2 strikes with 7 prowess; (2nd) Orcs — 3 strikes with 8 prowess"/>
+			 <attr key="special" value="any Umit character may play Dark Numbers at this site as though he were a scout."/>
+		</card>
+		<card name="Kala Dulakurth" graphics="Kala Dulakurth.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{s}{d}{s}{s}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Forovirkain"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items* (minor, major) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="Orcs — 3 strikes with 8 prowess (detainment against overt companies)"/>
+			 <attr key="special" value="The Ice-orcs faction is playable at this site. Non-Nazgûl creatures played at this site attack normally, not as detainment."/>
+		</card>
+		<card name="Kylmätalo" graphics="Kylmätalo.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{c}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Rast Losnaeth"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Information, Items (minor, major, greater*) *—Palantíri only—"/>
+			 <attr key="auto_attack" value="Trolls — 2 strikes with 9 prowess"/>
+		</card>
+		<card name="Kylmätalo" graphics="Kylmätalo.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Rast Losnaeth"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Information, Items (minor, major, greater*) *—Palantíri only—"/>
+			 <attr key="auto_attack" value="Trolls — 2 strikes with 9 prowess"/>
+		</card>
+		<card name="Leiri" graphics="Leiri.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{w}{w}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Everdalf"/>
+			 <attr key="haven" value="Lossoth faction is playable at this site. When a company moves to this site (after cards are drawn), reveal a number of cards from the top of your play deck equal to the number of scouts in the company plus the number of Wilderneses [w] in the company's site path. If you reveal Lossoth, take it into your hand; shuffle the remaining cards back into your play deck."/>
+		</card>
+		<card name="Leiri" graphics="Leiri.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Everdalf"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (gold ring)"/>
+			 <attr key="auto_attack" value="Men — each character faces a strike with 6 prowess (detainment against a covert company)"/>
+			 <attr key="special" value="If Gates of Morning is in play, the automatic- attack receives +2 prowess, and one character at the site may tap during the site phase to take control of a minor food item, which may be taken from your hand or sideboard."/>
+		</card>
+		<card name="Ligr Wodaize Berne" graphics="Ligr Wodaize Berne.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{c}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lindalf"/>
+			 <attr key="haven" value="If Gates of Morning is in play, this site is considered a Free-hold [F] and the Hives faction is playable here by a character with Ligr Wodaize Berne as his home site."/>
+		</card>
+		<card name="Ligr Wodaize Berne" graphics="Ligr Wodaize Berne.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="Lindalf"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="(minor, major)"/>
+			 <attr key="auto_attack" value="if Gates of Morning is in play, this site is considered a Free-hold [F]."/>
+		</card>
+		<card name="Linnarthurras" graphics="Linnarthurras.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{c}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Rast Losnaeth"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Opponent may play as an automatic-attack one non-unique hazard creature from his hand normally keyed to any region in The Northern Waste."/>
+			 <attr key="special" value="modify any rolls by +2."/>
+		</card>
+		<card name="Linnarthurras" graphics="Linnarthurras.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Rast Losnaeth"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Maia — 2 strikes at 10 prowess"/>
+			 <attr key="special" value="If Eloeklo, Demon of the North Wind is in the company, opponent may take True Spirits of the North Wind from his discard pile or play deck (reshuffle) at the beginning of the movement/hazard phase."/>
+		</card>
+		<card name="Litash" graphics="Litash.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{D}"/>
+			 <attr key="site_path" value="{w}{s}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Angmar"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Information, Item (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 3 strikes with 7 prowess; (2nd) Men — 2 strikes with 10 prowess (attacker chooses defending characters)"/>
+			 <attr key="special" value="A company leaving this site may move as though Angmar and Anduin Vales were adjacent."/>
+		</card>
+		<card name="Litash" graphics="Litash.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{D}"/>
+			 <attr key="site_path" value="{s}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Angmar"/>
+			 <attr key="haven" value="A company leaving this site may move as though Angmar and Anduin Vales were adjacent. During the site phase, a sage at this site may make a body check modified by -1; if he is still in play afterwards, tap the site and bring Morgul-apprentice from your sideboard into play with the sage, rotated twice."/>
+		</card>
+		<card name="Malgolodh's Cave" graphics="Malgolodh's Cave.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Minheldolath"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Undead. Dúnadan — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Hoard battle-gear items may be played at this site."/>
+		</card>
+		<card name="Malgolodh's Cave" graphics="Malgolodh's Cave.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Minheldolath"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Undead. Dúnadan — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Hoard battle-gear items may be played at this site."/>
+		</card>
+		<card name="Mornost" graphics="Mornost.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="site_type" value="{K}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="haven" value="s w c s"/>
+			 <attr key="playable" value="s ww ww c s"/>
+			 <attr key="special" value="Only non-unique Orc and Troll characters may be brought into play at this site (unless the character has Mornost as his home site). Any gold ring stored at this site is automatically tested (modify the roll by -2). If one of your companies is at this site, all attacks against it are cancelled."/>
+		</card>
+		<card name="Mornost" graphics="Mornost.jpg" back="1" text="">
+			 <attr key="type" value="Balrog Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="playable" value="Information, Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 4 strikes with 8 prowess; (2nd) Orcs — 3 strikes with 9 prowess"/>
+			 <attr key="special" value="Creatures played at this site attack normally, not as detainment. While this site is a Ruins &amp; Lairs [R], it contains a hoard."/>
+		</card>
+		<card name="Mornost" graphics="Mornost.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{w}{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Items (minor, major, greater)"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 4 strikes with 8 prowess; (2nd) Orcs — 3 strikes with 9 prowess"/>
+			 <attr key="special" value="While this site is a Ruins &amp; Lairs [R], it contains a hoard."/>
+		</card>
+		<card name="Orod Certhas" graphics="Orod Certhas.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Thorenaer"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Spirits of Ice and Cold — 2 strikes with 7 prowess; —resources which affect Undead also affect these Spirits—"/>
+			 <attr key="special" value="True Spirits of the North Wind may always be played at this site against an overt company."/>
+		</card>
+		<card name="Orod Certhas" graphics="Orod Certhas.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Thorenaer"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Spirits of Ice and Cold — 2 strikes with 7 prowess; —resources which affect Undead also affect these Spirits—"/>
+			 <attr key="special" value="any Lost Knowledge or Information resource controlled by an Elf or sage may be stored at this site (as if at a Haven [H])."/>
+		</card>
+		<card name="Pendrath na-Udûn" graphics="Pendrath na-Udûn.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Drake — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Conjure the Tempest may be played at this site (as if at a Ruins &amp; Lairs [R]. Non-Nazgûl creatures played at this site attack normally, not as detainment."/>
+		</card>
+		<card name="Pendrath na-Udûn" graphics="Pendrath na-Udûn.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{w}{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="A More or Less Decent Giant is playable at this site (as if at a site in a mountain region)."/>
+		</card>
+		<card name="Pieni Satama" graphics="Pieni Satama.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Rast Losnaeth"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Items* (minor) *—non-battle gear items only—"/>
+			 <attr key="auto_attack" value="Men — each character faces a strike with 6 prowess (detainment against a covert company)"/>
+			 <attr key="special" value="Port. If Doors of Night is in play, this site is also considered a Ruins &amp; Lairs [R] for the purpose of playing hazards."/>
+		</card>
+		<card name="Pieni Satama" graphics="Pieni Satama.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{c}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Rast Losnaeth"/>
+			 <attr key="haven" value="Port. If Doors of Night is in play, this site is also considered a Ruins &amp; Lairs [R] for the purpose of playing hazards."/>
+		</card>
+		<card name="Puolihmisten Satama" graphics="Puolihmisten Satama.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{w}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Everdalf"/>
+			 <attr key="haven" value="Umli Traders faction is playable at this site, if you discard (for no other effect) an item from the company; any influence check against this faction at this site is modified by +2."/>
+		</card>
+		<card name="Ruskea Vene" graphics="Ruskea Vene.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Forochel"/>
+			 <attr key="haven" value="The Losrandir and Lossoth factions are playable at this site."/>
+		</card>
+		<card name="Ruskea Vene" graphics="Ruskea Vene.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Forochel"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items* (minor) *—non-battle gear items only—"/>
+			 <attr key="auto_attack" value="Men — each character faces a strike with 7 prowess (detainment against a covert company)"/>
+			 <attr key="special" value="If Fell Winter is in play, the automatic-attack receives -2 prowess, and the Wargs of the Forochel faction is playable at this site."/>
+		</card>
+		<card name="Thaurung" graphics="Thaurung.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Forochel"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Hollow by the Left Breast may be played at this site, regardless of the character's race."/>
+		</card>
+		<card name="Thaurung" graphics="Thaurung.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Forochel"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Animals (Death Shrews) — 7 strikes with 4 prowess; the body check of any character wounded by this attack is modified by +2"/>
+			 <attr key="special" value="If you eliminate a character or Prisoner from the company and play Freeze the Flesh, instead of an eliminated character you may take Bone Dragon from your discard pile and play it as an ally with the shadow-magic user (tap site if untapped)."/>
+		</card>
+		<card name="The Cobalt-deeps" graphics="The Cobalt-deeps.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Kala Dulakurth (0), The Rusted-deeps (8), The Wind-deeps (5)"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 5 strikes with 8 prowess (detainment against companies containing an Orc or Troll); (2nd) Opponent may play from hand as an automatic-attack one creature normally keyable to Ruins &amp; Lairs [R]"/>
+			 <attr key="special" value="Non-Nazgûl creatures played at this site attack normally, not as detainment."/>
+		</card>
+		<card name="The Under-forges" graphics="The Under-forges.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Eithel Morgoth (0), Ancient Maze (6), The Iron-deeps (6), The Pits of Angband (8)"/>
+			 <attr key="playable" value="Items (minor, major, greater)"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 4 strikes with 8 prowess; (2nd) Opponent may play as an automatic-attack one non-unique hazard creature from his hand normally keyed to Ruins &amp; Lairs [R]"/>
+			 <attr key="special" value="Any non-unique Drake not keyable to a Coastal Sea [c] region may be played at this site."/>
+		</card>
+		<card name="The Under-forges" graphics="The Under-forges.jpg" back="1" text="">
+			 <attr key="type" value="Balrog Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="site_type" value="{K}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Eithel Morgoth (0), Ancient Maze (6), The Iron-deeps (5), The Pits of Angband (7)"/>
+			 <attr key="special" value="Any gold ring stored at this site is automatically tested (modify the roll by -2). If one of your companies is at this site, all attacks against it are cancelled."/>
+		</card>
+		<card name="The Under-forges" graphics="The Under-forges.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Eithel Morgoth (0), Ancient Maze (6), The Iron-deeps (5), The Pits of Angband (7)"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 4 strikes with 8 prowess; (2nd) Opponent may play as an automatic- attack one non-unique hazard creature from his band normally keyed to Ruins &amp; Lairs [R]"/>
+			 <attr key="special" value="Any non-unique Drake not keyable to a Coastal Sea [ c] region may be played at this site. Non-Nazgûl creatures played at this site attack normally, not as detainment."/>
+		</card>
+		<card name="Thilgon's Tomb" graphics="Thilgon's Tomb.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Items (minor, major, greater*)"/>
+			 <attr key="auto_attack" value="Traps — 2 strikes with 10 prowess"/>
+			 <attr key="special" value="Contains a hoard. *Only playable if the company has either faced an attack keyed to this site this turn, or discards (for no effect) a Lost Knowledge card it controls."/>
+		</card>
+		<card name="Thilgon's Tomb" graphics="Thilgon's Tomb.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Narthalf"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Items (minor, major, greater*) —*hero items only—"/>
+			 <attr key="auto_attack" value="Traps — 2 strikes with 10 prowess"/>
+			 <attr key="special" value="Contains a hoard. When a company moves to this site, opponent may search his discard pile or play deck (reshuffle) for an Elven Wards and take it into his hand. This site is considered an Elf-hold for the purpose of Elven Wards."/>
+		</card>
+		<card name="Tol Morwen" graphics="Tol Morwen.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{f}{c}{c}{c}{c}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Sundering Seas"/>
+			 <attr key="haven" value="Grey Havens"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Undead — 3 strikes with 9 prowess; (2nd) Opponent may play as an automatic-attack one non-unique hazard creature from his hand normally keyed to Coastal Seas [c]"/>
+			 <attr key="special" value="Hidden site. Unless moving with starter movement, the company must discard from hand a Belegaer or Great Ship to move to this site. Contains a hoard. The hazard player may play any number of Dragon's Curse from his discard pile on characters leaving this site."/>
+		</card>
+		<card name="Tol Morwen" graphics="Tol Morwen.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{c}{c}{c}{c}{c}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="The Sundering Seas"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Information, Items (minor, major, greater)"/>
+			 <attr key="auto_attack" value="(1st) Undead — 3 strikes with 9 prowess; (2nd) Opponent may play as an automatic-attack one non-unique hazard creature from his hand normally keyed to Coastal Seas [c]"/>
+			 <attr key="special" value="Hidden site. An overt company must tap two untapped characters (if available) when this site is revealed as its new site. Contains a hoard. Any Dragon's Curse played on a character at or moving to/from this site does not count against the hazard limit."/>
+		</card>
+		<card name="Tol Morwen" graphics="Tol Morwen.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{f}{c}{c}{c}{c}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Sundering Seas"/>
+			 <attr key="haven" value="Grey Havens"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Undead — 3 strikes with 9 prowess; (2nd) Opponent may play as an automatic-attack one non-unique hazard creature from his hand normally keyed to Coastal Seas [c]"/>
+			 <attr key="special" value="Hidden site. Unless moving with starter movement, the company must discard from hand a Belegaer or Great Ship to move to this site. Contains a hoard. The hazard player may play any number of Dragon's Curse from his discard pile on characters leaving this site."/>
+		</card>
+		<card name="Urdic Camp" graphics="Urdic Camp.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{s}{w}{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Talath Uichel"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Items* (minor) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="Men — 4 strikes with 7 prowess (detainment against a covert company)"/>
+		</card>
+		<card name="Urdic Camp" graphics="Urdic Camp.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{w}{c}{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Talath Uichel"/>
+			 <attr key="haven" value="Evermist"/>
+			 <attr key="playable" value="Items* (minor, major) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="Men — 5 strikes with 7 prowess"/>
+			 <attr key="special" value="A ranger at this site may tap to searchyour discard pile or play deck (reshuffle) for a Skis and Fur-coats and place it with his company."/>
+		</card>
+		<card name="Vasaran Ahjo" graphics="Vasaran Ahjo.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{w}{w}{w}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="Talath Uichel"/>
+			 <attr key="haven" value="Mornost"/>
+			 <attr key="playable" value="Information, Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Umli — each character faces a strike with 9 prowess (detainment against a covert company)"/>
+			 <attr key="special" value="If Smoke on the Wind is played at this site, opponent must remove one Profitable Trade he has in play with a faction playable at a site in The Northern Waste."/>
+		</card>
+		<card name="Vasaran Ahjo" graphics="Vasaran Ahjo.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{c}{w}{w}{w}"/>
+			 <attr key="draw" value="4"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="Talath Uichel"/>
+			 <attr key="haven" value="If you have successfully influenced Umli Traders at this site, you may tap a character here to take an Umit character from your discard pile or play deck (reshuffle) to your hand."/>
+		</card>
+	</cards>
+</ccg-setinfo>

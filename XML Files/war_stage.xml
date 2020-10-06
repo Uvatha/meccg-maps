@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Allies in the East and South" graphics="Allies in the East and South.jpg" text="Playable if you are a Dúnadan-lord or Fallen-wizard with 6 P or more, and you have 2 or more unique hero factions playable at sites in The Sun-lands or the Great Central Plains in play. Discard if these conditions are not met. You may tap one unique faction playable at a site in one of these territories to give -1 to the prowess and strikes (to a minimum of 1) of one creature played against one of your companies moving through a region in such a territory. Additionally, all influence attempts made by your opponents against such factions are modified by -2. Cannot be duplicated by a given player">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Allies in the East and South" graphics="Allies in the East and South.jpg" text="Playable if you are a Dúnadan-lord or Fallen-wizard with 6 P or more, and you have 2 unique hero factions playableat sites in The Sun-lands or Great Central Plains in play. Discard this card if these conditions are not met. You may tap one unique faction playable at a site in one of these territories to reduce the hazard limit against one of your companies moving through a region in such a territory by 1 (to a minimum of 2). Additionally, all influence attempts made by your opponents against such factions are modified by -2. Cannot be duplicated by a given player">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Beacon of Gondor" graphics="Beacon of Gondor.jpg" text="Dúnadan-lord only. Playable on a Border-hold [B]or Free-hold [F] in Greater Gondor. Any warrior with a mind of three or less (or any warrior, if your avatar is at the site) and a home site in Greater Gondor may be brought into play at this site. While your avatar is at this site, your characters may heal here, the site becomess a battleground, and you may bring any number of characters into play here during the organization phase. Discard this card when the site leaves active play.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Blood of Númenor" graphics="Blood of Númenor.jpg" text="Unique. Lord Denethor specific. Playable on Lord Denethor if you have in play: 12 P or more, at least 2 Dúnadan factions and 2 stored Stolen Knowledge cards. Discard this card if these conditions are not met. +1 to body. tap: during the organization phase to take a Dúnadan character with a mind of 4 or less from your discard pile to your hand, or to modify an influence check made by a character in Gondor or by Denethor by +5.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="mp" value="4"/>
+			 <attr key="sp" value="3"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Captain of the Royal Rangers " graphics="Captain of the Royal Rangers.jpg" text="Unique. Lord Denethor specific. Playable on Faramir at Minas Tirith (or in your starting company). Faramir receives +1 prowess, and +2 EI against characters with a home site in Gondor. Unless he is in a company with Boromir II or Denethor II, he becomes a leader. While he moves to Henneth Annûn, creatures cannot be played at the site against his company. While he is at Henneth Annûn, all attacks or actions by agents at that site are cancelled.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+1"/>
+			 <attr key="body" value="-"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Captain of the Tower Guard" graphics="Captain of the Tower Guard.jpg" text="Unique. Lord Denethor specific. Playable on Boromir II at Minas Tirith (or in your starting company). Boromir II becomes a leader. +2 EI against characters with a home site in Gondor. +1 to his CP. Attacks against his company keyed to Anórien by name are always detainment. If Lord Denethor is eliminated, Boromir II is considered Lord Denethor and a Dúnadan-lord for the purpose of playing and interpreting resources.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Envinyatar, the Renewer" graphics="Envinyatar, the Renewer.jpg" text="Unique. Elessar specific. Playable on Elessar during the site phase at Umbar, if you have Raid on Umbar in play. You may keep one more card than normal in your hand. +5 EI against factions playable at sites in Harnendor, Mordor, or the Great Central Plains. Regions in Harnendor are considered part of Greater Gondor. If you have Stone of Erech or Tarma of Ar-pharazon in play, this card is worth 5 mp and any influence attempt by an opponent against a faction, character, or ally playable at a site in Gondor or Harnendor is modified by -5. tap: take one Beacons of Gondor from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+5"/>
+			 <attr key="mp" value="(5)"/>
+			 <attr key="sp" value="3"/>
+			 <attr key="specific" value="Elessar"/>
+		</card>
+		<card name="Eyes of the White Tower" graphics="Eyes of the White Tower.jpg" text="Dúnadan-lord only. Place this card on your Lord, if he bears a Palantír and is at one of your Lordhavens [[H]. You may return this card to your hand if you so choose during the organization phase. In addition to adopting the given attributes, your Lord’s skills become sage/diplomat and he may not move. You may keep one more card than normal in your hand. Once per turn your Lord may make a CP instead of tapping to use a Palantír he bears. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="-2"/>
+			 <attr key="body" value="-1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Feudal Bonds Broken" graphics="Feudal Bonds Broken.jpg" text="Unique. Prince Imrahil specific. Playable on Prince Imrahil, if you have in play: 10 P or more, Grace of Uinen, Guild of the Venturers, and a faction playable at Pelargir. +5 EI against Man and Dúnadan characters and factions playable at a port; when Prince Imrahil makes an influence attempt against such a character or faction in play by an opponent, its mind or number is reduced to zero. Each of your factions only playable at a port gives +1 mp.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+5"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="sp" value="3"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Forbidden Knowledge" graphics="Forbidden Knowledge.jpg" text="Dúnadan-lord only. Playable on a Dúnadan sage at oneof your Lordhavens [H], if you discard (for no other effect) a Lost Knowledge card from the company. You may play spirit-magic and shadow-magic resources. Target character may use spirit-magic and shadow-magic. If a character in the company is eliminated, rotate this card 90° (or place a token) and you may take a magic card from your sideboard or discard pile to your hand. Target character receives +1 EI against Men and Dúnedain for each time rotated (to a maximum of 4). Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="*"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Grace of Uinen" graphics="Grace of Uinen.jpg" text="Unique. Elessar and Prince Imrahil only. Playable on your Lord during the site phase at Tolfalas. Tap your Lord. Hair of Uinen is not discarded normally during the long-event phase. While Hair of Uinen is in play, Linyuilë and Nenselde the Wingild are not discarded as per their card text when in a company with your Lord and moving to a port or site in a Coastal Sea [c] region. tap: during your organization phase to take one Fair Sailing, Favor of the Valar, Hair of Uinen, or Karma of Aldarion from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Guild of the Venturers" graphics="Guild of the Venturers.jpg" text="Unique. Elessar and Prince Imrahil only. Playable on a company at Pelargir or Linhir. Politics cannot be played on characters in the company. If Karma of Aldarion is in the company, invert this card during the site phase at a site in The Northern Waste or The Uttersouth. If inverted this card is worth 3 mp. tap: take Leaguer of Pelargir from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(3)"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Harnendor Contested" graphics="Harnendor Contested.jpg" text="Dúnadan-lord only. Playable if you have a faction in play at a site in Harnendor. While you have more unique factions in play at sites in Harnendor than any opponent, Harondor becomes a Border-land [b] and this card gives 1 mp for each such faction. Discard if any opponent has more factions in play at sites in Harnendor, or you have no such faction in play. Cannot be duplicated.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Kin to the Firstborn" graphics="Kin to the Firstborn.jpg" text="Unique. Prince Imrahil specific. You may bring Elf characters into play with Prince Imrahil’s company at any of your Lordhavens [H]. If you reveal this card as a starting stage card, such characters may also be in your starting company. All your Elf characters and factions are worth full mp. Additionally, while there is an Elf in his company, Prince Imrahil is also considered an Elf for the purpose of playing and interpreting resources.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Knight of Dor-en-Ernil" graphics="Knight of Dor-en-Ernil.jpg" text="Prince Imrahil specific. Playable on a warrior Dúnadan at Dol Amroth (or in your starting company). Target character becomes a leader and receives +2 EI against characters with a home site in Anfalas, Belfalas, Lamedon. or Lebennin. When he is at a site in one of these regions, such characters may be brought into play under his EI as if at their home site. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Knight of Dor-en-Ernil" graphics="Knight of Dor-en-Ernil.jpg" text="Prince Imrahil specific. Playable on a warrior Dúnadan at Dol Amroth (or in your starting company). Target character becomes a leader and receives +2 EI against characters with a home site in Anfalas, Belfalas, Lamedon. or Lebennin. When he is at a site in one of these regions, such characters may be brought into play under his EI as if at their home site. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Leaguer of Pelargir" graphics="Leaguer of Pelargir.jpg" text="Unique. Dúnadan-lord only. Playable if you have six or more characters and/or factions playable at sites in Gondor. Discard if these conditions are not met, or if a minion player has Black Númenóreans or The King’s Men in play. Dúnadan and Man creatures with an asterisk (*) and keyed to a region or site in Gondor always attack as detainment against Dúnadan-lord players (unless the company is overt) and never as detainment against minion companies. Additionally, Dúnadan-lords receive full mp for their Man factions in play at sites in Gondor, and for Raid on Umbar, Rescue Prisoners, and War Preperations.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Legacy of the Faithful" graphics="Legacy of the Faithful.jpg" text="Dúnadan-lord only. Your Dúnadan characters with a mind of five or more may tap to use a Palantír they bear. Your Dúnadan characters receive +1 to their CP if in the company with an Elf. Cannot be duplicated by a given player. You may (at any time) discard this card from play instead to modify your P total by -2 that turn, or to fulfill the requirement of discarding Favor of the Valar from hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Lucky on his Friends" graphics="Lucky on his Friends.jpg" text="Elessar specific. If played as a starting stage card, one Dwarf, one Elf, and one Hobbit character may be in your starting company (without the use of a resource). Place this card with Elessar when he is in play. Alternatively, you may play a non-overt character with Elessar’s company at one of your Lordhavens [H]. Place this card on the character when he enters play: +3 to your rolls for influence attempt against the character or for hazards that would return him to your hand. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Elessar"/>
+		</card>
+		<card name="Prince of the Realm" graphics="Prince of the Realm.jpg" text="Elessar specific. Playable on a Dúnadan or Man with a mind of five or more in Elessar’s company (or your starting company). The character becomes a leader and receives +2 mind and +2 EI. Additionally you may now play stage cards playable only on this character which are specific to the another avatar. Captains of the West can be play on your companies regardless of the site. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mind" value="+2"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Elessar"/>
+		</card>
+		<card name="Quarters of the Regent" graphics="Quarters of the Regent.jpg" text="Dúnadan-lord only. Playable on a Dúnadan-hold or Free-hold [F] where you have a unique faction in play. This site becomes one of your Lordhaven [H] and loses all automatic-attacks. Nothing is considered playable as written on the site card. If one of your companies is at this site, all attacks against it are cancelled. Other Lords and Fallen-wizards may not use this site as a Haven. Discard this card when the site leaves active play, or when you do not have a faction in play at the site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Son of Adrahil" graphics="Son of Adrahil.jpg" text="Command. Playable on Imrahil if he is a leader. Whenever Imrahil faces a strike, you may rotate this card 90° (or add one token; to a maximum of 4 times). Discard this card to modify one influence attempt, one CP, or one roll to remove a hazard for a character in the company, by the number of times this card is rotated. Cannot be duplicated.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Son of Ecthelion" graphics="Son of Ecthelion.jpg" text="Command. Playable at any time during your turn on Denethor II, if he is a leader and at or moving to a Shadow-hold [S], Dark-hold [D], or battleground. Tap Denethor and untap all tapped Dúnedain in his company. Denethor receives +1 prowess and body this turn. If played during strike assignment, you assign all strikes of the attack, regardless of the defending characters’ status or the attack’s normal abilities. Cannot be duplicated on a given turn.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+			 <attr key="prowess" value="+1"/>
+			 <attr key="body" value="+1"/>
+		</card>
+		<card name="Swan of Amroth" graphics="Swan of Amroth.jpg" text="Unique. Prince Imrahil specific. Place this card on Prince Imrahil if he is in play. tap: during your end-of-turn phase to take one Guild of the Venturers, Swanships of Lindon, The Seaward Tower, or a command card from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="The House of Mardil" graphics="The House of Mardil.jpg" text="Unique. Lord Denethor specific. Place this card on Lord Denethor when he is in play. You may not play Sapling of the White Tree or the The White Tree (discard either if you have them in play). tap: during the end-of-turn phase to take one I Know Much About You, Interrogation, Tidings of Death, or a command card from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Denethor"/>
+		</card>
+		<card name="Tower of Amroth" graphics="Tower of Amroth.jpg" text="Unique. Prince Imrahil specific. Playable on Dol Amroth. The site becomes one of your protected Lordhavens [H]. Other players cannot play any cards that would make this site a Haven [H]. If one of your companies is at this site, all attacks against it are cancelled. Agents who do not have Dol Amroth as a home site may not move to the site. Discard this card when the site leaves active play, or if Smoke on the Wind or People Diminished is successfully played on/at the site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Imrahil"/>
+		</card>
+		<card name="Tower of Guard" graphics="Tower of Guard.jpg" text="Elessar and Lord Denethor only. Playable on Minas Tirith. The site becomes one of your protected Lord-havens [H]. If one of your companies is at this site, all attacks against it are cancelled. If your Lord is at the site, you may bring any number of characters with home site Minas Tirith into play during the organization phase. Discard this card when the site leaves active play or if Smoke on the Wind or People Diminished is successfully played on/at the site. Cannot be duplicated.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Truesight of Númenor" graphics="Truesight of Númenor.jpg" text="Dúnadan-lord only. Playable on your Lord. While your Lord bears a Palantír, he receives +1 to his CP and your opponent must discard face up. Whenever you see your opponent discard a non- unique creature playable keyed to your Lord’s current site (or to the region containing that site), you may discard Favor of the Valar from hand to either remove that creature from the game or have it attack your Lord’s company. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="(+1)"/>
+			 <attr key="sp" value="2"/>
+		</card>
+	</cards>
+</ccg-setinfo>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Dor Bendor" graphics="Dor Bendor.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="East Bay of Forochel" graphics="East Bay of Forochel.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Ekkaia" graphics="Ekkaia.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Everdalf" graphics="Everdalf.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Forovirkain" graphics="Forovirkain.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Gondalf" graphics="Gondalf.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Lindalf" graphics="Lindalf.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Minheldolath" graphics="Minheldolath.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Narthalf" graphics="Narthalf.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Rast Losnaeth" graphics="Rast Losnaeth.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Talath Oiohelka" graphics="Talath Oiohelka.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Talath Uichel" graphics="Talath Uichel.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="The Sundering Seas" graphics="The Sundering Seas.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Thorenaer" graphics="Thorenaer.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="West Bay of Forochel" graphics="West Bay of Forochel.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+	</cards>
+</ccg-setinfo>

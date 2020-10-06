@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Annúminas" graphics="Annúminas.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Information, Items (minor, major)"/>
+			 <attr key="auto_attack" value="Undead — 4 strikes with 7 prowess; each character wounded must make a CP"/>
+			 <attr key="special" value="Sapling of the White Tree may be stored here for 2 mp if Rebuild the Town has been playedon this site; discard a Sapling stored at this site to play The White Tree (replacing all occurrences of Minas Tirith withAnnúminas)."/>
+		</card>
+		<card name="Annúminas" graphics="Annúminas.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information, Items (minor, major)"/>
+			 <attr key="auto_attack" value="Undead — 4 strikes with 7 prowess; each wounded character must make a CP"/>
+			 <attr key="special" value="One non-unique Dúnadan hazard creature may be played (not counting against the hazard limit) against a minion company moving to this site, regardless of other cards played."/>
+		</card>
+		<card name="Creb Durga" graphics="Creb Durga.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 2 strikes with 6 prowess (detainment against overt companies); (2nd) Trolls — 2 strikes with 10 prowess (detainment against overt companies)."/>
+			 <attr key="special" value="Non-Nazgûl creatures played at this site attack normally, not as detainment. Any non-unique Orc or Troll character may be brought into play at this site."/>
+		</card>
+		<card name="Creb Durga" graphics="Creb Durga.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major, greater*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 2 strikes with 6 prowess (2nd) Trolls — 2 strikes with 10 prowess"/>
+		</card>
+		<card name="Creb Durga" graphics="Creb Durga.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major, greater*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="(1st) Orcs — 2 strikes with 6 prowess (2nd) Trolls — 2 strikes with 10 prowess"/>
+		</card>
+		<card name="Dead Man's Dike" graphics="Dead Man's Dike.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major; greater*) *—Palantíri only—"/>
+			 <attr key="auto_attack" value="Undead — 3 strikes with 9 prowess; each character wounded must make a CP."/>
+			 <attr key="special" value="Any non-unique Undead creature may be played at this site."/>
+		</card>
+		<card name="Dead Man's Dike" graphics="Dead Man's Dike.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major; greater*) *—Palantíri only—"/>
+			 <attr key="auto_attack" value="Undead — 3 strikes with 9 prowess; each character wounded must make a CP"/>
+			 <attr key="special" value="Any non-unique Undead creature may be played at this site."/>
+		</card>
+		<card name="Dead Man's Dike" graphics="Dead Man's Dike.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major; greater*) *—Palantíri only—"/>
+			 <attr key="auto_attack" value="Undead — 3 strikes with 9 prowess; each character wounded must make a CP"/>
+			 <attr key="special" value="Any non-unique Undead creature may be played at this site."/>
+		</card>
+		<card name="Eldanar" graphics="Eldanar.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Men — 2 strikes with 6 prowess"/>
+			 <attr key="special" value="You receive 2 mp if you have a unique faction in play at this site, while Reunited Kingdom is in play by an opponent."/>
+		</card>
+		<card name="Eldanar" graphics="Eldanar.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Men — 2 strikes with 6 prowess"/>
+			 <attr key="special" value="If Angmar Arises is in play, creatures playable keyed to Angmar are keyable to this site. You receive 2 mp if you have a unique faction in play at this site."/>
+		</card>
+		<card name="Hostel of the Sisters of Nienna" graphics="Hostel of the Sisters of Nienna.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value=":: during the site phase to heal a character (from wounded to tapped, or from wounded to untapped if a Dúnadan character)."/>
+		</card>
+		<card name="Hostel of the Sisters of Nienna" graphics="Hostel of the Sisters of Nienna.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items* (minor, major) *—non-battle-gear items only—"/>
+			 <attr key="auto_attack" value="Dúnedain — 3 strikes with 10 prowess (detainment against covert companies)"/>
+			 <attr key="special" value="during the site phase to heal acharacter in a covert company (from wounded to tapped, or from wounded to untapped if a Dúnadan character)."/>
+		</card>
+		<card name="Lond Daer" graphics="Lond Daer.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major; greater, gold ring)"/>
+			 <attr key="auto_attack" value="Undead — 3 strikes with 8 prowess; any character wounded must make a second body check modified by +2 immediately following the first body check."/>
+			 <attr key="special" value="Hidden site. Port. This site may only be revealed if Gates of Morning or Doors of Night is in play, and if the company discards (for no effect) a Lost Knowledge card it controls. Any hazard creatures normally keyed to Coastal Sea [c] may be played at this site."/>
+		</card>
+		<card name="Lond Daer" graphics="Lond Daer.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major; greater, gold ring)"/>
+			 <attr key="auto_attack" value="Undead — 3 strikes with 8 prowess; any character wounded must make a second body check modified by +2 immediately following the first body check."/>
+			 <attr key="special" value="Hidden site. Port. This site may only be revealed if Gates of Morning or Doors of Night is in play, and if the company discards (for no effect) a Stolen Knowledge card it controls. Any hazard creatures normally keyed to Coastal Sea [c] may be played at this site."/>
+		</card>
+		<card name="Morkai" graphics="Morkai.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{w}{s}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Angmar"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="add together all strikes and consider it a single attack."/>
+			 <attr key="special" value="If Tower Raided is in play on this site, any version of Morkai is considered located in Arthedain (not in Angmar)."/>
+		</card>
+		<card name="Morkai" graphics="Morkai.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{s}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Angmar"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="auto_attack" value="Orcs — 4 strikes with 6 prowess (detainment against overt company)."/>
+			 <attr key="special" value="Any non-unique wolf ally normally playable at a (tapped) site in Eriador, The Northern Waste, or Wilderland may be played at this site."/>
+		</card>
+		<card name="The Ghost-caves" graphics="The Ghost-caves.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="draw" value="3"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Dungeon"/>
+			 <attr key="haven" value="The Riddle-caves (0), The Gem-deeps (9)"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Undead — each character faces a strike with 9 prowess;(2nd) Opponent may play as an automatic-attack from hand or discard pile King of the Dead or a non-unique Demon or Pûkel-creature."/>
+			 <attr key="special" value="Contains a hoard. Any non-unique Undead creature may be played at this site."/>
+		</card>
+		<card name="The Riddle Caves" graphics="The Riddle Caves.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Dunland"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Traps — 5 strikes with 11 prowess (detainment; cannot be cancelled)*"/>
+			 <attr key="special" value="* prowess against these strikes is equal to the mind of defending character (10 for a Wizard); cards that modify a riddling attempt may be played and are considered modifications to prowess against a strike. An untapped character in the company may take a strike already assigned to another character. If any strike is succesful, the site phase immediately ends."/>
+		</card>
+		<card name="The Riddle Caves" graphics="The Riddle Caves.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Dunland"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Traps — 5 strikes with 11 prowess (detainment; cannot be cancelled)*"/>
+			 <attr key="special" value="* prowess against these strikes is equal to the mind atribute of defending character (10 for a Ringwraith); cards that modify a riddling attempt may be played and areconsidered modifications to prowess against a strike. An untapped character in the company may take a strike already assigned to another character. If any strike is succesful, the site phase immediately ends."/>
+		</card>
+		<card name="The Under-Caves" graphics="The Under-Caves.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Creb Durga (0), Ruins of Nogrod (11), The Gem-deeps (7), The Under-gates (6), The Under-vaults (9)"/>
+			 <attr key="playable" value="Items (minor, major, greater*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="(1st) Trolls — 2 strikes with 10 prowess; (2nd) Troll — 1 strike with 13 prowess."/>
+			 <attr key="special" value="Creatures normally keyed to Dark-hold [D] may be played at this site if Doors of Night is in play."/>
+		</card>
+		<card name="The Under-caves" graphics="The Under-caves.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Creb Durga (0), Ruins of Nogrod (11), The Gem-deeps (7), The Under-gates (6), The Under-vaults (9)"/>
+			 <attr key="playable" value="Items (minor, major, greater*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="(1st) Trolls — 2 strikes with 10 prowess; (2nd) Troll — 1 strike with 13 prowess."/>
+			 <attr key="special" value="Creatures normally keyed to Dark-hold [D] may be played at this site if Doors of Night is in play."/>
+		</card>
+		<card name="The Under-caves" graphics="The Under-caves.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Under-deeps"/>
+			 <attr key="adjacent" value="Creb Durga (0), Ruins of Nogrod (11), The Gem-deeps (7), The Under-gates (6), The Under-vaults (9)"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Trolls — 2 strikes with 10 prowess; (2nd) Opponent may play as an automatic-attack one non-unique hazard creature from his hand normally keyed to a Ruins &amp; Lairs [R]."/>
+			 <attr key="special" value="Non-Nazgûl creatures played at this site attack normally, not as detainment. Any non- unique ally playable at any Under-deeps site may be played at this site."/>
+		</card>
+		<card name="Tol Lamfirith" graphics="Tol Lamfirith.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="special" value="The Rangers of the North faction is playable at this site. Tap a Dúnadan ranger to make Information playable at this site this turn. Tap a non-ranger Man or Dúnadan at this site to give that character ranger skill for the rest of the game. Place this card (or some other token) with the character when he leaves this site."/>
+		</card>
+		<card name="Tol Lamfirith" graphics="Tol Lamfirith.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Arthedain"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Dúnedain — 3 strikes with 10 prowess"/>
+			 <attr key="special" value="Tap a Dúnadan ranger or a sage to make Information playable at this site this turn."/>
+		</card>
+		<card name="Traith Chefudoc" graphics="Traith Chefudoc.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Wose — 4 strikes with 8 prowess"/>
+			 <attr key="special" value="heal a character (from wounded to untapped), make a roll. If the result plus the wounded character's mp is greater than 7, the character heals. Otherwise, discard the character and all cards he controls. Woses of the Eryn Vorn faction is playable at this site."/>
+		</card>
+		<card name="Traith Chefudoc" graphics="Traith Chefudoc.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Cardolan"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="Wose — 4 strikes with 8 prowess"/>
+			 <attr key="special" value="if the result plus the wounded character's mp is greater than 7, the character heals (from wounded to untapped). Otherwise, he is discarded."/>
+		</card>
+	</cards>
+</ccg-setinfo>

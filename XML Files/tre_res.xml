@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Aglarond" graphics="Aglarond.jpg" text="Playable during the site phase on Glittering Caves,if you have a Dwarf with mind of 5 or more at the site. The company faces an attack (cannot be cancelled): Pûkel-creature — 2 strikes with 8 prowess. Tap a Dwarf after the attack or discard this card. All versions of Glittering Caves become a Border- hold [B] and a Dwarf-hold; all automatic- attacks are cancelled for your companies. This site is never discarded and never untaps for you. Cannot be duplicated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Almost Felt You Liked the Forest!?" graphics="Almost Felt You Liked the Forest!.jpg" text="Playable on an Ent ally. The ally may face strikes from automatic-attacks and attacks keyed to his company’s site this turn. Alternatively, play to cancel an Animal, Spider, or Awakened Plant attack against your company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Always the Black Horses" graphics="Always the Black Horses.jpg" text="Trophy. Playable during the site phase on an overt company at an untapped site in Rohan. Tap the site. The company faces an attack: Men — 4 strikes with 9 prowess (cannot be cancelled). Following the attack, tT tap a character in the company or discard this card. Alternatively, playable on an overt company after CvCC this turn. Tap a character in the company. Opponent must choose and discard a horse ally controlled by one of his wounded characters at the site; otherwise discard this card.May be stored at a Darkhaven [K]. Cannot be duplicated in a given turn.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Amon Anwar" graphics="Amon Anwar.jpg" text="Playable at the end of the organization phase on a moving company that can legally move to Rohan. This card is used as a site card: Free-hold [F] in Rohan (draw: 1/1). During the site phase here you may tap Red Arrow or discard Oaths You Have Taken from hand (for no effect) to invert this card. If inverted, place this card in your mp instead of discarding it: it is worth 1 mp and whenever one of your Dúnedain taps to support one of your Man characters with a home site in Greater Gondor (or vice versa) he give +2 to his prowess or CP (instead of +1). Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(1)"/>
+		</card>
+		<card name="Beechbone" graphics="Beechbone.jpg" text="Unique. Ent. Playable at any non-Haven site in Fangorn. When Beechbone becomes wounded, all other Ents in his company receive +3 prowess that turn and may face automatic-attacks and hazards keyed to the site. Discard Beechbone if his company moves to a site not in: Fangorn, Gap of Isen, Enedhwaith, Wold &amp; Foothills, Redhorn Gate, or Misty Mountains - Southern Spur.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ally"/>
+			 <attr key="prowess" value="6/7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Captain of the Guard" graphics="Captain of the Guard.jpg" text="Playable on a warrior with a mind of four or more at his home site. +1 to his mind and prowess. Target character becomes a leader. If you have a unique faction in play at his home site, he may tap to take one All the Bells Ringing, Engines of Defence, Incite Defenders, or Town Guard from your discard pile to your hand. Discard if target character moves to a site that is not in the same region as his home site (or region adjacent) and/or is not adjacent to his home site. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+1"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mind" value="+1"/>
+		</card>
+		<card name="Cast aside Regret and Fear" graphics="Cast aside Regret and Fear.jpg" text="Spell. Wizard only. Playable during the organization phase, if your opponent is a Fallen-wizard or minion and his avatar is in play. Place this card on another character in your Wizard’s company, or bring Denethor II or Théoden into play (if at their home site; from your hand or discard pile) under the Wizard’s EI with this card. Both your and opponent’s avatar now make a CP in turns (your Wizard going first), modifying the CP each round by an additional -1, untill one of them fails. A failed CP only results in tapping the avatar (if untapped; ignore any other effect). If your Wizard fails, discard this card. Otherwise, discard any corruption or disease on target character. +1 to his body. Cannot be duplicated on a given character. Wizard makes a CP modified by -3.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="-"/>
+			 <attr key="body" value="+1"/>
+		</card>
+		<card name="Caught and Found Guilty" graphics="Caught and Found Guilty.jpg" text="Prisoner. Playable on a company after a failed attack or failed influence attempt by an opponent’s face up agentat their current site this turn. Tap a character and take the agent prisoner with the company (place this card with the prisoner under control of the host character). You may store the prisoner and this card for 1 mp at a Haven [H] or Free-hold [F]. If stored and your opponent is a minion player, a Fallen-wizard, or a Lord of the same race as the agent, the prisoner is considered one of his characters in play. Discard this card if the prisoner is rescued.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(1)"/>
+		</card>
+		<card name="Charge!" graphics="Charge!.jpg" text="Playable before strikes are assigned on a company facing an attack not at a site (or in CvCC), if all characters in the company control a horse ally. You assign all strikes from the attack; its prowess is modified by -1 for every 3 characters not assigned a strike, and its body is modified by -1 for every 5 characters not assigned a strike. If played in CvCC, your characters receive +1 prowess against the attack.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Collar of Spikes" graphics="Collar of Spikes.jpg" text="Armor. Playble on a wolf ally or Noble Hound. -1 body to all strikes against the ally. If the ally has faced a strike from a defeated creature he gains the warrior skill (invert this card or place a token). Cannot be duplicated on a given ally.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Dernhelm" graphics="Dernhelm.jpg" text="Unique. Playable on Éowyn. You may start the game with this card in lieu of a minor item. +1 to Éowyn’s prowess, body, and mind. While she is in the company with a Hobbit or character with home site Edoras: +1 to her CP, and you may play Helm of Her Secrecy as though Éowyn were in your hand. Discard if Éowyn taps during the site phase, or if Helm of Her Secrecy is in play during the end-of-turn phase.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+1"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="mind" value="+1"/>
+			 <attr key="cp" value="(+1)"/>
+		</card>
+		<card name="Draw Swords Together" graphics="Draw Swords Together.jpg" text="Playable on a hero company. One grey agent may be played as character with the company at one of your Havens [H]; place this card with the agent. This card may be played with a starting company in lieu of a minor item (reveal it before playing a grey agent). Alternatively, playable during the organization phase on one of your face up grey agents bearing Deeds of Lonely Daring. Discard Deeds of Lonely Daring: target agent becomes one of your characters in active play.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Elendil!" graphics="Elendil!.jpg" text="Playable on Aragorn II or a Dúnadan with a home site in Eriador, if he bears a weapon and makes a corruption check, influence attempt or faces a strike. Modify the roll by the prowess bonus the weapon gives him. Cannot be duplicated in a given turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value=""/>
+		</card>
+		<card name="Ent-moot" graphics="Ent-moot.jpg" text="Ritual. Playable at the end of the organization phase with a moving company that contains an Ent ally and can legally move to Fangorn. This card is used as a site card: Free-hold [F] in Fangorn (you draw: 1, opponent draws: 3). When moving to this site, Fangorn is considered a Deep Wilderness [ww] region. Any resource normally playable at Wellinghall is playable at this site. Place this card in your mp instead of discarding it from play. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Entwives" graphics="Entwives.jpg" text="Unique. Playable at any Border-hold [B] or non-Dragon’s lair Ruins &amp; Lairs [R] in a Wilderness [w]; this region must not be in Eriador, Gondor, Mordor, or Wilderland, nor be adjacent to a Shadow-land [s] or Dark-domain [d] and if the influence check is greater than 12. Standard Modifications: Ents of Fangorn (+4), each Ent ally in the company (+2), Wizards (-5). Muster or Threats has no effect on an attempt to influence this faction. You may reveal Entwives from hand during the movement/ hazard phase to cancel the discarding of any Ent allies moving to a site where Entwives is playable. This faction gives 4 mp if you have a Man faction in play at a site Entwives’ current region.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ent Faction"/>
+			 <attr key="mp" value="2(4)"/>
+		</card>
+		<card name="Entwives" graphics="Entwives.jpg" text="Unique. Playable at any Border-hold [B] or non-Dragon’s lair Ruins &amp; Lairs [R] in a Wilderness [w]; this region must not be in Eriador, Gondor, or Wilderland, nor be adjacent to a Shadow-land [s] or Dark-domain [d] and if the influence check is greater than 12. Standard Modifications: each Ent ally in the company (+2), Wizards (-5). Muster or Threats has no effect on an attempt to influence this faction. You may reveal Entwives from hand during the organization phase to cancel the discarding of any Ent moving to a site where Entwives is playable that turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ent Faction"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Evermind" graphics="Evermind.jpg" text="Playable if a character with home site Helm’s Deep ora site in Rohan was eliminated this turn. Cannot be duplicated for a given character. Discard this card to discard a corruption card from one of your characters with home site Helm’s Deep or a site in Rohan.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Eyes of the Tower" graphics="Eyes of the Tower.jpg" text="Black player only. Playable on a characters bearing and able to use a Palantír. Discard this card if these requirements are not met. Once per turn, you may discard a Messenger of Mordor from hand and name an item (or two items if opponent has a Palantír in active play). If the item is in opponent’s hand, he must discard it. Alternatively, if your opponent has a Palantír in active play, you may name one of opponent’s stored non-special items instead and tap target character to make an influence attempt against this item (as if held by an opponent’s character at the site; treat his EI and mind as zero).">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Fate Let Our Ways Meet" graphics="Fate Let Our Ways Meet.jpg" text="Playable with a starting company in lieu of a minor item. Instead of a normal character, you may play one non-overt character (or two Hobbits) with the starting company regardless of his race. Additionally, the character’s home site is not considered when determining the company’s starting site. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Fated Individual" graphics="Fated Individual.jpg" text="Playable on a unique character or ally with a prowess less than 5. Target character receives +2 prowess against all attacks from agents, Nazgûl, Slayers, and Assassin. Whenever he makes a body check, rotate this card 90° (or place a token; maximum of 3 times). Discard this card to modify a CP for target character by the number of times it is rotated. This card gives -1 miscellaneous mp for each time rotated. When this card is discarded, place it in your mp. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="(+2)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="-(*)"/>
+		</card>
+		<card name="Fool of a Took" graphics="Fool of a Took.jpg" text="Unique. Playable on Pippin if he bears a Palantír. He may tap to use a Palantír he bears; afterwards, reveal four random cards from your hand to opponent. During his end-of-turn phase, if Pippin has not used a Palantír, he makes a CP modified by -2. Discard if he does not bear a Palantír.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Give Good Sport" graphics="Give Good Sport.jpg" text="Prisoner. Playable with one of your Seize Prisoners in active play. Keep this card with the Seize Prisoners; it counts as prisoner for the purpose of interpreting card effects. Unless this card is stored, opponent makes a roll during each of your end-of-turn phases: if the result is greater than 9, discard the Seize Prisoners and place this card in your mp for 1 mp. Cannot be duplicated on a given Seize Prisoners.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(1)"/>
+		</card>
+		<card name="Golden Hall of Edoras" graphics="Golden Hall of Edoras.jpg" text="Playable on Edoras. Any character at Edoras and with Edoras as a home site may tap during the organization phase to bring one Horses, Noble Steed, Shadowfax, or Wild Horses from the discard pile to their play deck. Any character that taps in this fashion makes a CP. Discard this card if the site leaves active play, or when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Gûlthalion" graphics="Gûlthalion.jpg" text="Unique. Playable at Thuringwathost. Shield. +2 body to a maximum of 9. May also be used as a minion item by a minion Elf.Warrior or sage only: +2 prowess against non-combat attacks. tap: at any time to give -2 to the prowess and body of any character at the site that has used a magic or spell resource this turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="(+2)"/>
+			 <attr key="body" value="+2"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Gúthwinë" graphics="Gúthwinë.jpg" text="Unique. Weapon. +1 prowess to a maximum of 8 (+2 if bearer is a warrior). Man or Dúnadan warrior only: +3 prowess (to a maximum of 9) and -1 to target’s body against Orcs and Wolves. Éomer or Éowyn only: +1EI.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Major Item"/>
+			 <attr key="prowess" value="+1(2)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Gúthwinë" graphics="Gúthwinë.jpg" text="Unique. Weapon. +1 prowess to a maximum of 8. Man or Dúnadan warrior only: +3 prowess (to a maximum of 9) and -1 to target’s body against Wolves and Uruk-hai. Éomer or Éowyn only: +1EI.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Major Item"/>
+			 <attr key="prowess" value="+1(3)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Herugrim" graphics="Herugrim.jpg" text="Unique. Weapon. +1 prowess to a maximum of 8(+2 if bearer is a warrior). Man or Dúnadan warrior only: +3 prowess (to a maximum of 9) and -1 to target’s body against Orcs and Wolves. Théoden or Théodred only: +1 body (to a maximum of 10).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Major Item"/>
+			 <attr key="prowess" value="+1(3)"/>
+			 <attr key="body" value="(+1)"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Herugrim" graphics="Herugrim.jpg" text="Unique. Weapon. +1 prowess to a maximum of 8(+2 if bearer is a warrior). Man or Dúnadan warrior only: +3 prowess (to a maximum of 9) and -1 to target’s body against Orcs and Wolves. Théoden or Théodred only: +1 body (to a maximum of 10).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Major Item"/>
+			 <attr key="prowess" value="+1(2)"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="2"/>
+		</card>
+		<card name="Hew the Stone" graphics="Hew the Stone.jpg" text="Unique. Playable during the site phase at Isengard if you have three or more Ent allies there. May be played regardless of The Fortress of Isen. May not be played if you are Saruman. The company faces 3 attacks (cannot be cancelled); Wolves — 3 strikes with 8 prowess; Orcs — 4 strikes with 9 prowess; Flame Traps — 2 strikes with 12 prowess. After the attacks, tap a character or Ent and the site, or discard this card. Discard The Fortress of Isen if in play. Stage versions of Isengard cannot be used, and Isengard cannot untap. This card gives full mp if you are Gandalf, Radagast, or an Elf-lord.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="4"/>
+		</card>
+		<card name="Hidden Valour" graphics="Hidden Valour.jpg" text="Each of your characters with a mind of three or more and which normally does not give any mp now gives 1 mp (even if you are Fallen-Gandalf or an Atani-lord); such a character must have been in active play during the organization phase this turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Hope Renewed" graphics="Hope Renewed.jpg" text="Playable on a company during CvCC (even after strikes are assigned), if Gates of Morning is in play and at least two characters are wounded (or taken prisoner with opponent’s company). May also be played during opponent’s site phase. Any of your characters at sites in the same territory as the company’s current site, or any character in your hand whose home site is in the same territory, may now join the company. Each of these characters may face a strike already assigned to another character in the company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Horn of Eorl" graphics="Horn of Eorl.jpg" text="Unique. Instrument. Playable by Merry at Edoras (even if the site is tapped). Cannot be transferred during the organization phase. tap: take one Charge!, The Rohirrim, or Reunion from your discard pile to your hand. Ttap: give +3 to an influence check the bearer makes against a hero faction.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Horse Mane's Helm" graphics="Horse Mane's Helm.jpg" text="Unique. Helmet. +1 body to a maximum of 9. tap: shuffle one warrior only resource event used by the bearer of this item this phase into your play deck instead of discarding it.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Major Item"/>
+			 <attr key="prowess" value="-/+1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Keeping of Good Faith" graphics="Keeping of Good Faith.jpg" text="Playable on a hazard creature with an asterisk (*) and with one strike for each of its attacks, attacking a non-overt company. All attacks are cancelled and the creature becomes an ally under the control of any character in the company that taps. Keep this card with the creature. The ally has a mind of 1, prowess equal to its normal prowess minus 7, and a body as listed on its card (8 if none is listed). This card is worth ally mp as listed on the creature’s card.Alternatively, may be played as a short-event to cancel a detainment attack against a hero company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event/Short-event"/>
+			 <attr key="prowess" value="-7/8"/>
+			 <attr key="mind" value="1"/>
+			 <attr key="mp" value="(*)"/>
+		</card>
+		<card name="Last March of the Ents" graphics="Last March of the Ents.jpg" text="Unique. Playable on a company containing a Hobbit and an Ent. taAt the start of their movement/hazard phase, when moving to a site in The Shire or a Wilderness [w] region, you may tap a Hobbit and an Ent in the company to prevent any Ent allies in the company from being discarded as per their card effect. Additionally, any Ent in the company may face strikes from attacks keyed to his site and from automatic-attacks. Discard if the company does not contain a Hobbit and an Ent.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Lord of the Mark" graphics="Lord of the Mark.jpg" text="Unique. Playable on Théoden, Théodred, or Éomer at a site in Greater Gondor. This card must be transferred to the first character in active play in this order (or discarded if he is in play by opponent). +2 to target’s mind, and + 2 EI against characters and factions playable at sites in Rohan, Gap of Isen, Anduin Vales, and Anórien. He may automatically influence the Riders of Rohan. +1 to his CP if a character with a home site in Rohan is in his company. If not played on an avatar, this card gives 1 mp.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mind" value="+2"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="mp" value="(1)"/>
+			 <attr key="cp" value="(+1)"/>
+		</card>
+		<card name="Lúmeránë" graphics="Lúmeránë.jpg" text="Playable on a Palantír (not Palantír of Elostirion). If the bearer is able to use the Palantír and this card is not inverted, discard a Far Sight or All Thought Bent upon It from hand to invert this card. During any of your next turns, re-invert this card to either take a resource from your play deck to your hand or cancel the effects of one hazard in play that turn. Bearer then makes a CP for each Palantír in active play (modified by -2 if its bearer has a higher mind or if opponent is Sauron). Cannot be duplicated on a given Palantír.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Mearas" graphics="Mearas.jpg" text="Unique. Playable at Edoras or Dunharrow if the influence check is greater than 12.Standard Modifications: Men with a home site in Rohan (+2), each Wild Horses in play (+1), each Shadowfax or Snowmane in the company (+3). tap: at any time to tap all horse allies in an opponent’s company moving through Rohan or at a site in Rohan.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Animal Faction"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Men of Harrowdale" graphics="Men of Harrowdale.jpg" text="Unique. Playable at Dunharrow if the infuence check is greater than 7.Standard Modifications: none. tap: take a horse ally playable at a site in Rohan from your discard pile to your hand.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Man Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Men of Westfold" graphics="Men of Westfold.jpg" text="Unique. Playable at Helm’s Deep if the infuence check is greater than 7.Standard Modifications: none. tap: take a battle-gear item playable at a site in Gap of Isen from your discard pile to your hand.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Man Faction"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Mighty Steed" graphics="Mighty Steed.jpg" text="Horse. Playable at any tapped or untapped Border- hold [B]. May not be controlled by a Dwarf, Hobbit, Ringwraith or overt character. If each character in the company controls a horse ally, the company may move up to two additional regions. tap: cancel a strike (not from an automatic-attack) against itself.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Ally"/>
+			 <attr key="prowess" value="2/7"/>
+			 <attr key="mind" value="1"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Miraearon" graphics="Miraearon.jpg" text="Playable at the end of the organization phase with a company that can legally move to Taur Rómen and discards (for no effect) a Lost Knowledge card it controls. This card is used as a site card: Border- hold [B] in Taur Rómen (draw: 2/2). Elves may heal at this site. Wandlimb, Willowshanks and Entwives are playable at this site without further requirements: discard any Man factions you have in play. Place this card in your mp instead of discarding it from play. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Mounted Lance" graphics="Mounted Lance.jpg" text="Weapon. If the bearer is a Dúnadan, Elf, or Man warrior and controlls a horse ally: +1 to his prowess (to a maximum of 8), and +1 to the ally’s prowess and body. Discard this item to give -1 body to a strike bearer faces; another weapon may be used against the same strike.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Minor Item"/>
+			 <attr key="prowess" value="(+1"/>
+			 <attr key="body" value="-)"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Old Toby" graphics="Old Toby.jpg" text="Playable during the organization phase on a character at a Ruins &amp; Lairs [R]. Tap the character and take a resource, character or hazard playable at the site from your sideboard to your hand (show opponent); if a resource, it cannot be normally worth more than 1 mp. Remove this card from the game.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="On the Precious" graphics="On the Precious.jpg" text="Playable during the site phase on a character bearing a ring special item. You may take a manifestation of Gollum from your discard pile to your hand. Additionally, if My Precious is face up and at a site in the same or an adjacent region, or if the ringbearer is at one of My Precious’ home sites, he now attacks the ringbearer’s company. The ringbearer must face at least one strike from the attack. If still in play afterwards, My Precious is considered at this site (no site card is required if none is available).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Orcs of Isengard" graphics="Orcs of Isengard.jpg" text="Unique. Playable at Isengard if you have Greater Half-orcs or Sharkû in play if the influence check is greater than 12.Standard Modifications: Saruman is in the company (+5), Greater Half-orcs (+2). tap: during organization phase to play a Half-orc character from your discard pile under EI at Isengard.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Orc Faction"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="Proven in Battle" graphics="Proven in Battle.jpg" text="Playable on a character controlling at least two Valour in Battle. Target character receives +1 prowess and +1EI. If he bears a battle-gear item, his CP are modified by +1. You may invert this card: target character becomes a leader and he may tap during your end-of-turn phase to take Captain of the Guard or a warrior only resource event from your discard pile to your hand.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+1/-"/>
+			 <attr key="influence" value="+1"/>
+			 <attr key="cp" value="(+1)"/>
+		</card>
+		<card name="Proven in Battle" graphics="Proven in Battle.jpg" text="Playable on a character controlling two or more Valour in Battle. Target receives +1 prowess and +1 EI and leader skill if you so choose (invert the card to mark leader skill). Additionally, when you play this card he may take control of a non-unique, non-hoard minor or major battle-gear item, which may come from your hand, discard pile, or sideboard. Tap character if untapped. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="+1/-"/>
+			 <attr key="influence" value="+1"/>
+		</card>
+		<card name="Refugees" graphics="Refugees.jpg" text="Playable at any time if one of your factions must leave active play but is not eliminated. Place this card with the faction, which gives no mp in any case (not even to a Fallen- wizard). Discard if the faction leaves active play. Cannot be duplicated for a given faction.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Rohir Weregild" graphics="Rohir Weregild.jpg" text="Playable on a company, if a character with a home site in Northern Rhovanion, Anduin Vales, or Rohan has been eliminated by a strike from an Orc, Troll, or Wolf attack this turn. +2 prowess against attacks and strikes of these types for all characters in the company with a home site in these regions. Discard this card during the end-of-turn phase when such an attack was defeated by the company that turn, or if an opponent’s character of these types was eliminated in CvCCC. Cannot be duplicated on a given company.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Say It And Have Done" graphics="Say It And Have Done.jpg" text="Diplomat only. +3 prowess to all characters in the diplomat’s company against a detainment attack by Elves, Dwarves, Dúnedain, Men, Hobbits, or Maia; and +3 prowess against the next detainment attack of the same type against the company this turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Seats of Seeing and Hearing" graphics="Seats of Seeing and Hearing.jpg" text="Playable if you have a company at Amon Hen or Amon Lhaw. Search your sideboard, discard pile or play deck (reshuffle) fora copy of this card and bring it in play for your opponent. You may rotate this card 90° (or place a token) and look at a number of cards from the top of opponent’s play deck equal to the times rotated. To do so, a hero player must tap a character at Amon Hen, a minion player must tap a character at Amon Lhaw. Return the cards to the top of opponent’s deck in any order you choose; character makes a CP. When rotating, opponent’s copy of this card is rotated 90° backwards (or remove a token). Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Sharkû" graphics="Sharkû.jpg" text="Unique. Manifestation of Saruman. Playable on a company if you are Sauron, a Ringwraith, or a Fallen-wizard with 12 P or more. You may play any sorcery, Test of Fire, and Wizard’s Test with the company (ignore any CP or sage requirement). Each character in the company may tap to use a Palantír he bears. Additionally, if the company is at Bag End: The Shire becomes a Borderland [b], all versions of sites in The Shire become a Border-hold [B], and you may bring Half-orc characters into play there. During the end-of-turn phase, discard this card or a non-avatar character from the company. Discard if a character manifestation of Saruman comes into play.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Son of Éomund" graphics="Son of Éomund.jpg" text="Unique. Playable on Éomer. You may start the game with this card in lieu of a minor item. Éomer becomes a leader. While another character with a home site in Rohan or Gondor is in his company, he receives +2 to his mind, prowess, and EI, and is considered Aragorn II for interpreting Captains of the West.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="(+2/-)"/>
+			 <attr key="mind" value="+2"/>
+			 <attr key="influence" value="+2"/>
+		</card>
+		<card name="The Spell Endured" graphics="The Spell Endured.jpg" text="Lore. Playable on your avatar or a sage with a mind of 8 or more. Tap target character. Whenever one of your resources must be discarded as the result of exhausting a play deck, you may make a CP for target character and (if still in play afterwards) discard this card instead. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Three Hunters" graphics="The Three Hunters.jpg" text="Playable on a company containing Aragorn II, Gimli, and Legolas. If these three characters are in the company and no other characters or allies, the company may move up to two additional regions and you may play Fellowship on the company (at any site, as if four characters were present). Discard to bring one Fellowship or Lucky on His Friends from your discard pile to your play deck and shuffle. Cannot be duplicated.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Tokens of War" graphics="Tokens of War.jpg" text="Diplomat only. Playable on an influence attempt. All battle-gear items (except Wizard’s Staff) in the diplomat’s company are placed “off to the side”: the influence attempt receives a bonus equal to the combined normal mp of all items thus placed aside. Afterwards, if the attempt was successful, the items are returned to their previous bearers; otherwise they are discarded. May also be played during opponent’s site phase.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Valour in Battle" graphics="Valour in Battle.jpg" text="Warrior only. Trophy. Playable during the site phase on an untapped warrior, if you have a Dwarf, Dúnadan, Elf, or Man faction in play normally worth 2 mp or more; must be played at a Ruins &amp; Lairs [R], Shadow-hold [S], or Dark-hold [D] in the region containing the site where the faction is playable (or an adjacent region). The warrior faces an attack: Troll — 1 strike with 12 prowess. If the attack is not defeated, discard this card. Cannot be duplicated at a given site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Wandlimb" graphics="Wandlimb.jpg" text="Unique. Ent. Playable at any tapped or untapped site where Entwives was brought into play. May not be attacked by automatic-attacks or hazards keyed to her site. Discard Wandlimb if her company moves and does not contain another Ent. tap: cancel the effects of an environment hazard that targets her company’s current site or region.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Sage Ally"/>
+			 <attr key="prowess" value="5/10"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="We Must Join with Him" graphics="We Must Join with Him.jpg" text="Black player or Saruman only. Playable on Isengard, if you have a character there bearing Palantir of Orthanc. Store the Palantír. Isengard becomes one of your Darkhavens [K]. Additionally, your companies may contain two Orc leaders. Black player only: your companies may move with starter movement to Isengard from Dol Guldur or Carn Dûm (and vice versa). Discard this card when Isengard leaves active play, or when any opponent has a non-hazard manifestation of Saruman in play.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="What of the Dawn?" graphics="What of the Dawn.jpg" text="Environment. Playable on a minion or overt company. Cancels the effects of one environment hazard for the company this turn. Alternatively, make a roll to attempt to cancel any one hazard short-event (or permanent event if Skies of Fire is in play) played on the company or an associated entity before it resolves: if the result is greater than 6, the event is discarded.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Wild Boar of Everholt" graphics="Wild Boar of Everholt.jpg" text="Unique. Trophy. Playable at the start of the movement/ hazard phase (before any hazards are played) on a company moving through at least 2 Wilderness [ww]. The company faces an attack: Animal — 1 strike with 12/6 prowess/body. If the attack is not defeated, discard this card. Otherwise, ttap a Man character to put this card under his control. No mp are received until this card in stored at a Man-hold.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(2)"/>
+		</card>
+		<card name="Willowshanks" graphics="Willowshanks.jpg" text="Unique. Ent. Playable at a tapped or untapped Miraearon. May not be attacked by hazards keyed to her site or by automatic-attacks. May not move, unless Cast aside Regret and Fear is successfully played on her (as if a character). Discard if she moves to a Man-hold or is not in the company of an Elf, Ent, or Wizard. You may wound Willowshanks to wound a Man character at her current site (both must make a body check). tap: take one Memories of Axe-wielders from your discard pile to your hand.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ally"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="mp" value="2"/>
+		</card>
+		<card name="Wolves of Isengard" graphics="Wolves of Isengard.jpg" text="Unique. Playable at a tapped or untapped Isengard if the influence check is greater than 12Standard Modifications: Saruman in the company (+3), remove a character in the company from the game (+7). Any wolf ally in your company at Isengard may be placed with this card. For every 2 wolf allies placed with this card, it gives +1 mp and all Wolf attacks keyed to Gap of Isen or Rohan, or at sites therein, receive +1 strike. During your organization phase, you may place any wolf ally under this card with characters at Isengard (only one per character).">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Wolf Faction"/>
+			 <attr key="mp" value="1(*)"/>
+		</card>
+	</cards>
+</ccg-setinfo>

@@ -1,1 +1,285 @@
-<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd"><ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">	<cards>		<card name="Bain" graphics="Bain.jpg" text="Unique. +1 prowess against Orcs, Dragons, and Drakes. +1 EI against Men with a home site in Northern Rhovanion. +1 EI against Dwarves.">			 <attr key="type" value="Hero Character"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="4"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="4"/>			 <attr key="influence" value="1"/>			 <attr key="mp" value="1"/>			 <attr key="home_site" value="Dale"/>			 <attr key="skills" value="Warrior/Ranger"/>			 <attr key="race" value="Man"/>		</card>		<card name="Daelomin the Ghost-Wing" graphics="Daelomin the Ghost-Wing.jpg" text="Unique. Manifestation of Daelomin. Female. Winged. Cold-dragon. Can use sorcery. +2 EI against male characters. +4 to her rolls for flattery and offering attempts. If no other characters or allies are in her company, her company’s normal hazard limit is two. tap: if at a Dragon’s Den [K] to cancel an effect that would raise the hazard limit for one of your companies.">			 <attr key="type" value="Stage Resource"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="7"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="8"/>			 <attr key="influence" value="6"/>			 <attr key="home_site" value="Dancing Spire"/>		</card>		<card name="Dragon's Disciple" graphics="Dragon's Disciple.jpg" text="Dragon-lord only. Can use spirit-magic. +2 EI against Men. Is considered a Dragon-lord for the purpose of playing and interpreting Wielder of Old Arts; to play this card on Dragon’s Deciple, he must be in a company with your Dragon-lord and your Dragon-lord must tap. Cannot be duplicated by a given player.">			 <attr key="type" value="Minion Character"/>			 <attr key="rarity" value="U"/>			 <attr key="prowess" value="5/8"/>			 <attr key="mind" value="5"/>			 <attr key="influence" value="1"/>			 <attr key="mp" value="2"/>			 <attr key="home_site" value="any Dragon’s Den"/>			 <attr key="skills" value="Warrior/Diplomat"/>			 <attr key="race" value="Man"/>		</card>		<card name="Durlog" graphics="Durlog.jpg" text="Unique. Dragon-lord only. Leader. Discard on a body check result of 8. +2 EI against Orcs. Orcs and Trolls in his company may store any trophies they control during the end-of-turn phase at one of your Dragon’s Dens [K].">			 <attr key="type" value="Minion Character"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="5"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="5"/>			 <attr key="influence" value="1"/>			 <attr key="mp" value="2"/>			 <attr key="home_site" value="any Dragon's Den"/>			 <attr key="skills" value="Warrior/Ranger"/>			 <attr key="race" value="Orc"/>		</card>		<card name="Eärcaraxë the Sea-fang" graphics="Eärcaraxë the Sea-fang.jpg" text="Unique. Manifestation of Eärcaraxë. Female. Cold-dragon. May normally move two Coastal Sea [c] regions. -2 prowess while not at or moving to a site in a Coastal Sea region. +2 to her rolls to bring/keep characters and allies into play. +4 to her rolls for offering and flattery attempts. -3 to your influence attempts against manifestations of Canadras, Gondring, and Scorba.">			 <attr key="type" value="Stage Resource"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="10"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="9"/>			 <attr key="influence" value="7"/>			 <attr key="home_site" value="Isle of the Ulond"/>		</card>		<card name="Eodoric" graphics="Eodoric.jpg" text="Unique. +1 prowess against Animals and Wolves. tap: during your organization phase at a site in Northern Rhovanion to force an opponent to reveal three cards at random from his hand.">			 <attr key="type" value="Hero Character"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="2"/>			 <attr key="body" value="7"/>			 <attr key="mind" value="2"/>			 <attr key="influence" value="0"/>			 <attr key="home_site" value="any Border-hold in Northern Rhovanion"/>			 <attr key="skills" value="Scout/Ranger"/>			 <attr key="race" value="Man"/>		</card>		<card name="Fram Wyrmslayer" graphics="Fram Wyrmslayer.jpg" text="Unique. Grey agent. Manifestation of Fram Framson. +3 prowess against Dragons and Drakes. May not be among the starting characters. Agent only: tap: during the movement/hazard phase at a site where an opponent’s Dragon faction is in play, to face the associated Dragon attack; any resulting body checks after the attack are modified by +1. If the attack is defeated, place the faction in the out of play pile. If Fram is eliminated, opponent receives him as kill mp.">			 <attr key="type" value="Hero Resource"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="class" value="Warrior/Ranger Man"/>			 <attr key="prowess" value="5"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="5"/>			 <attr key="influence" value="0"/>			 <attr key="mp" value="2"/>			 <attr key="home_site" value="Framsburg"/>		</card>		<card name="Grashûkh" graphics="Grashûkh.jpg" text="Unique. Uruk-hai. Leader. Discard on a body check result of 8. +2 prowess against Dragons and Drakes. +2 EI against Orcs. May not be in a company with a Dragon. tap: during the organization phase to allow his company to move through a mountain region (and not stop at a site therein).">			 <attr key="type" value="Minion Character"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="6"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="6"/>			 <attr key="influence" value="0"/>			 <attr key="mp" value="2"/>			 <attr key="home_site" value="Deep Cleft, Mount Gundabad"/>			 <attr key="skills" value="Warrior/Ranger"/>			 <attr key="race" value="Orc"/>		</card>		<card name="Grim-faced Northman" graphics="Grim-faced Northman.jpg" text="Dragon-lord only. tap: during the site phase, if at one of his home sites, to take one character, ally, or faction playable there from your discard pile or play deck (reshuffle) to your hand.">			 <attr key="type" value="Minion Character"/>			 <attr key="rarity" value="C"/>			 <attr key="prowess" value="3"/>			 <attr key="body" value="7"/>			 <attr key="mind" value="3"/>			 <attr key="influence" value="0"/>			 <attr key="mp" value="1"/>			 <attr key="home_site" value="any site in Northern or Southern Rhovanion"/>			 <attr key="skills" value="Warrior/Ranger"/>			 <attr key="race" value="Man"/>		</card>		<card name="Grimbeorn the Old" graphics="Grimbeorn the Old.jpg" text="Unique. +2 prowess against Orcs. +2 EI against the Beornings faction. Grimbeorn is considered Beorn for the purpose of playing and interpreting Skin-changer. Discard if you have Bad Company in play.">			 <attr key="type" value="Hero Character"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="6"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="6"/>			 <attr key="influence" value="1"/>			 <attr key="mp" value="2"/>			 <attr key="home_site" value="Beorn's House"/>			 <attr key="skills" value="Warrior/Ranger"/>			 <attr key="race" value="Man"/>		</card>		<card name="Grimson the Fearless" graphics="Grimson the Fearless.jpg" text="Unique. His prowess is only modified by -1 when not tapping to face a strike. If you are a Dragon-lord, Grimson may play allies normally playable only by your Dragon-lord; he may control a maximum of two such allies. If in the same company, you may transfer any allies your Dragon-lord controls to Grimson during the organization phase.">			 <attr key="type" value="Minion Character"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="5/8"/>			 <attr key="mind" value="6"/>			 <attr key="influence" value="1"/>			 <attr key="mp" value="2"/>			 <attr key="home_site" value="Framsburg"/>			 <attr key="skills" value="Warrior/Ranger"/>			 <attr key="race" value="Man"/>		</card>		<card name="Haeldwyn" graphics="Haeldwyn.jpg" text="Unique. +2 EI against Orc characters with a mind lower than his. If Haeldwyn controls a Stolen Knowledge card, he can use sorcery; if he controls a Lost Knowledge card, he can use spirit-magic.">			 <attr key="type" value="Minion Character"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="4"/>			 <attr key="body" value="9"/>			 <attr key="mind" value="6"/>			 <attr key="influence" value="1"/>			 <attr key="mp" value="2"/>			 <attr key="home_site" value="Mathlaburg, Tower of the Wolf-friend"/>			 <attr key="skills" value="Scout/Sage"/>			 <attr key="race" value="Man"/>		</card>		<card name="Heladil" graphics="Heladil.jpg" text="Unique. Silvan. +2 prowess against Spiders. +2 EI against the Elf factions playable in Mirkwood. Heladil may take spider creatures as trophies if he faced a strike from the attack. Discard a Greenwood the Great from his company to heal Heladil.">			 <attr key="type" value="Hero Character"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="3"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="3"/>			 <attr key="influence" value="0"/>			 <attr key="mp" value="1"/>			 <attr key="home_site" value="Celebannon, any Refuge in Mirkwood"/>			 <attr key="skills" value="Warrior/Scout"/>			 <attr key="race" value="Elf"/>		</card>		<card name="Itangast the Guest-eater" graphics="Itangast the Guest-eater.jpg" text="Unique. Manifestation of Itangast. Fire-dragon. +2 prowess against Men and Dwarves. +4 to his rolls for offering attempts. -3 to your influence attempts against manifestations of Ando-anca, Smaug, Scatha, and Throkmaw. Your unique gathered bones normally worth 2 mp or more are each worth 2 mp. While Itangast is at Gold Hill, your Orcs and Trolls require one less influence to control.">			 <attr key="type" value="Stage Resource"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="11"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="10"/>			 <attr key="influence" value="5"/>			 <attr key="home_site" value="Gold Hill"/>		</card>		<card name="Leucaruth the Wrathful" graphics="Leucaruth the Wrathful.jpg" text="Unique. Manifestation of Leucaruth. Female. Fire-dragon. +2 prowess against Dwarves and -2 to the body of Dwarf strikes against her. Your Dwarf gathered bones are each worth full mp. May normally move one region. If an opponent’s company containing a Dwarf is at a site in Withered Heath or its adjacent regions, she may move to that site (this must result in a legal movement). She must always (attempt to) move to a Dragon’s Den [K] the next turn.">			 <attr key="type" value="Stage Resource"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="9"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="9"/>			 <attr key="influence" value="3"/>			 <attr key="home_site" value="Irerock"/>		</card>		<card name="Lomaw the Old" graphics="Lomaw the Old.jpg" text="Unique. Manifestation of Lomaw. Ice-dragon. Can use spirit-magic. +2 to his rolls for riddling and offering attempts. -3 to your influence attempts against manifestations of Agburanar, Gostir, Itangast, and Throkmaw. If an opponent’s company moves through a region in The Northern Waste, you may look at a number of cards from opponent’s hand equal the number of Wildernesses [w] in their site path.">			 <attr key="type" value="Stage Resource"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="8"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="8"/>			 <attr key="influence" value="6"/>			 <attr key="home_site" value="Collarmount"/>		</card>		<card name="Orc of the Claw" graphics="Orc of the Claw.jpg" text="Dragon-lord only. Discard on a body checkresult of 7. -3 to his influence attempts.">			 <attr key="type" value="Minion Character"/>			 <attr key="rarity" value="C"/>			 <attr key="prowess" value="5/7"/>			 <attr key="mind" value="3"/>			 <attr key="influence" value="0"/>			 <attr key="mp" value="1"/>			 <attr key="home_site" value="any Dragon's Den"/>			 <attr key="skills" value="Warrior"/>			 <attr key="race" value="Orc"/>		</card>		<card name="Scatha the Worm" graphics="Scatha the Worm.jpg" text="Unique. Manifestation of Scatha. Cold-dragon.+2 prowess against Dragons, Drakes, Elves, and Dwarves. -3 to your influence attempts against manifestations of Ando-anca, Angurth, Itangast, and Smaug. tap: when at Gondmaeglom to bring a resource short-event that can be played on a Dragon from your discard pile to your play deck and shuffle.">			 <attr key="type" value="Stage Resource"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="9"/>			 <attr key="body" value="9"/>			 <attr key="mind" value="10"/>			 <attr key="influence" value="4"/>			 <attr key="home_site" value="Gondmaeglom"/>		</card>		<card name="Smaug the Golden" graphics="Smaug the Golden.jpg" text="Unique. Manifestation of Smaug. Winged. Fire-dragon. +4 to his riddling rolls. -3 to your influence attempts against manifestations of Ando-anca, Angurth, Itangast, and Scatha. Your non-stored unique ring and treasure items are each worth full mp.">			 <attr key="type" value="Stage Resource"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="11"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="11"/>			 <attr key="influence" value="5"/>			 <attr key="home_site" value="The Lonely Mountain"/>		</card>		<card name="Talmog" graphics="Talmog.jpg" text="Unique. Dragon-lord only. Leader. +1 EI against Orcs. Discard on a body check result of 8. Trophies he controls grant him twice the bonus for EI to a maximum of +4. Tap a shield he bears to shuffle a Blow Turned he used back into your play deck .">			 <attr key="type" value="Minion Character"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="7/8"/>			 <attr key="mind" value="7"/>			 <attr key="influence" value="2"/>			 <attr key="mp" value="2"/>			 <attr key="home_site" value="any Dragon's Den"/>			 <attr key="skills" value="Warrior/Diplomat"/>			 <attr key="race" value="Orc"/>		</card>		<card name="Talmog" graphics="Talmog.jpg" text="Dragon-lord only. Leader. +3 EI against Orcs. Discard on a body check result of 8.">			 <attr key="type" value="Minion Character"/>			 <attr key="rarity" value="R"/>			 <attr key="prowess" value="7/8"/>			 <attr key="mind" value="7"/>			 <attr key="influence" value="2"/>			 <attr key="mp" value="2"/>			 <attr key="home_site" value="any Dragon's Den"/>			 <attr key="skills" value="Warrior/Diplomat"/>			 <attr key="race" value="Orc"/>		</card>		<card name="The Master" graphics="The Master.jpg" text="Unique. +2 EI against any faction playable at Lake-town. -1 to his CP. tap: at any time, if at his home site, to prevent any player from bringing into play a Man character at a site in Northern Rhovanion.">			 <attr key="type" value="Hero Character"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="1"/>			 <attr key="body" value="6"/>			 <attr key="mind" value="4"/>			 <attr key="influence" value="1"/>			 <attr key="mp" value="1"/>			 <attr key="cp" value="-1"/>			 <attr key="home_site" value="Lake-town"/>			 <attr key="skills" value="Scout/Diplomat"/>			 <attr key="race" value="Man"/>		</card>		<card name="The Master" graphics="The Master.jpg" text="Unique. +2 EI against any faction playable at Lake-town. -1 to his CP. tap: at any time, if at his home site, to prevent any player from bringing into play a Man character at a site in Northern Rhovanion.">			 <attr key="type" value="Hero Character"/>			 <attr key="rarity" value="R"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="1"/>			 <attr key="body" value="6"/>			 <attr key="mind" value="4"/>			 <attr key="influence" value="1"/>			 <attr key="mp" value="1"/>			 <attr key="cp" value="-1"/>			 <attr key="home_site" value="Lake-town"/>			 <attr key="skills" value="Scout/Diplomat"/>			 <attr key="race" value="Man"/>		</card>		<card name="Throkmaw the Vain" graphics="Throkmaw the Vain.jpg" text="Unique. Manifestation of Throkmaw. Winged.Fire-dragon. +1 to all body checks resulting from failed strikes he has tapped to face. -3 to your influence attempts against manifestations of Angurth, Itangast, Scatha, and Smaug. tap: if at a Dragon’s Den [K] to give +1 prowess and +1 body to all Orc characters in any of your companies this turn.">			 <attr key="type" value="Stage Resource"/>			 <attr key="rarity" value="C"/>			 <attr key="unique" value="yes"/>			 <attr key="prowess" value="9"/>			 <attr key="body" value="8"/>			 <attr key="mind" value="9"/>			 <attr key="influence" value="3"/>			 <attr key="home_site" value="Shab Arch"/>		</card>	</cards></ccg-setinfo>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Bain" graphics="Bain.jpg" text="Unique. +1 prowess against Orcs, Dragons, and Drakes. +1 EI against Men with a home site in Northern Rhovanion. +1 EI against Dwarves.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Dale"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Daelomin the Ghost-Wing" graphics="Daelomin the Ghost-Wing.jpg" text="Unique. Manifestation of Daelomin. Female. Winged. Cold-dragon. Can use sorcery. +2 EI against male characters. +4 to her rolls for flattery and offering attempts. If no other characters or allies are in her company, her company’s normal hazard limit is two. tap: if at a Dragon’s Den [K] to cancel an effect that would raise the hazard limit for one of your companies.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="6"/>
+			 <attr key="home_site" value="Dancing Spire"/>
+		</card>
+		<card name="Dragon's Disciple" graphics="Dragon's Disciple.jpg" text="Dragon-lord only. Can use spirit-magic. +2 EI against Men. Is considered a Dragon-lord for the purpose of playing and interpreting Wielder of Old Arts; to play this card on Dragon’s Deciple, he must be in a company with your Dragon-lord and your Dragon-lord must tap. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="prowess" value="5/8"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="any Dragon’s Den"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Durlog" graphics="Durlog.jpg" text="Unique. Dragon-lord only. Leader. Discard on a body check result of 8. +2 EI against Orcs. Orcs and Trolls in his company may store any trophies they control during the end-of-turn phase at one of your Dragon’s Dens [K].">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="any Dragon's Den"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Eärcaraxë the Sea-fang" graphics="Eärcaraxë the Sea-fang.jpg" text="Unique. Manifestation of Eärcaraxë. Female. Cold-dragon. May normally move two Coastal Sea [c] regions. -2 prowess while not at or moving to a site in a Coastal Sea region. +2 to her rolls to bring/keep characters and allies into play. +4 to her rolls for offering and flattery attempts. -3 to your influence attempts against manifestations of Canadras, Gondring, and Scorba.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="9"/>
+			 <attr key="influence" value="7"/>
+			 <attr key="home_site" value="Isle of the Ulond"/>
+		</card>
+		<card name="Eodoric" graphics="Eodoric.jpg" text="Unique. +1 prowess against Animals and Wolves. tap: during your organization phase at a site in Northern Rhovanion to force an opponent to reveal three cards at random from his hand.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="any Border-hold in Northern Rhovanion"/>
+			 <attr key="skills" value="Scout/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Fram Wyrmslayer" graphics="Fram Wyrmslayer.jpg" text="Unique. Grey agent. Manifestation of Fram Framson. +3 prowess against Dragons and Drakes. May not be among the starting characters. Agent only: tap: during the movement/hazard phase at a site where an opponent’s Dragon faction is in play, to face the associated Dragon attack; any resulting body checks after the attack are modified by +1. If the attack is defeated, place the faction in the out of play pile. If Fram is eliminated, opponent receives him as kill mp.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Warrior/Ranger Man"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Framsburg"/>
+		</card>
+		<card name="Grashûkh" graphics="Grashûkh.jpg" text="Unique. Uruk-hai. Leader. Discard on a body check result of 8. +2 prowess against Dragons and Drakes. +2 EI against Orcs. May not be in a company with a Dragon. tap: during the organization phase to allow his company to move through a mountain region (and not stop at a site therein).">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Deep Cleft, Mount Gundabad"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Grim-faced Northman" graphics="Grim-faced Northman.jpg" text="Dragon-lord only. tap: during the site phase, if at one of his home sites, to take one character, ally, or faction playable there from your discard pile or play deck (reshuffle) to your hand.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any site in Northern or Southern Rhovanion"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Grimbeorn the Old" graphics="Grimbeorn the Old.jpg" text="Unique. +2 prowess against Orcs. +2 EI against the Beornings faction. Grimbeorn is considered Beorn for the purpose of playing and interpreting Skin-changer. Discard if you have Bad Company in play.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Beorn's House"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Grimson the Fearless" graphics="Grimson the Fearless.jpg" text="Unique. His prowess is only modified by -1 when not tapping to face a strike. If you are a Dragon-lord, Grimson may play allies normally playable only by your Dragon-lord; he may control a maximum of two such allies. If in the same company, you may transfer any allies your Dragon-lord controls to Grimson during the organization phase.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5/8"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Framsburg"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Haeldwyn" graphics="Haeldwyn.jpg" text="Unique. +2 EI against Orc characters with a mind lower than his. If Haeldwyn controls a Stolen Knowledge card, he can use sorcery; if he controls a Lost Knowledge card, he can use spirit-magic.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Mathlaburg, Tower of the Wolf-friend"/>
+			 <attr key="skills" value="Scout/Sage"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Heladil" graphics="Heladil.jpg" text="Unique. Silvan. +2 prowess against Spiders. +2 EI against the Elf factions playable in Mirkwood. Heladil may take spider creatures as trophies if he faced a strike from the attack. Discard a Greenwood the Great from his company to heal Heladil.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Celebannon, any Refuge in Mirkwood"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Itangast the Guest-eater" graphics="Itangast the Guest-eater.jpg" text="Unique. Manifestation of Itangast. Fire-dragon. +2 prowess against Men and Dwarves. +4 to his rolls for offering attempts. -3 to your influence attempts against manifestations of Ando-anca, Smaug, Scatha, and Throkmaw. Your unique gathered bones normally worth 2 mp or more are each worth 2 mp. While Itangast is at Gold Hill, your Orcs and Trolls require one less influence to control.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="11"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="10"/>
+			 <attr key="influence" value="5"/>
+			 <attr key="home_site" value="Gold Hill"/>
+		</card>
+		<card name="Leucaruth the Wrathful" graphics="Leucaruth the Wrathful.jpg" text="Unique. Manifestation of Leucaruth. Female. Fire-dragon. +2 prowess against Dwarves and -2 to the body of Dwarf strikes against her. Your Dwarf gathered bones are each worth full mp. May normally move one region. If an opponent’s company containing a Dwarf is at a site in Withered Heath or its adjacent regions, she may move to that site (this must result in a legal movement). She must always (attempt to) move to a Dragon’s Den [K] the next turn.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="9"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="home_site" value="Irerock"/>
+		</card>
+		<card name="Lomaw the Old" graphics="Lomaw the Old.jpg" text="Unique. Manifestation of Lomaw. Ice-dragon. Can use spirit-magic. +2 to his rolls for riddling and offering attempts. -3 to your influence attempts against manifestations of Agburanar, Gostir, Itangast, and Throkmaw. If an opponent’s company moves through a region in The Northern Waste, you may look at a number of cards from opponent’s hand equal the number of Wildernesses [w] in their site path.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="8"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="6"/>
+			 <attr key="home_site" value="Collarmount"/>
+		</card>
+		<card name="Orc of the Claw" graphics="Orc of the Claw.jpg" text="Dragon-lord only. Discard on a body checkresult of 7. -3 to his influence attempts.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="5/7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any Dragon's Den"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Scatha the Worm" graphics="Scatha the Worm.jpg" text="Unique. Manifestation of Scatha. Cold-dragon.+2 prowess against Dragons, Drakes, Elves, and Dwarves. -3 to your influence attempts against manifestations of Ando-anca, Angurth, Itangast, and Smaug. tap: when at Gondmaeglom to bring a resource short-event that can be played on a Dragon from your discard pile to your play deck and shuffle.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="10"/>
+			 <attr key="influence" value="4"/>
+			 <attr key="home_site" value="Gondmaeglom"/>
+		</card>
+		<card name="Smaug the Golden" graphics="Smaug the Golden.jpg" text="Unique. Manifestation of Smaug. Winged. Fire-dragon. +4 to his riddling rolls. -3 to your influence attempts against manifestations of Ando-anca, Angurth, Itangast, and Scatha. Your non-stored unique ring and treasure items are each worth full mp.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="11"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="11"/>
+			 <attr key="influence" value="5"/>
+			 <attr key="home_site" value="The Lonely Mountain"/>
+		</card>
+		<card name="Talmog" graphics="Talmog.jpg" text="Unique. Dragon-lord only. Leader. +1 EI against Orcs. Discard on a body check result of 8. Trophies he controls grant him twice the bonus for EI to a maximum of +4. Tap a shield he bears to shuffle a Blow Turned he used back into your play deck .">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="7/8"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="any Dragon's Den"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Talmog" graphics="Talmog.jpg" text="Dragon-lord only. Leader. +3 EI against Orcs. Discard on a body check result of 8.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="7/8"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="any Dragon's Den"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="The Master" graphics="The Master.jpg" text="Unique. +2 EI against any faction playable at Lake-town. -1 to his CP. tap: at any time, if at his home site, to prevent any player from bringing into play a Man character at a site in Northern Rhovanion.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="1"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Lake-town"/>
+			 <attr key="skills" value="Scout/Diplomat"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="The Master" graphics="The Master.jpg" text="Unique. +2 EI against any faction playable at Lake-town. -1 to his CP. tap: at any time, if at his home site, to prevent any player from bringing into play a Man character at a site in Northern Rhovanion.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="1"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Lake-town"/>
+			 <attr key="skills" value="Scout/Diplomat"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Throkmaw the Vain" graphics="Throkmaw the Vain.jpg" text="Unique. Manifestation of Throkmaw. Winged.Fire-dragon. +1 to all body checks resulting from failed strikes he has tapped to face. -3 to your influence attempts against manifestations of Angurth, Itangast, Scatha, and Smaug. tap: if at a Dragon’s Den [K] to give +1 prowess and +1 body to all Orc characters in any of your companies this turn.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="9"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="home_site" value="Shab Arch"/>
+		</card>
+	</cards>
+</ccg-setinfo>

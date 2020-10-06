@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="A Lust Not Concealed" graphics="A Lust Not Concealed.jpg" text="Playable (at any time) on your avatar if you tap two characters with two different skills in his company. Your avatar receives +3 P and -3 EI this turn; untap him if tapped. Cannot be duplicated in a given turn.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="A Mind Alike" graphics="A Mind Alike.jpg" text="Place this card on your avatar when he is in play. You may tap your avatar to look at half the number of cards in opponent’s hand (at random; round up if opponent is of the same aligment, round down otherwise). Avatar makes a CP.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Assignment Forsaken" graphics="Assignment Forsaken.jpg" text="Fallen-wizard only. Place this card on your Fallen- wizard if he is in play. He may use spirit-magic. +3 to his riddling, offering and flattery attempts. Additionally, you may at any time discard one Honey on the Tongue or Poison of His Voice from hand to tap one non-avatar character (or two Man characters) at your Wizard’s site. Wizard makes a CP. Cannot be duplicated by a given player. tap: take one light enchantment from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Brought back Alive" graphics="Brought back Alive.jpg" text="Saruman specific. Prisoner. Playable on an overt company. Instead of making a body check for an opponent’s character in CvCC,one of your characters in the company may tap to take opponent’s character prisoner with the company. Place the prisoner and all (non-ally, non-hazard) cards he controls with this card and under control of the host character. The prisoner may not discard his items and cannot be transferred to another host; the hazard limit against he company is increased by one. This card may only be stored during the site phase at Isengard or one of your protected Wizardhavens [H]: it is worth 1 mp for each character and item attached. Discard this card if the prisoner is released. Cannot be duplicated on a given prisoner.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(*)"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Saruman"/>
+		</card>
+		<card name="Fuel for Furnaces" graphics="Fuel for Furnaces.jpg" text="Playable on a company containing an overt character at a non- Haven, non-Dark-hold site in a Jungle [j] region or in Mirkwood, Fangorn, Lotan, Old Forest, or Taur Rómen. The company faces 3 attacks: Awakend Plants — 3 strikes with 9 prowess; 2 strikes with 11 prowess; 1 strike with 14 prowess. These attacks can only be cancelled by discarding a Blasting Fire or Liquid Fire from the company. After the attacks, tap a character and the site or discard this card. If played at a site in Fangorn or Old Forest, invert this card. It may be stored at one of your protected Wizardhavens [H]; you may then take one stage resource playable on/at Deep Mines from your discard pile to your hand. If stored and inverted, this card gives 4 mp. Cannot be duplicated at a given site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="2(4)"/>
+			 <attr key="sp" value="3"/>
+		</card>
+		<card name="Grim Morn and a Golden Sunset" graphics="Grim Morn and a Golden Sunset.jpg" text="Théoden King specific. Place this card on Théoden Kingif he is in play. Your eliminated horse allies are considered a character with a home site in Rohan for the purpose of playing Evermind. If on Théoden, invert this card when you play Hour of Need on a character in his company. If inverted, place this card in your mp when Théoden is eliminated, or when you play Valour in Battle on Théoden or Charge! on his companyp: this card now gives 2 mp and each of your Evermind is worth 2 mp. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(2)"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="King"/>
+		</card>
+		<card name="He Walks Here and There" graphics="He Walks Here and There.jpg" text="Saruman specific. Saruman may enter play at any Free-hold [F], Border-hold [B], or non-Dragon’s lair Ruin’s &amp; Lairs[R] where gold rings are playable. Discard this card to immediately join Saruman with one of your companies that is at or moving to a site in the same or adjacent region as his current site; tap Saruman if untapped, and all characters in his new company receive +2 to their CP this turn. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="Saruman"/>
+		</card>
+		<card name="Marshall of the Mark" graphics="Marshall of the Mark.jpg" text="Théoden King specific. Playable on Éomer, Elfhelm, Erkenbrand, or Théodred, if he is in a company with Théoden (or in your starting company). +2 EI against characters with a home site in Rohan. Target character becomes a leader. He can only be controlled by Théoden or GI. Attacks against his company keyed to Rohan by name are detainment. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="+2"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="King"/>
+		</card>
+		<card name="Meduseld" graphics="Meduseld.jpg" text="Unique. Théoden King specific. Playable on Edoras. May also be played during the end-of-turn phase. The site becomes a Lordhaven [H]. If one of your companies is at this site, all attacks against it are cancelled. Characters with Edoras as their home site may be brought into play under GI at this site regardless of the presence of any other character. Only agents that have Edoras as a home site may move to this site. Discard when the site leaves active play, or when Smoke on the Wind or People Diminished is successfully played at the site.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="King"/>
+		</card>
+		<card name="Precisely on Time" graphics="Precisely on Time.jpg" text="Place this card on your avatar if he is in play. Once per turn, you may tap your avatar to play a stage card normally playable only during the organization phase (if the conditions to play it exist). Cannot be duplicated by a given player.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Royal Stables" graphics="Royal Stables.jpg" text="Unique. Théoden King specific. You may place any of your horse allies controlled by your characters at Edoras “off to the side” with this card during the site phase. If there are at least 3 horse allies under this card, it is worth 2 ally mp. Horse allies placed with this card may be played during the organization phase with your characters at Edoras (one per character; neither character nor the site need to tap). Discard this card and all cards attached if Smoke on the Wind or People Diminished is successfully played at Edoras.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="(2)"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="King"/>
+		</card>
+		<card name="Scatha's Hoard Dispearsed" graphics="Scatha's Hoard Dispearsed.jpg" text="Atáni-lord specific. You may play hoard minor items with your starting company. You must use minion versions for Dwarf-hold sites. Dwarf hazard creatures attack your companies as though they were minion companies. Discard this card to make hoard items playable this turn at a site in Rohan or Gap of Isen. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="Atáni-lord"/>
+		</card>
+		<card name="Scion of Eorl" graphics="Scion of Eorl.jpg" text="Unique. Théoden King specific. Your unique horse allies in active play and not at a Lordhaven [H] are each worth 2 mp. Your defeated Dragon and Drake creatures are worth full mp. Additionally, Horse-lords may be played keyed to Anduin Vales, Brown Lands, Dunland, and Enedwaith. tap: take one Horse-lords from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="King"/>
+		</card>
+		<card name="Skilled Was Their Knighthood" graphics="Skilled Was Their Knighthood.jpg" text="Atani-lord only. Command. Playable on a leader. Return any other command cards on target leader to your hand. -2 to target leader’s EI (to a minimum of 0). He may tap to assign all strikes of an attack against his company, regardless of any character’s status or the attack’s abilities. Up to 2 strikes may be assigned per character (in separate strike sequences; resolve these strikes immediately following one another).">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="-2"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="Snowmane" graphics="Snowmane.jpg" text="Unique. Horse. Théoden King specific. Playable only by Théoden King at a tapped or untapped non-Haven site in Rohan or Gap of Isen.+1 prowess to all horse allies in the company if Doors of Night is in play. Any effect of More Sense than You played on Snowmane applies also to Théoden and does not require either of them to tap. Wound Théoden King (if unwounded) when Snowmane is eliminated.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Ally"/>
+			 <attr key="prowess" value="2/8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="specific" value="King"/>
+		</card>
+		<card name="Spear Shall Be Shaken" graphics="Spear Shall Be Shaken.jpg" text="Atani-lord only. Command. Playable on a leader. Return any other command cards on target leader to your hand. -2 to target leader’s EI (to a minimum of 0) and he may tap to untap all battle-gear items in the company. Discard this card during CvCC (before strikes are assigned) to untap all unwounded characters in the company; Cvyou may not cancel the attack nor any of its strikes.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="influence" value="-2"/>
+			 <attr key="sp" value="1"/>
+		</card>
+		<card name="The Hand That Gives Man-flesh" graphics="The Hand That Gives Man-flesh.jpg" text="Pallando or Saruman only. Playable if you have Bad Company in play and 6 P or more. Your avatar may tap to take this card from your sideboard to your hand. He is considered an Orc for the purpose of interpreting Marauding Band of Orcs. Your overt characters and minion battle-gear items are each worth full mp. Your Seize Prisoners are each worth full mp. You may play Seize Prisoners at an untapped site. When you store Seize Prisoners at one of your Wizardhavens [H], you may play a Man or Dúnadan character with a mind less than 6 from hand as a trophy on one of your overt leaders at that site)) ) p (the character is considered eliminated and only yields trophy mp).">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="3"/>
+		</card>
+		<card name="The Hand That Gives Us Man’s Flesh" graphics="The Hand That Gives Us Man’s Flesh.jpg" text="Pallando or Saruman only. Tap your avatar during the organization phase to bring this card into play from the sideboard, if you have Bad Company in play and 6 P or more. Your overt characters and minion battle-gear items are each worth full mp. Your Seize Prisoners are each worth full mp; you may play Seize Prisoners at an untapped site. When you store Seize Prisoners at one of your Wizardhaven [H], you may play one Man or Dúnadan character with a mind less than 6 from your hand as a trophy on one of your overt leaders at that site; it gives no kill mp)) ) p. Your Orcs with a mind equal to or lower than the number of Man and/or Dúnadan characters borne as a trophy by overt leaders in their company cost no influence to control (unless at a Wizardhaven).">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="3"/>
+		</card>
+		<card name="The Muster of Rohan" graphics="The Muster of Rohan.jpg" text="Unique. Théoden King specific. Playable if you have in play at least: 6 P, Golden Hall of Edoras, and 4 horse allies and/or animal factions. The prowess of automatic-attacks at minion sites in Rohan is modified by +3. tap: during the organization phase to take a character with a home site in Gondor from your discard pile to your hand.tap: give +3 to an influence attempt by one of your leaders at a site in Rohan or Gap of Isen.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="sp" value="3"/>
+			 <attr key="specific" value="King"/>
+		</card>
+		<card name="The Rohirrim" graphics="The Rohirrim.jpg" text="Théoden King specific. Playable during the organization phase on a company containing a leader with a home site in Rohan. There is no limit to the size of this company and it may contain two leaders (in addition to an avatar leader). Characters in the company with a mind of two or less and a home site in Rohan or Gap of Isen cost no influence to control. Discard if no character in the company has a home site in Rohan, or if two or more characters do not have a home site in Rohan or Gap of Isen. Cannot be duplicated on a given company.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="King"/>
+		</card>
+		<card name="The Rohirrim" graphics="The Rohirrim.jpg" text="Théoden King specific. Playable during the organization phase on a company containing a Man leader with a home site in Rohan. There is no limit to the size of this company and it may contain two leaders (in addition to an avatar leader). Discard this card if no character in the company has a home site in Rohan, or if two or more characters do not have a home site in Rohan or Gap of Isen. Cannot be duplicated on a given company.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="2"/>
+			 <attr key="specific" value="King"/>
+		</card>
+	</cards>
+</ccg-setinfo>

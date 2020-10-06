@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Baugúr" graphics="Baugúr.jpg" text="Unique. Half-orc. Agent. Leader. Discard on a body check result of 8. +2 EI against Orcs and Orc factions. Agent only: May not move to Free-holds [F] and Border-holds [B].">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Isengard"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Bodyguard" graphics="Bodyguard.jpg" text="Atani-lord or Fallen-wizard only. Unless he is among the starting characters, he may only be brought into play at his home site. Discard if not controlled by a character (outside the organization phase); a given character may control only one Bodyguard. Must always be assigned a strike from an attack before a strike can be assigned to his controlling character.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="any Man -or Dúnadan-hold Free-hold"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Ceorl" graphics="Ceorl.jpg" text="Unique. tap: during the movement/hazard phase to cancel an attack against his company, if Horses was played for his moving company that turn.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="Helm's Deep"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Dúnhere" graphics="Dúnhere.jpg" text="Unique. +2 EI against the Men of Harrowdale faction and against characters with home site Dunharrow.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Dunharrow"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Elfhelm" graphics="Elfhelm.jpg" text="Unique. +1 prowess against Men, Orcs and Wolves.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Edoras"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Éothain" graphics="Éothain.jpg" text="Unique. -1 to his CPC. -1 to his influence attempts.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Dunharrow"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Freca" graphics="Freca.jpg" text="Unique. Agent. +1 EI against the Riders of Rohan and Dunlendings factions.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Dunnish Clan-hold, Edoras"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Garulf" graphics="Garulf.jpg" text="Unique. -1 to his CP. -1 to his influence attempts. Garulf receives +1 prowess if he controls a horse ally.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="1"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Dunharrow"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Grimbold" graphics="Grimbold.jpg" text="Unique. +1 prowess against Orcs and Wolves. +2 EI against the Men of Westfold faction and against characters with home site Helm’s Deep.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Helm's Deep"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Guthláf" graphics="Guthláf.jpg" text="Unique. +2 to his body when in a company with Théoden.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="Edoras"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Morwen of Lossarnach" graphics="Morwen of Lossarnach.jpg" text="Unique. +3 EI against Théoden and against factions normally playable at her home sites. +5 prowess against Nazgûl and his body is halved (round up).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Edoras, Lossarnach"/>
+			 <attr key="skills" value="Sage/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Théoden King" graphics="Théoden King.jpg" text="Unique. Manifestation of Théoden. Leader. +5 EI against characters with a home site in Rohan. +2 EI against factions normally playable at Edoras, Dunharrow, or Helm’s Deep. When Théoden King is at Edoras, you may keep one more card than normal in your hand. tap: take one Meduseld or The Rohirrim from your discard pile to your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5/7"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="home_site" value="Edoras"/>
+		</card>
+		<card name="Théodred" graphics="Théodred.jpg" text="Unique. +2 EI against characters with home site Edoras or Helm’s Deep. +2 EI against factions normally playable at Edoras or Helm’s Deep. When Théoden is eliminated, any resources only playable on Théoden may be played on Théodred (and/or transferred to him if he was in the same company).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Edoras, Helm's Deep"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Wídfara" graphics="Wídfara.jpg" text="Unique. -1 to his CPC. -1 to his influence attempts.When Wídfara comes into play you may take one The Wind Is Turning from your discard pile or play deck (reshuffle) to your hand.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="1"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="any site in Rohan"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Wolf" graphics="Wolf.jpg" text="Unique. Agent. +2 EI against the Dunlendings faction.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Dunnish Clan-hold, Edoras"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Man"/>
+		</card>
+	</cards>
+</ccg-setinfo>

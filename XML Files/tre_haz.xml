@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="All Dead, All Rotten" graphics="All Dead, All Rotten.jpg" text="Each non-Elf, non-Wizard character in a company moving to a site with an Undead automatic-attack must make a CP at the end of their movement/ hazard phase. Additionally, Corpse-candle, Ghouls, and Wisp of Pale Sheen can be played at any swamp. Discard when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Darkness Ahead" graphics="Darkness Ahead.jpg" text="Once per turn, any hazard player may reserve a card face down with this card (counting as 1 against the hazard limit). Only one card can be reserved with this card at any time. During any of opponent’s movement/hazard phases, the hazard player may play his reserved card as though it were in his hand. During opponent’s end-of-turn phase, a player may take his reserved card back into his hand. When this card is discarded, reveal and discard any card reserved with it: if the revealed card was not a hazard, its controlling player receives this card in his mp. -1 to your hand size if this card is in your mp. Cannot be duplicated by a given player.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Demons of Aglarond" graphics="Demons of Aglarond.jpg" text="Demons. Four strikes. May be played at Glittering Caves and The Gem-deeps. If Doors of Night is in play, may also be played keyed to any Under-deeps site adjacent to these sites and to Gap of Isen; and also at any Under-deeps site with a Demon or Spawn automatic-attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="4"/>
+			 <attr key="subclass" value="Demons"/>
+		</card>
+		<card name="Devastation" graphics="Devastation.jpg" text="Playable on a site on which Nature’s Revenge, Siege, or Wyrmsiege was in play at the beginning of the movement/ hazard phase. Discard the above mentioned hazard(s) from the site. Any version of the site becomes a Ruins &amp; Lairs [R] and the region containing it a Wilderness [w]. Replace all its automatic-attacks with: Undead — 3 strikes with 7 prowess. Additionally, the site never untaps and does not leave active play. Discard this card if the site becomes a Haven [H] or Rebuild the Town or Hold Rebuilt and Repaired is played it.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Grasping and Ungracious" graphics="Grasping and Ungracious.jpg" text="Corruption. Playable on a non-diplomat, non-avatar character. Target character may not transfer or store any items, and no items may be transferred to target character. Cannot be duplicated on a given character. During his organization phase, a character with this card may tap to attempt to remove it. Make a roll: if the result is greater 6, discard this card.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="Greater Specters" graphics="Greater Specters.jpg" text="Undead. 2 strikes. May also be played at any Under- deeps site with an Undead automatic-attack. Non-unique weapons do not modify a defender’s prowess against strikes from Greater Specters. Unless the attack was cancelled, after the attack opponent may search his discard pile for one corruption card and play it on a character that has faced a strike from the attack (if the conditions to play it exist; does not count against the hazard limit).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="7/-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{s}{d}{D}"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Undead"/>
+		</card>
+		<card name="Greater Spectres" graphics="Greater Spectres.jpg" text="Undead. 2 strikes. May also be played at any Under- deeps site with an Undead automatic-attack. Non-unique weapons do not modify a defender’s prowess against strikes from Greater Spectres. Unless the attack was cancelled, after the attack opponent may search his discard pile for one corruption card and play it on a character that has faced a strike from the attack (if the conditions to play it exist; does not count against the hazard limit).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="7/-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{s}{d}{D}"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Undead"/>
+		</card>
+		<card name="Greater Spectres" graphics="Greater Spectres.jpg" text="Undead. Two strikes. May also be played at any Dungeon. Non-unique weapons do not modify a defender’s prowess against strikes from Greater Spectres. Unless the attack was defeated, immediately afterwards opponent may play a corruption card (taken from his hand or discard pile) on a character who has faced a strike from the attack (if the conditions to play it exist; does not count against the hazard limit).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="9/-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{d}{S}{D}"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Undead"/>
+		</card>
+		<card name="Grima Wormtongue" graphics="Grima Wormtongue.jpg" text="Unique. Man. Manifestation of Wormtongue. One strike. Detainment against hero and covert companies. As a creature, may be played at any site in Anórien, Dunland, Enedwaith, Rohan, or Gap of Isen. May also be played following an attack by Saruman the Wise. Unless this attack is cancelled or defeated, tap all non-diplomat, non-sage characters in the company. If played as a long-event, all influence attempts at sites in the above named regions are modified by -3.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Long-event"/>
+			 <attr key="prowess" value="8"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Man"/>
+		</card>
+		<card name="Haunted Place" graphics="Haunted Place.jpg" text="Playable on a Ruins &amp; Lairs [R] or Shadow-hold [S] in a region affected by Angmar Arrises, Growing Shadow, In Darkness Bind Them, or Reaching Shadow. An additional automatic- attack is created at the site: Undead — 2 strikes with 7 prowess. Alternatively, as a short-event, playable on a site with an Undead automatic-attack. The automatic-attack cannot be cancelled this turn.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event/Short-event"/>
+		</card>
+		<card name="Hunt Wild Men Like Beasts" graphics="Hunt Wild Men Like Beasts.jpg" text="Characters with a home site in Rohan may not be in the same company as a Wose character. Additionally, characters with a home site in Rohan may initiate CvCC with a Wose character or ally, as if both are single character companies and regardless of their alignment.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Hurnkennec" graphics="Hurnkennec.jpg" text="Pûkel-creature. Spider. One strike. Attacker chooses defending characters. May not be played if the company has already faced a hazard creature this movement/hazard phase. Any subsequent hazard creatures played keyed to the same site cost two against the hazard limit. May also be played at Ruins &amp; Lairs [R] sites in the following regions: Andrast, Anfalas, Anórien, Dunland, Enedhwaith, Gap of Isen, Lamedon, Old Pûkel Gap, Old Pûkel-land, and Rohan.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="11"/>
+			 <attr key="body" value="- "/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{S}"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Pûkel-creature, Spider"/>
+		</card>
+		<card name="King of the Dead" graphics="King of the Dead.jpg" text="Unique. Undead. Manifestation of Oathbreaker. One strike. May be played keyed to Dunland, Enedhwaith, Gap of Isen, Old Pûkel Gap, or Old Pûkel-land; and also at Ruins &amp; Lairs [R] in these regions and at Dunharrow or Vale of Erech. Each character wounded by King of the Dead makes a CP modified by -1. Cannot be played if opponent has Army of the Dead in play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="14"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Undead"/>
+		</card>
+		<card name="Like Shreds of Cloud" graphics="Like Shreds of Cloud.jpg" text="Weapons (except weapons with a resource event attached) do not modify a defending character’s prowess against strikes from Chill Douser, Corpse Candle, Ghosts, Sand Devil, Ta-Fa-Lish, or Wisp of Pale Sheen. Discard when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Lord of the Eorlingas" graphics="Lord of the Eorlingas.jpg" text="Unique. Manifestation of Théoden. Man. Two strikes. As a creature, may be played keyed to Anórien, Enedwaith, Gap of Isen, and Rohan; and at sites in these regions. Detainment against hero and covert companies. If played as a permanent-event, it will remain in play until tapped during opponent’s movement/hazard phase (tapping counts against the hazard limit). When tapped, it becomes a long-event:, any company without a horse ally and at a site in the above named regions cannot reveal a new site that is not in the above named regions (unless it uses flying movement).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Permanent-event"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Man"/>
+		</card>
+		<card name="Lost in Emyn Muil" graphics="Lost in Emyn Muil.jpg" text="Playable on a moving company. Opponent must discard the top card of his play deck (he may look at the card) or bring a number of random cards equal to the company size from his discard pile to his play deck and shuffle (hazard player’s choice). Opponent may cancel the second effect by shuffling the same number of random cards from his hand to his play deck instead. Remove this card from the game.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Memories of Axe-wielders" graphics="Memories of Axe-wielders.jpg" text="Playable on a company containing a majority of Man, Dwarf, Orc and/or Troll characters. All Awakened Plant attacks against the company receive +2 prowess this turn. Cannot be duplicated in a given phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Mensharag" graphics="Mensharag.jpg" text="Pûkel-creature. Animal. Two strikes. May not be played if the company has already faced a hazard creature this movement/hazard phase. Any subsequent hazard creatures played keyed to the same site cost two against the hazard limit. May also be played at Ruins &amp; Lairs [R] sites in the following regions: Andrast, Anfalas, Anórien, Dunland, Enedhwaith, Gap of Isen, Lamedon, Old Pûkel Gap, Old Pûkel-land, and Rohan.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{S}"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Pûkel-creature, Animal"/>
+		</card>
+		<card name="Mewlips" graphics="Mewlips.jpg" text="Undead. Two strikes. May also be played at any swamp. Any character wounded by Mewlips must discard one non-ring item he bears (defender’s choice). If Mewlips is defeated, a character in the company may tap to play a minor or major item, which may be taken from your hand or discard pile.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="10/-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{w}{w}{s}"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Undead"/>
+		</card>
+		<card name="Much Cursing and Confusion" graphics="Much Cursing and Confusion.jpg" text="Play to target a card opponent has reserved face down or has placed “off to the side” (cannot be a character or agent); opponent must reveal target card and bring it to his hand, or place this card in his mp. For each copy of this card in his mp, a player’s hand size is reduced by 1 for the purpose of resolving hand size after any movement/hazard phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Out of the Swamps" graphics="Out of the Swamps.jpg" text="Any non-unique Undead hazard creature may be played keyed to a swamp. Additionally, if it is normally keyable to a swamp, or if Doors of Night is in play, any non-unique Undead hazard creature may be played keyed to the region containing a swamp. Discard at the end of the movement/hazard phase if such a creature was played keyed (by name) to a swamp or region containing a swamp.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Panic" graphics="Panic.jpg" text="Playable on a company facing a non-detainment Demon, Dragon, Drake, Undead, or Spawn attack (does not count against the hazard limit). May be revealed as an on-guard card when the company faces such an attack. For every ally in the company (except allies of the above named types or maia allies), make a roll adding its mind (+2 if unique) and its controlling character’s mind. If the result is less than the attack’s prowess, the ally is tapped; if less than the attack’s prowess minus 7, discard the ally.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Tauremornalómë" graphics="Tauremornalómë.jpg" text="As a permanent-event, each player may use one against the hazard limit to discard an Awakened Plant creature from hand and add one Wilderness [w] to the site path of a company moving through at least one Wilderness or Border-land [b]. A ranger, avatar, or Ent in the company may tap to cancel this effect. Additionally, each overt company (or company containing a Dwarf and no Elf or Wizard) and moving through Fangorn, Lotan, Old Forest, or Usakan, faces an attack: Awakened Plants — 3 strikes with 10 rowess. Cannot be duplicated as a permanent-event.As a short-event, play to tap one Ent.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event/Short-event"/>
+		</card>
+		<card name="Terror of Halifirien" graphics="Terror of Halifirien.jpg" text="Unique. Animal. Boar. Trophy. Manifestation of Wild Boar of Everhold. One strike. Playable keyed to Rohan and Fangorn. May also be played at Druadan Forest. If Terror of Halifirien is defeated and a Man character has faced one of its strikes, he may take it as a trophy: the character receives +1EI and +1 prowess.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="13/6"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Animal, Boar, Trophy"/>
+		</card>
+		<card name="Turukulon" graphics="Turukulon.jpg" text="Unique. Fire-dragon. May be played at Turukulon’s Lair. Three strikes. If Doors of Night is in play, may also be played keyed to Dunland, Enedwaith, Hollin, Misty Mountains - Southern Spur, and Redhorn Gate; and at non-Haven, non-Free-hold sites in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="11/7"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Fire-dragon"/>
+		</card>
+		<card name="Turukulon's New Abode" graphics="Turukulon's New Abode.jpg" text="Unique. Manifestation of Turukulon. Place this card with a non-Dragon’s Lair Ruins &amp; Lairs [R] in a mountain region or with at least 3 Wildernesses [w] or 2 Deserts [e] in its site path (not in Mirkwood); the site may also be taken from your location deck. Target site does not leave active play until this card leaves play. Any version of the site gains an additional automatic- attack: Dragon — 3 strikes with 12/7 prowess/body. This card is considered an at home manifestation; it cannot be revealed as an on-guard card.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="3"/>
+		</card>
+		<card name="We Wants It!" graphics="We Wants It!.jpg" text="Reveal your My Precious at a site where a company containing Gollum or Stinker is present: Gollum/Stinker immediately attacks a character in the company bearing an item (your choice). After the attack, if the attack was successfull, discard Gollum/Stinker. Otherwise, turn My Precious face down and heal Gollum/Stinker (if still in play).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+	</cards>
+</ccg-setinfo>

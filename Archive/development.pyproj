@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04598d0d-bc8f-435d-b8c8-b4c5e2e4dc48}</ProjectGuid>
+    <ProjectHome>..\..\dc-master\development\</ProjectHome>
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>CondaEnv|CondaEnv|Anaconda3_64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".ipynb_checkpoints\OCR-checkpoint.ipynb" />
+    <Content Include=".ipynb_checkpoints\XML_Nec-checkpoint.ipynb" />
+    <Content Include="nec_char-files\Aryen.jpg" />
+    <Content Include="nec_char-files\Bulrakur.jpg" />
+    <Content Include="nec_char-files\Djerul.jpg" />
+    <Content Include="nec_char-files\Gaurhir.jpg" />
+    <Content Include="nec_char-files\Goblin-miner.jpg" />
+    <Content Include="nec_char-files\Grachev Hos.jpg" />
+    <Content Include="nec_char-files\Gûrthlug.jpg" />
+    <Content Include="nec_char-files\Hurog.jpg" />
+    <Content Include="nec_char-files\Leardinoth.jpg" />
+    <Content Include="nec_char-files\Orc Archer.jpg" />
+    <Content Include="nec_char-files\Orc Grunt.jpg" />
+    <Content Include="nec_char-files\Orc Shaman.jpg" />
+    <Content Include="nec_char-files\Swarthy Sneering Fellow.jpg" />
+    <Content Include="nec_char-files\Ukog.jpg" />
+    <Content Include="nec_char-files\Ullis.jpg" />
+    <Content Include="nec_char-files\Ulred.jpg" />
+    <Content Include="nec_char-files\Virsh.jpg" />
+    <Content Include="nec_char-files\Waulfa.jpg" />
+    <Content Include="nec_char-files\Woedwyn.jpg" />
+    <Content Include="nec_char-files\Zurtak.jpg" />
+    <Content Include="nec_haz-files\Ambushed.jpg" />
+    <Content Include="nec_haz-files\Arda Marred.jpg" />
+    <Content Include="nec_haz-files\Ash-drake.jpg" />
+    <Content Include="nec_haz-files\Behind the Hedge.jpg" />
+    <Content Include="nec_haz-files\Beijabar Bees.jpg" />
+    <Content Include="nec_haz-files\Broken Heirlooms.jpg" />
+    <Content Include="nec_haz-files\Brutal Commands.jpg" />
+    <Content Include="nec_haz-files\Caran-carach.jpg" />
+    <Content Include="nec_haz-files\Dark Designs of Mordor.jpg" />
+    <Content Include="nec_haz-files\Dark Shapes Gathered There.jpg" />
+    <Content Include="nec_haz-files\Death-carrying Vermin.jpg" />
+    <Content Include="nec_haz-files\Evil Entered Secretly.jpg" />
+    <Content Include="nec_haz-files\Eyes in Their Service.jpg" />
+    <Content Include="nec_haz-files\Failed Leadership.jpg" />
+    <Content Include="nec_haz-files\Forgot His Orders.jpg" />
+    <Content Include="nec_haz-files\Fruitless Victory.jpg" />
+    <Content Include="nec_haz-files\Gorfaur the Lame.jpg" />
+    <Content Include="nec_haz-files\It Stinks.jpg" />
+    <Content Include="nec_haz-files\Leeches.jpg" />
+    <Content Include="nec_haz-files\Lure of Magic.jpg" />
+    <Content Include="nec_haz-files\Made for His Rescue.jpg" />
+    <Content Include="nec_haz-files\Many Burdens.jpg" />
+    <Content Include="nec_haz-files\Men of the Wood.jpg" />
+    <Content Include="nec_haz-files\Morgai-flies.jpg" />
+    <Content Include="nec_haz-files\Núrnen.jpg" />
+    <Content Include="nec_haz-files\On Their Master%27s Errand.jpg" />
+    <Content Include="nec_haz-files\Orc-battalion.jpg" />
+    <Content Include="nec_haz-files\Politics.jpg" />
+    <Content Include="nec_haz-files\Presence of the Dark Lord.jpg" />
+    <Content Include="nec_haz-files\Ransom.jpg" />
+    <Content Include="nec_haz-files\Ring-chained.jpg" />
+    <Content Include="nec_haz-files\Slipped out Quietly.jpg" />
+    <Content Include="nec_haz-files\Slyardach.jpg" />
+    <Content Include="nec_haz-files\Soldiers of the Dark Lord.jpg" />
+    <Content Include="nec_haz-files\Some Devilry at Work.jpg" />
+    <Content Include="nec_haz-files\Sorrow Long Foreseen.jpg" />
+    <Content Include="nec_haz-files\Spiders Huge and Horrible.jpg" />
+    <Content Include="nec_haz-files\The Dark Plague.jpg" />
+    <Content Include="nec_haz-files\The Enemy Is Watching.jpg" />
+    <Content Include="nec_haz-files\Things Might Go Ill.jpg" />
+    <Content Include="nec_haz-files\Underneath the Shadow.jpg" />
+    <Content Include="nec_haz-files\Vampire.jpg" />
+    <Content Include="nec_haz-files\Variag Horse-raiders.jpg" />
+    <Content Include="nec_haz-files\Were-wolf.jpg" />
+    <Content Include="nec_haz-files\Withstand the Nine.jpg" />
+    <Content Include="nec_rec-files\A Few Trusty Lads.jpg" />
+    <Content Include="nec_rec-files\A Worthy Substitute.jpg" />
+    <Content Include="nec_rec-files\Abduction.jpg" />
+    <Content Include="nec_rec-files\Abhorred Ring.jpg" />
+    <Content Include="nec_rec-files\Adûnaphel%27s Lute.jpg" />
+    <Content Include="nec_rec-files\Ard Once Vain.jpg" />
+    <Content Include="nec_rec-files\Banishment.jpg" />
+    <Content Include="nec_rec-files\Bat-winged Helmet.jpg" />
+    <Content Include="nec_rec-files\Black Ring of Arda.jpg" />
+    <Content Include="nec_rec-files\Black Steed.jpg" />
+    <Content Include="nec_rec-files\Blades of Sorcery.jpg" />
+    <Content Include="nec_rec-files\Bloodspike.jpg" />
+    <Content Include="nec_rec-files\Bolvag.jpg" />
+    <Content Include="nec_rec-files\Bone-basher.jpg" />
+    <Content Include="nec_rec-files\Breeder%27s Stock.jpg" />
+    <Content Include="nec_rec-files\Call to Arms.jpg" />
+    <Content Include="nec_rec-files\Captain no More.jpg" />
+    <Content Include="nec_rec-files\Cham-en-Faroth.jpg" />
+    <Content Include="nec_rec-files\Circle of Swords.jpg" />
+    <Content Include="nec_rec-files\Consumed by Dragon-fire.jpg" />
+    <Content Include="nec_rec-files\Contested Powers of Mirkwood.jpg" />
+    <Content Include="nec_rec-files\Cracking Whip.jpg" />
+    <Content Include="nec_rec-files\Creating Their Domain.jpg" />
+    <Content Include="nec_rec-files\Cult of the Dark Lord.jpg" />
+    <Content Include="nec_rec-files\Cult of the Long Night.jpg" />
+    <Content Include="nec_rec-files\Curse the Baggins!.jpg" />
+    <Content Include="nec_rec-files\Dark Embassy.jpg" />
+    <Content Include="nec_rec-files\Dark Forges.jpg" />
+    <Content Include="nec_rec-files\Dark Spires Rising.jpg" />
+    <Content Include="nec_rec-files\Dawnless Day.jpg" />
+    <Content Include="nec_rec-files\Deadly Laughter.jpg" />
+    <Content Include="nec_rec-files\Dog-lord of Waw.jpg" />
+    <Content Include="nec_rec-files\Dragon Marked in Red.jpg" />
+    <Content Include="nec_rec-files\Dragon-helm of Uon.jpg" />
+    <Content Include="nec_rec-files\Dungeons of Dol Guldur.jpg" />
+    <Content Include="nec_rec-files\Ear in the King%27s Court.jpg" />
+    <Content Include="nec_rec-files\Elf-skin War Drum.jpg" />
+    <Content Include="nec_rec-files\Favoured by The Eye.jpg" />
+    <Content Include="nec_rec-files\Feagwath.jpg" />
+    <Content Include="nec_rec-files\Fizzling Torch.jpg" />
+    <Content Include="nec_rec-files\Foundations Remain.jpg" />
+    <Content Include="nec_rec-files\Gaze Fixed.jpg" />
+    <Content Include="nec_rec-files\Gold beyond Price and Count.jpg" />
+    <Content Include="nec_rec-files\Grapnel.jpg" />
+    <Content Include="nec_rec-files\Great Falcons of Mirkwood.jpg" />
+    <Content Include="nec_rec-files\Grimbúrz.jpg" />
+    <Content Include="nec_rec-files\Growing Shadow.jpg" />
+    <Content Include="nec_rec-files\Gé of Ogamur.jpg" />
+    <Content Include="nec_rec-files\Hatred.jpg" />
+    <Content Include="nec_rec-files\Have You Seen Baggins.jpg" />
+    <Content Include="nec_rec-files\He Wields Great Dominion.jpg" />
+    <Content Include="nec_rec-files\He%27s for Lugbúrz.jpg" />
+    <Content Include="nec_rec-files\Helm of Madness.jpg" />
+    <Content Include="nec_rec-files\Hionvor of Womawas Drus.jpg" />
+    <Content Include="nec_rec-files\His Spirit Endured.jpg" />
+    <Content Include="nec_rec-files\Horror Spreads before Them.jpg" />
+    <Content Include="nec_rec-files\Horse-tamer.jpg" />
+    <Content Include="nec_rec-files\Houses of Lamentation.jpg" />
+    <Content Include="nec_rec-files\Ill East Wind.jpg" />
+    <Content Include="nec_rec-files\Instilled with Malice.jpg" />
+    <Content Include="nec_rec-files\Interrogation.jpg" />
+    <Content Include="nec_rec-files\Land of the Necromancer.jpg" />
+    <Content Include="nec_rec-files\Large Warrior Loose.jpg" />
+    <Content Include="nec_rec-files\Lesser Brood.jpg" />
+    <Content Include="nec_rec-files\Made Ready His Coming.jpg" />
+    <Content Include="nec_rec-files\Marauding Band of Orcs.jpg" />
+    <Content Include="nec_rec-files\Marching Companies.jpg" />
+    <Content Include="nec_rec-files\Master-smith.jpg" />
+    <Content Include="nec_rec-files\Mighty in Their Day.jpg" />
+    <Content Include="nec_rec-files\Mockery.jpg" />
+    <Content Include="nec_rec-files\Mordor in Ruins.jpg" />
+    <Content Include="nec_rec-files\Mordor Rebuilt.jpg" />
+    <Content Include="nec_rec-files\Morgul-apprentice.jpg" />
+    <Content Include="nec_rec-files\Necromancer%27s Bodyguard.jpg" />
+    <Content Include="nec_rec-files\No Abiding Place.jpg" />
+    <Content Include="nec_rec-files\Not Careful about That.jpg" />
+    <Content Include="nec_rec-files\Nursed with Fell Meats.jpg" />
+    <Content Include="nec_rec-files\Orc-cuirass.jpg" />
+    <Content Include="nec_rec-files\Orc-endurance.jpg" />
+    <Content Include="nec_rec-files\Orc-garrison.jpg" />
+    <Content Include="nec_rec-files\Orc-pouch.jpg" />
+    <Content Include="nec_rec-files\Orcs of the Uldona Spine.jpg" />
+    <Content Include="nec_rec-files\Origins Revealed.jpg" />
+    <Content Include="nec_rec-files\Overlord of Dol Guldur.jpg" />
+    <Content Include="nec_rec-files\Overlord of Minas Morgul.jpg" />
+    <Content Include="nec_rec-files\Passed into Shadows.jpg" />
+    <Content Include="nec_rec-files\Perceive All Things.jpg" />
+    <Content Include="nec_rec-files\Phantom Devised by Wizardry.jpg" />
+    <Content Include="nec_rec-files\Plains of Gorgoroth.jpg" />
+    <Content Include="nec_rec-files\Precious Burden.jpg" />
+    <Content Include="nec_rec-files\Raised Again.jpg" />
+    <Content Include="nec_rec-files\Ring of Flame.jpg" />
+    <Content Include="nec_rec-files\Ring of the Dispossessed.jpg" />
+    <Content Include="nec_rec-files\Ring-drawn.jpg" />
+    <Content Include="nec_rec-files\Rings of Power.jpg" />
+    <Content Include="nec_rec-files\Rivermen of the Anduin Vales.jpg" />
+    <Content Include="nec_rec-files\Scara-hai.jpg" />
+    <Content Include="nec_rec-files\Sceptre of Spirits.jpg" />
+    <Content Include="nec_rec-files\Second-in-Command.jpg" />
+    <Content Include="nec_rec-files\Servants in the South and East.jpg" />
+    <Content Include="nec_rec-files\Severed Tokens.jpg" />
+    <Content Include="nec_rec-files\Sharpen Up.jpg" />
+    <Content Include="nec_rec-files\Slaves of Nurn.jpg" />
+    <Content Include="nec_rec-files\Slew the Great Warrior.jpg" />
+    <Content Include="nec_rec-files\Some Elvish Plot or Weapon.jpg" />
+    <Content Include="nec_rec-files\Spiders of Mirkwood.jpg" />
+    <Content Include="nec_rec-files\Spies into Mordor.jpg" />
+    <Content Include="nec_rec-files\Strange as News from Bree.jpg" />
+    <Content Include="nec_rec-files\Strong and Fell.jpg" />
+    <Content Include="nec_rec-files\Sulfur-spawn.jpg" />
+    <Content Include="nec_rec-files\The Ashdurbuk.jpg" />
+    <Content Include="nec_rec-files\The Goblins Are upon You!.jpg" />
+    <Content Include="nec_rec-files\The Morgul-lord.jpg" />
+    <Content Include="nec_rec-files\The Necromancer.jpg" />
+    <Content Include="nec_rec-files\The Ongrum.jpg" />
+    <Content Include="nec_rec-files\The Ring%27s Dominion.jpg" />
+    <Content Include="nec_rec-files\The Slow Torment of Years.jpg" />
+    <Content Include="nec_rec-files\The Unfaithful.jpg" />
+    <Content Include="nec_rec-files\The Úlairi Arose.jpg" />
+    <Content Include="nec_rec-files\There%27s Queer Folk About.jpg" />
+    <Content Include="nec_rec-files\Tribute to Sauron.jpg" />
+    <Content Include="nec_rec-files\Trophy-belt.jpg" />
+    <Content Include="nec_rec-files\Twisted Trees.jpg" />
+    <Content Include="nec_rec-files\Use with Terrible Effect.jpg" />
+    <Content Include="nec_rec-files\Valleys Have Ears.jpg" />
+    <Content Include="nec_rec-files\Variag-king of Khand.jpg" />
+    <Content Include="nec_rec-files\Vasamacil.jpg" />
+    <Content Include="nec_rec-files\Watch over Mordor.jpg" />
+    <Content Include="nec_rec-files\We Are Fighting Uruk-hai!.jpg" />
+    <Content Include="nec_rec-files\Weapons of Morgul.jpg" />
+    <Content Include="nec_rec-files\Wholesome Forest.jpg" />
+    <Content Include="nec_rec-files\Widuskapin Ritual.jpg" />
+    <Content Include="nec_rec-files\Winged Terror.jpg" />
+    <Content Include="nec_rec-files\Wolf-den.jpg" />
+    <Content Include="nec_rec-files\Wraiths of Mordor.jpg" />
+    <Content Include="nec_rec-files\Yellow-fanged Guard.jpg" />
+    <Content Include="nec_sites-files\Barad-wath.jpg" />
+    <Content Include="nec_sites-files\Chelkar.jpg" />
+    <Content Include="nec_sites-files\Durthang.jpg" />
+    <Content Include="nec_sites-files\Ered Lithui.jpg" />
+    <Content Include="nec_sites-files\Forrhûn.jpg" />
+    <Content Include="nec_sites-files\Harrhûn.jpg" />
+    <Content Include="nec_sites-files\Lugarlûr.jpg" />
+    <Content Include="nec_sites-files\Mathlaburg.jpg" />
+    <Content Include="nec_sites-files\Minas Durlith.jpg" />
+    <Content Include="nec_sites-files\Mistrand.jpg" />
+    <Content Include="nec_sites-files\Mountains of Mirkwood.jpg" />
+    <Content Include="nec_sites-files\Nan Morsereg.jpg" />
+    <Content Include="nec_sites-files\Oraishapek%27s Mound.jpg" />
+    <Content Include="nec_sites-files\Ostigurth.jpg" />
+    <Content Include="nec_sites-files\Strayhold.jpg" />
+    <Content Include="nec_sites-files\Temple of Lokuthor.jpg" />
+    <Content Include="nec_sites-files\Thuringwathost.jpg" />
+    <Content Include="XML_Nec.ipynb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".ipynb_checkpoints" />
+    <Folder Include="nec_char-files" />
+    <Folder Include="nec_haz-files" />
+    <Folder Include="nec_rec-files" />
+    <Folder Include="nec_sites-files" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|Anaconda3_64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

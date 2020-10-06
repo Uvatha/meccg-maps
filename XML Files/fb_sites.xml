@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Amon Lind" graphics="Amon Lind.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Misty Mountains - Southern Spur"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Elves — 2 strikes with 8 prowess (detainment against covert companies)"/>
+			 <attr key="special" value="Dunland; Hollin. Minion Elves may be brought into play at this site under EI. Slew the Great Warrior may be played at this site regardless of the requirement to have a faction in play."/>
+		</card>
+		<card name="Amon Lind" graphics="Amon Lind.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Misty Mountains - Southern Spur"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Elves — 2 strikes with 8 prowess (detainment against hero companies)"/>
+			 <attr key="special" value="Dunland; Hollin. Tap an Elf at the site with a mind of 5 or more to make major items or gold ring items playable at the site this turn."/>
+		</card>
+		<card name="Caras Amarth" graphics="Caras Amarth.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{d}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Western Mirkwood"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Traps* (Elvish Wards) — 2 strikes with 10 prowess (detainment if the company contains an Elf)"/>
+			 <attr key="special" value="*A character with Thranduil's Halls as a home site may tap to cancel this automatic-attack. The first Elf creature played against a company at or moving to this site does not count against the hazard limit."/>
+		</card>
+		<card name="Caras Amarth" graphics="Caras Amarth.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{b}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Western Mirkwood"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Traps* (Elven Wards) — 2 strikes with 10 prowess (detainment if the company contains an Elf)"/>
+			 <attr key="special" value="* A character with Thranduil'sHalls as a home site may tap to cancel this automatic-attack."/>
+		</card>
+		<card name="Ceber Fanuin" graphics="Ceber Fanuin.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{b}{d}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Southern Mirkwood"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Elves — 2 strikes with 8 prowess (detainment if the company contains an Elf)"/>
+			 <attr key="special" value="Hidden site. Tap an Elf to reveal this site. If Huinen is at Ceber Fanuin you may tap this site to look at opponent's hand; Huinen may then tap and make a CP to place any number of hazards seen there on the top or bottom of opponent's play deck."/>
+		</card>
+		<card name="Ceber Fanuin" graphics="Ceber Fanuin.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{d}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Southern Mirkwood"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Information, Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Elves — 3 strikes with 10 prowess (detainment if the company contains an Elf and Huinen is not at the site)"/>
+			 <attr key="special" value="Hidden site. Tap an Elf in the company to reveal this site."/>
+		</card>
+		<card name="Celebannon" graphics="Celebannon.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{d}{w}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Woodland Realm"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Information, Items* (minor, major) *—non-battle-gear items only—"/>
+			 <attr key="auto_attack" value="Port-on-Celduin."/>
+		</card>
+		<card name="Celebannon" graphics="Celebannon.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{b}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Woodland Realm"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="special" value="Port-on-Celduin. Any Elf or Man in a company that has moved here this turn from a site in Dorwinion or Northern Rhovanion may tap to play Old Winyards here (as if at a Border-hold [B])."/>
+		</card>
+		<card name="Cerin Amroth" graphics="Cerin Amroth.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Wold &amp; Foothills"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="special" value="Only Elf and Maia hazard creatures with an asterisk (*) can be keyed to this site. Special items playable at Lórien are playable at this site. An Elf or Dúnadan may tap during the site phase to remove one corruption card, disease or dark enchantment from another character in his company. Both characters must make a CP afterwards."/>
+		</card>
+		<card name="Cerin Amroth" graphics="Cerin Amroth.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{d}{b}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Wold &amp; Foothills"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Information, Items* (minor, major, gold ring) *—non-battle-gear items only—"/>
+			 <attr key="auto_attack" value="(1st) Elves — 3 strikes with 9 prowess; (2nd) Elves — 2 strikes with 10 prowess"/>
+			 <attr key="special" value="If Gandalf the White Rider or Lady of the Golden Wood is in play as a permanent-event, it must be used as anadditional automatic-attack (discard after use — ignore result of defeat). Any company moving to this sitehas its hazard limit increased by 1."/>
+		</card>
+		<card name="Cor Angaladh" graphics="Cor Angaladh.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{b}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Heart of Mirkwood"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Undead. Awakened Plants — 2 strikes with 8 prowess; each character wounded must make a CP"/>
+			 <attr key="special" value="Barrow-blade and Necklace of Girion are playable at the site (and also from the discard pile) if Vanish in Sunlight was played on an attack against the company the same turn."/>
+		</card>
+		<card name="Cor Angaladh" graphics="Cor Angaladh.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{d}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Heart of Mirkwood"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Undead. Awakened Plants — 2 strikes with 8 prowess; each character wounded must make a CP"/>
+			 <attr key="special" value="Non-unique hoard items are playable at this site."/>
+		</card>
+		<card name="Edhellond" graphics="Edhellond.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Anfalas"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Elves — 3 strikes with 9 prowess (cancelled if you have less than 6 P; detainment if you have less than 12 P)"/>
+			 <attr key="special" value="Port. You cannot play any card that would make this site a Haven [H]. This site may not be used by overt companies. You receive the P if one of your companies is at this site."/>
+		</card>
+		<card name="Grey Havens" graphics="Grey Havens.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lindon"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Elves — 3 strikes with 9 prowess (cancelled if you have less than 6 P; detainment if you have less than 12 P)"/>
+			 <attr key="special" value="Port. You cannot play any card that would make this site a Haven [H]. This sitemay not be used by overt companies or if you are Círdan. You receive the P if one of your companies is at this site."/>
+		</card>
+		<card name="Grey Havens" graphics="Grey Havens.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{H}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lindon"/>
+			 <attr key="special" value="Círdan the Shipwright specific. Port. This site is a protected Lordhaven [H]. If one of your companies is at this site, all attacks against it are cancelled and you receive the P. Characters with Grey Havens as a home site may be brought into play at this site, regardless of the presence of any other character."/>
+		</card>
+		<card name="Heart of the Halls" graphics="Heart of the Halls.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{H}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Dungeon"/>
+			 <attr key="auto_attack" value="Thranduil's Halls (0)"/>
+			 <attr key="special" value="Elf-lord only. Elf-hold. If one of your companies is at this site, all attacks against it are cancelled and you receive the P. This site is not considered a Haven [H] for the purpose of bringing characters into play. You may use this site as a rescue site instead of Thranduil's Halls; you must provide your opponent with a copy of this site when he wants to move here from Thranduil's Halls."/>
+		</card>
+		<card name="Lórien" graphics="Lórien.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{H}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Wold &amp; Foothills"/>
+			 <attr key="special" value="Lady Galadriel specific. Port-on-Anduin. This site is a protected Lordhaven [H]. If one of your companies is at this site, all attacks against it are cancelled and you receive the P. Characters with Lórien as a home site may be brought into play at this site regardless of the presence of any other character."/>
+		</card>
+		<card name="Lórien" graphics="Lórien.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Wold &amp; Foothills"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Elves — 3 strikes with 10 prowess (cancelled if you have less than 6 P; detainment if you have less than 12 P)"/>
+			 <attr key="special" value="Port-on-Anduin. You cannot play any card that would make this site a Haven [H]. This site may not be used by overt companies or if you are Galadriel. You receive the P if one of your companies is at this site."/>
+		</card>
+		<card name="Mount Rerir" graphics="Mount Rerir.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Lindon"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major, greater)"/>
+			 <attr key="auto_attack" value="Undead — 3 strikes with 9 prowess; cannot be cancelled by a skill card; each character wounded must make a CP"/>
+			 <attr key="special" value="Non-Nazgûl creatures played at this siteattack normally, not as detainment. Any CP by characters at this site is modified by (an additional) -1."/>
+		</card>
+		<card name="Mount Rerir" graphics="Mount Rerir.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{S}"/>
+			 <attr key="site_path" value="{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Lindon"/>
+			 <attr key="haven" value="Grey Havens"/>
+			 <attr key="playable" value="Items (minor, major, greater)"/>
+			 <attr key="auto_attack" value="Undead — 3 strikes with 9 prowess (cannot be cancelled by a card or ability requiring a skill); each character wounded must make a CP"/>
+			 <attr key="special" value="Any CP made by characters at this site is modified by (an additional) -1."/>
+		</card>
+		<card name="Old Forest" graphics="Old Forest.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value=""/>
+		</card>
+		<card name="Osteledan" graphics="Osteledan.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="4"/>
+			 <attr key="region" value="Dungeon"/>
+			 <attr key="haven" value="Ost-in-Edhil (6)"/>
+			 <attr key="playable" value="Information, Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="(1st) Traps — 2 strikes with 11 prowess; (2nd) Opponent may play as an automatic-attack one Nameless Thing, Watcher in the Water or an Elf creature from his hand; keep the creature with the site (as a 2nd automatic-attack) until it is defeated or the site leaves active play."/>
+			 <attr key="special" value="Hidden Site. Discard a Stolen Knowledge from the company to reveal this site. When a gold ring is tested in a company at this site, the result of the roll is modified by +3. Contains a hoard."/>
+		</card>
+		<card name="Rhûbar" graphics="Rhûbar.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="site_type" value="{H}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Taur Rómen"/>
+			 <attr key="haven" value="w b b w b w"/>
+			 <attr key="playable" value="w s w ww w"/>
+			 <attr key="auto_attack" value="w c b ww w"/>
+			 <attr key="special" value="Port-on-Sea of Rhûn."/>
+		</card>
+		<card name="Rhûbar" graphics="Rhûbar.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{d}{w}{b}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Taur Rómen"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Items (minor, major, greater)"/>
+			 <attr key="auto_attack" value="(1st) Elves — each character faces a strike with 9 prowess (detainment against covert companies); (2nd) Animals (Elvish Hounds) — 4 strikes with 9 prowess (against overt companies only)"/>
+			 <attr key="special" value="Port-on-Sea of Rhûn. Any company moving to thissite has its hazard limit increased by 2. A minion company may not attack another company at this site.A Ringwraith may not move to this site."/>
+		</card>
+		<card name="Rivendell" graphics="Rivendell.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Rhudaur"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Elves — 3 strikes with 10 prowess (cancelled if you have less than 6 P; detainment if you have less than 12 P)"/>
+			 <attr key="special" value="You cannot play any card that would make this site a Haven [H]. This site may not be used by overt companies or if you are Elrond. You receive the P if one of your companies is at this site."/>
+		</card>
+		<card name="Rivendell" graphics="Rivendell.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{H}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Rhudaur"/>
+			 <attr key="special" value="Elrond Half-elven specific. This site is a protected Lordhaven [H]. If one of your companies is at this site, all attacks against it are cancelled and you receive the P. Characters with Rivendell as a home site may be brought into play at this site, regardless of the presence of any other character."/>
+		</card>
+		<card name="Rivendell" graphics="Rivendell.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Rhudaur"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Elves — 3 strikes with 10 prowess (cancelled if you have less than 6 P; detainment if you have less than 12 P)"/>
+			 <attr key="special" value="You cannot play any card that would make this site a Haven [H]. This site may not be used by overt companies or if you are Elrond. You receive the P if one of your companies is at this site."/>
+		</card>
+		<card name="Taur Rómen" graphics="Taur Rómen.jpg" text="">
+			 <attr key="type" value="Resource"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Region"/>
+		</card>
+		<card name="Telpëmar" graphics="Telpëmar.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Hollin"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Information, Items (minor, gold ring*)"/>
+			 <attr key="auto_attack" value="Men — 2 strikes with 7 prowess"/>
+			 <attr key="special" value="Trap — 1 strike with 10 prowess."/>
+		</card>
+		<card name="Telpëmar" graphics="Telpëmar.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Hollin"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information, Items (minor, gold ring*)"/>
+			 <attr key="auto_attack" value="Men — 2 strikes with 7 prowess"/>
+			 <attr key="special" value="Trap — 1 strike with 10 prowess. One non-unique Elf creature may beplayed regardless of the site path and not counting against the hazard limit against a company at or moving to this site. Contains a hoard."/>
+		</card>
+		<card name="Thranduil's Halls" graphics="Thranduil's Halls.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{H}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Woodland Realm"/>
+			 <attr key="special" value="Thranduil of Mirkwood specific. This site is a protected Lordhaven [H]. If one of your companies is at this site, all attacks against it are cancelled and you receive the P. Characters with Thranduil's Halls as a home site may be brought into play at this site regardless of the presence of any other character."/>
+		</card>
+		<card name="Thranduil's Halls" graphics="Thranduil's Halls.jpg" back="1" text="">
+			 <attr key="type" value="Fallen-wizard Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="sp" value="1"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Woodland Realm"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Elves — 3 strikes with 10 prowess (cancelled if you have less than 6 P; detainment if you have less than 12 P)"/>
+			 <attr key="special" value="You cannot play any card that would make this site a Haven [H]. This site may not be used by overt companies or if you are Thranduil. You receive the P if one of your companies is at this site."/>
+		</card>
+		<card name="Tom's House" graphics="Tom's House.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Old Forest"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major, gold ring)"/>
+			 <attr key="auto_attack" value="Maia — 2 strikes with 15 prowess (cannot be cancelled)"/>
+			 <attr key="special" value="Only Awakend Plant and creatures with an asterisk (*) may be keyed to the site. Once tapped, this site cannot be untapped."/>
+		</card>
+		<card name="Tom's House" graphics="Tom's House.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Old Forest"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="special" value="Only Awakend Plant and creatures with an asterisk (*) can be keyed to this site. Healing effects affect all characters at the site."/>
+		</card>
+	</cards>
+</ccg-setinfo>

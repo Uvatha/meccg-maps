@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Angmarim Tribesmen" graphics="Angmarim Tribesmen.jpg" text="Men. 4 strikes. Playable keyed to Angmar, Gundabad, and Misty Mountains Northern Spur. If Angmar Arises, Doors of Night, or The Witch-king of Angmar is in play, may also be played keyed to Arthedain, Forochel, Everdalf, and Rhudaur. This attack is cancelled if you are The Witch-king or you have Angmarim in play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="4"/>
+			 <attr key="subclass" value="Men"/>
+		</card>
+		<card name="Bloodeye Ravish" graphics="Bloodeye Ravish.jpg" text="Disease. Playable on a horse ally. At the start of its movement/hazard phase the ally must make a body check, modified by +1 if moving through a region in Eriador, -2 if the ally is unique, and - 2 if moving through a Dark- domain [d], Desert [e], or region in the Northern Waste. During your end-of-turn phase make a body check for any other horse ally in the company: if succesful the ally is not wounded but also effected by Bloodeye Ravish (place a token on it). Discard a card with a healing effect from the company to discard Bloodeye Ravish (and remove any related tokens).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Fire Unwatched" graphics="Fire Unwatched.jpg" text="Playable on a non-stage resource permanent-event played on a Haven [H] or Free-hold [F]. Discard the event and wound a character at the site (no body check is required). Alternatively, playable on a Dwarven Alchemist or Forge-master character at a Haven [H]. Wound target character and make a body check.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="No Good Roasting 'Em Now" graphics="No Good Roasting 'Em Now.jpg" text="Playable on a character facing a strike from a Troll creature attack. Unless the attack is keyed to Ruins &amp; Lairs [R], the defending character receives +3 prowess against the strike. If the strike is successful, target character is not harmed and is taken prisoner at a Shadow-hold [S] or non-Dragon-lair Ruins &amp; Lairs [R]. At the start of his untap phase, make a body check for that character modified by +1. Rescue-attacks (2): Troll — 1 strikes with 10 prowess, Troll — 1 strike with 12 prowess.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Reef" graphics="Reef.jpg" text="Playable on a company moving through a Coastal Sea [c] region. Your opponent must choose a Ruins &amp; Lairs [R] site located in a Coastal Sea [c] region the company is moving through. The site is used as the company’s new site. If no such site is available, the company must return to its site of origin. This card cannot be cancelled by Great Ship.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Tharbad's Thieves" graphics="Tharbad's Thieves.jpg" text="Playable on a company moving in Cardolan or its adjacent regions. The company faces an attack: Men — 1 strike with 15 prowess. Discard this card if the attack is cancelled or if no strike is successful. Any successful strike does not wound the defending character; rather he must place one item he bears (attacker’s choice) “off to the side” with this card. Items placed with this card are considered playable at Tharbad by any player (regardless of Tharbad’s status; each player may now place Tarbad in their location deck) after facing a Rescue-attack: Men — 3 strikes with 8 prowess.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+	</cards>
+</ccg-setinfo>

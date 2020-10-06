@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="All This Dwarvish Racket" graphics="All This Dwarvish Racket.jpg" text="Each moving company with a Dwarf majority has its hazard limit increased by half the number of Dwarves in the company (round down fractions). Additionally, if Doors of Night, Eyes of the Shadow or Growing Shadow is in play, the hazard player may draw an additional card for every Dwarf with a mind of four or less in a moving company during the movement/hazard phase. Discard this card when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Arda Angered" graphics="Arda Angered.jpg" text="The number of strikes and prowess of each Pûkel-creature, Rock Fall and Lava Flow attack are each increased by one (by two if Doors of Night is in play). Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Call of the Deeps" graphics="Call of the Deeps.jpg" text="Playable on a company containing a greater or treasure item and a Dwarf majority, if moving to a non-Dwarf-hold, non-Under-deeps site. Opponent must replace the company’s new site with a site from his location deck that is an Under-deeps site or surface site. The company must be able to legally move to this site (from their site of origin). If no such site is available, discard this card; otherwise, place it in opponent’s mp.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+			 <attr key="mp" value="1"/>
+		</card>
+		<card name="Crossing the Border" graphics="Crossing the Border.jpg" text="Playable on a company that is not moving. This card creates an attack against the company, which is a duplicate of one automatic-attack of a site in the same or an adjacent region as the company’s current site, or of an adjacent Under-deeps site (attacker’s choice; cannot be a non-combat attack). If not in play, reveal the site from either location deck to establish the attack. The site must be a version which target company is allowed to use. Cannot be revealed as an on-guard card. Cannot be duplicated during a given movement/hazard phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Dawn Comes Early" graphics="Dawn Comes Early.jpg" text="Environment. Playable on a Troll at or moving to a non- Under-deeps, non-Darkhaven site if Doors of Night is not in play. Target Troll makes a body check, modified by +1 for each Gates of Morning, Sun, or The Sun Shone Fiercely in play, and by -1 if he is wounded, is at a surface site, or is an Olog-hai or Half-troll. Failing this check wounds the Troll, or eliminates him if already wounded (treat a discard result as failing).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Dwarven Warparty" graphics="Dwarven Warparty.jpg" text="Dwarves. Three strikes. Detainment against hero companies. May be played keyed to any Dwarf-hold or ancient Dwarf-ruin; and also to the regions containing such a site and to High Pass. If Hunting Orcs or The Watchful Peace is in play, may also be played at any Under-deeps site. If The Dark Days is in play, the attack becomes non-detainment against hero companies that do not contain a Dwarf or a Wizard.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="11"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="3*"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Dwarves"/>
+		</card>
+		<card name="Eagles Ahunt" graphics="Eagles Ahunt.jpg" text="Unique. +2 prowess against Dragons. Each overt company moving in Anduin Vales, Misty Mountains (Northern and Southern Spur), High Pass, and/or Redhorn Gate faces an attack (considered a hazard creature attack): Animals. Eagles. Flying — 4 strikes at 11/6 (attacker chooses defending characters). If Gates of Morning or The Watchful Peace is in play, this attack also affects Dunland, Enedwaith, Gap of Isen, Grey Mountain Narrows, and Wold &amp; Foothills. Unless this attack is defeated, no character in the company may use cards requiring scout or ranger skill this turn, and any ongoing effects of such cards are cancelled.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Long-event"/>
+			 <attr key="prowess" value="11"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mp" value="3*"/>
+		</card>
+		<card name="Expert Treasure-hunter" graphics="Expert Treasure-hunter.jpg" text="Hobbit. One strike. +3 prowess against Dragons. Attacker chooses defending character; all strikes of Expert Treasure-hunter must be assigned to the same character. May only be played against minion and overt companies, following a non-detainment Dwarf creature attack or at any version of a site where a hero company with a Dwarf majority is present. Make a roll for a successful strike instead of a body check (character is not harmed): discard an item from the company with a random number closest to the result (defender’s choice if tied).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Hobbit"/>
+		</card>
+		<card name="Fear of Kin" graphics="Fear of Kin.jpg" text="Playable on a Dwarven Ring, treasure, or greater item borne by a Dwarf-lord. The item gives two fewer corruption points (to a minimum of one) and cannot be transferred during the organization phase. The Dwarf-lord receives 3 P. At the end of the organization phase, if the Dwarf-lord’s P total is greater than his mind, the highest mind Dwarf in the company (other than the Dwarf-lord) and any of his followers must split from the company: either of the companies must move to another site this turn. Otherwise, if there are no non-follower Dwarves in the company, the company must move. Cannot be duplicated on a given item. Discard if the item is stored.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="sp" value="3"/>
+		</card>
+		<card name="Flooded to the Surface" graphics="Flooded to the Surface.jpg" text="Playable on an Under-deeps surface site. The hazard player may replace one of the site’s automatic-attacks with one of the automatic-attacks of an adjacent Under-deeps site. Additionally, if The Reach of Ulmo is in play, any Animal or Drake creature keyable to Coastal Seas [c] may be played at the site. Discard this card if such an (automatic-)attack is defeated or when the site leaves active play. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Gollum's Cave" graphics="Gollum's Cave.jpg" text="Playable on a (grey) agent at an Under-deeps surface site. The agent may use Under-deeps movement (as an agent action; no movement roll required). If target agent is My Precious, he receives +2 prowess while at an Under-deeps site. If this card is in your discard pile, you may play it as if it were in your hand.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="(+2)"/>
+			 <attr key="body" value="-"/>
+		</card>
+		<card name="Hard to Tame" graphics="Hard to Tame.jpg" text="Corruption. Playable on a treasure or ring special item borne by a Dwarf. The item gives two fewer corruption points (to a minimum of one). The hazard player may tap this card (costing one against the hazard limit) to take one Greed, Covetous Thoughts, or Grasping and Ungracious from his discard pile to his hand. Covetous Thoughts may be played on any Dwarf in the company (except the bearer of target item). Discard this card if there are no Dwarves in the company. Cannot be duplicated on a given item.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Hermit Troll" graphics="Hermit Troll.jpg" text="Troll. One strike. If revealed as an on-guard creature, attacker chooses defending characters. May also be played at a Ruins &amp; Lairs [R] that has at least two Wildernesses [w] or one Desert [e] in its site path or that is in a mountain region.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{w}{w}{w}{e}{e}"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Troll"/>
+		</card>
+		<card name="Hurling Rocks" graphics="Hurling Rocks.jpg" text="Any company moving in a mountain region or in High Pass, Redhorn Gate, Bosiri, Cleft of Goats, Clyan, Dragon Gap, or Narthalf faces an attack: Rock Fall — 2 strikes with 9 prowess. Additionally, non-unique Giant hazard creatures may be played keyed to these regions, and to adjacent regions if Arda Angered or Doors of Night is in play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Ibûn" graphics="Ibûn.jpg" text="Unique. Undead. Dwarf. One strike. May also be played keyed to a Shadow-land [s] or Ancient Dwarf-ruin against a company containing a treasure item. May also be played at Bar-en-Ibûn, Cameth Brin, and The Worthy Hills.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="12"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="playable" value="{s}{s}"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Undead, Dwarf"/>
+		</card>
+		<card name="King-spider" graphics="King-spider.jpg" text="Spider. Traps. Before assigning strikes, opponent must call “odds” or “even”. To assign strikes, each character in the company makes a roll: if the result corresponds with opponent’s choice, the character must face a strike (resolve the strike immediately). Attack or strikes of King Spider cannot be cancelled by general card effects (e.g. Ruse), but a scout may tap to cancel a strike he is facing.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="8"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{w}{w}{s}{R}"/>
+			 <attr key="strikes" value="spider. traps. before assigning strikes, opponent must call “odds” or “even”. to assign strikes, each character in the company makes a roll: if the result corresponds with opponent’s choice, the character must face a strike (resolve the strike immediately). attack or strikes of king spider cannot be cancelled by general card effects (e.g. ruse), but a scout may tap to cancel a strike he is facing."/>
+			 <attr key="subclass" value="Spider, Traps"/>
+		</card>
+		<card name="Lord of the Eagles" graphics="Lord of the Eagles.jpg" text="Unique. Animal. Eagle. Manifestation of Gwaihir. Flying. Three strikes. Attacker chooses defending characters. As a creature, may be played keyed to Anduin Vales, High Pass, Misty Mountains (Northern and Southern Spur), Wold &amp; Foothills; and also at sites in these regions. May only be played against overt companies. If The Watchful Peace is in play, may also be played keyed to any non-Dark-domain region adjacent to one of the above named regions.As a short-event, bring Eagles Ahunt or one hazard creature with an asterisk (*) from your discard pile to your hand.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature/Short-event"/>
+			 <attr key="prowess" value="11"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mp" value="3*"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Animal, Eagle, Flying"/>
+		</card>
+		<card name="Naugol" graphics="Naugol.jpg" text="Dwarves. Three strikes. +2 prowess against Orcs. Detainment against hero companies. As a creature, may be played at any Dwarf-hold or site where a Dwarf-lord is present; and may also be played keyed to the region containing such a site. As a long-event, Naugol gives +1 to strikes and prowess of any Dwarf attack created by Old Enemies, and it causes Ride Against the Enemy to give +1 to strikes and prowess of any Dwarf attack created by it. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature/Long-event"/>
+			 <attr key="prowess" value="9"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Dwarves"/>
+		</card>
+		<card name="Naugrim" graphics="Naugrim.jpg" text="All Dwarf attacks receive +1 prowess and +1 body; all Dwarf attacks with no body have 5 body. Discard this card when a Dwarf attack is defeated. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Ninevet" graphics="Ninevet.jpg" text="Animal. One strike. Attacker chooses defending characters. May also be played at any swamp or site in a Coastal Sea [c] region. If Terror from the Deeps is in play, may also be played at any Under-deeps site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="13"/>
+			 <attr key="body" value="5"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="playable" value="{c}"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Animal"/>
+		</card>
+		<card name="Old Enemies" graphics="Old Enemies.jpg" text="Playable on a unique hero faction in active play. Each overt company moving through the region containing the site where the faction was played (or region adjacent) faces an attack: same type as the faction, with a number of strikes equal to the faction’s normal mp. Each strike has a prowess of 10, and a body of 9 minus the number of strikes assigned. If the attack is defeated, the faction is eliminated (an overt character in the company may take the faction as a trophy). Cannot be duplicated on a given faction.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Orc-archers" graphics="Orc-archers.jpg" text="Playable on an Orc attack with at least four strikes (before strikes are assigned); does not count against the hazard limit. Each character in the attacked company must immediately face a strike with 6 prowess; he receives +1 prowess against this strike for each armor, helmet, and/or shield he bears. Afterwards the Orc attack is resolved normally.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Orc-tortured" graphics="Orc-tortured.jpg" text="Playable on a character facing a strike from an Orc creature attack. If the strike is successful, target character is not harmed and is taken prisoner at a Dark-hold [D], Shadow-hold [S], or Ruins &amp; Lairs [R]. At the start of his untap phase, make a body check for that character modified by -1. Rescue-attacks (2): Orcs — 2 strikes with 7 prowess, Orcs — 1 strike with 10 prowess.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Orcish Marauders" graphics="Orcish Marauders.jpg" text="Orcs. Two strikes. If all strikes against a moving company are successful, the company’s new site is tapped.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="playable" value="{b}{e}{w}{R}"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Orcs"/>
+		</card>
+		<card name="Out of Practice" graphics="Out of Practice.jpg" text="Playable on a non-Hobbit character with two or more skills. Target character must attempt to move to a different site each turn or tap at the end of his organization phase. Once per turn during his organization phase, another character in the company may tap to attempt to remove this card. Make a roll: if the result is greater than 6, discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Pit Trap" graphics="Pit Trap.jpg" text="Playable on-guard at an ancient Dwarf-ruin or site with a Dwarf, Orc, or Trap automatic-attack. Reveal this card after the company has faced all automatic-attacks. Make a roll and add 1 for every scout and every ranger in the company; if the result is less than 13, the company faces an attack: Trap — 1 strike with 12 prowess, which must be assigned to the character with the random number closest to the roll’s result (defender’s choice if tied). +1 to the defending character’s prowess for any armor, helmet, or shield he bears. Any resulting body check is modified by +1.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Ta-Fa-Lisch" graphics="Ta-Fa-Lisch.jpg" text="Undead. Three strikes. May be played at any ancient Dwarf-ruin or site containing a hoard. Unless the attack is cancelled or defeated, place Ta-Fa-Lisch with the site. After an item is played at the site, place this card with the item. The bearer of target item faces an attack from this creature at the start of each of his movement/hazard phases (as if a single character company) until it is defeated, or until the item is stored or leaves active play (then remove this card from the game).">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="8"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="3"/>
+			 <attr key="subclass" value="Undead"/>
+		</card>
+		<card name="Terror from the Deeps" graphics="Terror from the Deeps.jpg" text="Any Animal or Drake hazard creature playable keyed to Coastal Seas [c] may be played keyed to non-Desert regions adjacent to a Coastal Sea region (not adjacent to Mouths of the Anduin or Sea of Rhûn). Discard this card when such a creature played keyed to such a region (by name) is defeated, or when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="The Back Door" graphics="The Back Door.jpg" text="Non-unique Orc hazard creatures may be played keyed to any mountain region or region containing an Orc-hold; and also at sites in such regions. If Doors of Night or Shadow of Mordor is in play, they may also be played at any Under-deeps surface site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Threat of Many Feet" graphics="Threat of Many Feet.jpg" text="Does not count against the hazard limit. Against moving companies hazard creatures may be played keyed to the site of origin (or the last site moved to this turn). Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Wyrmsiege" graphics="Wyrmsiege.jpg" text="Playable on a Border-hold [B] or Free-hold [F] (not in a Free- domain [f]). Place a non-unique Drake creature from hand with this card; the creature must be able to attack in regions in the site’s site path or in the region containing the site. Companies at any version of this site must face an attack by the attached creature (considered keyed to the site) at the beginning of their site phase. At the end of the organization phase, a company at this site must make a roll and subtract one from the result for every non-warrior character it contains: if the result is less than 5, the company may not move this turn. Discard this card when the site leaves active play or when the attached creature is defeated. Cannot be duplicated on a given site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+	</cards>
+</ccg-setinfo>

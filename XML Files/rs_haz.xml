@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Black Riders" graphics="Black Riders.jpg" text="Playable if Doors of Night is in play. Nazgûl creatures may be played against hero companies keyed to Border-land [b], Wilderness [w], and Shadow-land [s]; and to non-Haven, non-Free-hold sites in these regions. Any Nazgûl attacking in this fashion is detainment, unless a character in the defending company bears a ring special item. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Capricious Spirit" graphics="Capricious Spirit.jpg" text="Playable on a Maia, Demon, or Spawn ally. The controlling character must make an influence check against the ally. Make a roll and add the controlling character’s unused EI; if the result is lower than the ally’s mind +6, discard the ally.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Courtesy Lessened of Late" graphics="Courtesy Lessened of Late.jpg" text="Playable only as an on-guard card. Reveal this card to target and cancel any card or effect that would allow opponent to bring in a character with the company during the site phase.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Foe beyond Any of You" graphics="Foe beyond Any of You.jpg" text="Playable on an attack with a normal prowess of 11 or more created by a unique hazard; does not count against the hazard limit. All strikes must be assigned to a leader or to the character in the company with the highest prowess against the attack (defender’s choice), regardless of his status or any card effect. Each excess strike gives a -1 modification to the defender’s prowess; Pierced by Many Wounds cannot be played on the attack.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Glutan" graphics="Glutan.jpg" text="Animal. Wolf. 2 strikes. May be played keyed to any Wilderness [w] region in Eriador or Wilderland (by name or type), and to Ruins &amp; Lairs [R] in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="8"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Animal, Wolf"/>
+		</card>
+		<card name="Glutan" graphics="Glutan.jpg" text="Animal. Wolf. 2 strikes. May be played keyed to any Wilderness [w] region in Eriador or Wilderland (by name or type), and to Ruins &amp; Lairs [R] in these regions.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="8"/>
+			 <attr key="body" value="-"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="strikes" value="2"/>
+			 <attr key="subclass" value="Animal, Wolf"/>
+		</card>
+		<card name="His Own Master" graphics="His Own Master.jpg" text="Allies with an mp value may not be played at tapped sites. Additionally, unless Doors of Night is in play, no such ally may be played at a Haven [H/K]. Discard this card when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="It Is My Own" graphics="It Is My Own.jpg" text="Items cannot be stored. Any characterattempting to store a non-item card must make a CP modified by -2.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Long-event"/>
+		</card>
+		<card name="Leaving Middle-Earth" graphics="Leaving Middle-Earth.jpg" text="Whenever a tapped Elf-hold would be returned to the location deck, place it in the controlling player’s mp instead. A player with 2 or more copies of such a site in his mp may not play any other copy of it. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Long wailing Cry" graphics="Long wailing Cry.jpg" text="Playable on a hero company facing a Nazgûl attack. Tap all characters in the company with a mind lower than the number of Nazgûl permanent-events in play.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Lure of the Rings" graphics="Lure of the Rings.jpg" text="All hero characters bearing a gold ring item mustmake a CP at the beginning of their movement/ hazard phase. This CP is modified by -6 when moving through Gorgoroth or a Dark-Domain [d]. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Memories Grown Dim" graphics="Memories Grown Dim.jpg" text="Any company that intends to play a Lost Knowledgecard, or fullfil the requirement of Lost Knowledge being discarded, must tap a sage (before any other requirements). Discard this card when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No Memory of This Place" graphics="No Memory of This Place.jpg" text="Cancels the effects of Secret Entrance and Forewarned is Forearmed. Additionally, each company intending to move with Under-deeps movement must make an Under-deeps movement roll for each adjacent site during their organization phase. This is done before a new site is selected and instead of during the movement/hazard phase. Such a roll is modified by -3, but if successful the site may be taken from location deck or discard pile. Discard this card when any play deck is exhausted. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No Memory of This Place" graphics="No Memory of This Place.jpg" text="Cancels the effects of Down Down to Goblin Town, Secret Entrance, Secret Passage, and Forewarned is Forearmed. Alternatively, playable on a company. All rolls for the company (or any associated entity) for Under-deeps movement or burglary attempts are modified by -3, but a scout in the company may tap to give +2 to such a roll. After such a roll, if it was successful, the resource player may discard this card or search his play deck for one resource and take it to his hand (reshuffle if searched). This card cannot be duplicated for each of its uses.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No Memory of This Place" graphics="No Memory of This Place.jpg" text="Cancels the effects of Down Down to Goblin Town, Secret Entrance, Secret Passage, and Forewarned is Forearmed. Alternatively, playable on a company. All of the company’s Under-deeps movement rolls are modified by -3; a scout may tap to give +2 to his company’s next Under-deeps movement roll. After a successful Under-deeps movement roll, the resource player may discard this card or take one resource from his discard pile or play deck (reshuffle) to his hand. Cannot be duplicated on a given company.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No Memory of This Place" graphics="No Memory of This Place.jpg" text="Cancels the effects of Down Down to Goblin Town, Secret Entrance, Secret Passage, and Forewarned is Forearmed. Additionally, all Under-deeps movement rolls are modified by -3, and one scout may tap to give +2 to his company’s next Under-deeps movement roll; after a successful Under-deeps movement roll, the resource player may take one resource event from his discard pile or play deck (reshuffle) to his hand. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="No Place for a Pony" graphics="No Place for a Pony.jpg" text="Playable on a horse ally. Discard the ally if its company enters a Shadow-hold [S] or Dark-hold [D] this turn, or is moving to an Under-deeps site or Dungeon. Cannot be revealed as an on-guard card.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Short-event"/>
+		</card>
+		<card name="Rangers at Sarn Ford" graphics="Rangers at Sarn Ford.jpg" text="Dúnedain. 5 strikes. Only playable against minion companies. May be played keyed to Arthedain, Cardolan, Old Forest, or The Shire. +2 prowess against Ringwraiths.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="10"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="2*"/>
+			 <attr key="strikes" value="5"/>
+			 <attr key="subclass" value="Dúnedain"/>
+		</card>
+		<card name="Seized upon the Bearer" graphics="Seized upon the Bearer.jpg" text="Attacking hazard creatures may assign strikesto any hero ringbearer before other strikes are assigned. If such a strike is assigned to the bearer of The One Ring, the strike receives +2 prowess.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Speak, Friend, and Enter!" graphics="Speak, Friend, and Enter!.jpg" text="Playable on a Shadow-hold [S], Dark-hold [D],or hidden site against a moving hero company. Cannot be revealed as an on-guard card. Unless the company contains a sage or a Hobbit, or you discard a Knowledge or Information card from hand or the company, the company must do nothing during the site phase. Additionally, cancels the effects of Crack in the Wall and Secret Entrance.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Taint of the Wilds" graphics="Taint of the Wilds.jpg" text="Corruption. Playable on a non-avatar ranger. Target character receives 1 corruption point and makes a CP when a character in his company uses a resource requiring the ranger skill. During the organization phase at his home site or a Haven [H] (or site that acts as a Haven for the purpose of healing), the character may tap to attempt to remove this card and make a roll: if the result is greater than 6, discard this card. Cannot be duplicated on a given character.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="cp" value="1"/>
+		</card>
+		<card name="The Old Villain" graphics="The Old Villain.jpg" text="Playable on My Precious. -1 to My Precious’ prowess and he may not be turned face down. If he was at the same site of an opponent’s company during the organization phase, he may take one agent action to move to that company’s new site (if allowed to move there). If a company controlling a ring or treasure item enters his current site, My Precious must attack during the site phase. Discard this card if My Precious attacks and is not successful.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="prowess" value="-1"/>
+			 <attr key="body" value="-"/>
+		</card>
+		<card name="The Ring Has Moved On" graphics="The Ring Has Moved On.jpg" text="Playable on a ring. Rotate this card 90° (or add a token) each time target character faces a strike. At the end of his movement/hazard phase target character makes a CP, modified by subtracting the number of times this card is rotated (or number of tokens); If he fails the CP, discard the ring (ignore any other effects) and remove this card from the game. Otherwise, restore this card (remove the tokens). Cannot be duplicated on a given ring.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Thrice Told Tales" graphics="Thrice Told Tales.jpg" text="Playable on a sage. Target loses the sage skill. Discard this card if his company moves with at least two regions in their site path or to a non-Haven Under-deeps site.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+		<card name="Until All Else Is Conquered" graphics="Until All Else Is Conquered.jpg" text="Playable on a Haven [H] if the bearer of The One Ring is there. Any non-minion company at the site faces 3 attacks (cannot be cancelled by any card effect) at the beginning of the site phase: Orcs — 5 strikes with 8 prowess; Trolls— 3 strikes 10 prowess; Nazgûl — 2 strikes with 13 prowess. Discard The One Ring if any strike against its bearer is successful. If all attacks are defeated, place this card in opponents mp. The bearer of The One Ring cannot leave the site while this card is in play. Cannot be duplicated.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="class" value="Permanent-event"/>
+			 <attr key="mp" value="3"/>
+		</card>
+	</cards>
+</ccg-setinfo>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Aden Scarlet's Medical Library" graphics="Aden Scarlet's Medical Library.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Hobbits — 3 strikes with 5 prowess (detainment)"/>
+			 <attr key="special" value="Tap a Hobbit to take Mathom Lore from your discard pile to your hand; Mathom Lore may be played here as if at Bag End."/>
+		</card>
+		<card name="Aden Scarlet's Medical Library" graphics="Aden Scarlet's Medical Library.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information, Items (minor*) *—Secret Book, Records Unread or Thror's Map only-"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 3 strikes with 5 prowess; (2nd) Dúnedain — 2 strikes with 10 prowess"/>
+			 <attr key="special" value="any Information resources in play by hero players are worth 1 less mp (to a minimum of 1)."/>
+		</card>
+		<card name="Brandy Hall" graphics="Brandy Hall.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Old Forest"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Hobbits — 3 strikes with 6 prowess (detainment against hero companies); tMerry may tap to cancel this attack."/>
+			 <attr key="special" value="Port-on-Baranduin. The Hobbits faction and any Hobbit character are playable at this site. Undead and Awakened Plant creatures keyable to Wilderness [w] may be played at this site; any Hobbit receives +4 prowess against a strike from such an attack."/>
+		</card>
+		<card name="Brandy Hall" graphics="Brandy Hall.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Old Forest"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, gold ring*)"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 3 strikes with 6 prowess (2nd) Dúnedain — 3 strikes with 10 prowess."/>
+			 <attr key="special" value="Port-on-Baranduin. *After you have played To Satisfy the Questioner at this site, a character in the company may tap to play a gold ring item (instead of a minor item)."/>
+		</card>
+		<card name="Brandy Hall" graphics="Brandy Hall.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Old Forest"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, gold ring*)"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 3 strikes with 6 prowess (2nd) Dúnedain — 3 strikes with 10 prowess."/>
+			 <attr key="special" value="Port-on-Baranduin. *After you have played To Satisfy the Questioner at this site, a character in the company may tap to play a gold ring item (instead of a minor item)."/>
+		</card>
+		<card name="Giant's Isle" graphics="Giant's Isle.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="High Pass"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Giant — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Hidden site. Tap a scout in the company to reveal this site. A diplomat may tap to cancel the automatic-attack. Discard a food item from the company to make Gems of Arda playable at the site this turn."/>
+		</card>
+		<card name="Giant's Isle" graphics="Giant's Isle.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{d}{b}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="High Pass"/>
+			 <attr key="haven" value="Dol Guldur"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Giant — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Hidden site. Tap a scout in the company to reveal this site.A diplomat may tap to cancel the automatic-attack. You may take a Giant creature from your discard pile to your hand when this site leaves active play."/>
+		</card>
+		<card name="Michel Delving" graphics="Michel Delving.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major*) *—hero item only—"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 7 strikes with 4 prowess; (2nd) Elves — 3 strikes with 9 prowess."/>
+			 <attr key="special" value="all resources and characters only playable or storable at sites in The Shire are worth 1 less mp (to a minimum of 1)."/>
+		</card>
+		<card name="Michel Delving" graphics="Michel Delving.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="special" value="if successfull, place this site with Hobbitsinstead of discarding it (or returning it to the site deck), it is worth 2 mp."/>
+		</card>
+		<card name="Sackville" graphics="Sackville.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="all rolls for Early Harvest played against your factions are modified by -2."/>
+		</card>
+		<card name="Sackville" graphics="Sackville.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 5 strikes with 5 prowess; (2nd) Dúnedain — 3 strikes with 10 prowess."/>
+			 <attr key="special" value="play a food minor item from your sideboard with a company at Isengard or a site in The Shire."/>
+		</card>
+		<card name="The Last Bridge" graphics="The Last Bridge.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Rhudaur"/>
+			 <attr key="haven" value="Rangers of the North faction is playable at this site."/>
+			 <attr key="playable" value="&quot;There is no way over it below its sources in the Ettenmoors, except by the Last Bridge on which the Road crosses.&quot; —LotRI"/>
+		</card>
+		<card name="The Last Bridge" graphics="The Last Bridge.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Rhudaur"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information"/>
+			 <attr key="auto_attack" value="Opponent may play as an automatic-attack one Dúnadan or Elf hazard creature normally keyable to a region in Eriador; creature may be taken from discard pile or sideboard."/>
+			 <attr key="special" value="The first Information resource played at the site does not tap the site."/>
+		</card>
+		<card name="The Willow Dingle" graphics="The Willow Dingle.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Old Forest"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Awakend Plant — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Swamp. Contains a hoard. You may always play Tom Bombadil following the roll from Here, There or Yonder played at this site (regardless of the result)."/>
+		</card>
+		<card name="The Willow Dingle" graphics="The Willow Dingle.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Old Forest"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Awakend Plant — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Swamp. Contains a hoard. Unless the automatic-attack was cancelled this turn,Blackbole may be played at this site (and even if the site is tapped)."/>
+		</card>
+		<card name="Tuckburrow" graphics="Tuckburrow.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Hobbits — each character faces a strike with 6 prowess (detainment). Pippin may tap to cancel this automatic-attack."/>
+			 <attr key="special" value="taTap a Hobbit during the site phase to make major items playable at this site this turn."/>
+		</card>
+		<card name="Tuckburrow" graphics="Tuckburrow.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Items (minor, major*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 6 strikes with 6 prowess; (2nd) Dúnedain — 3 strikes with 10 prowess."/>
+			 <attr key="special" value="all automatic- attacks at sites in The Shire receive -1 to prowess and strikes."/>
+		</card>
+	</cards>
+</ccg-setinfo>

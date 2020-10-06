@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Agog" graphics="Agog.jpg" text="Unique. Ice-orc. Leader. Discard on a body check result of 7. +1 prowess against Elves. +2 EI against Ice-orcs. +2 EI against the Ice-orcs and Orcs of the Bleak Mountains factions. No More Nonsense may be duplicated on Agog. Agog receives +2 to prowess and body when at or moving to a site in The Northern Waste, and +1 prowess if The Witch-king of Angmar is in play.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Mornost"/>
+			 <attr key="skills" value="Warrior/Ranger/Diplomat"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Dakalmog" graphics="Dakalmog.jpg" text="Unique. Ice-orc. Leader. Discard on a body check result of 9. +2 EI against Orcs. +2 EI against Ice-orcs.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="6/9"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Kala Dulakurth"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Durba" graphics="Durba.jpg" text="Unique. Ice-orc. Discard on a body check result of 8. +1 prowess if controlling a wolf ally. tap: heal a wolf ally in the company (from wounded to tapped).">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="3/8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Kala Dulakurth"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Durlach" graphics="Durlach.jpg" text="Unique. Balrog. Flying. Can use sorcery. +2 to his company’s Under-deeps movement rolls. Durlach’s prowess is only modified by -1 when not tapping to face a strike. May not have followers and may not move to any site other than his home sites. If not at his home site, he must (attempt to) move to one of his home sites this turn; if this results in illegal movement, return Durlach to his home site and wound him. Durlach may tap to take Great Shadow or Master of Dread and Fear from your discard pile to your hand.">
+			 <attr key="type" value="Minion Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="10"/>
+			 <attr key="mind" value="18"/>
+			 <attr key="influence" value="4"/>
+			 <attr key="home_site" value="Eithel Morgoth, The Under-forges"/>
+		</card>
+		<card name="Galgrinic" graphics="Galgrinic.jpg" text="Unique. + 1 prowess against Dragons and Drakes. +1 EI against Umli. + 2 EI against the Umli Traders faction.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="3/7"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Vasaran Ahjo"/>
+			 <attr key="skills" value="Warrior/Sage"/>
+			 <attr key="race" value="Umit"/>
+		</card>
+		<card name="Heledwen" graphics="Heledwen.jpg" text="Unique. Nando. +1 prowess when Helectil, Light of the North is in play. tap: cancel any ongoing effects of Jaänaïnen for her company.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any Elf-hold in the Northern Waste"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Ice-troll" graphics="Ice-troll.jpg" text="Wild-troll. Discard on a body check result of 9. +1 prowess against Dwarves. -1/-2 to his prowess and body if not at or moving to a site in The Northern Waste.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="5/9"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Any non-Dragon’s lair Ruins &amp; Lairs in the Northern Waste"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Troll"/>
+		</card>
+		<card name="Karhunkäsi" graphics="Karhunkäsi.jpg" text="Unique. +2 prowess against Wolves and Bears.-1 to his CPC.-1 to his influence checks.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4/8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Hyvät Kalat, Ruskea Vene"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Karvainen" graphics="Karvainen.jpg" text="Unique. +1 to his riddling rolls. When Karvainen enters play, he may take control of one minor rune item, which may be taken from your sideboard, discard pile, or hand.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Leiri, Ruskea Vene"/>
+			 <attr key="skills" value="Sage/Diplomat"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Kénwe Foryaren" graphics="Kénwe Foryaren.jpg" text="Unique. Noldo. May use any bow regardless of its card-text. When Kénwe Foryaren comes into play, you may search your play deck (reshuffle) or discard pile for a minor item or short-event with a healing effect. Discard if his company moves to a site not in The Northern Waste or Eriador, or if a Wizard is in his company outside the organization phase.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3/9"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Evermist, any Border-hold in Northern Waste"/>
+			 <attr key="skills" value="Ranger"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Konihrabn" graphics="Konihrabn.jpg" text="Unique. Agent. +2 EI against Man factions playable in The Northern Waste or Angmar. Agent only: tap: make any non-unique Orc creature playable on a company leaving his current Border-hold [B] or Ruins &amp; Lairs [R] site in The Northern Waste.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3/8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Carn Dûm, Leiri, Ruskea Vene"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Kragbogk the Berserker" graphics="Kragbogk the Berserker.jpg" text="Unique. Kragbogk’s prowess is only modified by -1 when wounded. Kragbogk is not affected by any command cards in his company. -3 to his influence attempts.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="8/5"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Carn Dûm"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Los'pindel" graphics="Los'pindel.jpg" text="Unique. Nando. +2 EI against Elf and Man characters and factions normally playable at a site in The Northern Waste. +2 prowess and +1 body when at or moving to a site in The Northern Waste. When Los’pindel is at Helloth, you may keep one more card than normal in your hand. She must make a CP every organization phase while not at a site in The Northern Waste. -2 mp if eliminated.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="2/8"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Helloth"/>
+			 <attr key="skills" value="Scout/Ranger/Sage"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Lugronk" graphics="Lugronk.jpg" text="Unique. Half-troll. Balrog only. Leader. +2 EI against Orcs and Trolls. +2 EI against Balrog specific characters. Discard on a body check result of 9. You may play Warden of the Deeps on him if your opponent is any grey player or any non-hazard manifestation of a Balrog or Dragon in play, as if opponent was a Balrog avatar.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="6/9"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Eithel Morgoth, The Under-forges"/>
+			 <attr key="skills" value="Warrior/Scout/Diplomat"/>
+			 <attr key="race" value="Troll"/>
+		</card>
+		<card name="Marin" graphics="Marin.jpg" text="Unique. +1 prowess when at or moving to a site in The Northern Waste. +3 prowess against Lossandamundar, if all strikes from such a creature against your company have been defeated, you may bring one Ivory Hoard from your sideboard to your hand, it is playable at any site in the Northern Waste.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4/8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Puolihmisten Satama"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Umit"/>
+		</card>
+		<card name="Morvran" graphics="Morvran.jpg" text="Unique. +1 EI against Men with a home site in Eriador or The Northern Waste. +1 prowess while bearing a treasure. May not be in a company with a hero Elf or Dúnadan with a mind greater than his. Any CP made by Elves in his company is modified by -1.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4/9"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Bernastath, Cameth Brin"/>
+			 <attr key="skills" value="Warrior/Scout/Diplomat"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Nadash" graphics="Nadash.jpg" text="Unique. Ice-orc. Discard on a body check resultof 8. If Nadash controls a wolf ally and is at or moving to a site in The Northern Waste, he gains the scout skill.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="5/8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Kala Dulakurth"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Nestador" graphics="Nestador.jpg" text="Unique. Noldo. +2 EI against Elves. When Nestador is at Evermist, you may keep one more card than normal in your hand. Healing cards and effects affect all characters in his company. -3 mp if eliminated.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="4/8"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Evermist"/>
+			 <attr key="skills" value="Sage/Diplomat"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Pitää Kalasta" graphics="Pitää Kalasta.jpg" text="Unique. +1 prowess against Animals and Wolves. Any flattery or offering attempt against (characters in) his company is cancelled. Foolish Words does not affect him. tap: cancel a Trap attack against his company.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3/8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Jääkylät, Pieni Satama"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Punakäsi" graphics="Punakäsi.jpg" text="Unique. Agent. +1 prowess when Mordó is in play. -1 prowess if not at or moving to a site in The Northern Waste. Agent only: May not be revealed at a site that is not in The Northern Waste. tap: make one non-unique Undead creature playable at his current non-Free-hold site.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Jääkilat, Pieni Satama"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Raudabern" graphics="Raudabern.jpg" text="Unique. +1 prowess against Orcs. +2 EI against Umli and characters and factions playable at Ligr Wodaize Berne. Raudabern suffers no prowess penalty when he is tapped or wounded.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="5/8"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Ligr Wodaize Berne"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Man"/>
+		</card>
+		<card name="Róin" graphics="Róin.jpg" text="Unique. +1 prowess when at or moving to a site in The Northern Waste. tap: take one Profitable Trade from your discard pile to your hand.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="3/7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="Vasaran Ahjo"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Umit"/>
+		</card>
+		<card name="Sprautabern" graphics="Sprautabern.jpg" text="Unique. Grey agent. +1 prowess against Orcsand Wolves. Is considered Beorn for the purpose of playing Skin-changer. Agent only: may move two regions per agent action if moving to a site in The Northern Waste. tap: during movement/hazard phase to attack a company moving to his current Ruins &amp; Lairs [R] or Shadow-hold [S] or to his home site.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Warrior/Scout Man"/>
+			 <attr key="prowess" value="4/8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Ligr Wodaize Berne"/>
+		</card>
+		<card name="Striuk'ir" graphics="Striuk'ir.jpg" text="Unique. Nando. +1 prowess against Orcs and Wolves. +2 EI against Elf and Animal factions.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="3/8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any site in a Wilderness in The Northern Waste"/>
+			 <attr key="skills" value="Ranger/Sage"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="The Angulion" graphics="The Angulion.jpg" text="Unique. Can use sorcery and shadow-magic. tap: during the organization phase to take a magic card from your discard pile to your hand, if you discard a magic card from your hand and wound another character in his company.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="5/9"/>
+			 <attr key="mind" value="9"/>
+			 <attr key="influence" value="4"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Carn Dûm"/>
+			 <attr key="skills" value="Warrior/Sage/Diplomat"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+		<card name="Urdrak" graphics="Urdrak.jpg" text="Unique. Ice-orc. Discard on a body check result of 8. +2 EI against Ice-orcs. Healing effects affect all Orcs in his company. tap: modify the mind of any one Orc at his current site by +1 or -1 this turn.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4/8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Kala Dulakurth"/>
+			 <attr key="skills" value="Warrior/Sage"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Vanha" graphics="Vanha.jpg" text="Unique. Spirit-namer. +2 EI against Man andUmit characters and factions playable at a site in The Northern Waste. Is considered a Nando for the purpose of playing Healing Song. tap: during the organization phase, if no other characters are in her company, to prevent any hazard creature being played on her company keyed to a region in The Northern Waste this turn.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="2/9"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any Border-hold in The Northern Waste"/>
+			 <attr key="skills" value="Ranger/Sage"/>
+			 <attr key="race" value="Dúnadan"/>
+		</card>
+	</cards>
+</ccg-setinfo>

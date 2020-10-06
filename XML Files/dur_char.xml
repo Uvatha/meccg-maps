@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Attack-lord" graphics="Attack-lord.jpg" text="+2 EI against Dwarves with a lower mind and prowess. + 1 prowess against Orcs, Trolls, and Drakes. Cannot be duplicated by a given player unless he has Folk of Durin in play. tap: give +1 prowess to all Dwarves in his company against one attack (or in CvCC).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="any Dwarf-hold"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Balin" graphics="Balin.jpg" text="Unique. Longbeard. Leader. +3 EI against Dwarves. +2 prowess against Orcs, Trolls and Wolves. -2 mp if eliminated. If you are Balin, values in brackets apply and your ore resources are worth full mp. If you have Lord of Dwarrowdelf and/or Reconquest of Khazad-dûm in play, you may keep one more card than normal in your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Blue Mountain Dwarf-hold"/>
+		</card>
+		<card name="Bolg of the North" graphics="Bolg of the North.jpg" text="Unique. Manifestation of Bolg. Leader. Discard on a body check result of 9. +2 EI against Orcs. -2 EI if a manifestation of Rogrog or the The Witch-king of Angmar is in active play.+1 prowess against Dwarves and Elves. When Bolg of the North is at Mount Gundabad, you may keep one more card than normal in your hand, and all attacks against his company keyed to the site are detainment.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Mount Gundabad"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Orc"/>
+		</card>
+		<card name="Borin" graphics="Borin.jpg" text="Unique. Firebeard. +1 prowess against Drakes and Orcs. Wound Borin to automatically defeat all strikes from a Trap attack against his company (no body check is required).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Barak-shathûr"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Dáin" graphics="Dáin.jpg" text="Unique. Manifestation of Dáin II. Longbeard. Leader. +2 EI against Dwarves and Men. +1 prowess against Dragons, Drakes, Orcs and Trolls. -3 mp if eliminated. If you are Dain, values in brackets apply and your Man factions played at sites in Wilderland are worth full mp. If King under the Mountain is played on him, you may keep one more card than normal in your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="8"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Iron Hill Dwarf-hold"/>
+		</card>
+		<card name="Dís" graphics="Dís.jpg" text="Unique. Longbeard. May not be among the starting characters. +4 EI against Fíli, Frerin, Kíli, Thorin II and Thráin II. If she is at a Dwarf- hold during the organization phase, you may discard Dís and replace her with a manifestation of Fíli, Frerin, Kíli, Thorin II, or Thráin II; the character may be taken from hand, discard pile, or play deck (reshuffle).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="1"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Blue Mountain Dwarf-hold"/>
+			 <attr key="skills" value="Scout/Diplomat"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Dwarven Miner" graphics="Dwarven Miner.jpg" text="+1 prowess against Orcs and Trolls. -1 to his CP. -1 to his influence attempts. +1 to his company’s Under-deeps movement rolls. Unless it contains a manifestation of a Dwarf-lord, the company may contain only one Dwarven Miner.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="any Dwarf-hold"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Dworin" graphics="Dworin.jpg" text="Unique. Ironfist. +1 EI against Dwarves.+1 prowess against Drakes and Orcs. tap: at any time to prevent Old Grudge from being discarded from play this phase.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Nurunkhizdín"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Flói" graphics="Flói.jpg" text="Unique. Firebeard. +1 prowess against Orcs.-1 to his influence attempts. May tap to support a character in his company even if he is assigned a strike from the same attack.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="home_site" value="Iron Hill Dwarf-hold"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Frár" graphics="Frár.jpg" text="Unique. Ironfist. +1 prowess against Orcs.-1 to his CP. +1 to his company’s Under-deeps movement rolls.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Iron Hill Dwarf-hold"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Frár" graphics="Frár.jpg" text="Unique. Ironfist. +1 prowess against Orcs.-1 to his CP. +1 to his company’s Under- deeps movement rolls.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Iron Hill Dwarf-hold"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Frerin" graphics="Frerin.jpg" text="Unique. Longbeard. +2 EI against Dwarves. +2 prowess against Orcs. +2 EI against the Blue Mountain Dwarves faction. Unless Thorin II is in play, King under the Mountain may be played on Frerin (as if on Thorin II).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Blue Mountain Dwarf-hold"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Galion" graphics="Galion.jpg" text="Unique. Silvan. tap: bring one Old Winyardsfrom your discard pile to your play deck and shuffle.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Thranduil's Halls"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Gimli, Son of Glóin" graphics="Gimli, Son of Glóin.jpg" text="Unique. Longbeard. Manifestation of Gimli.+1 prowess against Orcs. +1 prowess when Hunting Orcs is in play (+2 if an Elf is in his company).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Iron Hill Dwarf-hold"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="King's Advisor" graphics="King's Advisor.jpg" text="+1 prowess against Orcs. Unless it contains a manifestation of a Dwarf-lord, the company may contain only one King’s Advisor. tap: take one His Beard Long and Forked from your discard pile to your hand.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any Dwarf-hold"/>
+			 <attr key="skills" value="Warrior/Sage"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="King's Judge" graphics="King's Judge.jpg" text="+1 EI against Dwarf characters. +2 EI against Dwarf factions. +1 prowess against Orcs. Unless it contains a manifestation of a Dwarf-lord, the company may contain only one King’s Judge.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="any Dwarf-hold"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Kori" graphics="Kori.jpg" text="Unique. Firebeard. Grey agent. +1 prowess against Orcs and Trolls. Agent only: May use Under-deeps movement. tap: if at a company’s new site to create an additional automatic-attack at the site this turn: Traps — 2 strikes with 9 prowess. This is considered an agent action. tap: if at a company’s new site to prevent that company from moving again this turn. This is considered an agent action.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="class" value="Warrior/Ranger Dwarf"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="The Gem-deeps, The Wind-deeps,"/>
+		</card>
+		<card name="Lipór" graphics="Lipór.jpg" text="Unique. Longbeard. +2 prowess against Orcs. May play Knowledge of the Enemy at any site, if his company has faced an Orc attack that turn.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="5"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Iron Hill Dwarf-hold"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Lóni" graphics="Lóni.jpg" text="Unique. Ironfist. +1 prowess against Orcs. -1 to his CP. -1 to his influence attempts. tap: bring one food item from your discard pile to your play deck and shuffle.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Iron Hill Dwarf-hold"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Mountaineer" graphics="Mountaineer.jpg" text="+1 prowess against Orcs. -1 to his CP.-1 to his influence attempts. Unless it contains a manifestation of a Dwarf- lord, the company may contain only one Mountaineer. tap: at the end of the organization phase to allow his company to move through a mountain region (and not stop at a site therein) that turn.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="any Dwarf-hold"/>
+			 <attr key="skills" value="Warrior/Scout"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Náin, Son of Grór" graphics="Náin, Son of Grór.jpg" text="Unique. Longbeard. +2 EI against Dwarves. +1 prowess against Dragons and Orcs. King under the Mountain may be played on him (as if on Dáin II). If he bears a treasure item: +1 to his prowess and body, and -2 EI. tap: bring one Songs of the Old from your discard pile to your play deck and shuffle.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="any Dwarf-hold in Wilderland"/>
+			 <attr key="skills" value="Warrior/Sage/Diplomat"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Náli" graphics="Náli.jpg" text="Unique. Firebeard. +1 prowess against Orcs.-1 to his CP. -3 to his influence attempts.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Iron Hill Dwarf-hold"/>
+			 <attr key="skills" value="Warrior"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Narin" graphics="Narin.jpg" text="Unique. Ironfist. +2 EI against Dwarves. +2 prowess against Orcs. +2 EI against the Ironfists faction. If Narin bears Dwarven Ring of Thélor’s Tribe: +1 to his CP, he becomes a leader, and he gains the sage skill.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="(+1)"/>
+			 <attr key="home_site" value="Nurunkhizdín"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Norin" graphics="Norin.jpg" text="Unique. Ironfist. +2 prowess against Men, Orcs and Trolls. Swordmaster may be played on Norin as if he were a sage, and also at any Ruins &amp; Lairs [R] (as if information were playable at the site).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Nurunkhizdín"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Pathfinder" graphics="Pathfinder.jpg" text="+1 prowess against Orcs. -1 to his CP.-1 to his influence attempts. Unless it contains a manifestation of a Dwarf-lord, the company may contain only one Pathfinder. tap: cancel a Drake, Orc, or Troll attack keyed to Wilderness [w] against his company.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="2"/>
+			 <attr key="body" value="7"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="any Dwarf-hold"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Tarin" graphics="Tarin.jpg" text="Unique. Firebeard. Agent. +1 prowess against Elves. -1 to his CP.Agent only: tap: return one item or ore resource (of defender’s choice) stored at (or placed with) Tarin’s current site to opponent’s hand.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="6"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Bar-en-Ibûn, Nurunkhizdín"/>
+			 <attr key="skills" value="Warrior/Scout/Sage"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Thorin" graphics="Thorin.jpg" text="Unique. Manifestation of Thorin II. Longbeard. Leader. +2 EI against Dwarves. +2 prowess against Orcs, Trolls, and Wolves. -3 mp if eliminated. If you are Thorin, values in brackets apply and your hoard items are worth full mp. If you have Reconquest of Khazad-dûm in play and/or King under the Mountain is played on him, you may keep one more card than normal in your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="9"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="Blue Mountain Dwarf-hold"/>
+		</card>
+		<card name="Thorin III Stonehelm" graphics="Thorin III Stonehelm.jpg" text="Unique. Longbeard. +2 EI against Dwarves. +1 prowess against Men, Orcs and Wolves. If Dáin II has been eliminated, Thorin III Stonehelm is considered a Dwarf-lord for the purpose of playing and interpreting resources, and King under the Mountain may be played on him (as if on Dáin II). tap: take one All the Bells Ringing from your discard pile to your hand.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="4"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="any Dwarf-hold in Wilderland"/>
+			 <attr key="skills" value="Warrior/Scout/Ranger"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Thráin" graphics="Thráin.jpg" text="Unique. Manifestation of Thráin II. Longbeard. Leader. +3 EI against Dwarves. +1 prowess against Dragons, Drakes, Orcs and Trolls. -3 mp if eliminated. If you are Thráin, values in brackets apply and your treasure items are worth full mp. If King under the Mountain and/or Lord of Dwarrowdelf is played on Thráin, you may keep one more card than normal in your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="10"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="any Dwarf-hold"/>
+		</card>
+		<card name="Thráin" graphics="Thráin.jpg" text="Unique. Manifestation of Thráin II. Longbeard. Leader. +3 EI against Dwarves. +1 prowess against Dragons, Drakes, Orcs and Trolls. -3 mp if eliminated. If you are Thráin, values in brackets apply and your treasure items are worth full mp. If King under the Mountain and/or Lord of Dwarrowdelf is played on Thráin, you may keep one more card than normal in your hand.">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="7"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="10"/>
+			 <attr key="influence" value="3"/>
+			 <attr key="mp" value="3"/>
+			 <attr key="home_site" value="any Dwarf-hold"/>
+		</card>
+		<card name="Thulin II" graphics="Thulin II.jpg" text="Unique. Ironfist. +2 EI against Dwarves. +2 prowess against Dwarves. When in play as a hero character and not controlled by your avatar, make a roll during the untap phase; if the result is less than 5, discard Thulin II (one item may be transferred to a character in his company).">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Mines of Angûrath"/>
+			 <attr key="skills" value="Warrior/Ranger/Sage"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+		<card name="Tupór" graphics="Tupór.jpg" text="Unique. Firebeard. +1 EI against Dwarves. +1 prowess against Orcs and Wolves. Túpor is considered a sage for the purpose of riddling attempts. You may take any resource played to modify a riddling roll in his company to hand instead of discarding it from play (it may not be used for the same riddling roll).">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="5"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="6"/>
+			 <attr key="influence" value="2"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="home_site" value="Barak-shathûr"/>
+			 <attr key="skills" value="Warrior/Diplomat"/>
+			 <attr key="race" value="Dwarf"/>
+		</card>
+	</cards>
+</ccg-setinfo>

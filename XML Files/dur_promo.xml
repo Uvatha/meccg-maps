@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Bolg, Son of Azog" graphics="Bolg, Son of Azog.jpg" text="Unique. Orc. Manifestation of Bolg. One strike. May be played keyed to Gundabad and Dragon-gap; and may also be played at sites in these regions and at The Under- leas. Against a company that has faced a Wolf attack the same turn, Bolg, Son of Azog may also be keyed to Anduin Vales, Angmar, Forovirkain, Grey Mountains, Grey Mountain Narrows, Misty Mountains - Northern Spur, Northern Rhovanion; and to sites in these regions. One strike must always be assigned to the highest mind Dwarf in the company.">
+			 <attr key="type" value="Hazard"/>
+			 <attr key="rarity" value="P"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Creature"/>
+			 <attr key="prowess" value="13"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="strikes" value="1"/>
+			 <attr key="subclass" value="Orc"/>
+		</card>
+		<card name="Durin's Crown" graphics="Durin's Crown.jpg" text="Unique. Helmet. Treasure. Playable at a Dragon’s lair where an at home manifestation of a Dragon is in play (or has been defeated), or at Moria if a manifestation of Balrog of Moria is in play (or has been defeated). +1 body. +3 EI against Dwarves. If bearer is not a Dwarf, during the organization phase he must face an attack by a Dwarf character at his current site (if available; opponent’s choice; as if CvCC between one-character companies). Place a stored Reforging with this item to “restore” it. If restored, values in parenthesis apply. tap: during your organization phase at a Free-Hold [F], Border-Hold [B], or Ruins &amp; Lairs [R] to bring a Dwarf into play under bearer’s EI. The character may come from your hand or discard pile. Bearer makes a CP.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="P"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Special Item"/>
+			 <attr key="prowess" value="-"/>
+			 <attr key="body" value="+1"/>
+			 <attr key="influence" value="+3"/>
+			 <attr key="mp" value="2(4)"/>
+			 <attr key="cp" value="2(3)"/>
+		</card>
+		<card name="Folk of Durin" graphics="Folk of Durin.jpg" text="Unique. Dwarf-lord only. Playable at a tapped or untapped Moria if Reconquest of Khazad-dûm is in play (or Mount Gundabad if Return to Old Dwellings is played on the site) and if the influence check is greater than 14. Standard Modifications: Longbeard Dwarf (+2), Lord of Dwarrowdelf Dwarf (+5)">
+			 <attr key="type" value="Stage Resource"/>
+			 <attr key="rarity" value="P"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Dwarf Faction"/>
+			 <attr key="mp" value="4"/>
+			 <attr key="sp" value="2"/>
+		</card>
+		<card name="Goblin-basher" graphics="Goblin-basher.jpg" text="Unique. Grey agent. Manifestation of Beorn.+2 prowess against Orcs. -1 to all of his CP. Agent only: may attack an overt company at a Shadow-hold [S] (the attack is not detainment). If an Orc, Wolf, or Animal hazard creature is played against a company at or moving to a site in the same region as his current site (or region adjacent), you may automatically transfer Goblin-basher to this site (even if you have the site in active play).">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="P"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="class" value="Warrior/Ranger Bear"/>
+			 <attr key="prowess" value="6"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="7"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="2"/>
+			 <attr key="cp" value="-1"/>
+			 <attr key="home_site" value="Beorn's House, The Carrock"/>
+		</card>
+		<card name="Mithrandir" graphics="Mithrandir.jpg" text="Unique. Manifestation of Gandalf. Playable on a non-overt company without avatar. You may play spells on the company as if on Gandalf (except True Fána): ignore any required CP. Discard this card when you play Sacrifice of Form: place Sacrifice of Form in your mp. Additionally, when the company moves to a Shadow- hold [S] or Dark-hold [D], opponent must reveal to you 3 hazards from his hand (or else his whole hand). Discard this card when Gandalf enters play or you have 10 P or more. Invert this card during your untap phase; if inverted, discard this card at the end of your turn.">
+			 <attr key="type" value="Hero Resource"/>
+			 <attr key="rarity" value="P"/>
+			 <attr key="class" value="Permanent-event"/>
+		</card>
+	</cards>
+</ccg-setinfo>

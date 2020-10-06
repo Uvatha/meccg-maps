@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Benish Armon" graphics="Benish Armon.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{w}{c}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Mouths of the Anduin"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Information, Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Men — 2 strikes with 8 prowess; (2nd) Demon — 1 strikes with 12 prowess."/>
+			 <attr key="special" value="Swamp. Hidden site. A company must tap a sage to reveal this site. If this site is tapped and is untapped by any card effect, all of its automatic-attacks (as listed on the site card) must be faced again. Contains a hoard."/>
+		</card>
+		<card name="Benish Armon" graphics="Benish Armon.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{f}{c}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Mouths of the Anduin"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="playable" value="Information, Items (minor, major)"/>
+			 <attr key="auto_attack" value="Men — 2 strikes with 8 prowess; (2nd) Demon — 1 strike with 12 prowess"/>
+			 <attr key="special" value="Swamp. Hidden site. A company must discard a Lost Knowledge card it controls to reveal this site. If this site is untapped by any card effect, all of its automatic-attacks (as listed on the site card) must be faced again. Contains a hoard."/>
+		</card>
+		<card name="Bywater" graphics="Bywater.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="C"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Carn Dûm"/>
+			 <attr key="playable" value="Information, Items (minor, major*) *—hero items only—"/>
+			 <attr key="auto_attack" value="(1st) Hobbits — 5 strikes with 5 prowess; * (2nd) Dúnedain — 2 strikes with 11 prowess"/>
+			 <attr key="special" value="*If the Hobbit faction is in play the 1st automatic-attack receives +2 prowess and +2 strikes and cannot be cancelled."/>
+		</card>
+		<card name="Bywater" graphics="Bywater.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{w}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="The Shire"/>
+			 <attr key="haven" value="Rivendell"/>
+			 <attr key="special" value="Hobbits faction is playable at this site; each Hobbit at this site bearing a battle-gear item gives +1 to the influence check. When Hobbits is played at this site, any Hobbit with a home site in The Shire may be brought into play at Bywater."/>
+		</card>
+		<card name="Cair Andros" graphics="Cair Andros.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{b}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Anórien/Ithilien"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="auto_attack" value="Men — 3 strikes at 8 prowess (detainment; the attack is cancelled if the company contains a character with a home site in Anórien or Ithilien)."/>
+			 <attr key="special" value="Port-on-Anduin. Battleground."/>
+		</card>
+		<card name="Cair Andros" graphics="Cair Andros.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Anórien/Ithilien"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor*) *—battle-gear items only—"/>
+			 <attr key="auto_attack" value="Men — 3 strikes with 8 prowess (detainment against covert companies)"/>
+			 <attr key="special" value="Port-on-Anduin. Battlegrond."/>
+		</card>
+		<card name="Calembel" graphics="Calembel.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{s}{w}{f}{f}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lamedon"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Men — each character faces 1 strike with 7 prowess (detainment against covert companies)."/>
+			 <attr key="special" value="A Man or Dúnadan in a covert company may tap to play a minor item from your discard pile (instead of from hand)."/>
+		</card>
+		<card name="Calembel" graphics="Calembel.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{B}"/>
+			 <attr key="site_path" value="{w}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Lamedon"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="auto_attack" value="they are considered of different race for the purpose of Profitable Trade."/>
+		</card>
+		<card name="Coastal Signal Tower" graphics="Coastal Signal Tower.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}{w}{c}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Bay of Belfalas"/>
+			 <attr key="haven" value="Geann a-Lisch"/>
+			 <attr key="playable" value="Information, Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Men — 3 strikes with 7 prowess"/>
+			 <attr key="special" value="*playable only if the company has faced a Man attack this turn. An overt company must tap a scout to move to this site."/>
+		</card>
+		<card name="Coastal Signal Tower" graphics="Coastal Signal Tower.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{c}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Bay of Belfalas"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="playable" value="Information, Items (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Men — 3 strikes with 7 prowess"/>
+			 <attr key="special" value="*playable only if the company has faced a Man attack this turn."/>
+		</card>
+		<card name="Linhir" graphics="Linhir.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}{f}{f}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Belfalas"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor, major)"/>
+			 <attr key="auto_attack" value="(1st) Men — each character faces a strike with 7 prowess (detainment against covert companies); (2nd) Dúnedain — 2 strikes with 10 prowess(against overt companies only)."/>
+			 <attr key="special" value="Port."/>
+		</card>
+		<card name="Linhir" graphics="Linhir.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Belfalas"/>
+			 <attr key="haven" value="Port. Discard a minor item from a character in the company during the site phase to play a non-unique minor item on that character from your sideboard (even a hoard item). If bearer is a Man or Dúnadan, he may tap and discard a major item to play a non-unique major item instead."/>
+		</card>
+		<card name="Lossarnach" graphics="Lossarnach.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{w}{f}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="1"/>
+			 <attr key="region" value="Lebennin"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="special" value="&quot;'We might have journeyed to Lossarnach, to my grandsire’s house,' said Bergil, 'it is good to be there in spring, the woods and fields are full of flowers.'&quot; —LotRV"/>
+		</card>
+		<card name="Lossarnach" graphics="Lossarnach.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{F}"/>
+			 <attr key="site_path" value="{s}{w}{f}{f}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Lebennin"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor*) *—non-battle-gear items only—"/>
+			 <attr key="auto_attack" value="(1st) Men — each character faces a strike with 7 prowess (detainment against covert companies). (2nd) Dúnedain — 2 strikes with 9 prowess (against overt companies only)."/>
+			 <attr key="special" value="all automatic-attacks at sites in Anórien and Lebennin receive -1 to prowess and strikes."/>
+		</card>
+		<card name="Osgiliath" graphics="Osgiliath.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Anórien/Ithilien"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Items (minor)"/>
+			 <attr key="auto_attack" value="Opponent may play as an automatic-attack one hazard creature from his hand normally keyed to Border-hold [B]."/>
+			 <attr key="special" value="Port-on-Anduin. Battleground. During the site phase a company may discard (for no effect) a Stolen Knowledge card the company controls to make Palantír of Osgiliath playable at this site until the end of the turn."/>
+		</card>
+		<card name="Osgiliath" graphics="Osgiliath.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{b}{f}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Anórien/Ithilien"/>
+			 <attr key="haven" value="Lórien"/>
+			 <attr key="playable" value="Information, Items (minor)"/>
+			 <attr key="auto_attack" value="Opponent may play as an automatic- attack one hazard creature from his hand normally keyed to Border-hold [B] or Shadow-hold [S]."/>
+			 <attr key="special" value="Port-on-Anduin. Battleground. During the site phase a company may discard (for no effect) a LostKnowledge card the company controls to make Palantír of Osgiliath playable at this site until end of the turn."/>
+		</card>
+		<card name="Setmaenen" graphics="Setmaenen.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{s}{w}{f}{f}{b}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="3"/>
+			 <attr key="region" value="Lamedon"/>
+			 <attr key="haven" value="Minas Morgul"/>
+			 <attr key="playable" value="Information, Items* (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Trap — 1 strike with 6 prowess"/>
+			 <attr key="special" value="Pûkel-creature — 1 strike with 8 prowess —cannot be cancelled—"/>
+		</card>
+		<card name="Setmaenen" graphics="Setmaenen.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{b}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Lamedon"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="playable" value="Information, Items* (minor, gold ring)"/>
+			 <attr key="auto_attack" value="Trap — 1 strike with 6 prowess"/>
+			 <attr key="special" value="Pûkel-creature — 1 strike with 8 prowess —cannot be cancelled—"/>
+		</card>
+		<card name="Tharagrondost" graphics="Tharagrondost.jpg" back="1" text="">
+			 <attr key="type" value="Minion Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="2"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Andrast"/>
+			 <attr key="haven" value="Geann a-Lisch"/>
+			 <attr key="playable" value="Information, Items (minor, major)"/>
+			 <attr key="auto_attack" value="Wolves — 3 strikes with 8 prowess"/>
+			 <attr key="special" value="Tap a scout at this site to force the discard of any one non-unique Dúnadan creature or creature playable at Coastal Sea [c] from opponent's hand (if none are available, opponent must reveal his hand)."/>
+		</card>
+		<card name="Tharagrondost" graphics="Tharagrondost.jpg" back="1" text="">
+			 <attr key="type" value="Hero Site"/>
+			 <attr key="rarity" value="U"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="site_type" value="{R}"/>
+			 <attr key="site_path" value="{w}{w}"/>
+			 <attr key="draw" value="1"/>
+			 <attr key="draw_opp" value="2"/>
+			 <attr key="region" value="Andrast"/>
+			 <attr key="haven" value="Edhellond"/>
+			 <attr key="playable" value="Information*, Items (minor, major)"/>
+			 <attr key="auto_attack" value="Wolves — 3 strikes with 8 prowess"/>
+			 <attr key="special" value="*A Dúnadan sage must tap at this site to make Information playable. A scout at this site may tap to force the discard of any one creature playable at Coastal Seas [C]] ] c] from opponent's hand (if none are available, opponent must reveal his hand)."/>
+		</card>
+	</cards>
+</ccg-setinfo>

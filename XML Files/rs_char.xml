@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="" dir="" abbrev="" game="Middle-earth">
+	<cards>
+		<card name="Milo Burrows" graphics="Milo Burrows.jpg" text="Unique. Cannot be controlled by a Hobbit. Unless he is among the starting characters, he may only be brought into play at his home site.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="1"/>
+			 <attr key="body" value="9"/>
+			 <attr key="mind" value="4"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="home_site" value="Brandy Hall"/>
+			 <attr key="skills" value="Scout/Ranger"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+		<card name="Nob" graphics="Nob.jpg" text="Unique. May not be among the starting characters, and may only be brought into play at his home site. Nob costs no direct influence to control, if controlled by Barliman Butterbur or a Hobbit. tap: tap a face-up agent at his current or new site.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="0/8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="home_site" value="Bree"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+		<card name="Sancho Proudfoot" graphics="Sancho Proudfoot.jpg" text="Unique. +1 to his burglary attempts. Unless he is among the starting characters, he may only be brought into play at his home site.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="prowess" value="0"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="2"/>
+			 <attr key="influence" value="0"/>
+			 <attr key="cp" value="+1"/>
+			 <attr key="home_site" value="Sackville"/>
+			 <attr key="skills" value="Scout"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+		<card name="Taurnil" graphics="Taurnil.jpg" text="Unique. Nando. -2 prowess against Animals and Awakened Plants. +2 prowess against Orcs.">
+			 <attr key="type" value="Hero Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="3"/>
+			 <attr key="body" value="8"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Lórien, any Refuge in Mirkwood"/>
+			 <attr key="skills" value="Warrior/Ranger"/>
+			 <attr key="race" value="Elf"/>
+		</card>
+		<card name="Ted Sandyman" graphics="Ted Sandyman.jpg" text="Unique. Agent. May not be among the starting characters, unless you start the game at Bag End. May only be brought into play at his home site (regardless of any other card effects). Unless you are a Dwarf-lord or Gandalf, Mischief in a Mean Way is playable on his current site in The Shire (as if on a Border-hold [B]). Agent only: +2 EI against Hobbits.">
+			 <attr key="type" value="Minion Character"/>
+			 <attr key="rarity" value="R"/>
+			 <attr key="unique" value="yes"/>
+			 <attr key="prowess" value="1/9"/>
+			 <attr key="mind" value="3"/>
+			 <attr key="influence" value="1"/>
+			 <attr key="mp" value="1"/>
+			 <attr key="home_site" value="Bag End, Bywater"/>
+			 <attr key="skills" value="Scout/Diplomat"/>
+			 <attr key="race" value="Hobbit"/>
+		</card>
+	</cards>
+</ccg-setinfo>
