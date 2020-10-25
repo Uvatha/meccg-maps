@@ -67,7 +67,6 @@ column_names = ['Set']
 
 for filelist in FilesDict.values():
     for file in filelist:
-        # root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ISO-8859-1'))
         root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
 
         # Grab keys 
@@ -102,7 +101,6 @@ cards=[]
 for setkey in FilesDict:
     for file in FilesDict[setkey]:
         root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='UTF-8'))
-        # root = etree.fromstring(open(Path(os.getcwd(),'XML Files',file),'rb').read(),parser=etree.XMLParser(encoding='ascii//TRANSLIT'))
         for i in root[0].iterchildren():
                 # We want the first field to be the set
                 card = ['Set',setkey]
@@ -115,9 +113,6 @@ for setkey in FilesDict:
                     card.append((j.values()))
                 #print(card)    
                 dct = dict(card)
-                # print(dict_return(dct,*column_names))
-                # print(key) 
-                # dict_sets[setkey].append(dict_return(dct,*column_names))
                 cards.append(dict_return(dct,*column_names))
 
 
@@ -140,7 +135,8 @@ df_xml['Graphics'] = df_xml.apply(\
 
 df_xml['Graphics'] = df_xml.apply(\
     lambda x:
-    re.sub('[^a-zA-Z0-9.]','',x['Graphics']),
+    re.sub('[^a-zA-Z. ]','',x['Graphics']),
+    # re.sub('[^a-zA-Z0-9. ]','',x['Graphics']),
     axis = 1)
 
 # df_xml['Graphics']=df_xml['Graphics'].str.replace('-','')
@@ -157,6 +153,12 @@ df_lackey = pd.DataFrame()
 for file in os.listdir('Lackey Files'):
     df_lackey=df_lackey.append(pd.read_csv(Path('Lackey Files',file),sep='\t',encoding = 'ISO-8859-1'))
 
+df_lackey['Imagefile'] = df_lackey['Imagefile']+'.jpg'
+
+df_lackey['Imagefile'] = df_lackey.apply(\
+    lambda x:
+    re.sub('[^a-zA-Z. ]','',x['Imagefile']),
+    axis = 1)
 
 ###########################################
 # Rename df_xml fields to match df_lackey #
@@ -205,6 +207,7 @@ df_xml = df_xml[df_lackey.columns.values]
 
 df_allsets = pd.concat([df_xml,df_lackey])
 
+                  
 ###############################
 # Replace blank Text with '-' #
 ###############################
@@ -212,9 +215,8 @@ df_allsets = pd.concat([df_xml,df_lackey])
 # Convert unicode to ansii #
 ############################
 
-for column in ['Name','Imagefile','Text','HomeSite','Race','Region']:
+for column in ['Name','Imagefile','Text','HomeSite','Race','Region','Class']:
     df_allsets[column].where(df_allsets[column] != '', other = '-', inplace = True)
-    # df_allsets[column].where(df_allsets[column] != '' ,other = '-', inplace = True)
     df_allsets[column].fillna(value = '-',inplace = True)
     df_allsets[column] = df_allsets[column].astype('string')
     df_allsets[column] = df_allsets.apply(\
@@ -222,15 +224,15 @@ for column in ['Name','Imagefile','Text','HomeSite','Race','Region']:
         unidecode(x[column]),
         axis = 1)
 
-# print('after', chr(10),df_allsets[['Name','Text']].loc[df_allsets.Text != ''].head(3))
-
 ############################################################################
 # For duplicate names within df append number to name to ensure uniqueness #
 ############################################################################
 
-# Assign arbitrary rank within each group of identical names
-df_allsets['NameRank'] = df_allsets.groupby('Name').cumcount() + 1
+# Sort by Type so Hero versions will precede Minion versions
+df_allsets.sort_values(by='Type', inplace = True)
 
+# Assign rank within each group of identical names
+df_allsets['NameRank'] = df_allsets.groupby('Name').cumcount() + 1
 
 # Append rank to Name where rank > 1
 df_allsets['Name'] = \
@@ -240,6 +242,19 @@ df_allsets['Name'] = \
     axis = 1)
 
 del df_allsets['NameRank']
+
+
+############################################################################################
+# Find instances where there the same Imagefile is used for two or more cards within a set #
+############################################################################################
+
+# Create a field that shows a count of cards that use an Imagefile within a given set.
+df_allsets['Image_Count'] = df_allsets.groupby(by=['Set','Imagefile']).Name.transform('count')
+
+# Use field to replace .jpg with 2.jpg for all minion cards that have above count > 1
+df_allsets.Imagefile.where(~(df_allsets.Image_Count > 1) | ~(df_allsets.Type.str.contains('Minion')),\
+    df_allsets.Imagefile.str.replace('.jpg','2.jpg'), inplace = True)
+
 
 ######################################################
 # Fix regions types for mislabeled regions using csv #
@@ -251,8 +266,11 @@ df_region_fix = pd.read_csv('Fixed_Regions.csv')
 # Merge fixes with df
 df_allsets = pd.merge(df_allsets,df_region_fix,on = 'Name', how = 'left',suffixes=('','_fix'))
 
-# Update class field
+# Update Class field
 df_allsets.Class.where(df_allsets.Class_fix.isnull(),other = df_allsets.Class_fix, inplace = True)
+
+# Update Type field
+df_allsets.Type.where(df_allsets.Class_fix.isnull(),other = 'Region', inplace = True)
 
 # Remove Class_fix field
 del df_allsets['Class_fix']
@@ -273,4 +291,7 @@ df_allsets.Region.loc[df_allsets.Name.isin(
 ####################
 
 df_allsets.to_csv('Complete_Spoiler.csv', index = False)
+
+
+
 
